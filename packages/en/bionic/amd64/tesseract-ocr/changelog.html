@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr_4.1.0~git3889-5320320b-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr_4.1.0~git3915-fe06d3a0-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,15 +41,45 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr in bionic of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.0~git3889-5320320b-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.0~git3915-fe06d3a0-1) unstable; urgency=medium
 
   * Compile
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: 4.1
-  * Commit: 5320320b63e8ef5ff812ac218c1811b70ac686aa
-  * Date: 1557322940
+  * Commit: fe06d3a0b33b17f76d3ae49019d20419f13a326f
+  * Date: 1559154027
   * git changelog:
+  *  fe06d3a0 - Update VERSION
+  *  3452c8eb - Fix out-of-bounds writes in Classify::ReadNewCutoffs
+  *  4763f24c - stringrenderer_test: Get system locale only once
+  *  26c29494 - Update abseil submodule to HEAD
+  *  d81f6a07 - oldlist: Fix comments
+  *  d0a43101 - Remove space at line endings
+  *  403cf31e - Replace CR-LF line endings by LF
+  *  28940481 - Remove space at line endings
+  *  c0c53c78 - Add different classes to hocr output depending on
+    BlockType
+  *  8887cad1 - Run more unittests with the user's locale
+  *  ce6b0c02 - Fix more build error for compilation without legacy
+    engine
+  *  80ba28ef - Fix linker error for baseapi_test when building without
+    legacy engine
+  *  96f6fc28 - Remove assertions for unsupported locale settings
+  *  fb926243 - Fix UNICHARSET::save_to_string for locale de_DE.UTF-8
+  *  728f5d93 - Fix baseapi_test with locale de_DE.UTF-8
+  *  c2444e75 - Fix apiexample_test with locale de_DE.UTF-8
+  *  ab695f88 - configure: Fix for latest developer tools on macOS
+  *  bf744711 - Fix Doxygen comments for void functions
+  *  9bc576fa - normmatch: Remove unused private function
+  *  6ed503bf - Update sw build.
+  *  25f2e0cb - Replace sscanf by std::istringstream
+  *  8cc75113 - Fix reading of parameter from traineddata normproto
+    component
+  *  73a08678 - Fix Doxygen comment
+  *  70ffe339 - Fix cast from pointer to integer type
+  *  a14ae450 - cmake: uninstall target
+  *  ee024e02 - cmake: fix build without pkg-config (issue #2424)
   *  5320320b - autotools: remove list of traineddata files
   *  8ef392cb - Fix CPPFLAGS configuration for icu4c and libarchive
     missing from configure.ac
@@ -632,7 +662,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 11 May 2019 14:48:54 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 29 May 2019 22:16:01 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 
