@@ -4,13 +4,12 @@ Sitemap: https://notesalexp.org/sitemap.xml
 Disallow: /debian
 Disallow: /kvirc
 Disallow: /source
-Disallow: /wheezy
 Disallow: /jessie
 Disallow: /stretch
 Disallow: /buster
 Disallow: /sid
-Disallow: /precise
 Disallow: /trusty
 Disallow: /xenial
 Disallow: /bionic
 Disallow: /cosmic
+Disallow: /disco
