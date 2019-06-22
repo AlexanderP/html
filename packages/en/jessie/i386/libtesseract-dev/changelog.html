@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.1.0~git3917-315c9ad8-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.1.0~git3993-3cdafa0f-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,15 +41,101 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract-dev in jessie of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.0~git3917-315c9ad8-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.0~git3993-3cdafa0f-1) unstable; urgency=medium
 
   * Compile
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: 4.1
-  * Commit: 315c9ad898515b5859c5b81044bff33b78290c84
-  * Date: 1560537858
+  * Commit: 3cdafa0fa1061185efc7040cfca77a505bf894f8
+  * Date: 1560844116
   * git changelog:
+  *  3cdafa0f - 4.1.0 Release candidate 4
+  *  d7d05000 - Remove code for embedded build
+  *  4d5eb6d3 - Remove old and misguiding build steps on windows.
+  *  2f51af0f - ocrfeatures: Remove locally used functions from global
+    interface
+  *  9491538f - unittest: Add missing Leptonica library for
+    textlineprojection_test
+  *  9a5f7247 - Replace TessBaseAPI::CatchSignals by a dummy function
+  *  cf512d38 - 4.1.0-rc3 => VERSION
+  *  71608886 - Revert "Integrated Timesteps per symbol into
+    ChoiceIterator"
+  *  78ced35a - restore CatchSignals to fix API compatibility
+  *  c5105c53 - fix build
+  *  4d3455e1 - Integrated Timesteps per symbol into ChoiceIterator
+  *  9897bc9c - cmake: backport master changes
+  *  5d23dfa5 - create OUTPUT_DIR did not exist; fixes #2497
+  *  153b921c - unittest: Catch missing eng.traineddata in baseapi_test
+  *  ce82facc - unittest: Fix and enable normstrngs_test
+  *  c01b3229 - unittest: Fix and enable textlineprojection_test
+  *  bb2ea347 - unittest: Fix and enable scanutils_test
+  *  3729b7b3 - Allow saving of box/tiff pairs during base tesseract
+    training
+  *  dfcdfe56 - Allow saving of box/tiff pairs during base tesseract
+    training
+  *  706a2330 - Allow saving of box/tiff pairs during base tesseract
+    training
+  *  35b88262 - unittest: Fix and enable ligature_table_test
+  *  15da5c12 - [sw] Remove inexistent include dirs.
+  *  5b32be82 - [sw] Exclude missing include dir.
+  *  f9da14ec - Update appveyor.yml
+  *  b6f9ab66 - Update sw script.
+  *  249acaed - cmake: using c++ standard for g++
+  *  2f6f77bb - Revert "Do not hardcode c++11 for unix builds"
+  *  796129ea - Fix OpenMP builds on Unix
+  *  9fcef36b - Do not hardcode c++11 for unix builds
+  *  911a9916 - Detect and use C++17 support for CMake builds
+  *  8204ca08 - Add dot product implementation using std::inner_product
+  *  d33ced19 - Use C++17 compiler if possible
+  *  26f41261 - Update documentation for unicharset_extractor
+  *  ff45801d - fix packaging appveyor artifacts
+  *  6e7dcc12 - Fix crash in PreloadRenderers with nullptr outputbase
+  *  b0e0e27a - Fix build for unittests
+  *  90b12b3a - scanedg: Add const attributes
+  *  fdb3f58c - unittest: Remove unused methods
+  *  9b9d4bf0 - Remove EXTERN macro
+  *  927d1b8f - Remove unused macros
+  *  831a3e61 - configure: Fix cross builds (check for TensorFlow
+    header)
+  *  337a467d - Fix compiler errors for old gcc
+  *  4712a5eb - Remove some unused functions, constants and variables
+  *  38f34862 - training: Add missing static attributes
+  *  66e56891 - training: Move declarations from cpp files to h file
+  *  6dfb049c - featdefs: Add missing include statement
+  *  b4a7f51c - Add missing static attributes
+  *  7f32cb65 - bits16: Modernize code
+  *  d809200b - Do not link librt on OpenBSD
+  *  2160ebfd - unicodes: Optimize code by using constexpr and removing
+    unused globals
+  *  cb6cf802 - featdefs: Optimize code by using constexpr
+  *  a4e13782 - Fix broken build for Leptonica < 1.77
+  *  9e23dc28 - Remove classify/cutoffs.h
+  *  8b875c00 - fix '--enable-visibility' build
+  *  516ada66 - cmake: respect -DTESSDATA_PREFIX=/path (on linux)
+  *  227452f8 - Replace Tensorflow by TensorFlow
+  *  34311b36 - Fix linking of unittest with Tensorflow
+  *  6c68f084 - Implement check for Tensorflow header file
+  *  bed08909 - Remove "third_party/" in comments and update path names
+  *  b7537e94 - Support build with Tensorflow
+  *  39c80095 - cmake: fix tiff linking to executable if tiffio.h is
+    found
+  *  e27a07e0 - fix missing tiff format
+  *  0d824a60 - lstmtrainer: Set constant kLearningRateDecay at compile
+    time
+  *  c2e45cff - Update normstrngs_test.cc
+  *  cd49b61c - Fix Thai valid text and add Thai illegal sequences
+  *  40216e5a - Fix bug in max_max_dist
+  *  a324c885 - Fix LGTM and revert bugfix for later PR
+  *  5f084891 - Fix syntax error
+  *  26f05b11 - Remove SavePixForCrash and related code
+  *  7b4b3301 - tprintf: Make code reentrant and use less memory
+  *  ecd0384a - configure: Use a hopefully more robust way to fix
+    AX_CHECK_COMPILE_FLAG
+  *  19274eeb - Some LGTM fixes and potential bugfixes
+  *  0190f398 - Remove local definition of M_PI
+  *  0c70c2a6 - configure: Fix for clang++-8 and newer
+  *  2b75680e - Fix compiler warnings
   *  caee962d - Fix text2image compilation on C++17 compilers
   *  fe06d3a0 - Update VERSION
   *  3452c8eb - Fix out-of-bounds writes in Classify::ReadNewCutoffs
@@ -663,7 +749,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 15 Jun 2019 18:42:43 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 18 Jun 2019 19:09:55 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 
