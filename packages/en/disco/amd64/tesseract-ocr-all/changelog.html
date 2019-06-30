@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.0~git3993-3cdafa0f-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.0~git4013-1a205b8b-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,15 +41,40 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in disco of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.0~git3993-3cdafa0f-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.0~git4013-1a205b8b-1) unstable; urgency=medium
 
   * Compile
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: 4.1
-  * Commit: 3cdafa0fa1061185efc7040cfca77a505bf894f8
-  * Date: 1560844116
+  * Commit: 1a205b8bed8856edca0e7b9db6d7868e5658d70e
+  * Date: 1561467303
   * git changelog:
+  *  1a205b8b - cmake: Fix build with OpenMP (issue #2462)
+  *  3dff32e4 - Fix check for icu 52.1 or newer
+  *  4535e460 - Update enum from unicode/uchar.h
+  *  4b03d13f - unittest: Fix function QCHECK (issue #2517)
+  *  afb36b35 - Add VS2019
+  *  20a0c614 - Fix format string for 64 bit integer
+  *  daac30e6 - baseapi: Remove old code
+  *  1ce4c2f8 - Replace code using _splitpath_s (win32)
+  *  1a279d11 - Remove outdated comment
+  *  dc2dada0 - Remove dummy code from
+    LSTMTrainer::InitTensorFlowNetwork
+  *  7b589622 - Simplify unittest/Makefile.am
+  *  f44be2e8 - cmake: Build training tools also on Linux and macOS
+  *  c967f892 - Add package libpango1.0-dev to Travis configuration
+  *  a30d4333 - Move LSTMTrainer from libtesseract to
+    libtesseract_training
+  *  1a44ce31 - Replace callback by direct function calls in
+    TessBaseAPI::GetComponentImages
+  *  563a1717 - Simplify class LSTMTrainer
+  *  c5525c44 - Remove wrong description for
+    GenericVector::set_compare_callback and simplify code
+  *  6a0fc4f8 - Simplify indirect call of
+    LMPainPoints::GeneratePainPoint
+  *  c614907e - tesstrain_utils.sh: remove redundant code
+  *  6a39b81d - tesscallback: Remove more unused code
   *  3cdafa0f - 4.1.0 Release candidate 4
   *  d7d05000 - Remove code for embedded build
   *  4d5eb6d3 - Remove old and misguiding build steps on windows.
@@ -749,7 +774,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 18 Jun 2019 19:09:55 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 25 Jun 2019 20:33:55 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 

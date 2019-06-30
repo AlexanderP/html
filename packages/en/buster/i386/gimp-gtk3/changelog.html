@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package gimp-gtk3_2.99.0+git43424-47d2b685a6-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package gimp-gtk3_2.99.0+git43488-6c033317ac-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,119 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package gimp-gtk3 in buster of architecture i386</h5>
-<div class="highlight"><pre><span></span>gimp-gtk3 (2.99.0+git43424-47d2b685a6-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>gimp-gtk3 (2.99.0+git43488-6c033317ac-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: 6c033317ac06103932f83f376a9a5d75148d5e67
+  * Date: 1561824623
+  * git changelog:
+  *  6c033317ac - issue 3082: screenshot plugin crashes when
+    cancelling...
+  *  667b4d71c9 - libgimp, plug-ins: get rid of
+    GIMP_EXPORT_NEEDS_OPAQUE_LAYERS capacity.
+  *  e72a9d88a5 - app: get rid of manual object type registration
+  *  88188cba0c - libgimpwidgets: don't use g_type_class_add_private()
+    in GimpColorButton
+  *  7a73e9e76c - plug-ins: set "Save layers" toggle unsensitive for
+    single-layer images.
+  *  f9fd818c3d - Issue #3553: Cannot export TIF as G3/G4 fax
+    compression.
+  *  9933f46f85 - libgimp: add GIMP_EXPORT_NEEDS_OPAQUE_LAYERS export
+    capacity.
+  *  cf8148df5e - Issue #3093 - Invalid characters in Open Location
+    dialog crashes GIMP
+  *  382fe030ce - libgimp: forgot to deprecate
+    gimp_drawable_preview_draw_region()
+  *  267d925025 - plug-ins: port nl-filter to GEGL, 8 bit only
+  *  c1f2973232 - plug-ins: port film to GEGL
+  *  928b85d25c - app: add gegl:bayer-matrix and gegl:linear-sinusoid to
+    the menus
+  *  a3e2dda8c7 - plug-ins: port fractal-explorer to GEGL, 8 bit only
+  *  be411a58a7 - plug-ins: port flame to GEGL, 8-bit only
+  *  61013c392c - libgimpbase: remove gimpdatafiles.[ch], it's
+    deprecated and now unused
+  *  6078312bf2 - plug-ins: replace gimp_datafiles_read_directories() by
+    GFileEnumerator
+  *  6f9e88149e - Update Dutch translation
+  *  8914353b9e - Update Dutch translation
+  *  1a1623784f - plug-ins: plug-ins: get space from the profile in PNG
+    export too.
+  *  b0bb456563 - plug-ins: get the export space from the profile.
+  *  eec6a385d9 - libgimp: remove gimp_drawable_get_tile2()
+  *  d5ac62c6eb - pygimp: argh...
+  *  61fe89ad02 - pygimp: replace gimp_drawable_get_tile2() by
+    gimp_drawable_get_tile()
+  *  86c2982fe1 - libgimp: remove gimp_drawable_get_color_uchar()
+  *  4c7a43d234 - plug-ins: replace gimp_drawable_get_color_uchar() by
+    manual code
+  *  4c4abf7fc4 - plug-ins: port blinds to GEGL
+  *  c3752ba743 - Issue #3435 - GIMP encountered an error: GIMP-
+    CRITICAL:...
+  *  57ac8cfa7e - plug-ins: port jigsaw to GEGL
+  *  06e0ca8ef0 - plug-ins: fix comment typo in file-png
+  *  b07975aa88 - plug-ins: cleanup, copyright headers, formatting in
+    the openexr-wrapper
+  *  f7413d70dd - plug-ins: improve JPEG and EXR comment validation
+  *  4c58386ead - app: allocate GimpCurve's points with g_new0() and not
+    just g_new()
+  *  0afcaefec5 - Issue #3503 - Display Preset names on Filter Dialogs
+  *  e2bacf918c - plug-ins: improve/fix metadata handling in file-exr
+  *  4c41f185e2 - plug-ins: space invade file-jpeg
+  *  c356564984 - plug-ins: space invade file-heif
+  *  62f010df90 - configure.ac, plug-ins: make file-heif build with
+    older libheif again
+  *  153236f07d - Update Polish translation
+  *  e47936182e - app: some formatting in the edit non-visible layers
+    code
+  *  3604e8e7ad - Issue #3560: "Screenshot delay: __ seconds" item lacks
+    mnemonic.
+  *  e512f0f1b7 - libgimpwidgets: fix "warning: excess elements in array
+    initializer".
+  *  2b22dffc49 - Issue #230: ruler subdivision is wrong for inches.
+  *  39c71c6fb3 - app: Add initial support for configurable editing of
+    non-visible layers (Issue #2713)
+  *  57b2ba9c48 - libgimpwidgets: enable inch/feet/yard binary
+    subdivisions.
+  *  008604ad71 - Update Turkish translation
+  *  d67f4604aa - Issue #3500 - Preferences option to convert to
+    Preferred RGB profile...
+  *  c4ee350f02 - Issue #3532 - Wrong color profile on nikon taken
+    photos, it's...
+  *  a08293dc74 - Issue #3532 - Wrong color profile on nikon taken
+    photos, it's...
+  *  b9829eddfe - app: consolidate all metadata syncing code into
+    gimpimage-metadata.c
+  *  d7d281bd97 - libgimpconfig: fix previous commit to return the right
+    error token
+  *  f19844d0d1 - enhancement: validate reference argument of
+    gimp_scanner_parse_string before using it
+  *  3c0f7f00ba - plug-ins: avoid converting TIFF extra channels for 8-
+    bit non-linear too.
+  *  d6bcb16b0b - Foreground-select Tool: new Preview Mode and color
+    selector for "On color" preview
+  *  ac8ad13f0a - plug-ins: avoid converting TIFF channels.
+  *  348c9c22d0 - plug-ins: fix tiff load of grayscale images without
+    alpha.
+  *  7cf98231f1 - Issue #3493: GIMP changes R-channel, when it should
+    not.
+  *  66b55da9c1 - app: add missing space to a tooltip of the new feather
+    feature
+  *  50f8cb8542 - app: commit the free selection before floating it.
+  *  c9a91b32bc - Issue #3514: Free Select tool: Alt-Ctrl|Shift not
+    working unless...
+  *  940dbdf6a7 - app: sync tests with gimp-2-10.
+  *  5160f51676 - app: some files were missing from the previous commit
+  *  aace6b179b - Issue #3512 - feather selection doesn't work at edges
+    of images
+  *  6740c0af92 - Issue #3264 - Wrong colors from opening and exporting
+    non-sRGB tiffs...
+  *  84286afeef - Update Polish translation
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Jun 2019 19:17:33 +0300
+
+gimp-gtk3 (2.99.0+git43424-47d2b685a6-1) unstable; urgency=medium
 
   * Compile
   * URL: https://gitlab.gnome.org/GNOME/gimp.git

@@ -3958,6 +3958,9 @@
         <loc>https://notesalexp.org/packages/en/disco/amd64/notesalexp-keyring/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/ocrodjvu/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/pinta/</loc>
     </url>
     <url>
@@ -4166,6 +4169,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/pinta/</loc>
