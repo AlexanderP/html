@@ -3310,6 +3310,12 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/balsa/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/bmpanel2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/bmpanel2cfg/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/clementine/</loc>
     </url>
     <url>
@@ -3359,6 +3365,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/freecad/</loc>
@@ -3472,6 +3487,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/notesalexp-keyring/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/obkey/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/ocrfeeder/</loc>
     </url>
     <url>
@@ -3514,7 +3532,19 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/qcad-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/qcomicbook/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/rubyripper/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/scantailor-advanced/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/scantailor-universal/</loc>
@@ -3532,10 +3562,16 @@
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/sqlitebrowser/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/sz81/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/tesseract-ocr/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/tesseract-ocr-all/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/truecrypt/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/uget/</loc>
@@ -3545,6 +3581,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/amd64/vacuum-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/veracrypt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/amd64/znotes/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/</loc>
@@ -3566,6 +3608,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/bmpanel2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/bmpanel2cfg/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/clementine/</loc>
@@ -3617,6 +3665,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/freecad/</loc>
@@ -3730,6 +3787,9 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/notesalexp-keyring/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/obkey/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/ocrfeeder/</loc>
     </url>
     <url>
@@ -3772,7 +3832,19 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/qcad-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/qcomicbook/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/rubyripper/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/scantailor-advanced/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/scantailor-universal/</loc>
@@ -3790,10 +3862,16 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/sqlitebrowser/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/sz81/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/tesseract-ocr/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/tesseract-ocr-all/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/truecrypt/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/cosmic/i386/uget/</loc>
@@ -3805,13 +3883,37 @@
         <loc>https://notesalexp.org/packages/en/cosmic/i386/vacuum-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/veracrypt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/cosmic/i386/znotes/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/audacity/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/audacity-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/azpainter/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/bmpanel2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/bmpanel2cfg/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/clementine/</loc>
@@ -3863,6 +3965,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/freecad/</loc>
@@ -3952,10 +4063,22 @@
         <loc>https://notesalexp.org/packages/en/disco/amd64/libtesseract-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/libvacuumutils37/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/llpp/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/myrulib/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/obkey/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/ocrfeeder/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/ocrodjvu/</loc>
@@ -3988,13 +4111,28 @@
         <loc>https://notesalexp.org/packages/en/disco/amd64/psi-plus-webkit/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/q4wine/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/qcad/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/qcad-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/qcomicbook/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/rubyripper/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/scantailor-advanced/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/scantailor-universal/</loc>
@@ -4009,22 +4147,61 @@
         <loc>https://notesalexp.org/packages/en/disco/amd64/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/sqlitebrowser/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/sz81/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/tesseract-ocr/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/tesseract-ocr-all/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/truecrypt/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/amd64/uget/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/vacuum/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/vacuum-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/veracrypt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/amd64/znotes/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/audacity/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/audacity-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/azpainter/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/bmpanel2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/bmpanel2cfg/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/clementine/</loc>
@@ -4076,6 +4253,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/fatrat-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/freecad/</loc>
@@ -4165,10 +4351,22 @@
         <loc>https://notesalexp.org/packages/en/disco/i386/libtesseract-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/libvacuumutils37/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/llpp/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/myrulib/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/obkey/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/ocrfeeder/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/ocrodjvu/</loc>
@@ -4201,13 +4399,28 @@
         <loc>https://notesalexp.org/packages/en/disco/i386/psi-plus-webkit/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/q4wine/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/qcad/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/qcad-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/qcomicbook/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/rubyripper/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/scantailor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/scantailor-advanced/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/scantailor-universal/</loc>
@@ -4222,13 +4435,34 @@
         <loc>https://notesalexp.org/packages/en/disco/i386/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/sqlitebrowser/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/sz81/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/tesseract-ocr/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/tesseract-ocr-all/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/truecrypt/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/disco/i386/uget/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/vacuum/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/vacuum-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/veracrypt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/disco/i386/znotes/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/</loc>
@@ -13757,6 +13991,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2019/06/16/20190616/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/06/30/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2019/06/30/20190630/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
