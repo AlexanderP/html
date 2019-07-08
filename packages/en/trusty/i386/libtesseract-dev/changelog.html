@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.1.0~git4013-1a205b8b-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.1.0-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,15 +41,34 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract-dev in trusty of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.0~git4013-1a205b8b-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.0-1) unstable; urgency=medium
 
-  * Compile
+  * New upstream release.
   * disable patch - man.diff
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: 4.1
-  * Commit: 1a205b8bed8856edca0e7b9db6d7868e5658d70e
-  * Date: 1561467303
+  * Commit: 5280bbcade4e2dec5eef439a6e189504c2eadcd9
+  * Date: 1562502848
   * git changelog:
+  *  5280bbca - 4.1.0 Release
+  *  22fb70cb - Fix handling of single pages from multipage TIFF files
+    (issue #2537)
+  *  08ca7b84 - Fix linker error with disabled legacy engine (issue
+    #2532)
+  *  48641b07 - Remove outdated build information for Android
+  *  e53e1050 - genericvector: Remove redundant declarations
+  *  f4698154 - Revert "Replace callback by direct function calls in
+    TessBaseAPI::GetComponentImages"
+  *  792b39d5 - Revert "Move LSTMTrainer from libtesseract to
+    libtesseract_training"
+  *  c310fef8 - Fix crash in Tesseract::classify_word_and_language()
+    when tessedit_timing_debug is enabled
+  *  d8494f32 - Revert "Simplify indirect call of
+    LMPainPoints::GeneratePainPoint"
+  *  1d5a320d - Revert "Simplify class LSTMTrainer"
+  *  10f5bffa - decrease reuired version of cmake to build as 3.6 is
+    still in use. Side effect no support for c++17 in CXX_STANDARD
+  *  6157b8b5 - update Changelog (main 4.1 changes)
   *  1a205b8b - cmake: Fix build with OpenMP (issue #2462)
   *  3dff32e4 - Fix check for icu 52.1 or newer
   *  4535e460 - Update enum from unicode/uchar.h
@@ -506,7 +525,7 @@
   *  6e37389f - doc: Don't fail if manpages fail to build
   *  42ea4324 - configure: Check for xsltproc (needed to generate
     manpages)
-  *  7f65afba - cmake check for avaible C++ standard. Mininum reqiered
+  *  7f65afba - cmake check for available C++ standard. Minimum reqiered
     standard is C++11
   *  862322c1 - Fix check for images which are too small to scale
   *  a044f643 - fix Myanmar validation rules as per Unicode charts
@@ -774,7 +793,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 25 Jun 2019 20:33:55 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 07 Jul 2019 18:23:57 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 

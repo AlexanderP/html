@@ -944,10 +944,10 @@
     },
     "tesseract": 
     {
-      "version": "4.1.0~git4013-1a205b8b-1",
+      "version": "4.1.0-1",
       "description": " Open Source OCR Engine",
       "sourceurl": "https://notesalexp.org/source/main/t/tesseract",
-      "sourcefile": "tesseract_4.1.0~git4013-1a205b8b-1.debian.tar.xz tesseract_4.1.0~git4013-1a205b8b-1.dsc tesseract_4.1.0~git4013-1a205b8b.orig.tar.xz ",
+      "sourcefile": "tesseract_4.1.0-1.debian.tar.xz tesseract_4.1.0-1.dsc tesseract_4.1.0.orig.tar.xz ",
       "homepage": "https://github.com/tesseract-ocr/",
       "depends": "debhelper(>=9) libleptonica-dev(>=1.75.3) automake libtool libpango1.0-dev libcairo2-dev libicu-dev libpng-dev libjpeg-dev libtiff-dev zlib1g-dev git autoconf-archive asciidoc xsltproc docbook-xsl docbook-xml tesseract-ocr-eng(>=4.00~) ",
       "binary": "tesseract-ocr libtesseract-dev libtesseract4 tesseract-ocr-all ",
@@ -955,8 +955,8 @@
       "description_libtesseractdev": "Development files for the tesseract command line OCR tool",
       "description_libtesseract4": "Tesseract OCR library",
       "description_tesseractocrall": "Tesseract OCR with all language and script packages",
-      "md5": " 4733f02f64c85dac29e4a1f7b0698a11 b9798629059fde0a4d7187d81370f556 15b6d69a97da7c7a731327a9f94a30db",
-      "size": " 48_KiB  4_KiB  62.07_MiB "
+      "md5": " 07e6f46ceb13fd8ec61f52eaf2466653 9246bbecc2de03ec813914313459a037 bc534eef612b44e886d4d325b5b1c226",
+      "size": " 48_KiB  4_KiB  33.44_MiB "
     },
     "tesseractlang": 
     {
