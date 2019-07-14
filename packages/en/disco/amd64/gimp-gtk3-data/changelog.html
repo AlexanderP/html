@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package gimp-gtk3-data_2.99.0+git43488-6c033317ac-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package gimp-gtk3-data_2.99.0+git43550-6d4a11a261-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,109 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package gimp-gtk3-data in disco of architecture amd64</h5>
-<div class="highlight"><pre><span></span>gimp-gtk3 (2.99.0+git43488-6c033317ac-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>gimp-gtk3 (2.99.0+git43550-6d4a11a261-1) unstable; urgency=medium
 
   * Compile
   * URL: https://gitlab.gnome.org/GNOME/gimp.git
   * Branch: master
-  * Commit: 6c033317ac06103932f83f376a9a5d75148d5e67
-  * Date: 1561824623
+  * Commit: 6d4a11a26114527893572c1538ab47a7613e7052
+  * Date: 1562929907
   * git changelog:
+  *  6d4a11a261 - plug-ins: properly free return values of
+    gimp_image_get_layers()...
+  *  075b34baea - plug-ins: port sparkle to GEGL, stupid 8-bit port only
+  *  5b2d89f794 - plug-ins: clean up a bit file-pdf-save.
+  *  bbd5ebbe8a - Issue #1002: Fix for layer groups in PDF export
+  *  078d789216 - build: add missing patch named in flatpak manifest.
+  *  fea8000743 - plug-ins: use profile space for TIFF export.
+  *  06be074650 - app: salvage loaded group and text layer of dimension
+    0.
+  *  32a229b049 - plug-ins: hot's dest_buffer can have another format
+    than src_buffer
+  *  2045fdd2a3 - app: don't abandon immediately XCF loading at first
+    layer load failure.
+  *  bad956cb1f - plug-ins: port hot to GEGL, stupid 8-bit port only
+  *  ceb327f357 - plug-ins, pdb: remove the photocopy plug-in and add a
+    PDB compat procedure
+  *  0e23d7262b - plug-ins: port contrast-retinex to GEGL, stupid 8-bit
+    port only
+  *  a49a79e244 - Issue #3641: gimp-drawable-offset does no longer work
+    in script-fu...
+  *  529ee9efc8 - plug-ins, pdb: remove the cartoon plug-in and add a
+    PDB compat procedure
+  *  0188853b23 - plug-ins: port sphere-designer to GEGL, stupid 8-bit
+    port only
+  *  a6ad02a60a - Issue #2685: Crash when distributing layers
+    horizontally.
+  *  b3f7f36bda - authors: add houz!
+  *  c59feead89 - plug-ins: port despeckle to GEGL, stupid 8-bit port
+    only
+  *  fc89dfb09b - pdb, libgimp, app: add
+    gimp_drawable_get_thumbnail_format()
+  *  0326a3e79a - plug-ins: port grid to GEGL, stupid 8-bit port only
+  *  eaed92e7a0 - plug-ins: port lighting to GEGL
+  *  75114b1c40 - plug-ins: port map-object to GEGL
+  *  bbcc7ca5f5 - Issue #3630 - postscript plugin crashes
+  *  ac4d0a6efe - libgimp: make gimp_tile_flush() internal as
+    _gimp_tile_flush()
+  *  2a54b1b41c - plug-ins: forgot one deprecated call in sample-
+    colorize
+  *  df7699b814 - plug-ins: port sample-colorize to GEGL, stupid 8-bit
+    port only
+  *  f0b34bef02 - libgimpbase: remove the gimp_datafiles functions from
+    gimpbase.def
+  *  eb11aefa20 - libgimp: remove gimppixelfetcher.[ch] it was
+    deprecated and now unused
+  *  0b4b8d75ea - plug-ins: port curve-bend to GEGL, stupid 8-bit port
+    only
+  *  8ac6ec2a00 - plug-ins: a ton of cleanup in curve-bend
+  *  069d4345bb - plug-ins: port tile-small to GEGL, stupid 8-bit port
+    only
+  *  c6934a67e7 - plug-ins: tile-small was still using "expose-event",
+    port to "draw"
+  *  a7d86c572d - libgimp: remove the deprecated gimpregioniterator.[ch]
+  *  775abb03f3 - plug-ins: replace calls to GimpRegionIterator
+    functions
+  *  8f621ec91d - plug-ins: port checkerboard to GEGL, stupid 8-bit port
+    only
+  *  8d74983ac0 - Update Polish translation
+  *  b6846efafd - Update British English translation
+  *  1da9c3134d - Update British English translation
+  *  1900384cc0 - plug-ins: port gradient-flare to GEGL, stupid 8-bit
+    only
+  *  96e7a791f8 - plug-ins: some WIP undeprecating curve-bend
+  *  f7007d5161 - app: get rid of a few more GtkAction warnings, and a
+    little cleanup
+  *  e3d8783a7f - app: undeprecate GimpTagPopup
+  *  87b1a27459 - app: don't warn in
+    gimp_action_history_action_activated()
+  *  472e75341a - app: don't use gdk_screen_get_height() in
+    GimpSearchPopup
+  *  7a589951c9 - Issue #3610 - Documentation: missing item in built-in
+    documentation...
+  *  f370596d04 - Issue #1725 - "Open location..." can't open internet
+    URIs due to GLIB/GIO
+  *  3b6b3fc189 - app: GtkAction -> GAction madness part two
+  *  c180205601 - Update Spanish translation
+  *  a813b1489c - Issue #3093: Invalid characters in Open Location
+    dialog crashes GIMP.
+  *  998bd04bd4 - Issue #3599 - Crash when creating channel
+  *  b9d47f2d1f - app: change all action callback signatures to use
+    GimpAction
+  *  738c035839 - plug-ins: fix two harmless compiler warnings
+  *  8ccd49ac78 - Issue #3597: Free selection: CRITICAL when double
+    clicking on a handle.
+  *  f20b873396 - app: fix some warnings in gimpactiongroup.c
+  *  86e07c16b5 - app: start porting away from GtkAction and friends
+  *  f4af95ab95 - plug-ins: some cleaning in HEIF plug-in.
+  *  7f76430090 - plug-ins: improve a bit HEIF export dialog.
+  *  dfd79ad79b - plug-ins: add a "Save color profile" checkbox in HEIF
+    export.
+  *  5d6baf5f85 - plug-ins: implement our profile export policy for
+    HEIF.
+  *  1370112ac2 - plug-ins: improved space invasion in HEIF export.
+  *  ee9be7fe39 - plug-ins: space invasion in WebP export.
+  *  b274789747 - Update Polish translation
   *  6c033317ac - issue 3082: screenshot plugin crashes when
     cancelling...
   *  667b4d71c9 - libgimp, plug-ins: get rid of
@@ -151,7 +246,7 @@
     non-sRGB tiffs...
   *  84286afeef - Update Polish translation
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Jun 2019 19:17:33 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 12 Jul 2019 17:00:10 +0300
 
 gimp-gtk3 (2.99.0+git43424-47d2b685a6-1) unstable; urgency=medium
 
