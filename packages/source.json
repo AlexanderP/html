@@ -42,15 +42,15 @@
     },
     "balsa": 
     {
-      "version": "2.5.7+git9196-d35411b94-1",
+      "version": "2.5.7+git9213-64cc296ea-1",
       "description": " e-mail client for GNOME",
       "sourceurl": "https://notesalexp.org/source/main/b/balsa",
-      "sourcefile": "balsa_2.5.7+git9196-d35411b94-1.debian.tar.xz balsa_2.5.7+git9196-d35411b94-1.dsc balsa_2.5.7+git9196-d35411b94.orig.tar.xz ",
+      "sourcefile": "balsa_2.5.7+git9213-64cc296ea-1.debian.tar.xz balsa_2.5.7+git9213-64cc296ea-1.dsc balsa_2.5.7+git9213-64cc296ea.orig.tar.xz ",
       "homepage": "http://pawsa.fedorapeople.org/balsa/",
       "depends": "autotools-dev debhelper(>=9) dh-autoreconf gnome-pkg-tools intltool libcanberra-gtk3-dev libcompfaceg1-dev libesmtp-dev libglib2.0-dev libgmime-2.6-dev|libgmime-2.4-dev libgpgme11-dev libgspell-1-dev|libgtkspell3-3-dev libgtk-3-dev libgtksourceview-3.0-dev libkrb5-dev libldap2-dev libnotify-dev libsecret-1-dev libsqlite3-dev libssl-dev(>=0.9.8) libwebkit2gtk-4.0-dev libxml2-dev pkg-config python3-html2text yelp-tools zlib1g-dev libfribidi-dev libgnutls30-dev|libgnutls28-dev ",
       "binary": "balsa ",
       "description_balsa": "e-mail client for GNOME",
-      "md5": " 1f5f066865509e8379d4c51b4838f4cf 986e095fcd14fd9755db9180fda07af6 9352f05a89bdef524c5ee7c2503334c0",
+      "md5": " 06bde9494c242c4b6a660b4d6da5141a 43c035439fe495eace92e4dda2505ddf 2aeb5c8eec69a039a384040a6af9a0d1",
       "size": " 20_KiB  4_KiB  3.50_MiB "
     },
     "bmpanel2": 
@@ -82,15 +82,15 @@
     },
     "clementineqt4": 
     {
-      "version": "1.3.1+git2134-gec2e8be4d-1",
+      "version": "1.3.1+git2137-ge1affba4b-1",
       "description": " modern music player and library organizer",
       "sourceurl": "https://notesalexp.org/source/main/c/clementine-qt4",
-      "sourcefile": "clementine-qt4_1.3.1+git2134-gec2e8be4d-1.debian.tar.xz clementine-qt4_1.3.1+git2134-gec2e8be4d-1.dsc clementine-qt4_1.3.1+git2134-gec2e8be4d.orig.tar.xz ",
+      "sourcefile": "clementine-qt4_1.3.1+git2137-ge1affba4b-1.debian.tar.xz clementine-qt4_1.3.1+git2137-ge1affba4b-1.dsc clementine-qt4_1.3.1+git2137-ge1affba4b.orig.tar.xz ",
       "homepage": "http://www.clementine-player.org/",
       "depends": "cmake(>=2.6) debhelper(>=7.0.50~) docbook-to-man libboost-dev libboost-serialization-dev libcdio-dev libchromaprint-dev libcrypto++-dev libechonest-dev|wget libfftw3-dev libglew-dev libgpod-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libimobiledevice-dev liblastfm-dev libmtp-dev libplist-dev libprojectm-dev libqjson-dev libmygpo-qt-dev|libqt4-dev libqt4-opengl-dev libqxt-dev libsparsehash-dev libsqlite3-dev libtag1-dev(>=1.8) libusbmuxd-dev qt4-dev-tools libprotobuf-dev protobuf-compiler libqca2-dev libpulse-dev ",
       "binary": "clementine ",
       "description_clementine": "modern music player and library organizer",
-      "md5": " 813e5f593aac27c3b05e518d35088721 d0f2358cb154bb0b5397b38401dc48dc 5af25a46b75ed47d0468caa4be105403",
+      "md5": " 686ca239034185246ed2af08e3924143 6e8dbf9322f92ca7f83149e5cce57fdf 8e778c8daaf73b5041faf237321f5f76",
       "size": " 28_KiB  4_KiB  5.25_MiB "
     },
     "clementineqt5": 
@@ -422,29 +422,29 @@
     },
     "goaccess": 
     {
-      "version": "1:1.3.0+git2881-ddf17b0-1",
+      "version": "1:1.3.0+git2883-fd04551-1",
       "description": " log analyzer and interactive viewer for the Apache Webserver",
       "sourceurl": "https://notesalexp.org/source/main/g/goaccess",
-      "sourcefile": "goaccess_1.3.0+git2881-ddf17b0-1.debian.tar.xz goaccess_1.3.0+git2881-ddf17b0-1.dsc goaccess_1.3.0+git2881-ddf17b0.orig.tar.xz ",
+      "sourcefile": "goaccess_1.3.0+git2883-fd04551-1.debian.tar.xz goaccess_1.3.0+git2883-fd04551-1.dsc goaccess_1.3.0+git2883-fd04551.orig.tar.xz ",
       "homepage": "http://goaccess.prosoftcorp.com/",
       "depends": "debhelper(>=9) autotools-dev libncurses5-dev libglib2.0-dev libgeoip-dev autoconf automake libncursesw5-dev autopoint ",
       "binary": "goaccess ",
       "description_goaccess": "log analyzer and interactive viewer for the Apache Webserver",
-      "md5": " b85f9048983a3b990e679b4bb04530ae dbc27795863ac9790ab1c47da51b7453 276f93a3dd9b0733b587938dcc85fc71",
+      "md5": " 1acb9077596170dc6aafb7418dda8c10 6786638fac02e9e954c4eed5392499da 1ae40aa05a0260b9cf0ea010ab01fbee",
       "size": " 24_KiB  4_KiB  268_KiB "
     },
     "goldendict": 
     {
-      "version": "1.5.0~rc2+git20190725-1",
+      "version": "1.5.0~rc2+git20190807-1",
       "description": "",
       "sourceurl": "https://notesalexp.org/source/main/g/goldendict",
-      "sourcefile": "goldendict_1.5.0~rc2+git20190725-1.debian.tar.xz goldendict_1.5.0~rc2+git20190725-1.dsc goldendict_1.5.0~rc2+git20190725.orig.tar.xz ",
+      "sourcefile": "goldendict_1.5.0~rc2+git20190807-1.debian.tar.xz goldendict_1.5.0~rc2+git20190807-1.dsc goldendict_1.5.0~rc2+git20190807.orig.tar.xz ",
       "homepage": "http://goldendict.org",
       "depends": "debhelper(>=11~) libao-dev libavformat-dev libavutil-dev libbz2-dev libeb16-dev libhunspell-dev(>=1.6.1) liblzma-dev liblzo2-dev libopencc-dev(>=1.0.4) libphonon4qt5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libtiff5-dev libvorbis-dev libx11-dev libxtst-dev qtmultimedia5-dev pkg-config qt5-qmake qtbase5-dev qttools5-dev qttools5-dev-tools x11proto-record-dev zlib1g-dev ",
       "binary": "goldendict ",
       "description_goldendict": "feature-rich dictionary lookup program",
-      "md5": " ba896a3ce22dc5b776723ac723184ea3 ee1167a74893a405edfb4ea2bcbf02f9 e5411ac60bcc4a3e843b139d5b2f91d2",
-      "size": " 12_KiB  4_KiB  10.43_MiB "
+      "md5": " 910d8615acc1a052d7cdf97401f2853a cb8e775bb8c304ed444c44e855f502b8 de54cb8700728b3ee0499e6f09c2f6fa",
+      "size": " 16_KiB  4_KiB  10.43_MiB "
     },
     "gscan2pdf": 
     {
@@ -752,10 +752,10 @@
     },
     "psiplus": 
     {
-      "version": "1.4.834+git20190727-1",
+      "version": "1.4.837+git20190731-1",
       "description": " Qt-based XMPP/Jabber client",
       "sourceurl": "https://notesalexp.org/source/main/p/psi-plus",
-      "sourcefile": "psi-plus_1.4.834+git20190727-1.debian.tar.xz psi-plus_1.4.834+git20190727-1.dsc psi-plus_1.4.834+git20190727.orig.tar.xz ",
+      "sourcefile": "psi-plus_1.4.837+git20190731-1.debian.tar.xz psi-plus_1.4.837+git20190731-1.dsc psi-plus_1.4.837+git20190731.orig.tar.xz ",
       "homepage": "https://psi-plus.com/",
       "depends": "cmake debhelper(>=9) libhunspell-dev libidn11-dev libminizip-dev libotr5-dev|libotr2-dev libqca-qt5-2-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libsignal-protocol-c-dev|wget libsm-dev libssl-dev libtidy-dev libxss-dev qt5keychain-dev qtmultimedia5-dev zlib1g-dev ",
       "binary": "psi-plus psi-plus-webkit psi-plus-common psi-plus-plugins psi-plus-skins psi-plus-sounds psi-plus-icons-nonfree ",
@@ -766,20 +766,20 @@
       "description_psiplusskins": "skins for Psi+",
       "description_psiplussounds": "sound files for Psi+",
       "description_psiplusiconsnonfree": "additional icons for Psi+",
-      "md5": " e1196a773795e34f5b0a0ca85f2810e0 343cbdcb15bd475ae460b4d35d11ed5b 54f2efbca4ec741b6881b9433d43bc91",
+      "md5": " 8eee270b38049350a144f63be7aa5f1b b090a55b89a0088fe80eef2f0cb40dc3 232ef3ab3f44369e219b479d1afa5aa1",
       "size": " 20_KiB  4_KiB  14.40_MiB "
     },
     "psiplusl10n": 
     {
-      "version": "1.4.827+git20190725-1",
+      "version": "1.4.834+git20190725-1",
       "description": " localization files for Psi+",
       "sourceurl": "https://notesalexp.org/source/main/p/psi-plus-l10n",
-      "sourcefile": "psi-plus-l10n_1.4.827+git20190725-1.debian.tar.xz psi-plus-l10n_1.4.827+git20190725-1.dsc psi-plus-l10n_1.4.827+git20190725.orig.tar.xz ",
+      "sourcefile": "psi-plus-l10n_1.4.834+git20190725-1.debian.tar.xz psi-plus-l10n_1.4.834+git20190725-1.dsc psi-plus-l10n_1.4.834+git20190725.orig.tar.xz ",
       "homepage": "https://github.com/psi-plus/psi-plus-l10n",
       "depends": "debhelper(>=9) qtbase5-dev qttools5-dev-tools ",
       "binary": "psi-plus-l10n ",
       "description_psiplusl10n": "localization files for Psi+",
-      "md5": " dc91cea135164ba099b104339fd88476 1f62fc18d82d7ae2d9debb7b83b87189 a7f069cfd41c5fff2be53872388cd89b",
+      "md5": " 38c1ae4c90dfe43602e2d5cdb84e4c68 872dc30158889e5cc867793433d1111a 8395e78d42e093106cf6379c16d431a1",
       "size": " 8_KiB  4_KiB  1.16_MiB "
     },
     "q4wine": 
@@ -903,18 +903,18 @@
     },
     "solvespace": 
     {
-      "version": "3.0.0~git1374-986da7d-1",
+      "version": "3.0.0~git1376-d9081b0-1",
       "description": " parametric 2d/3d CAD",
       "sourceurl": "https://notesalexp.org/source/main/s/solvespace",
-      "sourcefile": "solvespace_3.0.0~git1374-986da7d-1.debian.tar.xz solvespace_3.0.0~git1374-986da7d-1.dsc solvespace_3.0.0~git1374-986da7d.orig.tar.xz ",
+      "sourcefile": "solvespace_3.0.0~git1376-d9081b0-1.debian.tar.xz solvespace_3.0.0~git1376-d9081b0-1.dsc solvespace_3.0.0~git1376-d9081b0.orig.tar.xz ",
       "homepage": "http://solvespace.com",
       "depends": "debhelper(>=9) cmake libpng-dev zlib1g-dev libjson-c-dev libfontconfig1-dev libgtkmm-3.0-dev(>=3.22) libpangomm-1.4-dev libgl-dev libglu-dev libglew-dev libspnav-dev libfreetype6-dev ",
       "binary": "solvespace libslvs1 libslvs1-dev ",
       "description_solvespace": "parametric 2d/3d CAD",
       "description_libslvs1": "SolveSpace geometric kernel",
       "description_libslvs1dev": "SolveSpace geometric kernel (development files)",
-      "md5": " e1bb5fa91243bef6fc0322eec9754f43 5a3aca2006a1df8615905b08f5e726dc 5aba4b9b3e3e92cd20d4015c670ff902",
-      "size": " 20_KiB  4_KiB  30.15_MiB "
+      "md5": " cfa0a04acb9fd7ff0f5e13cd71aff8f5 e38ce32f94521d63bfdf01d688ec8557 4836f145a879abb8eebe8b418ece4874",
+      "size": " 20_KiB  4_KiB  30.19_MiB "
     },
     "sqlitebrowser": 
     {
