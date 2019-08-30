@@ -41,6 +41,7 @@
 [<a href="https://notesalexp.org/packages/en/jessie/i386/freecad-daily">jessie</a>]
 [<a href="https://notesalexp.org/packages/en/stretch/i386/freecad-daily">stretch</a>]
 [<a href="https://notesalexp.org/packages/en/buster/i386/freecad-daily">buster</a>]
+[<a href="https://notesalexp.org/packages/en/bullseye/i386/freecad-daily">bullseye</a>]
 [<a href="https://notesalexp.org/packages/en/sid/i386/freecad-daily">sid</a>]
 [<a href="https://notesalexp.org/packages/en/xenial/i386/freecad-daily">xenial</a>]
 [<a href="https://notesalexp.org/packages/en/bionic/i386/freecad-daily">bionic</a>]
@@ -53,7 +54,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: freecad-daily ( 0.18+git17352-ec0049921-1 ) </h1>
+<h1>Package: freecad-daily ( 0.18.3+git17906-57ef3dfdf-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for freecad-daily</strong></p>
 <a href="https://notesalexp.org/packages/images/freecad-daily.png" data-lightbox="freecad-daily" data-title="freecad-daily -  Extensible Open Source CAx program (beta) "><img class="example-image" src="https://notesalexp.org/packages/images/thumb/freecad-daily.png" alt="freecad-daily" /></a>
@@ -64,9 +65,9 @@
 </ul>
 <p><strong>Download Source Package <a href="https://notesalexp.org/packages/en/source/freecad-daily">freecad-daily</a>:</strong></p>
 <ul>
-<li><a href="https://notesalexp.org/source/main/f/freecad-daily/freecad-daily_0.18+git17352-ec0049921-1.debian.tar.xz">[freecad-daily_0.18+git17352-ec0049921-1.debian.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/source/main/f/freecad-daily/freecad-daily_0.18+git17352-ec0049921-1.dsc">[freecad-daily_0.18+git17352-ec0049921-1.dsc]</a></li>
-<li><a href="https://notesalexp.org/source/main/f/freecad-daily/freecad-daily_0.18+git17352-ec0049921.orig.tar.xz">[freecad-daily_0.18+git17352-ec0049921.orig.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/f/freecad-daily/freecad-daily_0.18.3+git17906-57ef3dfdf-1.debian.tar.xz">[freecad-daily_0.18.3+git17906-57ef3dfdf-1.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/f/freecad-daily/freecad-daily_0.18.3+git17906-57ef3dfdf-1.dsc">[freecad-daily_0.18.3+git17906-57ef3dfdf-1.dsc]</a></li>
+<li><a href="https://notesalexp.org/source/main/f/freecad-daily/freecad-daily_0.18.3+git17906-57ef3dfdf.orig.tar.xz">[freecad-daily_0.18.3+git17906-57ef3dfdf.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
 <ul>
@@ -91,28 +92,40 @@
 <dt><span> generic font configuration library - development</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> python-matplotlib </span></dt>
-<dt><span> Python based plotting system in a style similar to Matlab</span></dt>
+<dt><span><strong>dep:</strong> python3-matplotlib </span></dt>
+<dt><span> Python based plotting system in a style similar to Matlab (Python 3)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> python-pivy </span></dt>
-<dt><span> Coin binding for Python</span></dt>
+<dt><span><strong>dep:</strong> python3-pivy </span></dt>
+<dt><span> Coin binding for Python 3</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> python-pyside2.qtcore </span></dt>
-<dt><span> Python bindings for Qt5 core module (Python 2)</span></dt>
+<dt><span><strong>dep:</strong> python3-pyside2.qtcore </span></dt>
+<dt><span> Python bindings for Qt5 core module (Python 3)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> python-pyside2.qtgui </span></dt>
-<dt><span> Python bindings for Qt5 Gui module (Python 2)</span></dt>
+<dt><span><strong>dep:</strong> python3-pyside2.qtgui </span></dt>
+<dt><span> Python bindings for Qt5 Gui module (Python 3)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> python-pyside2.qtsvg </span></dt>
-<dt><span> Python bindings for Qt5 Svg module (Python 2)</span></dt>
+<dt><span><strong>dep:</strong> python3-pyside2.qtuitools </span></dt>
+<dt><span> Python bindings for Qt5 UiTools module (Python 3)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> python-pyside2uic </span></dt>
-<dt><span> User Interface Compiler for PySide2 (Python 2)</span></dt>
+<dt><span><strong>dep:</strong> python3-pyside2.qtsvg </span></dt>
+<dt><span> Python bindings for Qt5 Svg module (Python 3)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> python3-pyside2.qtwidgets </span></dt>
+<dt><span> Python bindings for Qt5 Widgets module (Python 3)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> python3-pyside2.qtxml </span></dt>
+<dt><span> Python bindings for Qt5 Xml module (Python 3)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> python3-pyside2uic </span></dt>
+<dt><span> User Interface Compiler for PySide2 (Python 3)</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libboost-filesystem1.67.0 </span></dt>
@@ -198,12 +211,12 @@
 <dt><span> high performance message passing library -- shared library</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libpyside2-5.11 (&gt;=5.11.2)  </span></dt>
-<dt><span> Python 2 bindings for Qt5 (base files)</span></dt>
+<dt><span><strong>dep:</strong> libpyside2-py3-5.11 (&gt;=5.11.2)  </span></dt>
+<dt><span> Python 3 bindings for Qt5 (base files)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libpython2.7 (&gt;=2.7)  </span></dt>
-<dt><span> Shared Python runtime library (version 2.7)</span></dt>
+<dt><span><strong>dep:</strong> libpython3.7 (&gt;=3.7.0)  </span></dt>
+<dt><span> Shared Python runtime library (version 3.7)</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libqt5concurrent5 (&gt;=5.6.0~rc)  </span></dt>
@@ -253,8 +266,8 @@
 <dt><span> Qt 5 XML patterns module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libshiboken2-5.11 (&gt;=5.11.2)  </span></dt>
-<dt><span> CPython bindings generator for C++ libraries (Python2 shared library)</span></dt>
+<dt><span><strong>dep:</strong> libshiboken2-py3-5.11 (&gt;=5.11.2)  </span></dt>
+<dt><span> CPython bindings generator for C++ libraries (Python3 shared library)</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libspnav0 (&gt;=0.2.2)  </span></dt>
@@ -283,14 +296,6 @@
 <li><dl>
 <dt><span><strong>dep:</strong> gconf2 (&gt;=2.28.1-2)  </span></dt>
 <dt><span> GNOME configuration database system (support tools)</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> python2.7 </span></dt>
-<dt><span> Interactive high-level object-oriented language (version 2.7)</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> python </span></dt>
-<dt><span> interactive high-level object-oriented language (default version)</span></dt>
 </dl></li>
 </ul>
 <ul class="ulrec">
@@ -327,16 +332,16 @@
     </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/disco/amd64/freecad-daily/download.html">amd64</a></th>
-    <td> 0.18+git17352-ec0049921-1 </td>
-    <td class="size"> 32.78 MiB  </td>
-    <td class="size"> 149.41 MiB  </td>
+    <td> 0.18.3+git17906-57ef3dfdf-1 </td>
+    <td class="size"> 34.19 MiB  </td>
+    <td class="size"> 155.90 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/disco/amd64/freecad-daily/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/disco/i386/freecad-daily/download.html">i386</a></th>
-    <td> 0.18+git17352-ec0049921-1 </td>
-    <td class="size"> 33.44 MiB  </td>
-    <td class="size"> 148.05 MiB  </td>
+    <td> 0.18.3+git17906-57ef3dfdf-1 </td>
+    <td class="size"> 34.97 MiB  </td>
+    <td class="size"> 154.35 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/disco/i386/freecad-daily/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
