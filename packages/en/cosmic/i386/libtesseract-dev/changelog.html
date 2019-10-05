@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.1.0-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract-dev_4.1.0-3_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,16 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract-dev in cosmic of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.0-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.0-3) unstable; urgency=medium
+
+  * Update debian/control:
+    - delete build dependency from autoconf-archive
+    - add build dependency on libarchive-dev
+    - add dependency on tesseract-ocr-equ for tesseract-ocr-all
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 02 Oct 2019 21:50:47 +0300
+
+tesseract (4.1.0-2) unstable; urgency=medium
 
   * New upstream release.
   * disable patch - man.diff
@@ -301,7 +310,7 @@
   *  613c2bf6 - Change pages to lines in message
   *  e76d81a0 - Include src/training when exporting compile commands
     with cmake
-  *  e262d71a - Modifiy formatting rules
+  *  e262d71a - Modify formatting rules
   *  3e7144e7 - Update appveyor.yml
   *  af7cc1ce - Fix windows build.
   *  81fbd878 - Add more missing include statements for Windows build
@@ -793,7 +802,7 @@
   *  cad6ebb5 - LIST: Remove old comments
   *  2a2bc8af - Update README.md
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 07 Jul 2019 18:23:57 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 04 Sep 2019 20:44:12 +0300
 
 tesseract (4.0.0-2) unstable; urgency=medium
 
@@ -910,7 +919,7 @@ tesseract (4.00~git3241-1066f696-1) unstable; urgency=medium
   *  6ffb53f8 - win32: Show TIFF errors on console
   *  f5dfab15 - Add Leptonica lib for baseapi_test
   *  47343174 - fixes #408 - text2image: comma in font name
-  *  5f4f9372 - revert debug message commited by mistake
+  *  5f4f9372 - revert debug message committed by mistake
   *  f6fd9b3a - Handle null raw_choice - fixes #235, fixes #246
   *  90403ef3 - update dist-hook
   *  b0b5bd62 - build doc only for tesseract engine
@@ -1184,7 +1193,7 @@ tesseract (4.00~git2844-607e8fd8-1) unstable; urgency=medium
   * fix patch - man.diff, helptext
   * fixed build with dpkg-buildpackage -A (closes: #901750)
   * fixed path to phototest.tif
-  * Update dependencie for tesseract-ocr, libtesseract4 - add
+  * Update dependencies for tesseract-ocr, libtesseract4 - add
     "liblept5 >= 1.75.3"(closes: #903606)
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: master
