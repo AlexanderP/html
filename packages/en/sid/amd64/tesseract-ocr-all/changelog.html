@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.0+git4207-b36cd639-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.0+git4238-42ec3137-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,58 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in sid of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.0+git4207-b36cd639-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.0+git4238-42ec3137-1) unstable; urgency=medium
 
   * Compile
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: 4.1
-  * Commit: b36cd63922e208260775532aaf83c56eaa2683a8
-  * Date: 1572939557
+  * Commit: 42ec313771238bd2bc58131bf2bb5e52e0371a16
+  * Date: 1573915988
   * git changelog:
+  *  42ec3137 - ignore qtcreator help files
+  *  88174fea - backport changes pagesegmode_test.cc from master
+  *  7389a275 - Provide more details for sucessfull running of
+    unittests.
+  *  9d967cb1 - unittest: Fix build and simplify build rules
+  *  69cbda61 - unittest: Initialize non-static class members in
+    RecodeBeamTest (CID 1402765)
+  *  85477214 - unittest: Fix two issues reported by Coverity Scan (CID
+    1402761, 1402755)
+  *  bdad0686 - unittest: Add missing precision specifiers (CID 1402752)
+  *  95733433 - unittest: Don't build tatweel_test when TensorFlow is
+    disabled
+  *  2b04ff76 - unittest: Add missing libraries to fix linker errors
+  *  16b1e5d2 - Update test submodule and fix pagesegmode_test
+  *  50a41b63 - Update test submodule and fix tatweel_test
+  *  cb762753 - Update sw.cpp
+  *  cafdc7fa - fix sw build
+  *  0c599556 - fix ABI compatibility (move training files back to 4.1.0
+    location)
+  *  def1dc46 - fix training build
+  *  b559c330 - cmake: fix typo
+  *  21c83b80 - Use "C" locale for printing parameters
+  *  6d8ef9a1 - fix using bilevel tiff in pdf output
+  *  eaf1f696 - Fix issue #2748
+  *  1ce3cd28 - Use BRT_UNKNOWN instead of BRT_NOISE to initialize
+    ColPartition::blob_type_
+  *  d20db0f2 - Add missing libraries in configuration for pkg-config
+  *  41ec6271 - Exposed the text2image option --ptsize to tesstrain.sh.
+    Text2image has the option --ptsize which defaults to 12.  This
+    option is not exposed through tesstrain.sh; thus, you cannot use
+    tesstrain.sh to explore training with different font sizes.  I made
+    a small modification to expose the --ptsize option to tesstrain.sh.
+    It defaults to 12 if not specified.
+  *  975c626d - Fail if no valid lstmf file was written (fix issue
+    #2741)
+  *  185d237c - Don't create an empty lstmf file
+  *  2f011aec - Use pre-calculated lookup tables for all C++ compilers
+  *  13237d85 - Fix build for Intel Compiler (issue #2736)
+  *  87291fff - Improve ABI compatibility with version 4.1.0
+  *  960583ca - partly Revert "Remove global array kPolyBlockNames from
+    Tesseract library" to improve backwards API compatibility
+  *  c423ad42 - partly Revert "Add more initial values for class
+    Classify from constructor to header file" to improve backwards API
+    compatibility
   *  b36cd639 - Revert "Delete copy constructor and assignment operator
     for TessBaseAPI (fix issue #874)"
   *  d423fb16 - add cppan depreciate info
@@ -284,7 +328,7 @@
   *  d93346ff - cmake: do not report unused-command-line-argument for
     clan released target
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 05 Nov 2019 21:00:34 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 17 Nov 2019 15:37:33 +0300
 
 tesseract (4.1.0-3) unstable; urgency=medium
 
