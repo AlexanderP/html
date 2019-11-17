@@ -41,12 +41,14 @@
 [<a href="https://notesalexp.org/packages/en/jessie/amd64/librecad">jessie</a>]
 [<a href="https://notesalexp.org/packages/en/stretch/amd64/librecad">stretch</a>]
 [<a href="https://notesalexp.org/packages/en/buster/amd64/librecad">buster</a>]
+[<a href="https://notesalexp.org/packages/en/bullseye/amd64/librecad">bullseye</a>]
 [<strong>sid</strong>]
 [<a href="https://notesalexp.org/packages/en/trusty/amd64/librecad">trusty</a>]
 [<a href="https://notesalexp.org/packages/en/xenial/amd64/librecad">xenial</a>]
 [<a href="https://notesalexp.org/packages/en/bionic/amd64/librecad">bionic</a>]
 [<a href="https://notesalexp.org/packages/en/cosmic/amd64/librecad">cosmic</a>]
 [<a href="https://notesalexp.org/packages/en/disco/amd64/librecad">disco</a>]
+[<a href="https://notesalexp.org/packages/en/eoan/amd64/librecad">eoan</a>]
 </div>
 <div id="potherssource">
     [Source: <a href="https://notesalexp.org/packages/en/source/librecad">librecad</a>]
@@ -54,7 +56,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: librecad ( 2.1.2+git4548-10d502db-1 ) </h1>
+<h1>Package: librecad ( 2.1.3+git4548-10d502db-1 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for librecad</strong></p>
 <a href="https://notesalexp.org/packages/images/librecad.png" data-lightbox="librecad" data-title="librecad -  Computer-aided design (CAD) system "><img class="example-image" src="https://notesalexp.org/packages/images/thumb/librecad.png" alt="librecad" /></a>
@@ -65,9 +67,9 @@
 </ul>
 <p><strong>Download Source Package <a href="https://notesalexp.org/packages/en/source/librecad">librecad</a>:</strong></p>
 <ul>
-<li><a href="https://notesalexp.org/source/main/libr/librecad/librecad_2.1.2+git4548-10d502db-1.debian.tar.xz">[librecad_2.1.2+git4548-10d502db-1.debian.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/source/main/libr/librecad/librecad_2.1.2+git4548-10d502db-1.dsc">[librecad_2.1.2+git4548-10d502db-1.dsc]</a></li>
-<li><a href="https://notesalexp.org/source/main/libr/librecad/librecad_2.1.2+git4548-10d502db.orig.tar.xz">[librecad_2.1.2+git4548-10d502db.orig.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/libr/librecad/librecad_2.1.3+git4548-10d502db-1.debian.tar.xz">[librecad_2.1.3+git4548-10d502db-1.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/libr/librecad/librecad_2.1.3+git4548-10d502db-1.dsc">[librecad_2.1.3+git4548-10d502db-1.dsc]</a></li>
+<li><a href="https://notesalexp.org/source/main/libr/librecad/librecad_2.1.3+git4548-10d502db.orig.tar.xz">[librecad_2.1.3+git4548-10d502db.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
 <ul>
@@ -87,7 +89,7 @@
         </tbody></table>
 <ul class="uldep">
 <li><dl>
-<dt><span><strong>dep:</strong> libc6 (&gt;=2.14)  </span></dt>
+<dt><span><strong>dep:</strong> libc6 (&gt;=2.29)  </span></dt>
 <dt><span> Embedded GNU C Library: Shared libraries</span></dt>
 </dl></li>
 <li><dl>
@@ -95,20 +97,19 @@
 <dt><span> GCC support library</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libgl1 </span></dt>
-<dt><span> Vendor neutral GL dispatch library -- legacy GL support</span></dt>
-</dl></li>
-<li><dl>
 <dt><span><strong>dep:</strong> libmuparser2v5 (&gt;=2.2.6.1+dfsg)  </span></dt>
 <dt><span> fast mathematical expressions parser library (runtime)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt5core5a (&gt;=5.11.0~rc1)  </span></dt>
+<dt><span><strong>dep:</strong> libqt5core5a (&gt;=5.12.2)  </span></dt>
 <dt><span> Qt 5 core module</span></dt>
 </dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libqt5gui5 (&gt;=5.2.0)  </span></dt>
+<li><dl><dt><span><strong>dep:</strong></span>
+<span>libqt5gui5 (&gt;=5.2.0) </span> </dt>
 <dt><span> Qt 5 GUI module</span></dt>
+<dt><span><strong>or </strong></span>
+<span>libqt5gui5-gles (&gt;=5.2.0) </span> </dt>
+<dt><span> Qt 5 GUI module - OpenGLES</span></dt>
 </dl></li>
 <li><dl>
 <dt><span><strong>dep:</strong> libqt5printsupport5 (&gt;=5.1.0)  </span></dt>
@@ -127,7 +128,7 @@
 <dt><span> GNU Standard C++ Library v3</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> librecad-data (=2.1.2+git4548-10d502db-1)  </span></dt>
+<dt><span><strong>dep:</strong> librecad-data (=2.1.3+git4548-10d502db-1)  </span></dt>
 <dt><span> Computer-aided design (CAD) system -- shared files</span></dt>
 </dl></li>
 </ul>
@@ -145,16 +146,16 @@
     </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/sid/amd64/librecad/download.html">amd64</a></th>
-    <td> 2.1.2+git4548-10d502db-1 </td>
-    <td class="size"> 2.59 MiB  </td>
-    <td class="size"> 8.45 MiB  </td>
+    <td> 2.1.3+git4548-10d502db-1 </td>
+    <td class="size"> 2.62 MiB  </td>
+    <td class="size"> 8.54 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/sid/amd64/librecad/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/sid/i386/librecad/download.html">i386</a></th>
-    <td> 2.1.2+git4548-10d502db-1 </td>
-    <td class="size"> 2.76 MiB  </td>
-    <td class="size"> 8.71 MiB  </td>
+    <td> 2.1.3+git4548-10d502db-1 </td>
+    <td class="size"> 2.77 MiB  </td>
+    <td class="size"> 8.79 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/sid/i386/librecad/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
