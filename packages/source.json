@@ -29,16 +29,16 @@
     },
     "azpainter": 
     {
-      "version": "2.1.4-2",
+      "version": "2.1.5-1",
       "description": " 16bit RGB full color paint software",
       "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-      "sourcefile": "azpainter_2.1.4-2.debian.tar.xz azpainter_2.1.4-2.dsc azpainter_2.1.4.orig.tar.xz ",
+      "sourcefile": "azpainter_2.1.5-1.debian.tar.xz azpainter_2.1.5-1.dsc azpainter_2.1.5.orig.tar.xz ",
       "homepage": "https://osdn.net/projects/azpainter/",
       "depends": "debhelper(>=9) autotools-dev libx11-dev libxext-dev libxft-dev libxi-dev libjpeg-dev libpng-dev|libpng12-dev libfreetype6-dev libfontconfig1-dev zlib1g-dev ",
       "binary": "azpainter ",
       "description_azpainter": "16bit RGB full color paint software",
-      "md5": " e72bfd7299052a2ff816d1ccbd0b9dd2 4912dbff8bcb5a0aba0430ea687bc28a 380475e978c14acfe78bd143865b6a12",
-      "size": " 8_KiB  4_KiB  796_KiB "
+      "md5": " 2517850175e93dad39b457ca30724327 0b738534c3084dc362bf4e37ec3c2d65 c7790a94e99049ea3953de1af0e327ba",
+      "size": " 8_KiB  4_KiB  808_KiB "
     },
     "balsa": 
     {
@@ -381,15 +381,15 @@
     },
     "goaccess": 
     {
-      "version": "1:1.3.0+git2933-c427e13-1",
+      "version": "1:1.3.0+git2942-7465bbb-1",
       "description": " log analyzer and interactive viewer for the Apache Webserver",
       "sourceurl": "https://notesalexp.org/source/main/g/goaccess",
-      "sourcefile": "goaccess_1.3.0+git2933-c427e13-1.debian.tar.xz goaccess_1.3.0+git2933-c427e13-1.dsc goaccess_1.3.0+git2933-c427e13.orig.tar.xz ",
+      "sourcefile": "goaccess_1.3.0+git2942-7465bbb-1.debian.tar.xz goaccess_1.3.0+git2942-7465bbb-1.dsc goaccess_1.3.0+git2942-7465bbb.orig.tar.xz ",
       "homepage": "http://goaccess.prosoftcorp.com/",
       "depends": "debhelper(>=9) autotools-dev libncurses5-dev libglib2.0-dev libgeoip-dev autoconf automake libncursesw5-dev autopoint ",
       "binary": "goaccess ",
       "description_goaccess": "log analyzer and interactive viewer for the Apache Webserver",
-      "md5": " 835dab8d6721780d5b24f24bf94aa6cd a8d948139a567908ce8c7a74165a8376 4f4122b4e7f28a11047a4843e4f12caf",
+      "md5": " e99c6c3116abc535ca6e2e6d81acc351 4700a1f7fa510636dacf219ead6e7a6a 08f1f2b07a753555043bf4302a1a0f5a",
       "size": " 28_KiB  4_KiB  272_KiB "
     },
     "goldendict": 
@@ -862,18 +862,18 @@
     },
     "solvespace": 
     {
-      "version": "3.0.0~git1437-690f87c-1",
+      "version": "3.0.0~git1446-0472b9e-1",
       "description": " parametric 2d/3d CAD",
       "sourceurl": "https://notesalexp.org/source/main/s/solvespace",
-      "sourcefile": "solvespace_3.0.0~git1437-690f87c-1.debian.tar.xz solvespace_3.0.0~git1437-690f87c-1.dsc solvespace_3.0.0~git1437-690f87c.orig.tar.xz ",
+      "sourcefile": "solvespace_3.0.0~git1446-0472b9e-1.debian.tar.xz solvespace_3.0.0~git1446-0472b9e-1.dsc solvespace_3.0.0~git1446-0472b9e.orig.tar.xz ",
       "homepage": "http://solvespace.com",
       "depends": "debhelper(>=9) cmake libpng-dev zlib1g-dev libjson-c-dev libfontconfig1-dev libgtkmm-3.0-dev(>=3.22) libpangomm-1.4-dev libgl-dev libglu-dev libglew-dev libspnav-dev libfreetype6-dev ",
       "binary": "solvespace libslvs1 libslvs1-dev ",
       "description_solvespace": "parametric 2d/3d CAD",
       "description_libslvs1": "SolveSpace geometric kernel",
       "description_libslvs1dev": "SolveSpace geometric kernel (development files)",
-      "md5": " de51b355b368f0e0a58e68cdbfe06724 66b798e2cfa28f96f474d7d0c4628572 3cf9ea3eb69c25d074f63f8f5c7a05ce",
-      "size": " 20_KiB  4_KiB  29.21_MiB "
+      "md5": " d2b25d678fdd3a9d7bfe94a780d501e7 2630f1428c4785be6e4cab7d8b0040a1 e7cc18c376bcfa1a68b861c8a11d2d3f",
+      "size": " 20_KiB  4_KiB  29.33_MiB "
     },
     "sqlitebrowser": 
     {
