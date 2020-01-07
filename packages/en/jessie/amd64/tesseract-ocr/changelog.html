@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr_4.1.0+git4242-01fb4c7f-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr_4.1.1-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,14 +41,21 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr in jessie of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.0+git4242-01fb4c7f-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.1-1) unstable; urgency=medium
 
-  * Compile
+  * New upstream release.
+  * Update debian/control:
+    - delete build dependency from autoconf-archive
+    - add build dependency on libarchive-dev
+    - add dependency on tesseract-ocr-equ for tesseract-ocr-all
+    - update dependency libtesseract4 for tesseract-ocr (closes: #942760)
+  * Bump Standards-Version to 4.4.1
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: 4.1
-  * Commit: 01fb4c7fd660e70e9a237c8ba82b17cb292692ae
-  * Date: 1576842489
+  * Commit: f4ef2f2050f4c25b28bdbf0063b7d2eb30f41cf7
+  * Date: 1577374826
   * git changelog:
+  *  f4ef2f20 - 4.1.1 Release
   *  01fb4c7f - BlockPolygon: clip to image rectangle
   *  36664031 - BlockPolygon: unrotate from internal to image
     coordinates
@@ -56,7 +63,7 @@
   *  6343f0ab - Added ComposedBlock level to Alto output
   *  42ec3137 - ignore qtcreator help files
   *  88174fea - backport changes pagesegmode_test.cc from master
-  *  7389a275 - Provide more details for sucessfull running of
+  *  7389a275 - Provide more details for successful running of
     unittests.
   *  9d967cb1 - unittest: Fix build and simplify build rules
   *  69cbda61 - unittest: Initialize non-static class members in
@@ -333,18 +340,7 @@
   *  d93346ff - cmake: do not report unused-command-line-argument for
     clan released target
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 22 Dec 2019 22:15:57 +0300
-
-tesseract (4.1.0-3) unstable; urgency=medium
-
-  * Update debian/control:
-    - delete build dependency from autoconf-archive
-    - add build dependency on libarchive-dev
-    - add dependency on tesseract-ocr-equ for tesseract-ocr-all
-    - update dependency libtesseract4 for tesseract-ocr (closes: #942760)
-  * Bump Standards-Version to 4.4.1
-
- -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 01 Nov 2019 00:03:00 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 26 Dec 2019 23:46:07 +0300
 
 tesseract (4.1.0-2) unstable; urgency=medium
 
