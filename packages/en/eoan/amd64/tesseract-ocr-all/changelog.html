@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.1-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.1-2_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,13 +41,20 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in eoan of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.1-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.1-2) unstable; urgency=medium
+
+  * Update debian/control:
+    - add build dependency from autoconf-archive (closes: #949119)
+    - add dependency libarchive-dev for libtesseract-dev (closes: #949140)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 19 Jan 2020 08:48:59 +0300
+
+tesseract (4.1.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Update debian/control:
     - delete build dependency from autoconf-archive
     - add build dependency on libarchive-dev
-    - add dependency on tesseract-ocr-equ for tesseract-ocr-all
     - update dependency libtesseract4 for tesseract-ocr (closes: #942760)
   * Bump Standards-Version to 4.4.1
   * URL: git://github.com/tesseract-ocr/tesseract.git
@@ -340,7 +347,7 @@
   *  d93346ff - cmake: do not report unused-command-line-argument for
     clan released target
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 26 Dec 2019 23:46:07 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 10 Jan 2020 19:36:23 +0300
 
 tesseract (4.1.0-2) unstable; urgency=medium
 
