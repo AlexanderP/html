@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>notesalexp.org | Details of source package meson </title>
+    <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
+    <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="https://notesalexp.org/packages/css/package.css" type="text/css" />
+    <meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://notesalexp.org/html/">Home</a></li>
+                <li><a href="https://notesalexp.org/html/update.html">Update</a></li>
+                <li><a href="https://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="https://notesalexp.org/html/donate.html">Donate</a></li>
+                <li><a href="https://notesalexp.org/packages/en/contact.html">Contact</a></li>
+                <li class="selected" ><a href="https://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="https://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="https://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+            &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/source">Source</a>
+            &nbsp;&#x2F; meson
+        </div> <!-- end navbar -->
+    </header>
+    <div id="wrapper">
+        <div id="content">
+<h1>Source Package: meson ( 0.53.1-1+nmu2 ) </h1>
+<div id="pmoreinfo">
+<p><strong>Links for meson</strong></p>
+<p><strong>Resources:</strong></p>
+<ul>
+<li><a href="https://notesalexp.org/packages/en/source/meson/changelog.html">Debian Changelog</a></li>
+<li><a href="https://notesalexp.org/packages/content/source/meson.copyright.gz">Copyright File</a></li>
+</ul>
+<p><strong>External Resources:</strong></p>
+<ul>
+<li><a href="https://mesonbuild.com">Homepage</a></li>
+</ul>
+</div>
+The following binary packages are built from this source package:
+<dt><strong>meson</strong></dt>
+<dd id=listp > high-productivity build system </dd>
+<div id="pdeps">
+        <h4>Other Packages Related to meson</h4>
+        <table id="pdeplegend" class="visual" summary="legend">
+            <tbody><tr>
+                <td><ul class="uldep"><li><span>build-depends</span></li></ul></td>
+            </tr>
+        </tbody></table>
+<ul class="uldep">
+<li><dl>
+<dt><span><strong>dep:</strong> debhelper (&gt;=11)  </span></dt>
+<dt><span> helper programs for debian/rules</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> python3:any (&gt;=3.5)  </span></dt>
+<dt><span></span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> dh-exec </span></dt>
+<dt><span> Scripts to help with executable debhelper files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> dh-python </span></dt>
+<dt><span> Debian helper tools for packaging Python libraries and applications</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> python3-setuptools </span></dt>
+<dt><span> Python3 Distutils Enhancements</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> ninja-build (&gt;=1.6)  </span></dt>
+<dt><span> small build system closest in spirit to Make</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> zlib1g-dev </span></dt>
+<dt><span> compression library - development</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> pkg-config </span></dt>
+<dt><span> manage compile and link flags for libraries</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libboost-dev </span></dt>
+<dt><span> Boost C++ Libraries development files (default version)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libboost-thread-dev </span></dt>
+<dt><span> portable C++ multi-threading (default version)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libboost-test-dev </span></dt>
+<dt><span> components for writing and executing test suites (default version)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libboost-log-dev </span></dt>
+<dt><span> C++ logging library (default version)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libboost-python-dev </span></dt>
+<dt><span> Boost.Python Library development files (default version)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gobjc </span></dt>
+<dt><span> GNU Objective-C compiler</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gobjc++ </span></dt>
+<dt><span> GNU Objective-C++ compiler</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gnustep-make </span></dt>
+<dt><span> Basic GNUstep Makefiles</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libgnustep-base-dev </span></dt>
+<dt><span> GNUstep Base header files and development libraries</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> googletest </span></dt>
+<dt><span> Google's C++ test framework</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> qtbase5-dev </span></dt>
+<dt><span> Qt 5 base development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> qtbase5-private-dev </span></dt>
+<dt><span> Qt 5 base private development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> qtbase5-dev-tools </span></dt>
+<dt><span> Qt 5 base development programs</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> qttools5-dev-tools </span></dt>
+<dt><span> Qt 5 development tools</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> protobuf-compiler </span></dt>
+<dt><span> compiler for protocol buffer definition files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libprotobuf-dev </span></dt>
+<dt><span> protocol buffers C++ library (development files)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> default-jdk-headless </span></dt>
+<dt><span> Standard Java or Java compatible Development Kit (headless)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> valac </span></dt>
+<dt><span> C# like language for the GObject system</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gobject-introspection </span></dt>
+<dt><span> Generate interface introspection data for GObject libraries</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libgirepository1.0-dev </span></dt>
+<dt><span> Library for handling GObject introspection data (development files)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gfortran </span></dt>
+<dt><span> GNU Fortran 95 compiler</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> flex </span></dt>
+<dt><span> A fast lexical analyzer generator.</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> bison </span></dt>
+<dt><span> YACC-compatible parser generator</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> mono-mcs </span></dt>
+<dt><span> Mono C# 2.0 / 3.0 / 4.0 / 5.0  compiler for CLI 2.0 / 4.0 / 4.5</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> mono-devel </span></dt>
+<dt><span> Mono development tools</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libwxgtk3.0-gtk3-dev </span></dt>
+<dt><span> wxWidgets Cross-platform C++ GUI toolkit (GTK 3 development)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> python3-gi </span></dt>
+<dt><span> Python 3 bindings for gobject-introspection libraries</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gtk-doc-tools </span></dt>
+<dt><span> GTK+ documentation tools</span></dt>
+</dl></li>
+<li><dl><dt><span><strong>dep:</strong></span>
+<span>rustc</span> </dt>
+<dt><span> Rust systems programming language</span></dt>
+<dt><span><strong>or </strong></span>
+<span>bash-doc</span> </dt>
+<dt><span> Documentation and examples for the GNU Bourne Again SHell</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> python3-dev </span></dt>
+<dt><span> header files and a static library for Python (default)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> cython3 </span></dt>
+<dt><span> C-Extensions for Python 3</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gdc </span></dt>
+<dt><span> D compiler (language version 2), based on the GCC backend</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> itstool </span></dt>
+<dt><span> tool for translating XML documents with PO files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libgtk-3-dev </span></dt>
+<dt><span> development files for the GTK library</span></dt>
+</dl></li>
+<li><dl><dt><span><strong>dep:</strong></span>
+<span>g++-arm-linux-gnueabihf</span> </dt>
+<dt><span> GNU C++ compiler for the armhf architecture</span></dt>
+<dt><span><strong>or </strong></span>
+<span>bash-doc</span> </dt>
+<dt><span> Documentation and examples for the GNU Bourne Again SHell</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> valgrind </span></dt>
+<dt><span> instrumentation framework for building dynamic analysis tools</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> llvm-dev </span></dt>
+<dt><span> Low-Level Virtual Machine (LLVM), libraries and headers</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libsdl2-dev </span></dt>
+<dt><span> Simple DirectMedia Layer development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> openmpi-bin </span></dt>
+<dt><span> high performance message passing library -- binaries</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libopenmpi-dev </span></dt>
+<dt><span> high performance message passing library -- header files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> openssh-client </span></dt>
+<dt><span> secure shell (SSH) client, for secure access to remote machines</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libvulkan-dev </span></dt>
+<dt><span> Vulkan loader library -- development files</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libpcap-dev </span></dt>
+<dt><span> development library for libpcap (transitional package)</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libcups2-dev </span></dt>
+<dt><span> Common UNIX Printing System(tm) - Development files CUPS library</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gtk-sharp2 </span></dt>
+<dt><span> GTK# 2.10 suite, CLI bindings for GTK+</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gtk-sharp2-gapi </span></dt>
+<dt><span> C source parser and C# code generator for GObject based APIs</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libglib2.0-cil-dev </span></dt>
+<dt><span> CLI binding for the GLib utility library 2.12</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> libwmf-dev </span></dt>
+<dt><span> Windows metafile conversion development</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> git </span></dt>
+<dt><span> fast, scalable, distributed revision control system</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> mercurial </span></dt>
+<dt><span> easy-to-use, scalable distributed version control system</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> gcovr </span></dt>
+<dt><span> Manages the compilation of coverage information from gcov</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> lcov </span></dt>
+<dt><span> Summarise Code coverage information from GCOV</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> doxygen </span></dt>
+<dt><span> Documentation system for C, C++, Java, Python and other languages</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> nasm </span></dt>
+<dt><span> General-purpose x86 assembler</span></dt>
+</dl></li>
+<li><dl>
+<dt><span><strong>dep:</strong> cmake </span></dt>
+<dt><span> cross-platform, open-source make system</span></dt>
+</dl></li>
+</ul>
+    </div>
+<div id="pdownload">
+<h4>Download meson</h4>
+    <table summary="">
+        <tbody>
+    <tr><th>File</th>
+        <th>Size</th>
+        <th>MD5 checksum</th>
+    </tr>
+<tr>
+    <th><a href="https://notesalexp.org/source/main/m/meson/meson_0.53.1-1+nmu2.debian.tar.xz">meson_0.53.1-1+nmu2.debian.tar.xz</a></th>
+    <td class="size">16 KiB</td>
+    <td class="size">6a1d27f8b8f7a9662566018cfe6b2119</td>
+</tr>
+<tr>
+    <th><a href="https://notesalexp.org/source/main/m/meson/meson_0.53.1-1+nmu2.dsc">meson_0.53.1-1+nmu2.dsc</a></th>
+    <td class="size">4 KiB</td>
+    <td class="size">3b55b2e69dfc4742dc8ffb943ceeee95</td>
+</tr>
+<tr>
+    <th><a href="https://notesalexp.org/source/main/m/meson/meson_0.53.1.orig.tar.gz">meson_0.53.1.orig.tar.gz</a></th>
+    <td class="size">1.48 MiB</td>
+    <td class="size">9bf73f7b5a2426a7c8674a809bb8cae2</td>
+</tr>
+<tr>
+        </tbody></table>
+    </div>
+</div>
+
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+                &middot;
+                <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
+                <p> © Alexander Pozdnyakov, 2010–2019
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101010045-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
