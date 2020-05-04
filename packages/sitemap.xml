@@ -16,6 +16,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/audacity/</loc>
     </url>
     <url>
@@ -140,6 +143,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/labplot-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/leptonica-progs/</loc>
@@ -821,6 +830,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/apdtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/audacity/</loc>
@@ -1630,6 +1642,9 @@
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/azpainter/</loc>
     </url>
     <url>
@@ -1739,6 +1754,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/labplot-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/libeiskaltdcpp2.4/</loc>
@@ -2374,6 +2395,9 @@
         <loc>https://notesalexp.org/packages/en/bullseye/i386/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/azpainter/</loc>
     </url>
     <url>
@@ -2483,6 +2507,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/labplot-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/libeiskaltdcpp2.4/</loc>
@@ -3118,6 +3148,9 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/audacity/</loc>
     </url>
     <url>
@@ -3263,6 +3296,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/labplot-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/leptonica-progs/</loc>
@@ -3955,6 +3994,9 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/audacity/</loc>
     </url>
     <url>
@@ -4100,6 +4142,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/labplot-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/leptonica-progs/</loc>
@@ -6340,6 +6388,9 @@
         <loc>https://notesalexp.org/packages/en/eoan/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/eoan/amd64/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/eoan/amd64/audacity/</loc>
     </url>
     <url>
@@ -6464,6 +6515,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/eoan/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/amd64/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/amd64/labplot-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/eoan/amd64/libeiskaltdcpp2.4/</loc>
@@ -7102,6 +7159,9 @@
         <loc>https://notesalexp.org/packages/en/eoan/i386/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/eoan/i386/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/eoan/i386/audacity/</loc>
     </url>
     <url>
@@ -7226,6 +7286,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/eoan/i386/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/i386/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/i386/labplot-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/eoan/i386/libeiskaltdcpp2.4/</loc>
@@ -9796,6 +9862,9 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/audacity/</loc>
     </url>
     <url>
@@ -9935,6 +10004,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/labplot-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/leptonica-progs/</loc>
@@ -10609,6 +10684,9 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/audacity/</loc>
     </url>
     <url>
@@ -10748,6 +10826,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/labplot-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/leptonica-progs/</loc>
@@ -11419,6 +11503,9 @@
         <loc>https://notesalexp.org/packages/en/source/aegisub/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/audacity/</loc>
     </url>
     <url>
@@ -11510,6 +11597,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/kvirc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/labplot/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/leptonlib/</loc>
@@ -11639,6 +11729,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/apdtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/audacity/</loc>
@@ -12512,6 +12605,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/apdtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/audacity/</loc>
@@ -15091,6 +15187,9 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/aegisub-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/apdtool/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/audacity/</loc>
     </url>
     <url>
@@ -15995,6 +16094,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/apdtool/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/audacity/</loc>
@@ -17156,6 +17258,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2020/04/12/20200412/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/04/26/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/04/26/20200426/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>

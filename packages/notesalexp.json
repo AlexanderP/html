@@ -8119,6 +8119,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/stretch/main/a/apdtool/apdtool_1.0.1-1_amd64.deb",
+          "size": "72_KiB ",
+          "sizebyt": "70256",
+          "version": "1.0.1-1",
+          "isize": "166_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "d5857467be14141fbcaf1a953944469c",
+          "sha256": "bd0105b6c0a6c5ae8da2890b09601408f970fb374321cb31c4d44f76c7a7af15",
+          "depends": "libc6(>=2.14) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_amd64": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/a/audacity/audacity_2.3.3-1_amd64.deb",
@@ -8552,20 +8570,20 @@
         },
         "jbig2enc_amd64": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "40_KiB ",
-          "sizebyt": "37990",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "97_KiB ",
+          "sizebyt": "38470",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "98_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "a409f6db37da02fcf17556ce0bbb27ed",
-          "sha256": "1388754dc00a16864c8f686d053408450b60f2fd08d4ddda2bfd6c5803b81f11",
-          "depends": "python libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "6d8a07180ffb80e4ff6e6d84b59267fa",
+          "sha256": "d0de6ceea07c7233060321d45d67d6959f0cf670ad21348577b90134bb458518",
+          "depends": "python libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) zlib1g(>=1:1.1.4) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_amd64": 
@@ -8755,38 +8773,38 @@
         },
         "libjbig2enc0_amd64": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "28_KiB ",
-          "sizebyt": "25930",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "74_KiB ",
+          "sizebyt": "26416",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "75_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "3c4a3eaade6dfbde6fee11f00f0996e9",
-          "sha256": "d96bc485b78c615ebb8a20f57cb46c96d159b03cc5bb2d49d5a160cb2b4f91ed",
+          "md5": "dd3c016915e8ac8955e52de96f0e5459",
+          "sha256": "61bb969b5a231d3cd282d6606e0b8f24b2ce29b3012f6626c7eff20a82c7f154",
           "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) zlib1g(>=1:1.1.4) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "32_KiB ",
-          "sizebyt": "31482",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "31456",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "122_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "1abb9b0cc21d3c51ef4ab1ba64ba1aa1",
-          "sha256": "a2a14d68217aa23ccf45d54676cc0e6bc63d314c57a8f3841faae2f5ac2b2ce3",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "05c5d23eeb20bf3b78c226c6de10080f",
+          "sha256": "8427fe9cc320a6372503008b0ff54e75bebfad79ba7c1432baffc1634e59a736",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib4_amd64": 
@@ -13877,6 +13895,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_i386": 
+        {
+          "packageurl": "https://notesalexp.org/stretch/main/a/apdtool/apdtool_1.0.1-1_i386.deb",
+          "size": "76_KiB ",
+          "sizebyt": "76218",
+          "version": "1.0.1-1",
+          "isize": "185_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "c25e940e6a797e86ff0ac77f259276d4",
+          "sha256": "4166077f17384d0f9c34bb8883d07ed5579aef403a6104a2f6b33b985c935f67",
+          "depends": "libc6(>=2.3) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_i386": 
         {
           "packageurl": "https://notesalexp.org/stretch/main/a/audacity/audacity_2.3.3-1_i386.deb",
@@ -14310,20 +14346,20 @@
         },
         "jbig2enc_i386": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_i386.deb",
           "size": "40_KiB ",
-          "sizebyt": "39524",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "96_KiB ",
+          "sizebyt": "39908",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "97_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "4a3f3eed7f56d4182c5595c07c598fef",
-          "sha256": "d280603517745754a2fbf961eb10168c6f0c5616c39b66188bd6a31d857be4ed",
-          "depends": "python libc6(>=2.8) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "94dd975bc940c9520277b78082d513bf",
+          "sha256": "c8842487401b313cec679bbe2f8cfd7b7691d0c8ffa8f158ec4f1a7d583a5085",
+          "depends": "python libc6(>=2.8) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) zlib1g(>=1:1.1.4) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_i386": 
@@ -14513,38 +14549,38 @@
         },
         "libjbig2enc0_i386": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_i386.deb",
           "size": "28_KiB ",
-          "sizebyt": "27456",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "73_KiB ",
+          "sizebyt": "27848",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "74_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "2a5dbd7ae3a98df2ea9a2626f5931df1",
-          "sha256": "65aea627415eb323542896be8abb299baadd1cdc9e13867944f33aca56bbd0fc",
+          "md5": "4c254007316d6ebc5a0a55600af1d7be",
+          "sha256": "14ab610278d63773d8fcbf9c8e2dd763ad675b60246e8c20f70f5b9398275e4c",
           "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) zlib1g(>=1:1.1.4) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_i386": 
         {
-          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/stretch/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_i386.deb",
           "size": "36_KiB ",
-          "sizebyt": "32888",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "32944",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "113_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "395ac9cda6d97e7db4346a935756a3eb",
-          "sha256": "99c45c1aab71df35c8f67f4afbc2ac38a16f53091f8f341a5fd00ec9b34966dd",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "86b1b3904b64242c67433896c87488f9",
+          "sha256": "7f77a686cd64d89a912015b07f7cd8455ac00b996062c360643157b77b0a4e22",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib4_i386": 
@@ -15556,6 +15592,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/buster/main/a/apdtool/apdtool_1.0.1-1_amd64.deb",
+          "size": "72_KiB ",
+          "sizebyt": "70388",
+          "version": "1.0.1-1",
+          "isize": "170_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "ad91de9c7db177c2a1d7764b3112210b",
+          "sha256": "ff611b24627cfa86975b7b143e90f9ce3ae8cafc920416b4bd92c35e604750f6",
+          "depends": "libc6(>=2.14) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_amd64": 
         {
           "packageurl": "https://notesalexp.org/buster/main/a/audacity/audacity_2.3.3-1_amd64.deb",
@@ -15633,20 +15687,20 @@
         },
         "chiaki_amd64": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/c/chiaki/chiaki_1.1.3-1_amd64.deb",
-          "size": "276_KiB ",
-          "sizebyt": "281748",
-          "version": "1.1.3-1",
-          "isize": "784_KiB ",
+          "packageurl": "https://notesalexp.org/buster/main/c/chiaki/chiaki_1.2.0-1_amd64.deb",
+          "size": "284_KiB ",
+          "sizebyt": "289612",
+          "version": "1.2.0-1",
+          "isize": "816_KiB ",
           "section": "games",
           "priority": "optional",
           "homepage": "https://github.com/thestr4ng3r/chiaki",
-          "md5": "16533ba5e6e338ea1650fb2183e14206",
-          "sha256": "0a834dc3fd5c1029bc86fee2452c757f48df99a7a839a3bbd60f94e274094955",
+          "md5": "1ee33d79371360bd43adf2d9064f6fb4",
+          "sha256": "5f19fec89d49917523d585632809fb6a4c6ca1f7264e94bf56c3238e0fd69c07",
           "depends": "libavcodec58(>=10:4.1.5) libavutil56(>=10:4.1.5) libc6(>=2.17) libgcc1(>=1:3.0) libopus0(>=1.1) libqt5core5a(>=5.11.0~rc1) libqt5gui5(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5network5(>=5.0.2) libqt5opengl5(>=5.0.2) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.9) libssl1.1(>=1.1.0) libstdc++6(>=4.1.1) ",
           "source": "chiaki",
           "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
+          "sourcefile": "chiaki_1.2.0-1.debian.tar.xz chiaki_1.2.0-1.dsc chiaki_1.2.0.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "clementine_amd64": 
@@ -16060,20 +16114,20 @@
         },
         "jbig2enc_amd64": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "40_KiB ",
-          "sizebyt": "38568",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "101_KiB ",
+          "sizebyt": "38648",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "102_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "803bbeac9015c8b9c2bf244df3b86b0e",
-          "sha256": "b44cfb6c9a0894564142099e3d8998f25ed50c00d2aa01fd26c5d6b2b98d9f4f",
-          "depends": "python libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "b098190ff5e69b489e83fd22bef5aee2",
+          "sha256": "8f929a234c1501ed0fcff40af17ce97243820c459876cee6f13b09a42a839eca",
+          "depends": "python libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) zlib1g(>=1:1.1.4) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_amd64": 
@@ -16132,6 +16186,24 @@
           "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "KVIrc (IRC client) modules"
+        },
+        "labplot_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/buster/main/l/labplot/labplot_2.7.0+git7188-6a547031c-1_amd64.deb",
+          "size": "2.03_MiB ",
+          "sizebyt": "2126928",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "7.66_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "e8f4f07265853a6a0f104b85c6b8cf88",
+          "sha256": "5e7958e47739cc34be8a323ec7da29826fa19b0602575a453cd76ee82e68e2f5",
+          "depends": "kio libc6(>=2.14) libcerf1 libcfitsio7(>=3.450~) libfftw3-double3(>=3.3.5) libgcc1(>=1:3.0) libgsl23(>=2.5) libgslcblas0(>=2.4) libhdf5-103 libkf5archive5(>=5.50.0) libkf5completion5(>=4.97.0) libkf5configcore5(>=4.97.0) libkf5configgui5(>=4.97.0) libkf5configwidgets5(>=4.96.0) libkf5coreaddons5(>=5.16.0) libkf5crash5(>=5.15.0) libkf5i18n5(>=4.97.0) libkf5iconthemes5(>=4.96.0) libkf5kiowidgets5(>=4.96.0) libkf5syntaxhighlighting5 libkf5textwidgets5(>=4.96.0) libkf5widgetsaddons5(>=4.96.0) libkf5xmlgui5(>=4.98.0) liblz4-1(>=0.0~r122) libnetcdf13(>=4.0.1) libqt5core5a(>=5.11.0~rc1) libqt5gui5(>=5.7.0) libqt5network5(>=5.6.0) libqt5printsupport5(>=5.6.0) libqt5serialport5(>=5.6.0) libqt5sql5(>=5.6.0) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.11.0~rc1) libstdc++6(>=5.2) zlib1g(>=1:1.1.4) labplot-data(=2.7.0+git7188-6a547031c-1) ",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "interactive graphing and analysis of scientific data"
         },
         "leptonicaprogs_amd64": 
         {
@@ -16233,38 +16305,38 @@
         },
         "libjbig2enc0_amd64": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "28_KiB ",
-          "sizebyt": "26644",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "78_KiB ",
+          "sizebyt": "26696",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "79_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "023b0fdb5ffe36c03ec189c69a6689f0",
-          "sha256": "2790b4f4c7cdfb81934df296b33d138e79771ba8104464042e9cf24f367be7f9",
+          "md5": "f39ceba5296dd75c687f757b9bca43d4",
+          "sha256": "bbd88e1e820a4eaf2499cf938d5b62f9261a1c6d2f0d57d36e9ecde6f7651ea1",
           "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) zlib1g(>=1:1.1.4) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "32_KiB ",
-          "sizebyt": "32128",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "32156",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "130_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "9a498d22e34fb3693a4b5346fc099ce3",
-          "sha256": "f155c2d20fd6a1f5cdb8073fddaa6dc7351f021d0777ea0bc8ed27f6de8653a1",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "31bda146ecba7d944008db1e6234fe13",
+          "sha256": "9e2cffb31cc1035988982fef19901672e3c81ef0c7e52a27c775a8766babd1e5",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib4_amd64": 
@@ -17319,6 +17391,23 @@
           "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "Data files for KVIrc"
+        },
+        "labplotdata_all": 
+        {
+          "packageurl": "https://notesalexp.org/buster/main/l/labplot/labplot-data_2.7.0+git7188-6a547031c-1_all.deb",
+          "size": "5.20_MiB ",
+          "sizebyt": "5452664",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "13.83_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "1badeea238121e0576377833623ebcc9",
+          "sha256": "d31dd9d40aec776d19aa7ea3e27f5512da01c262755f729923886f9bbdaad9f6",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "data files for labplot"
         },
         "libgimp20doc_all": 
         {
@@ -21144,6 +21233,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_i386": 
+        {
+          "packageurl": "https://notesalexp.org/buster/main/a/apdtool/apdtool_1.0.1-1_i386.deb",
+          "size": "76_KiB ",
+          "sizebyt": "76296",
+          "version": "1.0.1-1",
+          "isize": "189_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "5e22ec31ea3ab69a70429bacb2300bb7",
+          "sha256": "8bfd212e0554ce01d4979e4ca3905bb372fde45b2e10f8abd9c02558ffc1d7d0",
+          "depends": "libc6(>=2.3) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_i386": 
         {
           "packageurl": "https://notesalexp.org/buster/main/a/audacity/audacity_2.3.3-1_i386.deb",
@@ -21221,20 +21328,20 @@
         },
         "chiaki_i386": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/c/chiaki/chiaki_1.1.3-1_i386.deb",
-          "size": "304_KiB ",
-          "sizebyt": "311168",
-          "version": "1.1.3-1",
-          "isize": "855_KiB ",
+          "packageurl": "https://notesalexp.org/buster/main/c/chiaki/chiaki_1.2.0-1_i386.deb",
+          "size": "316_KiB ",
+          "sizebyt": "319928",
+          "version": "1.2.0-1",
+          "isize": "891_KiB ",
           "section": "games",
           "priority": "optional",
           "homepage": "https://github.com/thestr4ng3r/chiaki",
-          "md5": "7e8645966996fc9ae672fd8cc5934f06",
-          "sha256": "78a07d9686596fa4468c6807c8a317c04785e03fb3e9f9ae503b2211316b49c4",
+          "md5": "d60c0d986bacfb2b0823da19cda8b885",
+          "sha256": "bdd4bbfb055dc23e6cf6032bda1df042f6e0584f12763a8179a93a3e551329e0",
           "depends": "libavcodec58(>=10:4.1.5) libavutil56(>=10:4.1.5) libc6(>=2.28) libgcc1(>=1:4.2) libopus0(>=1.1) libqt5core5a(>=5.11.0~rc1) libqt5gui5(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5network5(>=5.0.2) libqt5opengl5(>=5.0.2) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.9) libssl1.1(>=1.1.0) libstdc++6(>=4.1.1) ",
           "source": "chiaki",
           "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
+          "sourcefile": "chiaki_1.2.0-1.debian.tar.xz chiaki_1.2.0-1.dsc chiaki_1.2.0.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "clementine_i386": 
@@ -21648,20 +21755,20 @@
         },
         "jbig2enc_i386": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_i386.deb",
           "size": "40_KiB ",
-          "sizebyt": "40516",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "104_KiB ",
+          "sizebyt": "40588",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "105_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "f405f3155184f721db8abd41d9ecde47",
-          "sha256": "297f3511de41e9a5960cd2696f639c9387828ab0a0af29c3766b0ea936a99812",
-          "depends": "python libc6(>=2.8) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "0ea7e2f94bf6c50689cfda7e43476655",
+          "sha256": "35eb33bd59a4bc413532db06ea1c0d2cb9a2e2d84e1c1c29fece1213ed4dbf6e",
+          "depends": "python libc6(>=2.8) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) zlib1g(>=1:1.1.4) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_i386": 
@@ -21720,6 +21827,24 @@
           "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "KVIrc (IRC client) modules"
+        },
+        "labplot_i386": 
+        {
+          "packageurl": "https://notesalexp.org/buster/main/l/labplot/labplot_2.7.0+git7188-6a547031c-1_i386.deb",
+          "size": "2.13_MiB ",
+          "sizebyt": "2239512",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "7.68_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "0edf10ff25ed62c63eb17677272b4df7",
+          "sha256": "61c1060824e39ed0f1043841b3c0ef90b35b98ea13af1cc8550a91b36fb5762a",
+          "depends": "kio libc6(>=2.4) libcerf1 libcfitsio7(>=3.450~) libfftw3-double3(>=3.3.5) libgcc1(>=1:4.2) libgsl23(>=2.5) libgslcblas0(>=2.4) libhdf5-103 libkf5archive5(>=5.50.0) libkf5completion5(>=4.97.0) libkf5configcore5(>=4.97.0) libkf5configgui5(>=4.97.0) libkf5configwidgets5(>=4.96.0) libkf5coreaddons5(>=5.16.0) libkf5crash5(>=5.15.0) libkf5i18n5(>=4.97.0) libkf5iconthemes5(>=4.96.0) libkf5kiowidgets5(>=4.96.0) libkf5syntaxhighlighting5 libkf5textwidgets5(>=4.96.0) libkf5widgetsaddons5(>=4.96.0) libkf5xmlgui5(>=4.98.0) liblz4-1(>=0.0~r122) libnetcdf13(>=4.0.1) libqt5core5a(>=5.11.0~rc1) libqt5gui5(>=5.7.0) libqt5network5(>=5.6.0) libqt5printsupport5(>=5.6.0) libqt5serialport5(>=5.6.0) libqt5sql5(>=5.6.0) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.11.0~rc1) libstdc++6(>=5.2) zlib1g(>=1:1.1.4) labplot-data(=2.7.0+git7188-6a547031c-1) ",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "interactive graphing and analysis of scientific data"
         },
         "leptonicaprogs_i386": 
         {
@@ -21821,38 +21946,38 @@
         },
         "libjbig2enc0_i386": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_i386.deb",
           "size": "32_KiB ",
           "sizebyt": "28712",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "81_KiB ",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "82_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "87aefa4db56ea0ad4fef3932c3a32635",
-          "sha256": "cabc46be5c09c3ee043b5ea3676ab52b3d3eefc525650fcef4739057c26e2532",
+          "md5": "17becc985cc0d3f4f75f3be96bb0693e",
+          "sha256": "452a40ab46263ca8982e994f1193755eaf4e5104a81d2df36c30de9115bef356",
           "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) zlib1g(>=1:1.1.4) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_i386": 
         {
-          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/buster/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_i386.deb",
           "size": "36_KiB ",
-          "sizebyt": "34320",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "34300",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "121_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "a061848137e49c5a996604892ea9858b",
-          "sha256": "f947ffa725652a7cdecf0f8f8b97c3fb271b9b6aa479a8e79cc41add3465b0f7",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "d15060d8daff14b4cf06f1be27e7cf75",
+          "sha256": "a1ad3b90d446905b2a373d38f182d7dab9a47f01cf9c123b22ab832439f38c86",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib4_i386": 
@@ -22546,6 +22671,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/bullseye/main/a/apdtool/apdtool_1.0.1-1_amd64.deb",
+          "size": "72_KiB ",
+          "sizebyt": "70452",
+          "version": "1.0.1-1",
+          "isize": "170_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "cefa2c7758f94ebaa7afe9d8302a108d",
+          "sha256": "a566b4f1cb73f25beb741cc3befe5926399b83ad848508801fe32ca6d971e87d",
+          "depends": "libc6(>=2.14) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "azpainter_amd64": 
         {
           "packageurl": "https://notesalexp.org/bullseye/main/a/azpainter/azpainter_2.1.6-2_amd64.deb",
@@ -22586,20 +22729,20 @@
         },
         "chiaki_amd64": 
         {
-          "packageurl": "https://notesalexp.org/bullseye/main/c/chiaki/chiaki_1.1.3-1_amd64.deb",
-          "size": "276_KiB ",
-          "sizebyt": "281788",
-          "version": "1.1.3-1",
-          "isize": "784_KiB ",
+          "packageurl": "https://notesalexp.org/bullseye/main/c/chiaki/chiaki_1.2.0-1_amd64.deb",
+          "size": "284_KiB ",
+          "sizebyt": "289884",
+          "version": "1.2.0-1",
+          "isize": "816_KiB ",
           "section": "games",
           "priority": "optional",
           "homepage": "https://github.com/thestr4ng3r/chiaki",
-          "md5": "7c1da9a9e0af2840562b528d1340aa0c",
-          "sha256": "7e88f1b2ff98cb10913f67032703b4663301834e8c11c9ef3069c5e379cfb15c",
-          "depends": "libavcodec58(>=10:4.2.2) libavutil56(>=10:4.2.2) libc6(>=2.17) libgcc1(>=1:3.0) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.10) libssl1.1(>=1.1.0) libstdc++6(>=5) ",
+          "md5": "3b9b9749f20827f4943b20bb06d5f3db",
+          "sha256": "e4b5ce83a0220fd5e5c096dca71eb67db3298d300e89d99746645a3cc1bc0d2f",
+          "depends": "libavcodec58(>=10:4.2.2) libavutil56(>=10:4.2.2) libc6(>=2.17) libgcc-s1(>=3.0) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.10) libssl1.1(>=1.1.0) libstdc++6(>=5) ",
           "source": "chiaki",
           "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
+          "sourcefile": "chiaki_1.2.0-1.debian.tar.xz chiaki_1.2.0-1.dsc chiaki_1.2.0.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "deadbeef_amd64": 
@@ -22888,20 +23031,20 @@
         },
         "jbig2enc_amd64": 
         {
-          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "40_KiB ",
-          "sizebyt": "38796",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "101_KiB ",
+          "sizebyt": "38848",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "102_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "921d5b51b8b76159449397f41b2d091c",
-          "sha256": "5a8eecb72024fff90b632d57f72f4eec837988f329143b88d3bab23a021182c3",
-          "depends": "python libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "2d9ed01784dfcc53759b4e86ba4332d6",
+          "sha256": "460f347c6283a5e6c5d0076924a5debf62f7de12bfc2eb8ce13a1908182e149c",
+          "depends": "python2 libc6(>=2.14) libgcc-s1(>=3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_amd64": 
@@ -22961,6 +23104,24 @@
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "KVIrc (IRC client) modules"
         },
+        "labplot_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/bullseye/main/l/labplot/labplot_2.7.0+git7188-6a547031c-1_amd64.deb",
+          "size": "2.09_MiB ",
+          "sizebyt": "2197024",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "7.92_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "06605efe675bbd57fb84563e1bb00694",
+          "sha256": "2b6df18cf45ddf32ea198c79771800c547aeef5c133fba5ae524bd0b220a7350",
+          "depends": "kio libc6(>=2.29) libcerf1 libcfitsio8(>=3.470~) libfftw3-double3(>=3.3.5) libgcc-s1(>=3.0) libgsl23(>=2.5) libgslcblas0(>=2.4) libhdf5-103-1 libkf5archive5(>=4.96.0) libkf5completion5(>=4.97.0) libkf5configcore5(>=4.97.0) libkf5configgui5(>=4.97.0) libkf5configwidgets5(>=4.96.0) libkf5coreaddons5(>=5.16.0) libkf5crash5(>=5.15.0) libkf5i18n5(>=4.97.0) libkf5iconthemes5(>=4.96.0) libkf5kiowidgets5(>=5.16.0) libkf5syntaxhighlighting5(>=5.28.0) libkf5textwidgets5(>=4.96.0) libkf5widgetsaddons5(>=4.96.0) libkf5xmlgui5(>=4.98.0) liblz4-1(>=0.0~r122) libnetcdf18(>=4.0.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.7.0)|libqt5gui5-gles(>=5.7.0) libqt5network5(>=5.6.0) libqt5printsupport5(>=5.6.0) libqt5serialport5(>=5.6.0) libqt5sql5(>=5.6.0) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.11.0~rc1) libstdc++6(>=9) zlib1g(>=1:1.1.4) labplot-data(=2.7.0+git7188-6a547031c-1) ",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "interactive graphing and analysis of scientific data"
+        },
         "libeiskaltdcpp24_amd64": 
         {
           "packageurl": "https://notesalexp.org/bullseye/main/e/eiskaltdcpp-devel/libeiskaltdcpp2.4_2.2.10+git5483-89348ec7-1_amd64.deb",
@@ -23005,38 +23166,38 @@
         },
         "libjbig2enc0_amd64": 
         {
-          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "28_KiB ",
-          "sizebyt": "26888",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "78_KiB ",
+          "sizebyt": "26936",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "79_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "e8d5d6d552dbc9776c413be847f35976",
-          "sha256": "5aee2d251861caa90de395807cf9f858dbcb3e17bcf896e21af7045ba5735667",
-          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "41bb9e320a3e6ba5e32e06f7a8a1149c",
+          "sha256": "5610135f94851e07e97ab01706ea5bc2491178c971b36440277f4dff55bec56b",
+          "depends": "libc6(>=2.14) libgcc-s1(>=3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "32_KiB ",
-          "sizebyt": "32444",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "32472",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "132_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "2698c8afb21c2979a74cd4516311d42c",
-          "sha256": "bd36674a0a633c5aa892aa9d335c015b70bc1f4ec6a37ca0ea89c8a61a2c6bda",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "5504411d5ed53eaa67344ee2cfaf0111",
+          "sha256": "7bbc5ff923133cb98efc3fb4e726df3ec998ed71b3a95263861b8385f63e7350",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib5_amd64": 
@@ -23854,6 +24015,23 @@
           "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "Data files for KVIrc"
+        },
+        "labplotdata_all": 
+        {
+          "packageurl": "https://notesalexp.org/bullseye/main/l/labplot/labplot-data_2.7.0+git7188-6a547031c-1_all.deb",
+          "size": "5.20_MiB ",
+          "sizebyt": "5452636",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "13.83_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "68636f767ea16a32696b3234efe80e50",
+          "sha256": "952ac4ba2f136a3dc244e4f38b2332dd2e178cf6de0fa6bf81fd042d8d200b8a",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "data files for labplot"
         },
         "librecaddata_all": 
         {
@@ -27550,6 +27728,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_i386": 
+        {
+          "packageurl": "https://notesalexp.org/bullseye/main/a/apdtool/apdtool_1.0.1-1_i386.deb",
+          "size": "76_KiB ",
+          "sizebyt": "76544",
+          "version": "1.0.1-1",
+          "isize": "189_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "9fedfd09d4e70bf61b22b313d42ddcc0",
+          "sha256": "f119c1cd2216e88f3d6fcab5a0570822c1bed406fdea52bd9b5979b4038562d4",
+          "depends": "libc6(>=2.3) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "azpainter_i386": 
         {
           "packageurl": "https://notesalexp.org/bullseye/main/a/azpainter/azpainter_2.1.6-2_i386.deb",
@@ -27590,20 +27786,20 @@
         },
         "chiaki_i386": 
         {
-          "packageurl": "https://notesalexp.org/bullseye/main/c/chiaki/chiaki_1.1.3-1_i386.deb",
-          "size": "308_KiB ",
-          "sizebyt": "311924",
-          "version": "1.1.3-1",
-          "isize": "851_KiB ",
+          "packageurl": "https://notesalexp.org/bullseye/main/c/chiaki/chiaki_1.2.0-1_i386.deb",
+          "size": "316_KiB ",
+          "sizebyt": "320100",
+          "version": "1.2.0-1",
+          "isize": "895_KiB ",
           "section": "games",
           "priority": "optional",
           "homepage": "https://github.com/thestr4ng3r/chiaki",
-          "md5": "356a17bd1b3a02d45bd09c14e01a72b0",
-          "sha256": "11b6751a8de4154289cb8499ae2f6d355eacb3b4c6ef9a37678110ab63e13964",
-          "depends": "libavcodec58(>=10:4.2.2) libavutil56(>=10:4.2.2) libc6(>=2.28) libgcc1(>=1:4.2) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.10) libssl1.1(>=1.1.0) libstdc++6(>=5) ",
+          "md5": "e3b71cbfcb9481948e2b15cfd8f0869f",
+          "sha256": "1788b5115b494d556f4c15e3bf0cf8c0b1b1f3ef4c8096ef1a91bd3b5a67055c",
+          "depends": "libavcodec58(>=10:4.2.2) libavutil56(>=10:4.2.2) libc6(>=2.28) libgcc-s1(>=4.2) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.10) libssl1.1(>=1.1.0) libstdc++6(>=5) ",
           "source": "chiaki",
           "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
+          "sourcefile": "chiaki_1.2.0-1.debian.tar.xz chiaki_1.2.0-1.dsc chiaki_1.2.0.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "deadbeef_i386": 
@@ -27892,20 +28088,20 @@
         },
         "jbig2enc_i386": 
         {
-          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_i386.deb",
           "size": "40_KiB ",
-          "sizebyt": "40828",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "104_KiB ",
+          "sizebyt": "40892",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "105_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "69bdcd2170cc8ca5d4ea83b8c48f385f",
-          "sha256": "f7e138df1f9f15ba32f06bd584c4c37a7da44d314145223236f14c1b6545a19c",
-          "depends": "python libc6(>=2.8) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "55e4adaf0d1f91eadc2a888d85d1e524",
+          "sha256": "b55ed9e3bc448c67c3c3c166979c97e03eb724c82239b2f36d626e85176fd5ae",
+          "depends": "python2 libc6(>=2.8) libgcc-s1(>=3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_i386": 
@@ -27965,6 +28161,24 @@
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "KVIrc (IRC client) modules"
         },
+        "labplot_i386": 
+        {
+          "packageurl": "https://notesalexp.org/bullseye/main/l/labplot/labplot_2.7.0+git7188-6a547031c-1_i386.deb",
+          "size": "2.19_MiB ",
+          "sizebyt": "2298516",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "7.93_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "97721e51cb0590ea907bade0895abd0d",
+          "sha256": "0fed34b2f308d0400349202a6767bbe0e11a5d27be6276a3165d6c896dd353f7",
+          "depends": "kio libc6(>=2.29) libcerf1 libcfitsio8(>=3.470~) libfftw3-double3(>=3.3.5) libgcc-s1(>=4.2) libgsl23(>=2.5) libgslcblas0(>=2.4) libhdf5-103-1 libkf5archive5(>=4.96.0) libkf5completion5(>=4.97.0) libkf5configcore5(>=4.97.0) libkf5configgui5(>=4.97.0) libkf5configwidgets5(>=4.96.0) libkf5coreaddons5(>=5.16.0) libkf5crash5(>=5.15.0) libkf5i18n5(>=4.97.0) libkf5iconthemes5(>=4.96.0) libkf5kiowidgets5(>=5.16.0) libkf5syntaxhighlighting5(>=5.28.0) libkf5textwidgets5(>=4.96.0) libkf5widgetsaddons5(>=4.96.0) libkf5xmlgui5(>=4.98.0) liblz4-1(>=0.0~r122) libnetcdf18(>=4.0.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.7.0)|libqt5gui5-gles(>=5.7.0) libqt5network5(>=5.6.0) libqt5printsupport5(>=5.6.0) libqt5serialport5(>=5.6.0) libqt5sql5(>=5.6.0) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.11.0~rc1) libstdc++6(>=9) zlib1g(>=1:1.1.4) labplot-data(=2.7.0+git7188-6a547031c-1) ",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "interactive graphing and analysis of scientific data"
+        },
         "libeiskaltdcpp24_i386": 
         {
           "packageurl": "https://notesalexp.org/bullseye/main/e/eiskaltdcpp-devel/libeiskaltdcpp2.4_2.2.10+git5483-89348ec7-1_i386.deb",
@@ -28009,38 +28223,38 @@
         },
         "libjbig2enc0_i386": 
         {
-          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_i386.deb",
-          "size": "28_KiB ",
-          "sizebyt": "28672",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "81_KiB ",
+          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_i386.deb",
+          "size": "32_KiB ",
+          "sizebyt": "28696",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "82_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "0f9ab32e47f03355aed930165d7036d6",
-          "sha256": "ea5b95f118ca2f06d150b567a7f5702f6254deba22ba3fa6061bae00508f7960",
-          "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "14b8fdb66300fd68add18ab989a8e475",
+          "sha256": "298e7bed9cb50ce14bb858d8c154ee42fc5ed1abffd832afd701f1f016c7382b",
+          "depends": "libc6(>=2.4) libgcc-s1(>=3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_i386": 
         {
-          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/bullseye/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_i386.deb",
           "size": "36_KiB ",
-          "sizebyt": "34492",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "34548",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "121_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "4c8892ecc3c26c5b5d8d9c31ae9ae486",
-          "sha256": "9b2be376fd86480f5079f6b1f86f7c767c261055e608379baf15c69ac6127967",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "63f149d9c7f3bddce34efe84e0e98d85",
+          "sha256": "52e52c2840a299c59201d43c4e6b423f661ab5c49b8e73103a27ab969b78aa4e",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib5_i386": 
@@ -28571,6 +28785,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/sid/main/a/apdtool/apdtool_1.0.1-1_amd64.deb",
+          "size": "72_KiB ",
+          "sizebyt": "70452",
+          "version": "1.0.1-1",
+          "isize": "170_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "cefa2c7758f94ebaa7afe9d8302a108d",
+          "sha256": "a566b4f1cb73f25beb741cc3befe5926399b83ad848508801fe32ca6d971e87d",
+          "depends": "libc6(>=2.14) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_amd64": 
         {
           "packageurl": "https://notesalexp.org/sid/main/a/audacity/audacity_2.3.1-1_amd64.deb",
@@ -28642,20 +28874,20 @@
         },
         "chiaki_amd64": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/c/chiaki/chiaki_1.1.3-1_amd64.deb",
-          "size": "276_KiB ",
-          "sizebyt": "281568",
-          "version": "1.1.3-1",
-          "isize": "784_KiB ",
+          "packageurl": "https://notesalexp.org/sid/main/c/chiaki/chiaki_1.2.0-1_amd64.deb",
+          "size": "284_KiB ",
+          "sizebyt": "289884",
+          "version": "1.2.0-1",
+          "isize": "816_KiB ",
           "section": "games",
           "priority": "optional",
           "homepage": "https://github.com/thestr4ng3r/chiaki",
-          "md5": "01c424333981f5a981cbd9bb771bd486",
-          "sha256": "ee016f6d028c70c7e53e1aa57816ab967fbca82fc0e9ff86df7dde3182f76aa7",
+          "md5": "3b9b9749f20827f4943b20bb06d5f3db",
+          "sha256": "e4b5ce83a0220fd5e5c096dca71eb67db3298d300e89d99746645a3cc1bc0d2f",
           "depends": "libavcodec58(>=10:4.2.2) libavutil56(>=10:4.2.2) libc6(>=2.17) libgcc-s1(>=3.0) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.10) libssl1.1(>=1.1.0) libstdc++6(>=5) ",
           "source": "chiaki",
           "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
+          "sourcefile": "chiaki_1.2.0-1.debian.tar.xz chiaki_1.2.0-1.dsc chiaki_1.2.0.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "clementine_amd64": 
@@ -29037,20 +29269,20 @@
         },
         "jbig2enc_amd64": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "40_KiB ",
-          "sizebyt": "38792",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "101_KiB ",
+          "sizebyt": "38848",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "102_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "4fd1d9300b7180b322be9fdcba4f6e26",
-          "sha256": "7e67684ed87c958809060fb0d230fd9885bee671a03b1128a40760dc2c76a683",
-          "depends": "python libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "2d9ed01784dfcc53759b4e86ba4332d6",
+          "sha256": "460f347c6283a5e6c5d0076924a5debf62f7de12bfc2eb8ce13a1908182e149c",
+          "depends": "python2 libc6(>=2.14) libgcc-s1(>=3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_amd64": 
@@ -29109,6 +29341,24 @@
           "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "KVIrc (IRC client) modules"
+        },
+        "labplot_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/sid/main/l/labplot/labplot_2.7.0+git7188-6a547031c-1_amd64.deb",
+          "size": "2.09_MiB ",
+          "sizebyt": "2197024",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "7.92_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "06605efe675bbd57fb84563e1bb00694",
+          "sha256": "2b6df18cf45ddf32ea198c79771800c547aeef5c133fba5ae524bd0b220a7350",
+          "depends": "kio libc6(>=2.29) libcerf1 libcfitsio8(>=3.470~) libfftw3-double3(>=3.3.5) libgcc-s1(>=3.0) libgsl23(>=2.5) libgslcblas0(>=2.4) libhdf5-103-1 libkf5archive5(>=4.96.0) libkf5completion5(>=4.97.0) libkf5configcore5(>=4.97.0) libkf5configgui5(>=4.97.0) libkf5configwidgets5(>=4.96.0) libkf5coreaddons5(>=5.16.0) libkf5crash5(>=5.15.0) libkf5i18n5(>=4.97.0) libkf5iconthemes5(>=4.96.0) libkf5kiowidgets5(>=5.16.0) libkf5syntaxhighlighting5(>=5.28.0) libkf5textwidgets5(>=4.96.0) libkf5widgetsaddons5(>=4.96.0) libkf5xmlgui5(>=4.98.0) liblz4-1(>=0.0~r122) libnetcdf18(>=4.0.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.7.0)|libqt5gui5-gles(>=5.7.0) libqt5network5(>=5.6.0) libqt5printsupport5(>=5.6.0) libqt5serialport5(>=5.6.0) libqt5sql5(>=5.6.0) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.11.0~rc1) libstdc++6(>=9) zlib1g(>=1:1.1.4) labplot-data(=2.7.0+git7188-6a547031c-1) ",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "interactive graphing and analysis of scientific data"
         },
         "leptonicaprogs_amd64": 
         {
@@ -29172,38 +29422,38 @@
         },
         "libjbig2enc0_amd64": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "28_KiB ",
-          "sizebyt": "26892",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "78_KiB ",
+          "sizebyt": "26936",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "79_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "ebc5c6c0f013e13eae7684742490d98d",
-          "sha256": "6d6fb9dd05b123b0a9a07eadccf345f109700b1052a2baec81eda3b20c623a58",
-          "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "41bb9e320a3e6ba5e32e06f7a8a1149c",
+          "sha256": "5610135f94851e07e97ab01706ea5bc2491178c971b36440277f4dff55bec56b",
+          "depends": "libc6(>=2.14) libgcc-s1(>=3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "32_KiB ",
-          "sizebyt": "32444",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "32472",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "132_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "2698c8afb21c2979a74cd4516311d42c",
-          "sha256": "bd36674a0a633c5aa892aa9d335c015b70bc1f4ec6a37ca0ea89c8a61a2c6bda",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "5504411d5ed53eaa67344ee2cfaf0111",
+          "sha256": "7bbc5ff923133cb98efc3fb4e726df3ec998ed71b3a95263861b8385f63e7350",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib4_amd64": 
@@ -30199,6 +30449,23 @@
           "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "Data files for KVIrc"
+        },
+        "labplotdata_all": 
+        {
+          "packageurl": "https://notesalexp.org/sid/main/l/labplot/labplot-data_2.7.0+git7188-6a547031c-1_all.deb",
+          "size": "5.20_MiB ",
+          "sizebyt": "5452636",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "13.83_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "68636f767ea16a32696b3234efe80e50",
+          "sha256": "952ac4ba2f136a3dc244e4f38b2332dd2e178cf6de0fa6bf81fd042d8d200b8a",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "data files for labplot"
         },
         "librecaddata_all": 
         {
@@ -33985,6 +34252,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_i386": 
+        {
+          "packageurl": "https://notesalexp.org/sid/main/a/apdtool/apdtool_1.0.1-1_i386.deb",
+          "size": "76_KiB ",
+          "sizebyt": "76544",
+          "version": "1.0.1-1",
+          "isize": "189_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "9fedfd09d4e70bf61b22b313d42ddcc0",
+          "sha256": "f119c1cd2216e88f3d6fcab5a0570822c1bed406fdea52bd9b5979b4038562d4",
+          "depends": "libc6(>=2.3) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_i386": 
         {
           "packageurl": "https://notesalexp.org/sid/main/a/audacity/audacity_2.3.1-1_i386.deb",
@@ -34056,20 +34341,20 @@
         },
         "chiaki_i386": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/c/chiaki/chiaki_1.1.3-1_i386.deb",
-          "size": "304_KiB ",
-          "sizebyt": "311032",
-          "version": "1.1.3-1",
-          "isize": "851_KiB ",
+          "packageurl": "https://notesalexp.org/sid/main/c/chiaki/chiaki_1.2.0-1_i386.deb",
+          "size": "316_KiB ",
+          "sizebyt": "320100",
+          "version": "1.2.0-1",
+          "isize": "895_KiB ",
           "section": "games",
           "priority": "optional",
           "homepage": "https://github.com/thestr4ng3r/chiaki",
-          "md5": "3b5cc5ce130d8e3e7dceb490a3b689fd",
-          "sha256": "67f1fc8ad395736fb381269a97ce8b2bbdab048502cdfc8adb2c7af86505e82e",
+          "md5": "e3b71cbfcb9481948e2b15cfd8f0869f",
+          "sha256": "1788b5115b494d556f4c15e3bf0cf8c0b1b1f3ef4c8096ef1a91bd3b5a67055c",
           "depends": "libavcodec58(>=10:4.2.2) libavutil56(>=10:4.2.2) libc6(>=2.28) libgcc-s1(>=4.2) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.10) libssl1.1(>=1.1.0) libstdc++6(>=5) ",
           "source": "chiaki",
           "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
+          "sourcefile": "chiaki_1.2.0-1.debian.tar.xz chiaki_1.2.0-1.dsc chiaki_1.2.0.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "clementine_i386": 
@@ -34451,20 +34736,20 @@
         },
         "jbig2enc_i386": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_i386.deb",
           "size": "40_KiB ",
-          "sizebyt": "40828",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "104_KiB ",
+          "sizebyt": "40892",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "105_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "bad76bc06338797bfe6b0f60fe29dc49",
-          "sha256": "814de718e9f6e096f814a1660c19dbdc0832d6b2c779c1e1efd050315e125d53",
-          "depends": "python libc6(>=2.8) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "55e4adaf0d1f91eadc2a888d85d1e524",
+          "sha256": "b55ed9e3bc448c67c3c3c166979c97e03eb724c82239b2f36d626e85176fd5ae",
+          "depends": "python2 libc6(>=2.8) libgcc-s1(>=3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_i386": 
@@ -34523,6 +34808,24 @@
           "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "KVIrc (IRC client) modules"
+        },
+        "labplot_i386": 
+        {
+          "packageurl": "https://notesalexp.org/sid/main/l/labplot/labplot_2.7.0+git7188-6a547031c-1_i386.deb",
+          "size": "2.19_MiB ",
+          "sizebyt": "2298516",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "7.93_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "97721e51cb0590ea907bade0895abd0d",
+          "sha256": "0fed34b2f308d0400349202a6767bbe0e11a5d27be6276a3165d6c896dd353f7",
+          "depends": "kio libc6(>=2.29) libcerf1 libcfitsio8(>=3.470~) libfftw3-double3(>=3.3.5) libgcc-s1(>=4.2) libgsl23(>=2.5) libgslcblas0(>=2.4) libhdf5-103-1 libkf5archive5(>=4.96.0) libkf5completion5(>=4.97.0) libkf5configcore5(>=4.97.0) libkf5configgui5(>=4.97.0) libkf5configwidgets5(>=4.96.0) libkf5coreaddons5(>=5.16.0) libkf5crash5(>=5.15.0) libkf5i18n5(>=4.97.0) libkf5iconthemes5(>=4.96.0) libkf5kiowidgets5(>=5.16.0) libkf5syntaxhighlighting5(>=5.28.0) libkf5textwidgets5(>=4.96.0) libkf5widgetsaddons5(>=4.96.0) libkf5xmlgui5(>=4.98.0) liblz4-1(>=0.0~r122) libnetcdf18(>=4.0.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.7.0)|libqt5gui5-gles(>=5.7.0) libqt5network5(>=5.6.0) libqt5printsupport5(>=5.6.0) libqt5serialport5(>=5.6.0) libqt5sql5(>=5.6.0) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.11.0~rc1) libstdc++6(>=9) zlib1g(>=1:1.1.4) labplot-data(=2.7.0+git7188-6a547031c-1) ",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "interactive graphing and analysis of scientific data"
         },
         "leptonicaprogs_i386": 
         {
@@ -34586,38 +34889,38 @@
         },
         "libjbig2enc0_i386": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_i386.deb",
           "size": "32_KiB ",
-          "sizebyt": "28684",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "81_KiB ",
+          "sizebyt": "28696",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "82_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "9f45bee400cb64e4ef3e0234e579bc85",
-          "sha256": "7b4fd9d1e73b6b883e079a0c9b80c7d76d8a4a50024a8e2e0da995a6c668d76e",
-          "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
+          "md5": "14b8fdb66300fd68add18ab989a8e475",
+          "sha256": "298e7bed9cb50ce14bb858d8c154ee42fc5ed1abffd832afd701f1f016c7382b",
+          "depends": "libc6(>=2.4) libgcc-s1(>=3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_i386": 
         {
-          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/sid/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_i386.deb",
           "size": "36_KiB ",
-          "sizebyt": "34492",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "34548",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "121_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "4c8892ecc3c26c5b5d8d9c31ae9ae486",
-          "sha256": "9b2be376fd86480f5079f6b1f86f7c767c261055e608379baf15c69ac6127967",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "63f149d9c7f3bddce34efe84e0e98d85",
+          "sha256": "52e52c2840a299c59201d43c4e6b423f661ab5c49b8e73103a27ab969b78aa4e",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib4_i386": 
@@ -42137,6 +42440,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/xenial/main/a/apdtool/apdtool_1.0.1-1_amd64.deb",
+          "size": "68_KiB ",
+          "sizebyt": "69628",
+          "version": "1.0.1-1",
+          "isize": "168_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "19b27bfc4c3449a3c3b1ed5ea8950106",
+          "sha256": "3a5b79662339def9c000b30155a125e79033f21bb1781aad3ec882d448abf32b",
+          "depends": "libc6(>=2.14) libpng12-0(>=1.2.13-4) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_amd64": 
         {
           "packageurl": "https://notesalexp.org/xenial/main/a/audacity/audacity_2.3.3-1_amd64.deb",
@@ -48075,6 +48396,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_i386": 
+        {
+          "packageurl": "https://notesalexp.org/xenial/main/a/apdtool/apdtool_1.0.1-1_i386.deb",
+          "size": "72_KiB ",
+          "sizebyt": "72740",
+          "version": "1.0.1-1",
+          "isize": "175_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "1f38f4846957587cddefb2f3094bc930",
+          "sha256": "1b592fe44f7c9109b9da21c9a4e2a682833342aa01ac32f7cc954deb80c91353",
+          "depends": "libc6(>=2.11) libpng12-0(>=1.2.13-4) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_i386": 
         {
           "packageurl": "https://notesalexp.org/xenial/main/a/audacity/audacity_2.3.3-1_i386.deb",
@@ -49905,6 +50244,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/bionic/main/a/apdtool/apdtool_1.0.1-1_amd64.deb",
+          "size": "72_KiB ",
+          "sizebyt": "71416",
+          "version": "1.0.1-1",
+          "isize": "168_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "d37a8c2fec52acf23f4605b0b406f87e",
+          "sha256": "9146fa0e2ee3defb2e01e870ffd2b7a4ddff0c623eb5b1ff56541946cdd7535b",
+          "depends": "libc6(>=2.14) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_amd64": 
         {
           "packageurl": "https://notesalexp.org/bionic/main/a/audacity/audacity_2.3.3-1_amd64.deb",
@@ -50305,20 +50662,20 @@
         },
         "jbig2enc_amd64": 
         {
-          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "40_KiB ",
-          "sizebyt": "37740",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "37776",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "100_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "5cd11d3709916b81f09af1f13cfecbd1",
-          "sha256": "6beade8a863f3de90dbf7c324441207923ebe6c4bef8c0ec1324495e8832cae0",
+          "md5": "5ccd8c0341fea7a6cc61969f0fc628be",
+          "sha256": "986646bb33ccc740ce4463a186c8aa5e05427498be4697794d9170b0e19ae807",
           "depends": "python libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_amd64": 
@@ -50371,6 +50728,41 @@
           "depends": "libkvilib5(=4:5.0.1+git-7433-0df9f22f2-1) libc6(>=2.15) libenchant1c2a(>=1.6.0) libgcc1(>=1:3.0) libperl5.26(>=5.26.0~rc1) libphonon4qt5-4(>=4:4.8.0) libpython2.7(>=2.7) libqt5core5a(>=5.9.0~beta) libqt5dbus5(>=5.0.2) libqt5gui5(>=5.8.0) libqt5multimedia5(>=5.6.0~beta) libqt5network5(>=5.0.2) libqt5printsupport5(>=5.0.2) libqt5sql5(>=5.0.2) libqt5webkit5(>=5.6.0~rc) libqt5widgets5(>=5.7.0) libqt5x11extras5(>=5.6.0) libqt5xml5(>=5.1.0) libssl1.1(>=1.1.0) libstdc++6(>=5) libx11-6 libxss1 phonon4qt5 zlib1g(>=1:1.1.4) ",
           "recomends": "kvirc(=4:5.0.1+git-7433-0df9f22f2-1) ",
           "description": "KVIrc (IRC client) modules"
+        },
+        "labplot_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/bionic/main/l/labplot/labplot_2.7.0+git7188-6a547031c-1_amd64.deb",
+          "size": "1.96_MiB ",
+          "sizebyt": "2060096",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "7.48_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "e313795676fd70ce953d4dcea61ed04a",
+          "sha256": "0c761e6e590ee7112759e0f6d21c461044078fcd491e8b3c9602386b4f5423b1",
+          "depends": "kio libc6(>=2.14) libcerf1 libcfitsio5(>=3.390~) libfftw3-double3(>=3.3.5) libgcc1(>=1:3.0) libgsl23 libgslcblas0 libhdf5-100 libkf5archive5(>=4.96.0) libkf5completion5(>=4.97.0) libkf5configcore5(>=4.97.0) libkf5configgui5(>=4.97.0) libkf5configwidgets5(>=4.96.0) libkf5coreaddons5(>=5.16.0) libkf5crash5(>=5.15.0) libkf5i18n5(>=4.97.0) libkf5iconthemes5(>=4.96.0) libkf5kiowidgets5(>=4.96.0) libkf5syntaxhighlighting5 libkf5textwidgets5(>=4.96.0) libkf5widgetsaddons5(>=4.96.0) libkf5xmlgui-bin libkf5xmlgui5(>=4.98.0) liblz4-1(>=0.0~r122) libnetcdf13(>=4.0.1) libqt5core5a(>=5.9.0~beta) libqt5gui5(>=5.7.0) libqt5network5(>=5.6.0) libqt5printsupport5(>=5.6.0) libqt5serialport5(>=5.6.0) libqt5sql5(>=5.6.0) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.6.0) libstdc++6(>=5.2) zlib1g(>=1:1.1.4) labplot-data(=2.7.0+git7188-6a547031c-1) ",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "interactive graphing and analysis of scientific data"
+        },
+        "labplotdata_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/bionic/main/l/labplot/labplot-data_2.7.0+git7188-6a547031c-1_amd64.deb",
+          "size": "5.19_MiB ",
+          "sizebyt": "5446364",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "13.82_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "1788243a4b986285fdbfe44ee1fcdc3e",
+          "sha256": "32cc2e24726431fcce5d1e2bf09d79436588c9372c2ed2624bd2c4fa28af1b33",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "data files for labplot"
         },
         "leptonicaprogs_amd64": 
         {
@@ -50472,38 +50864,38 @@
         },
         "libjbig2enc0_amd64": 
         {
-          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "28_KiB ",
-          "sizebyt": "25412",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "25448",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "73_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "3f0769cee9f7ede977ad757f71b208b2",
-          "sha256": "01199e2cc984b6eea85e3a91469613c4e5fe52d013a70cebcf56b33c560a222a",
+          "md5": "3e5a20b44d6c0e209bf991c835e711ee",
+          "sha256": "224b5d95a9e146aeb43b261122e2799fa47c381ab097260c30d936d103c015f1",
           "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "32_KiB ",
-          "sizebyt": "31048",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "31056",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "124_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "fb1a1f4d29a2c580f53aa252eae1bac6",
-          "sha256": "4743f533aacf631cf1a3aae92b3dacfa49f60c08d58bcef43948cf19d6cb2d5d",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "7c505dc6c1861c21f4293668287c5483",
+          "sha256": "5583f14e1d84db34a212866a99d019fc152ba0363f9275af06a249f4648dda6c",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib5_amd64": 
@@ -55279,6 +55671,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_i386": 
+        {
+          "packageurl": "https://notesalexp.org/bionic/main/a/apdtool/apdtool_1.0.1-1_i386.deb",
+          "size": "76_KiB ",
+          "sizebyt": "77628",
+          "version": "1.0.1-1",
+          "isize": "187_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "ef16aa45ef9401d8c56dbcfd3e4cb3b2",
+          "sha256": "83ff7d695e526974be6ed0f37c7067c8c85f452004f857040887e73936f7ad18",
+          "depends": "libc6(>=2.11) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_i386": 
         {
           "packageurl": "https://notesalexp.org/bionic/main/a/audacity/audacity_2.3.3-1_i386.deb",
@@ -55679,20 +56089,20 @@
         },
         "jbig2enc_i386": 
         {
-          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_i386.deb",
           "size": "40_KiB ",
-          "sizebyt": "39120",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "39160",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "99_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "7a2d9c98442a7ff85059c1703eb30987",
-          "sha256": "0dbbdb7263799b75908e3a75bc59478c2512720e6ef8dc173ce18b40a55eb701",
+          "md5": "73e67c6651e02d3dcd64aee8ff57d783",
+          "sha256": "6500a66db669d372a670d176102a61b6124c448bf765a8cf785e626d9da75f4e",
           "depends": "python libc6(>=2.8) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_i386": 
@@ -55846,38 +56256,38 @@
         },
         "libjbig2enc0_i386": 
         {
-          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_i386.deb",
           "size": "28_KiB ",
-          "sizebyt": "26904",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "26928",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "72_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "f540b787dfeaf7136c7cf6e4cd04a5a2",
-          "sha256": "b5e92fc4b8f6577f16515de5357e0223d178974dd5579782e0f5f3da5121bfee",
+          "md5": "553b688bb119432ce67073ad80f870af",
+          "sha256": "941bdf4dba63f84f2311dbde447b5b7775076d4f0330aeaefc6bc4dc9af5ba78",
           "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_i386": 
         {
-          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/bionic/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_i386.deb",
           "size": "32_KiB ",
-          "sizebyt": "32604",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "32632",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "115_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "f5908282dd0970de2a40022a640e71b6",
-          "sha256": "4faa7956e6dd9db835341b8869bad4a670977c85e43c4d2133a0c9e24962af3d",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "e39aec49536c9f9648b7f29f0385c54b",
+          "sha256": "e5ecd626b89eb72ee55ee2076d41499ce2af9c6af58677eb7383662c161d0e44",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib5_i386": 
@@ -56616,9 +57026,6 @@
           "md5": "92ca66ad34fc0b576d8fad73659c5330",
           "sha256": "160b73da6733685abf5468c24358728ea061a905480f8eda73f9b50d03316983",
           "depends": "libavcodec58(>=7:4.0) libavutil56(>=7:4.0) libc6(>=2.17) libgcc1(>=1:3.0) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.9) libssl1.1(>=1.1.0) libstdc++6(>=4.1.1) ",
-          "source": "chiaki",
-          "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "clementine_amd64": 
@@ -56964,9 +57371,6 @@
           "md5": "f9a928963d2e149910d8b495917d3bc4",
           "sha256": "7741c83d343e8e6c168ea000b6feeebb27a9275c6c6f94fb9df5e1819da2a609",
           "depends": "python libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
-          "source": "jbig2enc",
-          "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_amd64": 
@@ -57081,9 +57485,6 @@
           "md5": "49a81c351e7a008eb1d69065e542d84b",
           "sha256": "27193a13f82b1ec05feba0c321a0280261ac8d4a9bbbf4432a8ebfed76807267",
           "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
-          "source": "jbig2enc",
-          "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_amd64": 
@@ -57099,9 +57500,6 @@
           "md5": "a05115c9d6914364b4bd40eaa079ccdb",
           "sha256": "886ab22e07dab9f136b3a2311e94f50702b7744213a42a0975b357804a2434ce",
           "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
-          "source": "jbig2enc",
-          "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib5_amd64": 
@@ -61808,9 +62206,6 @@
           "md5": "63dd6895ab088c7adaf72f2012747530",
           "sha256": "a454aa3828c4ed331ea6c6dc8c59d7929c509b4a1ebdce4eea3581f7c74dbb70",
           "depends": "libavcodec58(>=7:4.0) libavutil56(>=7:4.0) libc6(>=2.28) libgcc1(>=1:4.2) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.9) libssl1.1(>=1.1.0) libstdc++6(>=4.1.1) ",
-          "source": "chiaki",
-          "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "clementine_i386": 
@@ -62156,9 +62551,6 @@
           "md5": "517a115bcda057d2d0a479e072fd42e7",
           "sha256": "a79b750425b18dec9523b176c5ffef03088969650e2f369719f1bc2cd44246d9",
           "depends": "python libc6(>=2.8) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
-          "source": "jbig2enc",
-          "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_i386": 
@@ -62273,9 +62665,6 @@
           "md5": "a58fac0334af24d1bda5c5fc2120fbcd",
           "sha256": "1bc8e89ae163c19d68c0e56cbfd6faedbb7f97b7af86efc656e6f0d0200d0278",
           "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
-          "source": "jbig2enc",
-          "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_i386": 
@@ -62291,9 +62680,6 @@
           "md5": "58fbee414a20470af53bd56b0295b580",
           "sha256": "943a0fa928b074a34988f9aa2e93e388c32d3898b377317137afc43c2b0b4cee",
           "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
-          "source": "jbig2enc",
-          "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib5_i386": 
@@ -62860,6 +63246,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/eoan/main/a/apdtool/apdtool_1.0.1-1_amd64.deb",
+          "size": "72_KiB ",
+          "sizebyt": "71788",
+          "version": "1.0.1-1",
+          "isize": "176_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "a03efa6853f86f1c5431802872b159a2",
+          "sha256": "868ae8905ed07845fe11ebcb0ebb1b89bf939e335199bc22ab4874b9d27ac1e2",
+          "depends": "libc6(>=2.14) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_amd64": 
         {
           "packageurl": "https://notesalexp.org/eoan/main/a/audacity/audacity_2.3.3-1_amd64.deb",
@@ -62937,20 +63341,20 @@
         },
         "chiaki_amd64": 
         {
-          "packageurl": "https://notesalexp.org/eoan/main/c/chiaki/chiaki_1.1.3-1_amd64.deb",
-          "size": "276_KiB ",
-          "sizebyt": "281236",
-          "version": "1.1.3-1",
-          "isize": "800_KiB ",
+          "packageurl": "https://notesalexp.org/eoan/main/c/chiaki/chiaki_1.2.0-1_amd64.deb",
+          "size": "284_KiB ",
+          "sizebyt": "290024",
+          "version": "1.2.0-1",
+          "isize": "832_KiB ",
           "section": "games",
           "priority": "optional",
           "homepage": "https://github.com/thestr4ng3r/chiaki",
-          "md5": "e238116244124532f9cb84135048b2b3",
-          "sha256": "dc41a96b126e90418ac06f34612aa539974c20ea7904f3a36d4ac01131159c32",
+          "md5": "2a2737d66759cc86a3df7133077c0ce9",
+          "sha256": "48aa3a456027929268ae161384a8d3e526c56bc73dbc9052d13d03dc2f0ee633",
           "depends": "libavcodec58(>=7:4.0) libavutil56(>=7:4.0) libc6(>=2.17) libgcc1(>=1:3.0) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.10) libssl1.1(>=1.1.0) libstdc++6(>=4.1.1) ",
           "source": "chiaki",
           "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
+          "sourcefile": "chiaki_1.2.0-1.debian.tar.xz chiaki_1.2.0-1.dsc chiaki_1.2.0.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "clementine_amd64": 
@@ -63267,20 +63671,20 @@
         },
         "jbig2enc_amd64": 
         {
-          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "40_KiB ",
-          "sizebyt": "38188",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "38236",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "104_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "fd73c85b4c3eafec9ebe2f63bae7d934",
-          "sha256": "378a49954a4ab2a0968d73dbb7ea7a104d479155a431f109777fd704360caf83",
+          "md5": "31e6f2754f07375efff1736344b4ec7a",
+          "sha256": "ce3fa050c20f0de8d178411385a2453ccf8159c07d9259554706585e5f9d38ff",
           "depends": "python libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_amd64": 
@@ -63340,6 +63744,24 @@
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "KVIrc (IRC client) modules"
         },
+        "labplot_amd64": 
+        {
+          "packageurl": "https://notesalexp.org/eoan/main/l/labplot/labplot_2.7.0+git7188-6a547031c-1_amd64.deb",
+          "size": "2.10_MiB ",
+          "sizebyt": "2201780",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "8.14_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "47d85171d48e13ef8be2832c38fb25dd",
+          "sha256": "833829a86a2b2e6c6e6ab97fbe555647e7de9a52dcab52e4ceadd354be3e03a8",
+          "depends": "kio libc6(>=2.29) libcerf1 libcfitsio8(>=3.470~) libfftw3-double3(>=3.3.5) libgcc1(>=1:3.0) libgsl23(>=2.5) libgslcblas0(>=2.4) libhdf5-103 libkf5archive5(>=4.96.0) libkf5completion5(>=4.97.0) libkf5configcore5(>=4.97.0) libkf5configgui5(>=4.97.0) libkf5configwidgets5(>=4.96.0) libkf5coreaddons5(>=5.16.0) libkf5crash5(>=5.15.0) libkf5i18n5(>=4.97.0) libkf5iconthemes5(>=4.96.0) libkf5kiowidgets5(>=4.96.0) libkf5syntaxhighlighting5 libkf5textwidgets5(>=4.96.0) libkf5widgetsaddons5(>=4.96.0) libkf5xmlgui-bin libkf5xmlgui5(>=4.98.0) liblz4-1(>=0.0~r122) libnetcdf13(>=4.0.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.7.0)|libqt5gui5-gles(>=5.7.0) libqt5network5(>=5.6.0) libqt5printsupport5(>=5.6.0) libqt5serialport5(>=5.6.0) libqt5sql5(>=5.6.0) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.11.0~rc1) libstdc++6(>=9) zlib1g(>=1:1.1.4) labplot-data(=2.7.0+git7188-6a547031c-1) ",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "interactive graphing and analysis of scientific data"
+        },
         "libeiskaltdcpp24_amd64": 
         {
           "packageurl": "https://notesalexp.org/eoan/main/e/eiskaltdcpp-devel/libeiskaltdcpp2.4_2.2.10+git5483-89348ec7-1_amd64.deb",
@@ -63384,38 +63806,38 @@
         },
         "libjbig2enc0_amd64": 
         {
-          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "28_KiB ",
-          "sizebyt": "25844",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "77_KiB ",
+          "sizebyt": "25892",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "78_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "5e31fd6aa04ddd5e5842b69c927ce7a0",
-          "sha256": "20260e90eb0b064ce780732bb188d156d5e5bf96374aa13400cccd32e1ac3929",
+          "md5": "0b4e8db1805757a35b18d59d0dca4274",
+          "sha256": "9840bc750389f0a77b5450471afc5a22c4bd440ceed72ebdc51d191af19737dd",
           "depends": "libc6(>=2.14) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_amd64": 
         {
-          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_amd64.deb",
+          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_amd64.deb",
           "size": "32_KiB ",
-          "sizebyt": "31684",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "31704",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "132_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "847477d40db31b25d2534fcf9141064f",
-          "sha256": "20e1d18deb548e9abeffe52743e10854bfe9430d6b457cf0589a1e38cd028588",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "b60b01612260b2ce1525e3b513608710",
+          "sha256": "019a0542e9df966bb17daa1401cd07922046571be83a4b408195a9c34357bc00",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib5_amd64": 
@@ -64269,6 +64691,23 @@
           "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "Data files for KVIrc"
+        },
+        "labplotdata_all": 
+        {
+          "packageurl": "https://notesalexp.org/eoan/main/l/labplot/labplot-data_2.7.0+git7188-6a547031c-1_all.deb",
+          "size": "5.19_MiB ",
+          "sizebyt": "5445596",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "13.82_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "163da6e5cb14885302c1a286553a6867",
+          "sha256": "5813600183712916337fc757c6d65c6d02a1bba8d581cd677d6de21a98fee68f",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "data files for labplot"
         },
         "librecaddata_all": 
         {
@@ -67986,6 +68425,24 @@
           "sourcefile": "aegisub_3.2.3~git7896-85f711fcc-1.debian.tar.xz aegisub_3.2.3~git7896-85f711fcc-1.dsc aegisub_3.2.3~git7896-85f711fcc.orig.tar.xz ",
           "description": "advanced subtitle editor"
         },
+        "apdtool_i386": 
+        {
+          "packageurl": "https://notesalexp.org/eoan/main/a/apdtool/apdtool_1.0.1-1_i386.deb",
+          "size": "80_KiB ",
+          "sizebyt": "78096",
+          "version": "1.0.1-1",
+          "isize": "195_KiB ",
+          "section": "graphics",
+          "priority": "optional",
+          "homepage": "http://azsky2.html.xdomain.jp/",
+          "md5": "0dda8f97ba325b5ceb3991280a92744e",
+          "sha256": "4cc0e2f74024c7a612c758e94e79e07fd057257b4f0482889c036b9bb9239171",
+          "depends": "libc6(>=2.11) libpng16-16(>=1.6.2-1) zlib1g(>=1:1.1.4) ",
+          "source": "apdtool",
+          "sourceurl": "https://notesalexp.org/source/main/a/apdtool",
+          "sourcefile": "apdtool_1.0.1-1.debian.tar.xz apdtool_1.0.1-1.dsc apdtool_1.0.1.orig.tar.bz2 ",
+          "description": "apd and adw file tool"
+        },
         "audacity_i386": 
         {
           "packageurl": "https://notesalexp.org/eoan/main/a/audacity/audacity_2.3.3-1_i386.deb",
@@ -68063,20 +68520,20 @@
         },
         "chiaki_i386": 
         {
-          "packageurl": "https://notesalexp.org/eoan/main/c/chiaki/chiaki_1.1.3-1_i386.deb",
-          "size": "304_KiB ",
-          "sizebyt": "311224",
-          "version": "1.1.3-1",
-          "isize": "867_KiB ",
+          "packageurl": "https://notesalexp.org/eoan/main/c/chiaki/chiaki_1.2.0-1_i386.deb",
+          "size": "316_KiB ",
+          "sizebyt": "320360",
+          "version": "1.2.0-1",
+          "isize": "911_KiB ",
           "section": "games",
           "priority": "optional",
           "homepage": "https://github.com/thestr4ng3r/chiaki",
-          "md5": "691045b891c8d4e825cd0a0ef330c0ac",
-          "sha256": "52db1ade19799920f32315ebb629141526daf8012d193034f6f863e7fecffbc7",
+          "md5": "1fc3061aeae2343b909b7b657c058837",
+          "sha256": "29eeab34ca03a27a9e1e6033ec7a2b4201c65bc31b1924b38962c83d9f4193a5",
           "depends": "libavcodec58(>=7:4.0) libavutil56(>=7:4.0) libc6(>=2.28) libgcc1(>=1:4.2) libopus0(>=1.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.6.0~beta)|libqt5gui5-gles(>=5.6.0~beta) libqt5multimedia5(>=5.6.0~beta) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.4.0) libsdl2-2.0-0(>=2.0.10) libssl1.1(>=1.1.0) libstdc++6(>=4.1.1) ",
           "source": "chiaki",
           "sourceurl": "https://notesalexp.org/source/main/c/chiaki",
-          "sourcefile": "chiaki_1.1.3-1.debian.tar.xz chiaki_1.1.3-1.dsc chiaki_1.1.3.orig.tar.xz ",
+          "sourcefile": "chiaki_1.2.0-1.debian.tar.xz chiaki_1.2.0-1.dsc chiaki_1.2.0.orig.tar.xz ",
           "description": "free and open source PS4 remote play client"
         },
         "clementine_i386": 
@@ -68393,20 +68850,20 @@
         },
         "jbig2enc_i386": 
         {
-          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/jbig2enc_0.29+git57-ea6a40a-2_i386.deb",
           "size": "40_KiB ",
-          "sizebyt": "40120",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "40148",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "103_KiB ",
           "section": "text",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "93f35491709b25f70b69fefe6506cd2f",
-          "sha256": "ad37a1c88388875f9fdac40ff9eecdafb73e00d36e383447dc89a121a68509a1",
+          "md5": "593e85725ff4f1d68b6cd27eb6bced5f",
+          "sha256": "cbbe0ee281a81bb7ef5468b727715d97ed78a84fa5c407128087b68978841921",
           "depends": "python libc6(>=2.8) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder"
         },
         "keepassxc_i386": 
@@ -68466,6 +68923,24 @@
           "sourcefile": "kvirc_5.0.1+git-7445-7072354b5-1.debian.tar.xz kvirc_5.0.1+git-7445-7072354b5-1.dsc kvirc_5.0.1+git-7445-7072354b5.orig.tar.xz ",
           "description": "KVIrc (IRC client) modules"
         },
+        "labplot_i386": 
+        {
+          "packageurl": "https://notesalexp.org/eoan/main/l/labplot/labplot_2.7.0+git7188-6a547031c-1_i386.deb",
+          "size": "2.19_MiB ",
+          "sizebyt": "2303956",
+          "version": "2.7.0+git7188-6a547031c-1",
+          "isize": "8.15_MiB ",
+          "section": "math",
+          "priority": "optional",
+          "homepage": "https://edu.kde.org/applications/science/labplot/",
+          "md5": "9a3837fae2b8cb3c1f0f07129c270e71",
+          "sha256": "cfa76a6b40cde4758c5611cb393f40361dc7e9429cb2ff78e227745e1a26de6f",
+          "depends": "kio libc6(>=2.29) libcerf1 libcfitsio8(>=3.470~) libfftw3-double3(>=3.3.5) libgcc1(>=1:4.2) libgsl23(>=2.5) libgslcblas0(>=2.4) libhdf5-103 libkf5archive5(>=4.96.0) libkf5completion5(>=4.97.0) libkf5configcore5(>=4.97.0) libkf5configgui5(>=4.97.0) libkf5configwidgets5(>=4.96.0) libkf5coreaddons5(>=5.16.0) libkf5crash5(>=5.15.0) libkf5i18n5(>=4.97.0) libkf5iconthemes5(>=4.96.0) libkf5kiowidgets5(>=4.96.0) libkf5syntaxhighlighting5 libkf5textwidgets5(>=4.96.0) libkf5widgetsaddons5(>=4.96.0) libkf5xmlgui-bin libkf5xmlgui5(>=4.98.0) liblz4-1(>=0.0~r122) libnetcdf13(>=4.0.1) libqt5core5a(>=5.12.2) libqt5gui5(>=5.7.0)|libqt5gui5-gles(>=5.7.0) libqt5network5(>=5.6.0) libqt5printsupport5(>=5.6.0) libqt5serialport5(>=5.6.0) libqt5sql5(>=5.6.0) libqt5svg5(>=5.6.0~beta) libqt5widgets5(>=5.11.0~rc1) libstdc++6(>=9) zlib1g(>=1:1.1.4) labplot-data(=2.7.0+git7188-6a547031c-1) ",
+          "source": "labplot",
+          "sourceurl": "https://notesalexp.org/source/main/l/labplot",
+          "sourcefile": "labplot_2.7.0+git7188-6a547031c-1.debian.tar.xz labplot_2.7.0+git7188-6a547031c-1.dsc labplot_2.7.0+git7188-6a547031c.orig.tar.xz ",
+          "description": "interactive graphing and analysis of scientific data"
+        },
         "libeiskaltdcpp24_i386": 
         {
           "packageurl": "https://notesalexp.org/eoan/main/e/eiskaltdcpp-devel/libeiskaltdcpp2.4_2.2.10+git5483-89348ec7-1_i386.deb",
@@ -68510,38 +68985,38 @@
         },
         "libjbig2enc0_i386": 
         {
-          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/libjbig2enc0_0.29+git57-ea6a40a-2_i386.deb",
           "size": "28_KiB ",
-          "sizebyt": "27576",
-          "version": "0.29+git57-ea6a40a-1",
-          "isize": "80_KiB ",
+          "sizebyt": "27604",
+          "version": "0.29+git57-ea6a40a-2",
+          "isize": "81_KiB ",
           "section": "libs",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "b37bacd783204c5489b703c3e6437d83",
-          "sha256": "0d29e36a0220f87efe9f28fb17fdd6af4849d92e4905d06d0d14ce8e9782b41a",
+          "md5": "db9b7b5f34cee4e5f8727628476a97bc",
+          "sha256": "00e067a00174246d0d67fc9b76ec115a25b8d6bb6ddb9641fd93a08988bdd489",
           "depends": "libc6(>=2.4) libgcc1(>=1:3.0) liblept5 libstdc++6(>=5) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (shared library)"
         },
         "libjbig2encdev_i386": 
         {
-          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-1_i386.deb",
+          "packageurl": "https://notesalexp.org/eoan/main/j/jbig2enc/libjbig2enc-dev_0.29+git57-ea6a40a-2_i386.deb",
           "size": "36_KiB ",
-          "sizebyt": "33748",
-          "version": "0.29+git57-ea6a40a-1",
+          "sizebyt": "33772",
+          "version": "0.29+git57-ea6a40a-2",
           "isize": "121_KiB ",
           "section": "libdevel",
           "priority": "optional",
           "homepage": "https://github.com/agl/jbig2enc",
-          "md5": "4ca40f991ebd8cca89cd810ac2694109",
-          "sha256": "2852438ea5845615d4dcc7b0eaf707a6dee0ce2644dac05dbdbe9d0d212bf6f2",
-          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-1) ",
+          "md5": "6b2a740b8362cb827264d2dfe0af9500",
+          "sha256": "9f7221d5cbdcfbbbc39794dc5f8e967d63040acf5599fd743369a7e19142a5ea",
+          "depends": "libjbig2enc0(=0.29+git57-ea6a40a-2) ",
           "source": "jbig2enc",
           "sourceurl": "https://notesalexp.org/source/main/j/jbig2enc",
-          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-1.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-1.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
+          "sourcefile": "jbig2enc_0.29+git57-ea6a40a-2.debian.tar.xz jbig2enc_0.29+git57-ea6a40a-2.dsc jbig2enc_0.29+git57-ea6a40a.orig.tar.xz ",
           "description": "JBIG2 encoder (development files)"
         },
         "libkvilib5_i386": 
