@@ -1654,6 +1654,9 @@
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/chiaki/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/clementine/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/deadbeef/</loc>
     </url>
     <url>
@@ -2405,6 +2408,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/clementine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/deadbeef/</loc>
@@ -17264,6 +17270,21 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2020/04/26/20200426/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/05/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/05/15/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/05/15/20200515/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/05/26/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/05/26/20200526/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
