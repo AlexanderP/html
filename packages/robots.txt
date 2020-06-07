@@ -12,5 +12,4 @@ Disallow: /sid
 Disallow: /trusty
 Disallow: /xenial
 Disallow: /bionic
-Disallow: /disco
 Disallow: /eoan
