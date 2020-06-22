@@ -1657,6 +1657,12 @@
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/apdtool/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/audacity/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/audacity-data/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/azpainter/</loc>
     </url>
     <url>
@@ -2414,6 +2420,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/apdtool/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/audacity/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/audacity-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/azpainter/</loc>
@@ -6433,6 +6445,12 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/apdtool/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/audacity/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/audacity-data/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/azpainter/</loc>
     </url>
     <url>
@@ -6568,6 +6586,12 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/libslvs1-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/libtesseract4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/libtesseract-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/libvacuumutils37/</loc>
     </url>
     <url>
@@ -6646,6 +6670,12 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/sz81/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/tesseract-ocr/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/tesseract-ocr-all/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/uget/</loc>
     </url>
     <url>
@@ -6659,9 +6689,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/znotes/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/focal/i386/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/</loc>
