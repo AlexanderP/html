@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | File list of package freecad-daily_0.18.3+git21713-ffe957cef-1_amd64.deb </title>
+    <title>notesalexp.org | File list of package freecad-daily_0.18.3+git21832-31b1ad874-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -113,6 +113,7 @@
 /usr/lib/freecad-daily/Mod/Arch/importIFC.py
 /usr/lib/freecad-daily/Mod/Arch/importIFCHelper.py
 /usr/lib/freecad-daily/Mod/Arch/importIFClegacy.py
+/usr/lib/freecad-daily/Mod/Arch/importIFCmulticore.py
 /usr/lib/freecad-daily/Mod/Arch/importJSON.py
 /usr/lib/freecad-daily/Mod/Arch/importOBJ.py
 /usr/lib/freecad-daily/Mod/Arch/importSH3D.py
@@ -356,6 +357,7 @@
 /usr/lib/freecad-daily/Mod/Fem/Init.py
 /usr/lib/freecad-daily/Mod/Fem/InitGui.py
 /usr/lib/freecad-daily/Mod/Fem/ObjectsFem.py
+/usr/lib/freecad-daily/Mod/Fem/Resources/ui/ConstraintSectionPrint.ui
 /usr/lib/freecad-daily/Mod/Fem/Resources/ui/ConstraintTie.ui
 /usr/lib/freecad-daily/Mod/Fem/Resources/ui/ElectrostaticPotential.ui
 /usr/lib/freecad-daily/Mod/Fem/Resources/ui/ElementFluid1D.ui
@@ -381,10 +383,15 @@
 /usr/lib/freecad-daily/Mod/Fem/femcommands/commands.py
 /usr/lib/freecad-daily/Mod/Fem/femcommands/manager.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/__init__.py
-/usr/lib/freecad-daily/Mod/Fem/femexamples/boxanalysis.py
-/usr/lib/freecad-daily/Mod/Fem/femexamples/ccx_cantilever_std.py
+/usr/lib/freecad-daily/Mod/Fem/femexamples/boxanalysis_frequency.py
+/usr/lib/freecad-daily/Mod/Fem/femexamples/boxanalysis_static.py
+/usr/lib/freecad-daily/Mod/Fem/femexamples/ccx_cantilever_faceload.py
+/usr/lib/freecad-daily/Mod/Fem/femexamples/ccx_cantilever_hexa20faceload.py
+/usr/lib/freecad-daily/Mod/Fem/femexamples/ccx_cantilever_nodeload.py
+/usr/lib/freecad-daily/Mod/Fem/femexamples/ccx_cantilever_prescribeddisplacement.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/constraint_contact_shell_shell.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/constraint_contact_solid_solid.py
+/usr/lib/freecad-daily/Mod/Fem/femexamples/constraint_section_print.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/constraint_tie.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/manager.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/material_multiple_twoboxes.py
@@ -399,6 +406,7 @@
 /usr/lib/freecad-daily/Mod/Fem/femexamples/meshes/mesh_contact_tube_tube_tria3.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/meshes/mesh_platewithhole_tetra10.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/meshes/mesh_rc_wall_2d_tria6.py
+/usr/lib/freecad-daily/Mod/Fem/femexamples/meshes/mesh_section_print_tetra10.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/meshes/mesh_thermomech_bimetall_tetra10.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/meshes/mesh_thermomech_flow1d_seg3.py
 /usr/lib/freecad-daily/Mod/Fem/femexamples/meshes/mesh_thermomech_spine_tetra10.py
@@ -433,10 +441,12 @@
 /usr/lib/freecad-daily/Mod/Fem/femmesh/meshtools.py
 /usr/lib/freecad-daily/Mod/Fem/femobjects/__init__.py
 /usr/lib/freecad-daily/Mod/Fem/femobjects/base_fempythonobject.py
+/usr/lib/freecad-daily/Mod/Fem/femobjects/constant_vacuumpermittivity.py
 /usr/lib/freecad-daily/Mod/Fem/femobjects/constraint_bodyheatsource.py
 /usr/lib/freecad-daily/Mod/Fem/femobjects/constraint_electrostaticpotential.py
 /usr/lib/freecad-daily/Mod/Fem/femobjects/constraint_flowvelocity.py
 /usr/lib/freecad-daily/Mod/Fem/femobjects/constraint_initialflowvelocity.py
+/usr/lib/freecad-daily/Mod/Fem/femobjects/constraint_sectionprint.py
 /usr/lib/freecad-daily/Mod/Fem/femobjects/constraint_selfweight.py
 /usr/lib/freecad-daily/Mod/Fem/femobjects/constraint_tie.py
 /usr/lib/freecad-daily/Mod/Fem/femobjects/element_fluid1D.py
@@ -467,7 +477,7 @@
 /usr/lib/freecad-daily/Mod/Fem/femsolver/elmer/equations/electrostatic.py
 /usr/lib/freecad-daily/Mod/Fem/femsolver/elmer/equations/equation.py
 /usr/lib/freecad-daily/Mod/Fem/femsolver/elmer/equations/flow.py
-/usr/lib/freecad-daily/Mod/Fem/femsolver/elmer/equations/fluxsolver.py
+/usr/lib/freecad-daily/Mod/Fem/femsolver/elmer/equations/flux.py
 /usr/lib/freecad-daily/Mod/Fem/femsolver/elmer/equations/heat.py
 /usr/lib/freecad-daily/Mod/Fem/femsolver/elmer/equations/linear.py
 /usr/lib/freecad-daily/Mod/Fem/femsolver/elmer/equations/nonlinear.py
@@ -495,6 +505,7 @@
 /usr/lib/freecad-daily/Mod/Fem/femtaskpanels/task_constraint_electrostaticpotential.py
 /usr/lib/freecad-daily/Mod/Fem/femtaskpanels/task_constraint_flowvelocity.py
 /usr/lib/freecad-daily/Mod/Fem/femtaskpanels/task_constraint_initialflowvelocity.py
+/usr/lib/freecad-daily/Mod/Fem/femtaskpanels/task_constraint_sectionprint.py
 /usr/lib/freecad-daily/Mod/Fem/femtaskpanels/task_constraint_tie.py
 /usr/lib/freecad-daily/Mod/Fem/femtaskpanels/task_element_fluid1D.py
 /usr/lib/freecad-daily/Mod/Fem/femtaskpanels/task_element_geometry1D.py
@@ -519,7 +530,8 @@
 /usr/lib/freecad-daily/Mod/Fem/femtest/app/test_object.py
 /usr/lib/freecad-daily/Mod/Fem/femtest/app/test_open.py
 /usr/lib/freecad-daily/Mod/Fem/femtest/app/test_result.py
-/usr/lib/freecad-daily/Mod/Fem/femtest/app/test_solverframework.py
+/usr/lib/freecad-daily/Mod/Fem/femtest/app/test_solver_calculix.py
+/usr/lib/freecad-daily/Mod/Fem/femtest/app/test_solver_elmer.py
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/__init__.py
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/Flow1D_thermomech.FCStd
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/Flow1D_thermomech.dat
@@ -533,6 +545,7 @@
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/constraint_contact_shell_shell.inp
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/constraint_contact_solid_solid.FCStd
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/constraint_contact_solid_solid.inp
+/usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/constraint_sectionprint.inp
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/constraint_tie.inp
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/cube.FCStd
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/cube_frequency.FCStd
@@ -555,7 +568,9 @@
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/ccx/thermomech_bimetall.inp
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/elmer/ELMERSOLVER_STARTINFO
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/elmer/__init__.py
-/usr/lib/freecad-daily/Mod/Fem/femtest/data/elmer/case.sif
+/usr/lib/freecad-daily/Mod/Fem/femtest/data/elmer/case_mm.sif
+/usr/lib/freecad-daily/Mod/Fem/femtest/data/elmer/elmer_ccxcanti_faceload_mm.sif
+/usr/lib/freecad-daily/Mod/Fem/femtest/data/elmer/elmer_ccxcanti_nodeload_mm.sif
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/elmer/group_mesh.geo
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/mesh/__init__.py
 /usr/lib/freecad-daily/Mod/Fem/femtest/data/mesh/tetra10_mesh.inp
@@ -582,10 +597,12 @@
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/__init__.py
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_base_femconstraint.py
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_base_femobject.py
+/usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_constant_vacuumpermittivity.py
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_constraint_bodyheatsource.py
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_constraint_electrostaticpotential.py
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_constraint_initialflowvelocity.py
+/usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_constraint_sectionprint.py
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_constraint_selfweight.py
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_constraint_tie.py
 /usr/lib/freecad-daily/Mod/Fem/femviewprovider/view_element_fluid1D.py
