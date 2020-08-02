@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package freecad-daily_0.18.3+git21713-ffe957cef-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package freecad-daily_0.18.3+git22164-f2a9f712e-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,691 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package freecad-daily in bullseye of architecture amd64</h5>
-<div class="highlight"><pre><span></span>freecad-daily (0.18.3+git21713-ffe957cef-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>freecad-daily (0.18.3+git22164-f2a9f712e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/FreeCAD/FreeCAD.git
+  * Branch: master
+  * Commit: f2a9f712e8d68ee2393d0fe748c02096c4148a32
+  * Date: 1596052384
+  * git changelog:
+  *  f2a9f712e - [TD]Correct font size on PDF export
+  *  60d73e0e8 - Part: Attacher intersection calculation fix
+  *  17f16650c - flatmesh: [skip ci] implement converters from Eigen3
+    matrices to Python
+  *  a2926df47 - MeshPart: [skip ci] fix segmentation fault in flatmesh
+    when built with boost.python
+  *  980ecc87a - [TD]Dim blocks selection of geometry
+  *  cd5341001 - remove superfluous includes of iostream, use iosfwd
+    instead
+  *  4329ccd1e - [TechDraw] Add context to zh_CN README file for
+    description changes
+  *  0190e8d27 - [TechDraw] Add all sizes (landscape/A3/A4 portrait)
+    template PRoC files
+  *  d39b4dfcd - [TechDraw] Delete v0.001 of all landscape PRoC template
+    files
+  *  767b2787c - LGTM: [skip ci] remove some obsolete FIXME comments
+    from source code
+  *  ebaac6377 - Arch IFC import, add simplificated method to get pset
+    properties
+  *  5a2d0633b - LGTM: [skip ci]: Ambiguously signed bit-field member
+    Until C++11 bit fields with integral types should have explicit
+    signedness only. It is implementation specific whether an -typed bit
+    field is signed, so there could be unexpected sign extension or
+    overflow.
+  *  244d7aae4 - LGTM: [skip ci] fix: Inconsistent definition of copy
+    constructor and assignment ('Rule of Two')
+  *  3b0eeb63e - LGTM: [skip ci] fix: Inconsistent definition of copy
+    constructor and assignment ('Rule of Two') Remove user-defined copy
+    constructor of Exception classes without assignment operator
+  *  4dd32ce14 - LGTM: [skip ci] fix: Missing header guard
+  *  44f42a8e2 - LGTM: [skip ci] fix: Declaration hides parameter A
+    local variable hides a parameter. This may be confusing. Consider
+    renaming one of them.
+  *  e727cd375 - also avoid leading newlines
+  *  d7ee728be - assure the translation
+  *  5e6e03b6f - improve coding style
+  *  2b33e7776 - [TD] get rid of trailing newlines
+  *  21becb4e7 - [TD]remove obsolete QPointF (LGTM)
+  *  cb90b6a11 - [TD]remove obsolete QGraphicRectItem (LGTM)
+  *  04f184230 - [TD]remove obsolete QGraphicsSVGItem (LGTM)
+  *  9dac347fc - [TD]fix Dim selection fails to clear prev selection
+  *  a6df94e37 - FEM: show result, make it possible to use the menu and
+    icon if there is a pure result object in a document.
+  *  48f908574 - LGTM: [skip ci] fix: Local variable hides global
+    variable A local variable or parameter that hides a global variable
+    of the same name. This may be confusing. Consider renaming one of
+    the variables.
+  *  8dc95874a - [TD] add 2 shortcuts for dimensions
+  *  dc65b055e - LGTM: [skip ci] fix: Empty branch of conditional An
+    empty block after a conditional can be a sign of an omission and can
+    decrease maintainability of the code. Such blocks should contain an
+    explanatory comment to aid future maintainers.
+  *  8dac7e466 - [TD]fix misaligned PAT hatch on section
+  *  584a1bf44 - LGTM: [skip ci] fix: Resource not released in
+    destructor
+  *  16edad7af - LGTM: [skip ci] fix: Accidental rethrow
+  *  d300d148c - LGTM: [skip ci] fix: Function declared in block
+  *  9a1a06c94 - LGTM: [skip ci] fix: Duplicate include guard
+  *  eff0655d8 - LGTM: [skip ci] fix: Wrong type of arguments to
+    formatting function
+  *  47d570716 - LGTM: [skip ci] fix: Non-virtual destructor in base
+    class
+  *  d5d7d65bf - LGTM: [skip ci] fix: Large object passed by value
+  *  75ba0b8a7 - Add Mark property to ArchRebar object
+  *  752f84046 - Crowdin: Edits based on feedback from translators [skip-
+    ci]
+  *  3c35504de - Arch: improve import and export IFC preferences pages
+  *  6ab4bb5a1 - smesh: [skip ci] port Netgen plugin to v6.2
+  *  690652a57 - coverity cid 192591 (fix typo)
+  *  0491fa4ab - coverity issue cid 305102
+  *  1911453aa - Arch: touch Axis when key property change
+  *  f20ab1765 - Fix Crowdin typos + trim superfluous whitespace [skip-
+    ci]
+  *  4851947bc - Remove unnecessary pre-processor directive
+  *  0b1af7c83 -     Add App::Link support to Cloud module     ONLY
+    enabled if the Cloud Module is compiled into FreeCAD     ALL files
+    must be saved into a Cloud Based storage     Add a Signal to the
+    PropertyLink to enable support of external storage     Put the
+    Assembly Document as active document
+  *  cb2099aa6 - Part: optimize ViewProviderPartExt::getNormals
+  *  87fcebd53 - smesh: [skip ci] port Netgen plugin to v6.2
+  *  3e86f98d7 - smesh: [skip ci] port Netgen plugin to v6.2
+  *  5c6de6dd1 - Path: Area based unified projection implementation
+  *  886d9656f - FEM: solver frame work, beside dir fix
+  *  d30862b7b - FEM: unit tests, fix z88 for installed FC
+  *  d30e4a508 - Arch: import ifc, use the new layer make command since
+    the dereciated one does not create layers on import
+  *  f32248997 - Coverity: [skip ci] Dereference before null check
+    Remove logically dead code because 'pcActiveBody' cannot be null at
+    this stage
+  *  5584c36c1 - Coverity: [skip ci] Dereference before null check
+  *  617668a7f - Coverity: [skip ci] Bad use of null-like value
+  *  6b4a5066a - FEM: calculix solver, fix result mesh purging on
+    multiple result obj.
+  *  e3e378125 - FEM: unit tests, add tests for cantilever examples
+  *  103f87ca6 - FEM: unit tests, add test for node load example
+  *  b51f966c2 - FEM: unit tests, add test for edge load calculation
+    example
+  *  052448e61 - FEM: examples, add node load calculation example
+  *  2306afbb5 - FEM: examples, add edge load calculation on twisted
+    hollow profile
+  *  6291471e0 - FEM: fix unit test after coverity test
+  *  c47eaa36e - FEM: coverity, some left outs
+  *  15495db5d - FEM: coverity, control flow issues
+  *  a10f19f0a - FEM: coverity, Null pointer dereferences
+  *  33f716d78 - FEM: elmer and z88 writer, add input files directory
+    print
+  *  ff8517752 - FEM: elmer tasks, better handling of not available
+    elmer env variables
+  *  5b6755989 - FEM: examples, selfweight elmer, change solver
+    attribute
+  *  b25dee58d - Coverity: Uninitialized scalar/pointer field
+  *  67bf5445b - Coverity: Unchecked return value
+  *  b480a207c - Coverity: Uncaught exception
+  *  aff2e5a76 - Gui: Optimize ViewProviderDocumentObject::getDocument()
+  *  51585ac4a - Coverity: Not restoring ostream format
+  *  83cc9e958 - Coverity: Useless call
+  *  45b755a59 - Coverity: Unchecked dynamic_cast
+  *  1a16cde1f - Coverity: Structurally/Logically dead code
+  *  410e65ce2 - Coverity: Suppress false-positives
+  *  e83dd3c0c - Coverity: Using invalid iterator
+  *  60b491833 - Coverity: Explicit null dereferenced
+  *  6dc9a89d9 - Coverity: Empty virtual destructor
+  *  43d9e82f9 - Coverity: Uncaught exception
+  *  2ee8ad185 - Coverity: Division or modulo by float zero
+  *  4a494fec6 - Coverity: Dereference null return value
+  *  a2f3c5129 - Coverity: Dereference before null check
+  *  421f6c52c - Coverity: Dereference after null check
+  *  433ec2d6e - Coverity: Copied into fixed size buffer
+  *  aa3fde2da - Coverity: Big parameter passed by value
+  *  d26aafa83 - Coverity: Argument cannot be negative (actually a bug
+    by using the wrong index variable)
+  *  0e279348f - Coverity: Use after free (_removeObject may delete the
+    DocumentObject)
+  *  0b45b1134 - Coverity: Resource leak
+  *  12670655a - Coverity: Uninitialized scalar variable
+  *  591987443 - Coverity: Invalid printf format string
+  *  14d08db7f - FEM: migrate tools, fix github links
+  *  95f611f0b - FEM: writer base: use warning instead of error message
+  *  a0480dc62 - fixed door open plan symbol  and make makeWindow use
+    name parameter
+  *  5b56ce4d1 - [openscad] mirror mesh feature -- rename
+    OpenSCADUtils.mirror() to OpenSCADUtils.mirrormesh(), and provide
+    some better interactive help information when typing
+    OpenSCADUtils.mirrormesh() into the python console
+  *  2c0b49ea4 - [openscad] mirror mesh feature -- separate gui from
+    function
+  *  92b14ba16 - [openscad] fix refine shape feature
+  *  a1d7b128d - [openscad] add updated icon to qrc file
+  *  6ab472612 - [openscad] work on icon for mesh mirror
+  *  4c259e43b - [openscad] add icon for mirror mesh feature
+  *  c5b93d698 - [openscad] add ulrich's mirror mesh macro, fix error in
+    refine shape
+  *  d106be0b9 - Draft: add Draft Layer unit tests
+  *  831e51771 - Draft: migrate Layer object and function to the new
+    structure
+  *  cdc6c5f54 - Draft: move GuiCommand for Draft Layer to its own
+    module
+  *  54aa70614 - Mod/Web: Use of deprecated not thread-safe setter, use
+    setUrlRequestInterceptor instead.
+  *  4e36cde00 - [ArchWall] Failed if Sketch as Base has Point, now OK
+  *  8565736de - avoid saving to parameters if new shortcut is the
+    default, better check for if setting shortcut was success
+  *  43be29c3b - return false when unable to set shortcut
+  *  42a4b11d1 - convert tab to spaces
+  *  c437ab007 - move preprocessor directives back to column 1
+  *  5c42e35f5 - remove some commented lines
+  *  5f347447b - [Python Gui] add new command Gui.setCommandShortcut(),
+    fix bug in Gui.getCommandShortcut() and Gui.getCommandInfo() where
+    user has changed shortcut via customize dialog, but these 2 commands
+    returned previous default information
+  *  ac8259e56 - [Standard Views] change preference label to default
+    camera orientation
+  *  78cd1790d - [Standard Views] add Home view command.  Default
+    shortcut is 'Home' key.  Restores camera orientation to current home
+    view, configurable in edit menu -> preferences -> display ->
+    navigation -> New Document Camera Orientation / Home view.
+  *  ce18f6afd - FEM: elmer tasks, comment regression added with
+    ece663444cac
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 30 Jul 2020 08:34:08 +0300
+
+freecad-daily (0.18.3+git22039-2bfc6301b-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/FreeCAD/FreeCAD.git
+  * Branch: master
+  * Commit: 2bfc6301bc80c0344cbf13dbfe041fbd78cac93d
+  * Date: 1595130612
+  * git changelog:
+  *  2bfc6301b - [Sketcher] add python command
+    sketch.getGeoVertexIndex(int index) -- returns tuple (geoId, posId)
+    of vertex at that index in the sketch. usage example: (geoId, posId)
+    =
+    App.ActiveDocument.Sketch.getGeoVertexIndex(int(Gui.Selection.getSel
+    ectionEx()[0].SubElementNames[0][6:])-1)
+  *  71e1f7c33 - Gui: [skip ci] add some security checks before
+    dereferencing pointer to QTreeWidgetItem
+  *  9ea45bc8b - [crash fix] Edit Parameters right click was causing
+    crash unless right clicking on item
+  *  d562c52fd - PVS: V571 Recurring check. A condition was already
+    verified in previous line
+  *  dff82ea08 - PVS: V506 Pointer to local variable '_value' is stored
+    outside the scope of this variable. Such a pointer will become
+    invalid.
+  *  7fdf514fb - PVS: V1016 Value is out of range of enum values. This
+    causes unspecified or undefined behavior.
+  *  864483d55 - PVS: V560 A part of conditional expression is always
+    true
+  *  6e00846cd - PVS: V646 Consider inspecting the application's logic.
+    It's possible that 'else' keyword is missing.
+  *  f77bfe3e5 - PVS: V768 The expression is of enum type. It is odd
+    that it is used as an expression of a Boolean-type.
+  *  2b97a1032 - PVS: V1046 Unsafe usage of the 'bool' and 'int' types
+    together in the operation '&='.
+  *  0bee47d5b - PVS: V612 The '(4) / 3' expression was implicitly cast
+    from 'int' type to 'float' type. Consider utilizing an explicit type
+    cast to avoid the loss of a fractional part
+  *  6f06fbf36 - PVS: V601 The bool type is implicitly cast to the
+    double type
+  *  af9c5274b - PVS: V688 The local variable possesses the same name as
+    one of the class members, which can result in a confusion
+  *  811efa610 - PVS: V690 The copy constructor is declared as private
+    in the 'PropertySheet' class, but the default copy assignment
+    operator will still be generated by compiler. It is dangerous to use
+    such a class.
+  *  473553a21 - PVS: V595 A pointer was utilized before it was verified
+    against nullptr
+  *  93f61a315 - PVS: V590 Consider inspecting this expression. The
+    expression is excessive or contains a misprint.
+  *  56252d8ad - PVS: V1762 It is possible a virtual function was
+    overridden incorrectly
+  *  1d7299502 - PVS: V1023 A pointer without owner is added to the
+    container by the 'emplace_back' method. A memory leak will occur in
+    case of an exception.
+  *  e1363e5d0 - PVS: V575 The null pointer is passed into 'strcpy'
+    function. Inspect the first argument
+  *  4dae80618 - PVS: V572 It is odd that the object which was created
+    using 'new' operator is immediately cast to another type
+  *  16f953ad6 - PVS: V1004 A pointer was used unsafely after it was
+    verified against nullptr
+  *  309f7197f - PVS: V678 An object is used as an argument to its own
+    method. Consider checking the first actual argument of the 'setupUi'
+    function. Avoid to include ui generated header files within other
+    header files but use forward declarations instead. This reduces
+    dependencies between files and compile time considerably
+  *  f061789d1 - PVS: V560 A part of conditional expression is always
+    true
+  *  73cc1d271 - PVS: V570 A variable is assigned to itself
+  *  a0d51baaf - PVS: V547 Expression is always true/false
+  *  e785f9527 - PVS: V529 Odd semicolon ';' after 'for' operator.
+  *  0f18bdeb7 - PVS: V524 It is odd that the body of
+    'getLastUKnotIndex' function is fully equivalent to the body of
+    'getFirstUKnotIndex' function
+  *  dccb2a3c3 - PVS: V523 The 'then' statement is equivalent to the
+    'else' statement
+  *  e9bc970c2 - PVS: V522 There might be dereferencing of a potential
+    null pointer
+  *  39fe47b9d - PVS: V519 A variable is assigned values twice
+    successively.
+  *  f29a1c43c - PVS: V773 The exception was thrown without releasing
+    the pointer. A memory leak is possible.
+  *  ab8f06d9a - PVS: V517 The use of 'if (A) {...} else if (A) {...}'
+    pattern was detected.
+  *  53a4cb991 - PVS: V501 There are identical sub-expressions to the
+    left and to the right
+  *  cbb5f99ad - PVS: V730 Not all members of a class are initialized
+    inside the constructor
+  *  7566bd134 - Draft: add module getSVG to the proper Doxygen group
+  *  08069a89e - Draft: add modules of draftviewproviders to the proper
+    Doxygen group
+  *  6a3de864e - Draft: add modules of draftutils to the proper Doxygen
+    group
+  *  f9d92f3f9 - Draft: add modules of drafttests to the proper Doxygen
+    group
+  *  d70a194dc - Draft: add modules of drafttaskpanels to the proper
+    Doxygen group
+  *  42599838f - Draft: add modules of draftobjects to the proper
+    Doxygen group
+  *  4fb2eb663 - Draft: add modules of draftmake to the proper Doxygen
+    group
+  *  e3da57207 - Draft: add modules of draftguitools to the proper
+    Doxygen group
+  *  b434761e3 - Draft: add modules of draftgeoutils to the proper
+    Doxygen group
+  *  a1ce2389d - Draft: add modules of draftfunctions to the proper
+    Doxygen group
+  *  223e62790 - Draft: remove documentation in Draft.py
+  *  9761d6af1 - Draft: add Doxygen information to draft.dox
+  *  91a23e4a4 - Draft: add Doxygen strings to the packages' __init__
+    files
+  *  30ff7fb6e - [TD]multiple faces in GeomHatch
+  *  07349609d - [ArchWall]  Fix #0004400 - Archwall creation from
+    certain wire fails.
+  *  04ef25dc8 - FEM: elmer tasks, add TODO comments
+  *  ece663444 - FEM: elmer solver, improve binary handling on Linux
+  *  1017eab8d - FEM: elmer equations, delete wrong tool tips
+  *  e81342326 - FEM: examples selfweight, comments
+  *  8fc8a949c - Gui: [skip ci] avoid to write several time stamps to a
+    single line
+  *  f2aa81231 - Netgen: [skip ci] force C++17 if netgen >= 6.2 is used
+  *  7b505a897 - FEM: constraint transform task panel, fix warning
+    message
+  *  77ecd9bff - FEM: elmer solver, code formating
+  *  11419ecfa - FEM: elmer equations, code formatting
+  *  605f1aa2e - FEM: examples self weight, add comment
+  *  0a43abcf0 - FEM: unit tests, add calculix test for
+    ccx_cantilever_selfweight example
+  *  ca0f9b44d - FEM: examples, add new ccx_cantilever_selfweight exam
+  *  8ed306081 - FEM: in out, improve title strings
+  *  17a25e090 - fix docstring and segmentation fault in
+    Application::sNewDocument
+  *  536051179 - App/Gui: introduce temporary document
+  *  9b18c2dc1 - FEM: vtk pipeline, and frd reader, principal stress,
+    revert and improve 09e3ddb387b1
+  *  85a6df1d4 - CMake: make sure that C++14, C++17 or C++20 can also be
+    set for MSVC
+  *  75387cf4b - FEM: unit tests, deactivate another failed py2 test
+  *  ef28533cc - FEM: unit tests, fix
+  *  8e3ae553b - Arch: fix incorrect indentation in the OBJ exporter
+  *  7df9a2e77 - FEM: unit test, do not run a test if it not passes
+    python 2
+  *  3ad5ff77a - FEM: in out, improve imports
+  *  5160d56f2 - FEM: unit tests, update test commands
+  *  8cec4c044 - FEM: constants, fix non ascii character
+  *  41cfe0802 - FEM: z88 unit tests, fix for installed FreeCAD
+  *  11d2251b1 - FEM: examples, prescribed displacement, add comment in
+    the regard of z88
+  *  2078f8866 - FEM: examples, prevent creation of z88 solver
+  *  07b9492f7 - FEM: unit tests, add z88 writing test framework
+  *  558ea8e80 - FEM: elmer unit tests, better names in the regard of
+    unit schema
+  *  fdb8448ac - FEM: elmer unit tests, add SI units file writing test
+  *  902ef51f8 - FEM: elmer writer, move constants and unit code inside
+    class as it can change after module import
+  *  3dfae3ba4 - Merged crowdin translations
+  *  a48b74d8a - [Arch] ignore extrusion direction vector length
+  *  074064486 - [Arch] [TD] Fix #4392: ArchView invisible objects
+    should be show for Coin* render modes
+  *  ba1d2846e - [Arch] [TD] Bug 4392: ArchSection and hidden objects
+    for Render mode
+  *  a5aa9646b - Arch: update some functions that come from the Draft
+    workbench
+  *  6b7286568 - Draft: clean up the main Draft.py module
+  *  6503d9351 - Draft: move grouping functions to draftutils.groups
+    module
+  *  ec1a720bf - Draft: move the convertDraftTexts function to make_text
+  *  fbfe821e8 - Updated master ts files
+  *  451459ce0 - Arch: process openings in IFC multicore importer
+  *  8d8a8dd87 - FEM: constants, more exact values
+  *  af70ea48d - FEM: calculix writer, better information in the regard
+    of units
+  *  f27becb6c - FEM, z88 result import, fill displacement length
+  *  adcb721ce - FEM: z88 result reader, fill stats
+  *  237cba004 - FEM: restult tools stats calculation, fix missing check
+  *  5666598a6 - PartDesign: change SubShapeBinder make command
+  *  0de5a2901 - Part: fix regression of visibility automation in
+    Attachment dialog
+  *  010a14a6b - PartGui: avoid code duplication for handing
+    TaskAttacher
+  *  37caf53df - Part: fix TaskAttacher::visibilityAutomation()
+  *  0ab224b46 - [TD]makeCosmeticLine Y inversion
+  *  83f34a1e5 - Fix Crowdin typos and various other typos/grammar [skip
+    ci]
+  *  33499a555 - Gui: do not drop unhandled key events in
+    *SpinBox::keyPressedEvent() handlers
+  *  2ae385fcb - Gui: automatically activate the DlgExpressionInput
+    dialog; fixes #4384
+  *  7b897e06f - Fix comment in Quantity.cpp
+  *  64630ad09 - Py3: [skip ci] fix export of JSON file in Arch
+  *  896e774c4 - PartDesign: fix DressUp SupportTransform
+  *  7fadfd043 - PartDesign: change feature DressUp behavior when used
+    for pattern
+  *  233e6f931 - PartDesign: fix line ending in source code
+  *  645cbd6b4 - Fix for Bug #4372
+  *  2e251ee96 - cleaner fix
+  *  b4c2082b9 - fix deleted object error
+  *  593831e05 - Draft: Add human figure to the grid if the BIM WB is
+    installed
+  *  fcdbafba0 - FEM: examples, improve example names shown to the user
+  *  921e89498 - Add timecode option for report view
+  *  14f38f756 - Gui: [skip ci] fix warning when opening preferences
+    dialog in debug mode
+  *  7da1adc60 - Draft: remove touch status in viewproviders of the
+    Dimension objects
+  *  b51339b3f - Draft: clean up ViewProviderAngularDimension class
+  *  a89eda242 - Draft: clean up ViewProviderLinearDimension class
+  *  bbf05f50e - Draft: clean up ViewProviderDimensionBase class
+  *  aaeab8bc5 - Draft: move units functions outside DraftGui.py
+  *  94b0fe159 - Draft: clean up ViewProviderLabel class
+  *  22e9cf892 - Draft: clean up ViewProviderText class
+  *  de6f251f7 - Draft: migrate DraftText type to Text
+  *  6e40c19f7 - FEM: examples, rename material multiple two boxes
+  *  e635f00b2 - FEM: examples, code formating material multiple two
+    boxes
+  *  76b131706 - FEM: unit tests, add test for multibody face analysis
+    example
+  *  3b2cb1a7a - FEM: examples, added mutibody face analysis example
+  *  182743984 - FEM: unit tests, add test for multibody analysis
+    example
+  *  149f4442a - FEM: examples, add another multi material
+  *  0361fdb17 - FEM: examples, some code improvements
+  *  9f890aa1a - Gui: add comment
+  *  4ce4177b2 - Gui: disable COIN_AUTO_CACHING to work around coin3D
+    bug
+  *  b27262e8e - FEM: examples, remove z88 solver from not supported
+    examples
+  *  ccd5706cb - FEM: examples, solver name changed to work with new
+    examplegui
+  *  fdd456195 - unhide the property for the interpolation surface
+  *  2465f6603 - [TD]Section line symbol rotation
+  *  b3ff6ec58 - FEM: cancel button changed to close button
+  *  2f430f3bf - FEM: examplegui modified to setup different solvers
+  *  ed1467ce7 - FEM: examples gui, code formating
+  *  370739682 - FEM: examples gui, improve close and only enable button
+    on selectig example
+  *  e17f2101a - FEM: examples gui, improvemnts
+  *  b7e8ad9a4 - [TD]DPG spacing for oblique views
+  *  5d59c5df8 - FEM: examples, add warning if wrong solver type is
+    given to the setup method
+  *  39b81e40a - Sketcher: fix access to isPerformingTransaction on null
+    pointer
+  *  c3da895a1 - FEM: elmer writer, equation elasticity, only write
+    needed material values
+  *  d8a2da610 - FEM: elmer writer, fix self weight
+  *  f33ddb8cc - FEM: cmake, fix calculix unit test data install dir
+  *  f2750cbe7 - Draft: set a space before the Link group
+  *  cc4e00a2f - Draft: add warning message in case the radius is
+    negative
+  *  d5efc0485 - Draft: cleanup of selectWP and support for objects
+    getGlobalPlacement
+  *  fd79e3e3a - Draft: possibility to set the working plane to an
+    App::Part placement
+  *  f97d18ca0 - Draft: makeCopy support to reparent App::Part grouped
+    objs
+  *  9542e1b50 - Draft: Draft.move() support new objects (fix #3754)
+  *  e366a3a96 - Draft: cleaned imports of Draft.makeCopy
+  *  fa1a77f21 - Draft: support for Document.copyObject() API
+  *  f133a0e5e - FEM: examples gui, fix report console error
+  *  f7dfc35a4 - Fem: [skip ci] fix bug in
+    ViewProviderFemPostFunction::attach When applying an action on a
+    node its reference count must be > 0
+  *  3638d602c - FEM: commands manager, fix load of FemGui
+  *  614d5f454 - FEM: elmer unit tests, add ccx cantilever prescribed
+    displacement example
+  *  c251d8c99 - FEM: solver calculix unit tests, add all ccx cantiever
+    examples
+  *  a1bf9d63f - FEM: calculix unit tests, move test from ccxtools to
+    calculix solver
+  *  e10fae803 - FEM: elmer unit test data, rename some test data files
+  *  74e0912ed - FEM: elmer unit tests, code improvements
+  *  3080c8a71 - FEM: calculix unit tests, code improvements
+  *  8875cc5b4 - FEM: ccx unit test data, rename to calculix and rename
+    some data files
+  *  2d9459d96 - FEM: ccx tools unit tests, rename some methods and
+    change base name retrieving
+  *  ac5f8569d - FEM: ccx unit test data, delete not needed geometry
+    setup files
+  *  5c8e23d1d - Gui: [skip ci] connect to the tabwidget and check if
+    the task tab was changed
+  *  1c8ad8731 - Gui: update command actions after sending message to
+    view
+  *  165933bce - fixed xlsx import issue, now compatible with python 2.x
+    and 3.x
+  *  603b19d7c - Fixed import from XLSX files
+  *  04833a5f1 - build: fix Coin 3d documentation discovering
+  *  0441478d4 - PartDesign: [skip ci] revert TabFocus policy for
+    spinbox in Thickness panel When clicking on the spinbox it won't get
+    the focus and thus it's not possible to override the content with
+    the keyboard. The user has to actively press the Tab button in order
+    to set the focus to the spinbox before he can override the content.
+    This is a very annoying behaviour and it's a regression caused by
+    b01ebbc01
+  *  6982b52d0 - Arch: fix invalid print syntax in Python 2
+  *  8082def6b - Mesh: [skip ci] support of loading colored mesh
+    segments
+  *  d04d67526 - FEM: examples, changed name of example
+  *  1de26011e - FEM: skip importing examplesgui in unit tests
+  *  6c15e174d - Py2: fix compatibility issue
+  *  750c169a6 - App: fix Material comparison operator
+  *  ffbcab5b4 - Part: fix handling of attachment offset rotation
+    changes in attachment editor
+  *  062c115e6 - [PD] disable keyboardTracking for dressup dialogs
+  *  33841eb82 - Sketcher: fix crash, when cloning element having a non-
+    driving distance, radius, diameter or angle constraint; fixes #4393
+  *  9e619ed55 - [fedora.spec] Move to stage 3 of python bytecompilation
+  *  ff3ce4913 - FEM: examples, add Gui to setup examples
+  *  3685b3dad - FEM: examples, add method for retrieving informations
+  *  9f84186c1 - Surface: replace std::mutex with a boolean to avoid
+    extra overhead
+  *  74ad64560 - Surface: optimize Extend::onChanged
+  *  c77828eac - Surface: remove superfluous function call
+  *  a9440d5c3 - Surface: in Extend::onChanged call the function of its
+    direct parent class Part::Spline
+  *  6e5bd7bee - Surface: handle old project files using Extend feature
+  *  01edf38b9 - Surface: fix -Winconsistent-missing-override
+  *  88fb2fbc3 - adding 4 spaces instead of 2 spaces
+  *  5667ff1df - Add the possibility to set the uv values for all four
+    sides indepented. Extending the face symetric is the default
+    behaviour.
+  *  710368804 - FEM: calculix solver unit tests, add generic inp file
+    writing method and make use of it
+  *  5d5119811 - FEM: objects unit tests, improve directory handling
+  *  755ffe20c - FEM: mesh unit tests, improve directory handling
+  *  9675611ac - [CMake] Find old pyside2 uic and rcc when they are
+    named pyuic5 and pyrcc5
+  *  6d2bf0107 - Fem: fix ViewProviderFemPostPipeline::updateData()
+  *  9de5f54da - Arch: IFC, fix import break on a IfcAxis2Placement2D
+  *  967881186 - Simplified github/FUNDING.yml
+  *  76b03ae90 - FEM: ccxtools unit tests, simplifictions
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 20 Jul 2020 00:00:28 +0300
+
+freecad-daily (0.18.3+git21832-31b1ad874-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/FreeCAD/FreeCAD.git
+  * Branch: master
+  * Commit: 31b1ad874fb4750b6f6f25b494246f6ac7e61cde
+  * Date: 1593712455
+  * git changelog:
+  *  31b1ad874 - Sketcher: Augment malformed constraint messages
+  *  98b804cd7 - FEM: ccxtools unit tests, improve directory handling
+  *  82551c2d0 - FEM: elmer unit tests, add ccx canti node load test
+  *  d8d0a513d - FEM: unit tests, improve directory handling
+  *  7890f1a7a - FEM: solver elmer unit tests, add generic input file
+    test method and make use of it
+  *  da6b37956 - fixes #0004318: Compilation fails with Qt 5.15 beta
+    with QPainterPath errors [skip ci]
+  *  19d37ec5d - [TD]tweak CosmeticEdge point getters
+  *  bc309838d - FEM: examples, fix mat value in simple box example
+  *  aad66311f - FEM: elmer unit tests, add ccx canti faceload
+  *  25a4cf67d - FEM: elmer unit test, rename case file
+  *  ddaaa5edf - FEM: solver elmer unit test, small improvements
+  *  b13c2b57c - FEM: examples, nonlinear material, add forum link
+  *  ebbcdf5ff - Sketcher: [skip ci] fixes -Wmaybe-uninitialized
+  *  064b3fb36 - FEM: unit tests, make own module for each frame work
+    solver
+  *  c35d8be9a - Sketcher: Check invalid constraint indices in unmanaged
+    operations
+  *  ee21985e2 - Sketcher: PropertyConstraintList input data validation
+  *  7055b5ef0 - GCS: Prevent that reference constraints affect the
+    result of a redundant solving
+  *  ffaa92d29 - GCS: Add debug code to identify the popularity contest
+    selected redundant that is removed
+  *  926625b67 - Sketcher: Use move semantics wherever sensible
+  *  fe993abc3 - PropertyConstraintList: refactor setValue
+  *  9ca8568f8 - PropertyGeometryList: move setValue and refactor
+  *  ac167aa85 - Sketcher: ViewProviderSketch inhibit update if internal
+    transaction is ongoing
+  *  3941b6917 - Sketcher: Internal Transaction Support and ensure valid
+    constraint geometry indices
+  *  1fe43280c - FEM: meshtools, better comment
+  *  ec4535aea - FEM: imports, improvements
+  *  c4b063536 - FEM: mesh tools, compact mesh, use one id for Edges,
+    Faces and Volumes as SMESH does save it
+  *  68b98f5ff - Fem: [skip ci] handle exception in Fem Constraint in
+    case referenced shape element doesn't exist
+  *  2b5ef38a8 - Base: fix build failure for Py2
+  *  8b2044aa1 - Data: examples FEM, delete files added by accident with
+    commit 9bfd947886d9
+  *  9bfd94788 - FEM: elmer equation flux, better name without word
+    solver
+  *  0c1f99a30 - FEM: equation head, change back wrong menue text
+    introduced with e7b813f178e3
+  *  0a8f4b510 - Gui: [skip ci] improve usability of VectorListEditor
+  *  1da81df75 - Fix typos [skip-ci]
+  *  fe4107c3a - FEM: elmer writer, fix unit test
+  *  c43b3c2b2 - FEM: elmer writer, better messages and code formating
+  *  95a58b1ee - FEM: elmer writer, add scaling and revert scaling only
+    for m/kg/s unit schema
+  *  6a511c142 - FEM: elmer writer, export meter based units for scaled
+    m-based simulation
+  *  962f3e050 - App: [skip ci] extend doc string of
+    Document.findObjects
+  *  864555bc9 - Base: let PyStreambuf figure out if String or Bytes
+    object must be written to file
+  *  d3b43aa5b - FEM: constant vacuum permittivity, implement in elmer
+    writer
+  *  43ad6aa72 - FEM: constant vacuum permittivity, add object to
+    overwrite constant
+  *  fe93f6027 - App: properties, add vacuum permittivity
+  *  f948a39bd - Gui: export scene graph to file or buffer
+  *  ecc07bc05 - FEM: examples manager, typo
+  *  0ac4897cf - FEM: objects make, add TODO comment
+  *  3ea4ceb89 - FEM: object add module, small comment fix
+  *  10119ad9a - FEM: elmer equation objects, improve object creation
+  *  6fc8a3cae - check if pcLineCoords is empty
+  *  2035e0cfb - fix null reference
+  *  2c56e3c9f - Spreadsheet: [skip ci] avoid to show scroll buttons in
+    PropertiesDialog when a style sheet is used
+  *  478823b90 - Part: [skip ci] fix regression in ruled surface feature
+    by applying placement of source object twice See:
+    https://forum.freecadweb.org/viewtopic.php?p=411934
+  *  65f7e24a9 - Path: Resize the Base Geometry list dynamically
+  *  9b67e43b1 - Path: Fix calculation of OpFinalDepth default value
+  *  79e11ce8a - App: extend Document::findObject to allow to search by
+    label
+  *  1f741aa51 - [skip ci] do not set attribute WA_DeleteOnClose when
+    loading FreeCAD GUI from Python
+  *  ef21d8ec0 - FEM: examples manager, delete depreciated code
+  *  c57c3cbcf - FEM: examples manager, add generic method to run
+    examples
+  *  97ea8f456 - FEM: constants, typo
+  *  45fa9e299 - FEM: elmer writer, better identifier in a method
+  *  fc8da5ca0 - FEM: flake8
+  *  801bfe4ba - FEM: flake8
+  *  742b6d416 - Arch: Small code optimizations to the multicore IFC
+    importer
+  *  7651e6d97 - Fix for changed Github url links being relative instead
+    of absolute.
+  *  d43588d24 - Arch: New multicore IFC importer
+  *  59bdba9c4 - FEM: code foramatting, line length
+  *  ccea55a65 - FEM: elmer, better print and log
+  *  d36c21fd5 - Arch: add missing translate function
+  *  8ff45dfb3 - [ArchWall] Revert comments in getExtrusionData()
+  *  81dd47b03 - [ArchWall]  ArchWall Offset should now works with Base
+    as Sketch
+  *  f5dea7edc - FEM: ccx constraint section print, add unit test
+  *  5f928b732 - FEM: examples, section print, fix to setup on cmd mode
+  *  3dfc9471a - FEM: ccx constraint section print, add task panel
+  *  7d17d6f6b - FEM: ccx constraint section print, add Gui command and
+    icon
+  *  e8bee15f0 - FEM: examples, add section print
+  *  eb9d5bf8f - FEM: ccx constraint section print, implement in ccx
+    writer
+  *  50d834c0b - FEM: ccx constraint section print, add object
+  *  9bd95ed10 - [TD]CosmeticVertex default size
+  *  5c24b236f - OpenSCAD: [skip ci] fix missing treeview icon
+  *  487215d2f - [part] More robust tessellation angular deflection
+    default
+  *  648b3bbe7 - FEM: examples, some comment changes
+  *  5948a8305 - FEM: unit test, fix setting up some examples
+  *  c22fa6eac - FEM: examples, use gmsh mesh object instead off pure
+    mesh object
+  *  cfec12ec1 - FEM: examples, ccx_cantilever_std separated into 4
+    examples
+  *  54c8dbd81 - FEM: examples, boxanalysis separated into 2 examples
+  *  6360ab6ce - FEM: examples, manager, add missing run in run all
+  *  061524803 - FEM: examples, flow 1D, add comment
+  *  79377cbc9 - FEM: examples, bimetall, move comment
+  *  602a9a163 - Gui: [skip ci] fix -Wrange-loop-construct
+  *  771b4738a - Gui: implement property editor for vector list
+  *  ac6e9f464 - Arch: fixed minor bug in Offline rendering module
+  *  8b8210f29 - Arch: fix calculation of fence objects
+  *  29f3ab6db - Icon themes Part viewproviders
+  *  de152bf7b - Icon themes DAGView
+  *  d11750501 - Icon themes toolbar customization dialog
+  *  425d8f8fe - Icon themes parameter editor
+  *  5613793f5 - FEM: elmer writer test mode, do not search for gmsh
+    binary
+  *  32d401491 - FEM: unit tests, use unique dir for each run
+  *  6c74b7850 - Part: [skip ci] add missing headers
+  *  62129362b - TaskProjGroup.ui: correct a typo
+  *  0e0e9dbbc - disable keyboardTracking for the scale to avoid
+    unnecessary recomputes
+  *  e50db2ed7 - [TD] add spacing to ProjGroup dialog
+  *  a91470576 - [skip ci] make Jupyter notebook integration working
+    again
+  *  daec77869 - [skip ci] improve possibility to create a QApplication
+    in a thread
+  *  cfa6ad5de - Path: Slot operation fixes and improvements
+  *  002e25b56 - [TD]Cosmetic Edge endpoint inversion
+  *  ff66708c3 - [TD]Detail default scale
+  *  87046ef04 - GuiPy: [skip ci] expose function to Python to replace
+    Switch with Separator nodes
+  *  0d05fc328 - GuiPy: [skip ci] handle some Qt warnings when using GUI
+    from Python + avoid warning: QEventLoop: Cannot be used without
+    QApplication + avoid warning: QObject::startTimer: Timers can only
+    be used with threads started with QThread
+  *  c23a1f6ed - Base: [skip ci] include sstream in swigpyrun source
+    files
+  *  9b7319107 - [Path] Make jobs delete cleanly.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 03 Jul 2020 00:03:26 +0300
+
+freecad-daily (0.18.3+git21713-ffe957cef-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/FreeCAD/FreeCAD.git
