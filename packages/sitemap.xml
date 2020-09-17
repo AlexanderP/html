@@ -6607,6 +6607,9 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/notesalexp-keyring/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/pinta/</loc>
     </url>
     <url>
@@ -16049,6 +16052,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2020/08/18/20200818/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/08/30/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/08/30/20200830/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>

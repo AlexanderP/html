@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package solvespace_3.0.0~git1554-6894b0c-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package solvespace_3.0.0~git1564-668fe6f-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,34 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package solvespace in buster of architecture amd64</h5>
-<div class="highlight"><pre><span></span>solvespace (3.0.0~git1554-6894b0c-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>solvespace (3.0.0~git1564-668fe6f-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 668fe6f493eb96e9b4add37b6dbe9b82070cd9cc
+  * Date: 1600288783
+  * git changelog:
+  *  668fe6f - Make the redundant constraint timeout a configuration
+    value and add the config UI elements to edit that value.
+  *  6157084 - Fix #131. Prevent UI freeze by having a timeout when
+    finding which constraints can be removed to fix jacobian.
+  *  e74185b - Fix #696. Account for multiple coincident edges when
+    looking for naked edges.
+  *  d8f5a8d - Fix issue #296.
+  *  7052496 - Fix #693 issues.
+  *  0413c1b - NFC:Triangulation - don't add zero-length bridges to
+    avoid list.
+  *  b208cd8 - NFC, Performance: Use OpenMP for boolean function
+    MakeItersectionCurvesAgainst.
+  *  360b347 - Export backgrounds in vector files
+  *  028b613 - Add ExportBackgroundColor config to GUI and CLI
+  *  d3da2c8 - Performance: Don't call std::inplace_merge for
+    IdList::AddAndAssignID() via Add() because it is redundant.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 17 Sep 2020 10:02:35 +0300
+
+solvespace (3.0.0~git1554-6894b0c-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/solvespace/solvespace.git
