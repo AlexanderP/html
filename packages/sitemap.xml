@@ -6454,6 +6454,9 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/azpainter/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/balsa/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/chiaki/</loc>
     </url>
     <url>
@@ -6512,6 +6515,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/fatrat-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/freecad-daily/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/gimp-devel/</loc>
@@ -16058,6 +16064,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2020/08/30/20200830/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/09/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/09/17/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/09/17/20200917/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
