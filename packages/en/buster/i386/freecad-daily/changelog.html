@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package freecad-daily_0.18.3+git22410-abfb6e844-1_i386.deb </title>
+    <title>notesalexp.org | ChangeLog of package freecad-daily_0.18.3+git22747-df9282dc1-1_i386.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,522 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package freecad-daily in buster of architecture i386</h5>
-<div class="highlight"><pre><span></span>freecad-daily (0.18.3+git22410-abfb6e844-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>freecad-daily (0.18.3+git22747-df9282dc1-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/FreeCAD/FreeCAD.git
+  * Branch: master
+  * Commit: df9282dc12d45996bb83cb42f6da10fd82519a47
+  * Date: 1602780929
+  * git changelog:
+  *  df9282dc1 - C++11: [skip ci] replace deprecated function
+    std::mem_fun_ref with lambda functions
+  *  da4a2e4ea - Py3: suppress warning: 'tp_print' is deprecated [-
+    Wdeprecated-declarations]
+  *  9c72532f5 - Qt5: fix deprecation warnings for Qt 5.15 + replace
+    QDirModel with QFileSystemModel + QProcess::start(QString, OpenMode)
+    is deprecated + QByteArray::append is deprecated + QPixmap*
+    QLabel::pixmap() is deprecated
+  *  3430adda7 - Py3: [skip ci] fix warning: missing field 'tp_print'
+    initializer [-Wmissing-field-initializers]
+  *  ef0fd3ca6 - Qt5: 'endl' manipulator is deprecated with 5.15.
+    Replace it with newlines.
+  *  d4c0baba0 - C++11: replace deprecated function std::bind2nd with
+    lambda functions
+  *  268270085 - Arch: Made default door/windows openable
+  *  fd0019c65 - Draft: Added grid extension control in WorkingPlane
+    task panel
+  *  bc6fefe3a - Py3: fix warning: missing field 'tp_print' initializer
+    [-Wmissing-field-initializers]
+  *  71236cbc2 - [Sketcher] Changes to drawing of constraint icons.
+  *  d75299143 - TechDraw: [skip ci] fix possible crash in
+    QGIViewPart::drawFace
+  *  71cd301ca - Draft: Added pref option to set default dimension unit
+  *  7f95da95c - Draft: Compatibility fix
+  *  b33f92898 - PartDesign: [skip ci] Improve revolution function + Fix
+    hard crash when selecting an edge or face of the created feature
+    before selecting option to choose a reference. + In
+    ProfileBased::getAxis() convert OCCT into FreeCAD exception to
+    simplify handling of calling instances. + Change return value of
+    getReferencedSelection() from void to bool to mkae it easier for
+    calling instance to detect if the selection failed.   This is needed
+    to avoid to add invalid items to the combo box of the revolution
+    task panel
+  *  3edbcb7bb - Add a file existence test for opencascade patch
+  *  a43f334ba - Use relative path as CMAKE input
+  *  e2e51f812 - Build final cache
+  *  c83bc0073 - Enable MacOSX build with latest homebrew integration
+  *  72bcdf8c8 - Surface: automatically start "Add edge" mode when
+    starting the fill surface tool. Moving the order of edges is
+    supported now.
+  *  255ef44c9 - Surface: rename TaskFillingUnbound to TaskFillingEdge
+  *  27e42f5b0 - Part: add viewprovider icon for the Part::Spline object
+  *  c9c4bbe10 - Surface: better titles for the task panels, and
+    tooltips
+  *  8eb466d3e - Surface, MeshPart: add more information to the
+    CurveOnMesh command
+  *  13a5f74d3 - Surface: new icon for existing Surface_CurveOnMesh
+    command
+  *  9b4b6d427 - Surface: ViewProviderExtend for Surface::Extend object
+  *  64e0ac16a - Surface: new Extend icon for existing
+    Surface_ExtendFace command
+  *  f81c1cd31 - Part: make changing face colors independent of edit-
+    mode implementation of a view provider
+  *  048da4808 - Part: activate Part_ColorPerFace in the menu and
+    toolbar
+  *  e75523845 - build: boost: Clean up branches requiring boost-1.55
+  *  6a6a6f3d2 - build: boost: Drop branches requiring boost-1.46
+  *  95ed01728 - build: boost: Drop boost-1.44-specific checks
+  *  a56b6730d - build: boost: Drop boost <= 1.41 dependent-code
+    branches
+  *  06d87e400 - build: Bump boost requirement to 1.55 and drop bundled
+    boost::any
+  *  74abbfde0 - Part: fix the mixed newlines of DlgPrimitives.h
+  *  d54cdff9e - Part: improve tooltip of measure commands
+  *  5d1d8d800 - Part: clean up spacing of lines in BOP JoinFeatures
+  *  d60313682 - Part: update object and commands for BOP SplitFeatures
+  *  0eafaa303 - Part: update icon, object and command for
+    CompoundFilter
+  *  f439384cc - Part: small cleanup of Python modules and InitGui.py
+  *  5a07d7dd4 - Part: update icon for ProjectionOnSurface
+  *  c3994535d - Part: move more icons to tools subdirectory
+  *  9177eae0b - Part: move icons to measure subdirectory
+  *  e6dd1df7a - Part: move icons to parametric subdirectory
+  *  3b671bf4a - Part: move icons to booleans subdirectory
+  *  db91c6f42 - Part: move icons to tools subdirectory
+  *  2fa40f406 - Part: move icons to create subdirectory
+  *  ffd769381 - Fix deburr CW/CCW calculation
+  *  f82532ddb - Seed randomizer on application init
+  *  7825eef62 - PartDesign: [skip ci] Prevent crash when pressing
+    delete key without feature selected to remove in mirror and scale
+    pattern dialog
+  *  08edc39a5 - [PartDesign] Prevent crash when pressing delete key
+    without feature selected to remove in linear and polar pattern
+    dialog
+  *  5dfc061d4 - [PartDesign] Prevent crash when pressing delete key
+    without feature selected to remove in linear and polar pattern
+    dialog
+  *  432ac985e - [PartDesign Multitransform] prevent crash when pressing
+    delete key without feature selected to remove in multitransform
+    dialog
+  *  90f2314b1 - [Sketcher] Fix merged constraint preselection bug
+  *  413431543 - Draft: Fixed translation of construction group
+  *  dd51cbccb - Arch: Fixed translation of wall (better version)
+  *  a0114ac41 - Arch: Fixed translation of wall
+  *  5609b38e9 - Draft: Fixed patterns + added default pattern size pref
+    option
+  *  e3c30e748 - Gui: [skip ci] support to remap motion data array of
+    space mouse
+  *  da7f105ef - Arch: fix typo in ArchBuildingPart.py [skip-ci]
+  *  357a6c3b2 - Update MacAppBundle to work properly with Qt5 and
+    updated homebrew Add WebEngine required file to the bundle
+  *  9be9620ae - Show: add argument to NotAContainerError class
+    constructor
+  *  f54761510 - Draft: fix mismatch of argument in get_dxf function
+  *  f799717f4 - Arch: consider DraftText objects in the section plane
+    for compatibility
+  *  611bcdd4c - Arch: 4 additional tests for ArchRoof (bug fix)
+  *  aff5da530 - Arch: ArchRoof bug fix
+  *  61dc5dea0 - Add a task panel page for controlling turning diameters
+  *  66afbc36a - Add turning selection gate
+  *  101a0e00e - Using python type conversion to return voronoi element
+    color
+  *  12155f4aa - Part: [skip ci] harmonizing the way to add sub-modules
+    to Part module
+  *  ed61873b2 - make deburr ignore non-vertical faces fixes #4327
+  *  b5f37f06a - make deburr check for tool attributes fixes #4327
+  *  d76124b61 - Part: [skip ci] fix crash when trying to convert null
+    shape to nurbs
+  *  11afaaea6 - Part: [skip ci] port class TaskCheckGeometryResults to
+    OCCT 7.5
+  *  13963592f - Part: [skip ci] fix crash when trying to scale null
+    shape
+  *  de64e6500 - Part: port class BOPProgressIndicator to OCCT 7.5
+  *  b0d785040 - Fix various typos [skip-ci]
+  *  f91eb3435 - Part: link TKStepAttr, TKStepBase and TKStep209
+  *  37c8dc411 - CMake: add OCCT libraries. Print lib and header
+    locations in summary report
+  *  fd9cdb9de - Part/Import: [skip ci] disable use of
+    Message_ProgressIndicator for OCC >= 7.5 due to major API changes
+  *  f129f3f09 - Gui: [skip ci] workaround to allow to define the link
+    color of the application's palette
+  *  34ed859c9 - Gui: [skip ci] make commands print, print preview and
+    print to pdf also active when editig a sketch
+  *  16d911891 - Path: [skip ci] fix build failure on Windows if PCH is
+    disabled
+  *  6f941c34d - lgtm cleanup fix contradictory tooltip
+  *  55c150690 - Panel for AxisMap dressup Zdepth correction dressup
+    open panel on create
+  *  1e2fb1099 - add task panel for dragknife
+  *  c42149b0d - making it a bit more forgiving of old jobs/tools
+  *  cfa38c26a - Ignore old-style tool controllers
+  *  a8a76deb8 - Allow adding a material to the stock object.
+  *  dfc4e53f6 - Working html report with asciidoctor
+  *  566d32177 - Arch: import IFC, support multiple styles in styled
+    items in IFC4
+  *  3b6e0a934 - Arch: import ifc, small fix in colors
+  *  4c057c95b - Arch: import ifc, colors in IFC4 print warning not
+    implemented
+  *  a299f234a - Gui: [skip ci] fix appearance of TaskGroups when a
+    style sheet is set
+  *  6d7ed787b -  Arch: import ifc, fix typo in material colors
+  *  8292664f4 - Arch: import ifc, fix import break if colors dictionary
+    contains None values
+  *  83c24d610 - change final step down label for clarity issue #4439
+  *  1a0a21475 - Gui: [skip ci] fix uic warning
+  *  de57d4d40 - remove commends
+  *  a3fb14ff9 - Update DlgSettings3DView.ui
+  *  01f7e5543 - Extra space removal
+  *  b1c5ddcf6 - moved 'Pick Radius' from 'Color' to '3D View' fixes
+    #0004147
+  *  f8a45e6b3 - PartDesign: [skip ci] remove automatic adjustment of
+    view frustum when creating a body
+  *  6d819854c - README.md: Fix links to wiki
+  *  3f89175c3 - README.md: Fix link to FAQ
+  *  f4ff61c35 - Complete: do not build the Complete workbench because
+    it is empty
+  *  c3a8fcf59 - Gui: [skip ci] fix handling of active document when
+    importing a file
+  *  4fbb37623 - [Image] Very minor improvement to Report View..
+  *  c4ff3385f - [File Import] add import to document transaction for
+    unde/redo
+  *  d45e143f1 - Arch: ifc import, typo in var name
+  *  ceccc212b - Gui: [skip ci] move dontUseNativeDialog() to unnamed
+    namespace
+  *  6badcaced - Part: [skip ci] work around OCCT bug
+  *  706a014ce - AddonManager: Fix python imports
+  *  0cc3c5cac - PATH: fast retraction and return speeds for grbl_post
+    G83 expansion #3725
+  *  611806b26 - add coolant mode fix Z depth
+  *  fd21a8377 - AddonManager: Fixed missing import
+  *  9c20ce05e - Part: [skip ci] expose ShapeUpgrade_UnifySameDomain to
+    Python
+  *  99cbb413e - Dealing with 32bit compile error of Voronoi interface.
+  *  7db21217f - Gui: [skip ci] fix  parsing of arguments of ControlPy
+    methods See https://forum.freecadweb.org/viewtopic.php?f=10&t=50805
+  *  ab4ab444b - Path: [skip ci] fix memory leak in
+    CommandPy::getParameters()
+  *  5eb5434c6 - Path: Fix rotational error for certain situations
+  *  d2981fb09 - Path: Remove FinalDepth limitation for internal profile
+    operation
+  *  4e6741a02 - Path: Add debug feedback and comment
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 16 Oct 2020 00:42:08 +0300
+
+freecad-daily (0.18.3+git22611-7eeec7a59-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/FreeCAD/FreeCAD.git
+  * Branch: master
+  * Commit: 7eeec7a5990cc786723225ca8de16ca3186545b3
+  * Date: 1601562503
+  * git changelog:
+  *  7eeec7a59 - Sketcher: [skip ci] fix handling of icon search paths
+    when another workbench uses a sketcher command
+  *  393da0d6d - Gui: [skip ci] add an alias for Gui.isCommandActive
+  *  5876a5287 - Arch: Added .tsv export format to Arch schedule
+  *  f98a4bbc4 - Gui: [skip ci] add method to access the Inventor viewer
+    as QGraphicsView
+  *  a01d04549 - Arch: Fixed group support in IFC export
+  *  69fa32922 - Arch: Added 'Show Label' view property to section
+    planes
+  *  324741468 - Arch: Fixed custom csv bug in ArchProfile
+  *  3f2ea25ac - Sketcher: new icons for two existing commands
+  *  7b4cd6c0d - Sketcher: add further commands to the toolbars
+  *  8a1f14570 - Sketcher: upgrade icons for existing commands
+  *  7ad541006 - Sketcher: small changes to two .ui dialogs
+  *  3a7425585 - Sketcher: move icons to general subdirectory
+  *  7626accb5 - Sketcher: move other icons into their subdirectories
+  *  4620b9fd9 - Sketcher: add two icons reorient and validate
+  *  7f9c58299 - Sketcher: move icons to tools subdirectory
+  *  a2f8ea98e - Sketcher: move icons to splines subdirectory
+  *  6b3691870 - Sketcher: move icons to geometry subdirectory
+  *  61a08c999 - Sketcher: move icons to elements and pointers
+    subdirectories
+  *  82e32673f - Sketcher: move icons to constraints subdirectory
+  *  15b60f45f - Sketcher: move icons to obsolete subdirectory
+  *  c6b6b314a - Sketcher: small style changes to make the lines shorter
+  *  68c7b1f07 - Sketcher: rename constraint icons to be more consistent
+    with the rest
+  *  dde64d4a0 - AddonManager: update python source formatting
+  *  fc1082771 - Addon Manager: change lookup mechanism
+  *  8c62c2533 - Sketcher: [skip ci] fix build failure
+  *  e405aac5d - Mesh: fix typos in SVG markup descriptions [skip-ci]
+  *  6ff1bcb2e - Proper check for Qt version
+  *  589eb085a - HiDPI: Hot point scaling is only required for X11
+  *  089ed768c - Merged crowdin translations
+  *  2a92a7b5a - Updated ts files
+  *  cf5f7d422 - Surface: Vertices instead of Vertexes in the task panel
+  *  9c1e23c7c - Surface: new Sections icon
+  *  1093187c0 - Surface: upgraded Surface icons
+  *  7bf6f7225 - Surface: new SVG icon for the workbench, rename others
+  *  7208e757b - Fix indentation
+  *  a76bdab44 - HiDPI cursors: Support Qt < 5
+  *  f686ed16e - [Stylesheet] Add new "behave" dark stylesheet
+  *  f23bb4300 - Draft: importSVG considers Shape-less objects for
+    export
+  *  49e1ff1bc - Draft: get_bbox function to get the bounding box from
+    RootNode
+  *  e97f7a8a5 - More integer type cleanup for the voronoi python
+    interface
+  *  312a4652f - Part: [skip ci] expose BRepOffsetAPI_MakeFilling to
+    Python
+  *  e3c476af2 - Unified voronoi indices for python to be of type long
+  *  ebae99c9e - whitespace
+  *  21e1dff25 - Adopted vocx-fc comment.
+  *  c64d0bf99 - Fixed bug: In exporting IFC with shared clone shapes
+    geometry, clone of clone object displaced because of bug in
+    Draft.get_clone_base function.
+  *  af1dacf57 - rename OTHER
+  *  81dc724b4 - move vcarve out of experimental
+  *  1492aa01b - remove need for cuttingedgeheight
+  *  d22bfecda - improve selection and avoid border case with ultra
+    short segments
+  *  8758cfce9 - Resolve UI issues taskpanel threshold value add
+    constants to PathVoronoi calls check for tool properties set correct
+    z height coloring exterior lines
+  *  b1e5b5a90 - Path: Vcarve fixes formatting fixes remove reference to
+    old ToolType
+  *  a1852d110 - Rewrite for boost voronoi
+  *  f63d0fadc - Path: Vcarve - Added threshold property to remove
+    unwanted segments
+  *  d9d4387b1 - Path: vcarve add feed rate
+  *  5df1f176e - path: vcarve requires engraver with proper angle vcarve
+    calculates depth with MIC now
+  *  0b7eec6b7 - Path: increasing the discretize precision
+  *  c141f4188 - Path: add vcarve operation using openvoronoi
+  *  33beb4110 - Added voronoi colorExterior case where one external
+    vertex coincides with a point of an input segment.
+  *  d9f09b171 - Added vertex cache to voronoi colorExterior callback
+    processing - cuts execution time in half.
+  *  7777e0f26 - Added retrieval of points and segments for voronoi
+    diagram
+  *  6d43d7502 - Added Index as attribute of all voronoi objects for
+    easier debugging
+  *  a95ecd69a - Simplified and further optimised colinear colorisation
+  *  110969139 - Added color -1 to mean resetting all color.
+  *  d68b5064c - Some algorithm optimisations
+  *  07f3e6c52 - Added callback to colorExterior to also color
+    'interior'
+  *  952c94cb5 - Added colorColinear and resetColor algorithms
+  *  f86033965 - Added optional scaling factor to Voronoi construction.
+  *  94a44bcbf - Added scaling to micro meters
+  *  38ff7fcda - Added support for distances of edge end points.
+  *  926d25484 - Added api calls for coloring all twins and coloring
+    exterior edges and vertices.
+  *  5ad3bb17f - Added toGeom for curved edges.
+  *  10e5fce11 - Added geometries for vertices and linear edges.
+  *  9ba881738 - Added support for voronoi cells
+  *  6fc2af2ad - Added support for voronoi edges.
+  *  27238c381 - Added python bindings for voronoi diagram construction
+    and accessing the resulting vertices.
+  *  39cd29c0d - Part: [skip ci] include OCC hesder to PCHs, fix
+    compiler warning when trying to delete void pointer
+  *  00e0e7745 - Part: expose GeomPlate algorithm to Python
+  *  14fa8dafb - Part: [skip ci] add functions makeFromTrimmedCurve2d
+    and makeFromCurveAdaptor2d
+  *  218d61768 - Part: converter from Adaptor3d_Curve to GeomCurve
+  *  af8ff5c49 - Part: [skip ci] add missing methods to
+    RectangularTrimmedSurface
+  *  afd6f3919 - Base: [skip ci] allow to replace twin object of
+    PyObjectBase
+  *  2a510a23b - Gui: [skip ci] suppress debug messages when older
+    SpaceMouse/Joystick is connected
+  *  a4176fa15 - Surface: [skip ci] add icon for sections command
+  *  a6c55acdb - Part: improve Python interface + rename
+    getCurve2dFromGeom2d to makeFromCurve2d + add function makeFromCurve
+    and makeFromTrimmedCurve like makeFromSurface + implement
+    OffsetCurve.BasisCurve + fix memory leak in
+    BRepOffsetAPI_MakePipeShellPy
+  *  1ef31842c - Conda doesn't export functions to subshells
+  *  53e2d35ee - Part: change command name Part_MakeTube to Part_Tube
+  *  f9aed763e - App: fix recursive App::getLinksTo()
+  *  25fbb95a9 - Sketcher: [skip ci] fix computing of hotspot of XPM
+    icons on Windows/macOS Add a cross to copy and array icons.
+  *  d8e476ef4 - FEM: object unit tests, improve some comments
+  *  331fd91e7 - FEM: z88 solver, use same object type schema as for all
+    other solver objects
+  *  1ad4417b0 - FEM: python code formating
+  *  6d0326572 - Gui: [skip ci] fix initialization of Python-based view
+    providers in FreeCADGui.subgraphFromObject
+  *  3a8a6aae1 - Surface: add command to create surface from sections
+  *  7616153b3 - Part: add method to add a wire (e.g. to create a hole)
+    to a face
+  *  da6cdb94a - Part: add method to return a reversed shape
+  *  92fe662d6 - Part: implement BSplineSurface.buildFromNSections based
+    on GeomFill_NSections
+  *  b44d20dbd - Part: [skip ci] fix shape builder to create filled face
+    from vertexes
+  *  bf262b418 - Gui: [skip -ci] fix Document::toggleInSceneGraph() to
+    avoid to add a node twice
+  *  82a2c1b75 - Arch: ifc export, workaround for draft array export and
+    some small improvements
+  *  3c7ae4f3e - 0004441: Changing Placement of a App::Part that
+    contains a Part::FeaturePython causes drawing of a ghost object at
+    original Placement [skip ci]
+  *  a3cd010c8 - Start: [skip ci] replace QTextStream and its
+    manipulators with stringstream to avoid deprecation warnings with Qt
+    5.15
+  *  3e3006d01 - Revert Qt::endl which is not defined in Qt << 5.15
+    version
+  *  339d99430 - Revert a patch which shouldn't had been into this
+    commit as it is specific to Qt 5.15 and need a #define
+  *  81af54e41 - Big update to remove deprecation warning from Qt 5.15.0
+    That is need on MacOS build as travis log is bigger than 50k lines
+    which breaks travis rules And by the way deprecations are real All
+    file contains the same modification replace 0 to Qt::WindowFlags()
+    when needed as the class needs to be instantiated
+  *  0306c237e - Sketcher: [skip ci] fix inconsistent indentations in
+    SketchObject::rebuildExternalGeometry
+  *  923607b46 - Projections of arcs of circle, orthogonal case
+  *  3e7e2a9bc - Sketcher: [skip ci] fix undo bug when directly changing
+    a datum constraint in the property editor
+  *  50284e1ef - Sketcher: [skip ci] fix computing of hotspot of
+    sketcher icons on macOS
+  *  fe3f1b51b - PartDesign: [skip ci] fixes #0004371: Changing Hole
+    profile from ISO to nothing is not possible: "Hole: Cannot get value
+    from invalid enumeration"
+  *  4a1f81395 - [PD] fix 2 hole dialog bugs
+  *  8ea1a3884 - HiDPI: Change Sketcher crosshair hot spot xy
+  *  2de44b123 - FEM: [skip ci] Coverity: Dereference after null check
+  *  37c4d5150 - PartDesign: [skip ci] Coverity: Structurally dead code
+  *  46ab17810 - PartDesign: [skip ci] Coverity: Bad use of null-like
+    value
+  *  60443034a - PartDesign: [skip ci] fix method to access main window
+    in shaft wizard
+  *  ec5bbad62 - OpenSCAD: [skip ci] Coverity: Bad use of null-like
+    value
+  *  8fe0d19eb - Include Inventor/SbByteBuffer.h in QuarterWidget.cpp to
+    allow compilation with latest Coin3D library.
+  *  35d5c5dc4 - Arch: allow exporting of objects with no solid or shell
+    to IFC
+  *  621e1d603 - Draft: fix loading of arrays
+  *  700af3aa7 - Sketcher: [skip ci] fix computing of hotspot of
+    sketcher icons on Windows
+  *  ffa1da617 - Python: [skip ci] expose Python types in their
+    corresponding modules
+  *  376299d55 - Added liberapay badge to readme
+  *  6379d802b - Draft: split svg.get_path function for paths that are
+    BSplines
+  *  f2d10669e - Draft: svg, move test so the code is less indented
+  *  8e69b05e9 - Draft: split svg.get_path into smaller readable
+    functions
+  *  2f48f1cab - Draft: split svg.get_text into smaller readable
+    functions
+  *  0739ffa58 - Draft: clean up SVG processing code, add comments
+  *  dea7f5d63 - Draft: Drawing is still used in get_dxf function
+  *  31e8bb27a - Draft: fix point array without using link
+  *  607c14b51 - Draft: add support for point link array
+  *  901ee4e5e - PD: [skip ci] fix msvc warning
+  *  9d62dca00 - Update Libpack
+  *  43604f284 - Part: remove uIso and vIso methods from
+    RectangularTrimmedSurface
+  *  48bf133ea - convert Geom_TrimmedCurve to subclass
+  *  053c918e6 - Part: remove uIso and vIso methods. Methods from base
+    class GeomSurface will be used instead
+  *  f5710fb5c - Fix MacOS build with boost 1.73 and updated Homebrew
+    packages
+  *  a44f8ffd4 - [PD] simplify item handling
+  *  e8f5c6643 - Gui: fix property editor transaction closing
+  *  dea2fad51 - Web: [skip ci] when dropping local file on StartPage
+    then open it instead of downloading it
+  *  03c2c7696 - [PD] make sections sortable
+  *  e8b5cfced - MeshGui: [skip ci] expose highlightSegments() to Python
+  *  b9e5bce0f - PD: improve reference highlighting of a pipe This
+    change allows to highlight the spline, auxiliary spine, profile and
+    sections of a pipe. This gives the user a much better feedback of
+    what external shapes are already used to build the pipe
+  *  a3fda6f9e - PD: [skip ci] fixes for pipe task panel + Add/Remove
+    are checkable buttons so if user unchecks it then disable
+    highlighting of spine + Avoid superfluous char* -> QString
+    conversion
+  *  2b676020d - PD: fixes for pipe task panel + fix Qt4 build failure +
+    fix handling of adding items to spine/auxiliary spine/sections to
+    allow to remove them again + QListWidget::takeItem() returns a
+    pointer to the removed item. So a previous call of
+    QListWidget::item() is superfluous
+  *  5d96f01cf - [PD] add context menus to sweep Dialog
+  *  a028ea94c - PartDesign: [skip ci] hide base feature of pad after it
+    successful recompute
+  *  ff0f8b0d8 - Gui: [skip ci] fix crash in
+    DocumentObjectData::updateChildren() when canceling a pending task
+  *  7a93bcb15 - Draft: small fixes to the closest function.
+  *  c79f89011 - Draft: move getDXF to draftfunctions submodule
+  *  f04849446 - Arch: Minor improvements to testWallMultiMatAlign unit
+    test.
+  *  1e4593aac - Arch: Arch_Wall fix MultiMaterial alignment bug (unit
+    test)
+  *  8ef5e8e33 - Arch: Arch_Wall fix MultiMaterial alignment bug.
+  *  2cf9f395c - Draft: Again revised the 5 scale unit tests. No longer
+    relying on the math module.
+  *  30fd27508 - Draft: Revised the 5 Draft.scale unit tests. No longer
+    using scale_vector_from_center.
+  *  687461cf1 - Draft: added 5 scale unit tests to test_modifications
+  *  53a500ecf - PartDesign: make sure to remove selection gate when
+    closing task panel
+  *  32d69af30 - Fem: make sure to remove selection gate when closing
+    task panel
+  *  be22fb0bc - Part: do not use local event loop in sweep and
+    thickness panel
+  *  5abb45f7c - [PD] fix wording for skew prisms
+  *  42d643c8f - PD: whitespace improvements
+  *  5635f87d0 - PD: do not use active document in task dialogs because
+    this is error-prone and optimize string creation in
+    TaskSketchBasedParameters::getFaceReference
+  *  1c730a7f0 - PD: do not use active document in task dialogs because
+    this is error-prone
+  *  74e4a3e97 - [Part Design] allow for preselecting loft sections and
+    pipe spines prior to invoking command
+  *  b0f6920b4 - Path: use 4-space indentation, and keep lines short
+  *  645336ffd - Path: add missing postprocessor to CMakeLists
+  *  7459f87c8 - Part: [skip ci] Coverity: Uninitialized scalar field
+  *  d13a187a6 - App: [skip ci] Coverity: 'Constant' variable guards
+    dead code
+  *  6199fbb25 - Base: [skip ci] Coverity: Uncaught exception
+  *  3a8a28ce9 - Gui: [skip ci] Coverity: Uncaught exception
+  *  c3d35c65f - dxf: [skip ci] Coverity: Buffer not null terminated
+  *  d3d8ea841 - Gui: [skip ci] Coverity: Uninitialized pointer field
+  *  3dce94d58 - TechDraw: [skip ci] Coverity: Dereference null return
+    value
+  *  e5a3ba0ce - TechDraw: [skip ci] Coverity: Uninitialized scalar
+    variable/Uninitialized scalar field
+  *  aaf12da9d - [OpenSCAD] consistent FreeCADGui imports, fixes
+    headless CSG import
+  *  d20512216 - Gui: [skip ci] fixes #0004422: PartDesign value input
+    does not accept trailing slash
+  *  2c744264d - Gui: several fixes for expression search box: + rename
+    method setMatchExact() to setExactMatch() + move handling of user-
+    defined parameters to class ExpressionParameter + Qt::MatchExactly
+    is not supported by QCompleter, use Qt::MatchStartsWith instead +
+    add possibility to change match behaviour via context-menu
+  *  d6748a030 - Gui: enable search box in stand alone TreeView dockable
+  *  4f5a2e923 - Gui: allow change ExpressionCompleter filter mode
+  *  82038bb1f - App: [skip ci] add GeoFeaturePy::getPropertyOfGeometry
+  *  a7ffe6eb8 - [Sketcher] Improve Solver Message Visibility...
+  *  0aa759b5c - Move the aliases before other content of cells
+  *  1a7fd88bc - Add SVG icon for Part Reverse Shape command
+  *  24fd057cb - MeshPart: [skip ci] import MeshPartGui in order to load
+    icon resources
+  *  6aeed648f - Auto stash before rebase of "upstream/master"
+  *  f681b86ab - fixes #0004426: [skip ci] Patch to add MinLength and
+    MaxLenght to the Netgen options in the Python API (provided by
+    thomasFreeCAD)
+  *  89a2151a9 - App: [skip ci] move execution of extensions to its own
+    method
+  *  b2f11ae6f - App: [skip ci] improve whitespaces
+  *  74abb3988 - App: fix
+    GeoFeatureGroupExtension::extensionGetSubObject()
+  *  4cad62e31 - PartDesign: [skip ci] fix L2 parameter in pad feature
+    when using custom direction
+  *  fd3efcdbd - [Path] PocketShape - fix improper path generation
+  *  7cbc9cf5f - [PD] allow to pad in any direction
+  *  d4519d5ae - [PD and Part] add possibility to create skew prisms
+  *  47b27edd6 - [Path] Fixes #4433 - `Cut Side` reset with certain Base
+    Geometry changes
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 02 Oct 2020 16:50:42 +0300
+
+freecad-daily (0.18.3+git22410-abfb6e844-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/FreeCAD/FreeCAD.git
