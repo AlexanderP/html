@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package gimp-devel-dev_2.10.18+git44082-2953d70620-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package gimp-devel-dev_2.10.18+git44398-87a670a272-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,462 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package gimp-devel-dev in sid of architecture amd64</h5>
-<div class="highlight"><pre><span></span>gimp-devel (2.10.18+git44082-2953d70620-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>gimp-devel (2.10.18+git44398-87a670a272-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: gimp-2-10
+  * Commit: 87a670a27268f40b2b0f489610ddde8391406b6c
+  * Date: 1607550718
+  * git changelog:
+  *  87a670a272 - gitlab-ci: package is called libaa1-dev, not libaa-dev
+  *  2fefbded35 - gitlab-ci: make the GIMP build more complete
+  *  d89a5b5ba1 - gitlab-ci: we need graphviz for dot, not graphiz-dev
+  *  39d9e872bd - Update Catalan translation
+  *  90293c596c - Update Polish translation
+  *  f06316364d - Update German translation
+  *  b1e11e5cf9 - #5977 prompt to apply layer offset only if there
+    actually is a (non-zero) offset
+  *  3706f43f59 - Update Ukrainian translation
+  *  d3527f22e4 - plug-ins: fix mistakes in cherry-picking metadata
+    improvements.
+  *  bcf91f7774 - plug-ins: use logging for some messages that seem to
+    be for debugging only.
+  *  3f3dd3cfc9 - plug-ins: improve error handling and use GError in
+    metadata-editor/viewer.
+  *  1965c759a2 - plug-ins: fix #2836 GPS data is truncated to the
+    degree when edited.
+  *  fe77ded9e9 - plug-ins: improve formatting of gps data in metadata-
+    editor.
+  *  f131ede108 - plug-ins: use g_log instead of g_printerr when setting
+    tag fails.
+  *  31164859af - plug-ins: fix crash in metadata-editor when licensor
+    phone data was NULL.
+  *  8b26c7e23d - plug-ins: fix incorrect formatting when switching
+    between m and ft for gps altitude.
+  *  f3c4e7af99 - plug-ins: improve formatting of gps data in metadata-
+    viewer.
+  *  5a68e24ca0 - plug-ins: add functions for formatting gps metadata.
+  *  7bf6fa663f - plug-ins: improve casing in metadata-tags.
+  *  aab39d3fe2 - plug-ins: refactor saving longitude/latitude in
+    metadata editor.
+  *  8d4919c95e - gitlab-ci: expire distribution stage artifacts after 2
+    days
+  *  434f632b71 - Updated Italian translation
+  *  3bfa97cb57 - Updated Italian translation
+  *  eaaa74561b - Update Catalan translation
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 10 Dec 2020 23:55:51 +0300
+
+gimp-devel (2.10.18+git44374-d3361c4dbc-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: gimp-2-10
+  * Commit: d3361c4dbc0ec952c4c4dcdd37bb851d9c4bd9eb
+  * Date: 1606048948
+  * git changelog:
+  *  d3361c4dbc - Update Polish translation
+  *  2fd189031d - plug-ins: oops I messed up cherry-picking.
+  *  baa063e687 - plug-ins: in metadata editor and viewer only convert
+    values to UTF-8 if they are not.
+  *  c74d623202 - plug-ins: fix metadata-editor not saving
+    Xmp.photoshop.Urgency and Xmp.xmpRights.Marked.
+  *  78d4806c6b - plug-ins: let metadata-editor also save Iptc tags.
+  *  88433bb4e1 - plug-ins: add missing Iptc equivalents of Xmp tags in
+    metadata-editor.
+  *  1055016eb5 - plug-ins: In metadata-editor always read iptc
+    equivalent values of xmp tags.
+  *  f6bed86934 - plug-ins: fix not showing all values of iptc tags that
+    appear more than once.
+  *  4275dbb8f5 - plug-ins: Refactor cleaning xmp values into a separate
+    function in metadata-editor.
+  *  2217680a6c - plug-ins: fix incorrect struct used for comparison in
+    metadata-editor.
+  *  173e2fcb64 - plug-ins: fix incorrect single/multi(ple) values for
+    certain iptc tags used in metadata editor.
+  *  51a622d950 - plug-ins: fix incorrect reading of iptc tags that
+    appear more than once.
+  *  6b854b0a30 - plug-ins: Refactor certain string handling into
+    separate functions in metadata-viewer.
+  *  3886252422 - libgimpbase: fix incorrect reading of iptc tags that
+    appear more than once.
+  *  a13ddc9248 - Update German translation
+  *  07273da041 - Update German translation
+  *  be2a6eb81f - Update German translation
+  *  57a131ec9b - Update German translation
+  *  2afe4c7c98 - Update Ukrainian translation
+  *  7ec030814a - plug-ins: improvement of TIFF loading when
+    TIFFNumberOfDirectories()…
+  *  09970f45b7 - Issue #5837: TIFF file not recognized.
+  *  9bd8a8a134 - libgimpbase: do not use g_snprintf() with same source
+    and buffer.
+  *  7bca6f06c6 - Update Romanian translation
+  *  ff137a6f12 - Add Kabyle translation
+  *  6c1ace322b - Add Kabyle translation
+  *  1a5b2c791e - Update Catalan translation
+  *  4ea7fb6f4f - app: proper ellipsis & wrap on Image Properties label
+    where it matters.
+  *  18fa6d3a2f - app: display profile name in Color space field of
+    Image Properties.
+  *  97955482b5 - NEWS: add the D-Bus calls updates.
+  *  2fd4fc7c7a - app: improve opening images through the DBus service.
+  *  f2f0b6aae8 - app: wait for the software to be fully initialized
+    before processing…
+  *  220e6ca6a9 - Update Spanish translation
+  *  3edc753b58 - Update Spanish translation
+  *  2fca3d97bd - Update Spanish translation
+  *  69a367e333 - Update Spanish translation
+  *  abb8d51702 - Update Slovak translation
+  *  60746f7478 - Update Romanian translation
+  *  04de009f0c - Update Catalan translation
+  *  4c67233844 - Update Polish translation
+  *  566edc8ffa - Update Swedish translation
+  *  462a266610 - Update Romanian translation
+  *  fdc577f93f - Update Romanian translation
+  *  348a2faa2a - Update Romanian translation
+  *  264310c809 - Update Ukrainian translation
+  *  6ca70a35fc - NEWS: add GeoTIFF support.
+  *  0b40a4c8bc - GeoTIFF tags support added to file-tiff plugin.
+  *  3525e0d19a - Update Romanian translation
+  *  979d9ae3ef - Update Romanian translation
+  *  04b80f82f1 - Update Romanian translation
+  *  de9ae0b41e - Update Romanian translation
+  *  8ed25458d7 - Update Romanian translation
+  *  4d4bb28af4 - Update Romanian translation
+  *  bb30dae5ff - NEWS: oups mixed some 2.99.x news with 2.10.x ones.
+  *  fddec4a910 - NEWS: start a GIMP 2.10.24 section.
+  *  f8c99a9db5 - Update Polish translation
+  *  b998894c6d - Update Romanian translation
+  *  40a1c98d47 - Update Romanian translation
+  *  56bb4cd62a - Update Romanian translation
+  *  82dc2285b1 - Update Catalan translation
+  *  cc0774d5d7 - Update Catalan translation
+  *  f570fc804f - Update Ukrainian translation
+  *  e215ec3a27 - Installer: forgot Components for girepository
+  *  27c98c3478 - Installer: some cleanup, make Lua optional, add devel
+    splashes
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 26 Nov 2020 17:49:58 +0300
+
+gimp-devel (2.10.18+git44311-00dbfc7375-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: gimp-2-10
+  * Commit: 00dbfc73759cd64d07369e2a8980f8e6a834ad34
+  * Date: 1603912788
+  * git changelog:
+  *  00dbfc7375 - Installer: preparing for GIMP 2.99
+  *  d781cf7f0f - Update Romanian translation
+  *  13a95ec138 - Update Romanian translation
+  *  817f995f79 - Update Romanian translation
+  *  d88318625b - Update Romanian translation
+  *  f08b53b6b4 - Update German translation
+  *  f51d8ccfc5 - icons: add legacy "software-update-available" icon
+    from Adwaita.
+  *  7c6a272138 - plug-ins: fix a type warning.
+  *  951e7d8e03 - app: fix some glitches in the splash status text.
+  *  16c7ea4abf - Update Romanian translation
+  *  cd8c2c5893 - configure.ac: fix `--with-linux-input` handling with
+    upcoming autoconf-2.70
+  *  c2ba474c81 - plug-ins: register file-heif proc on init() instead of
+    query().
+  *  49fdb2a6be - Update Ukrainian translation
+  *  e726e83863 - Update Romanian translation
+  *  e526da2345 - HEIF plug-in: runtime detection of supported formats
+  *  40683e01a7 - Update Polish translation
+  *  963b167dc4 - Update Ukrainian translation
+  *  b5d5deca7e - plug-ins: use g_message instead of g_printerr when
+    there is data loss.
+  *  334e905ae2 - plug-ins: don't try to read tiff pages with an invalid
+    directory.
+  *  4226a05fd5 - plug-ins: fix #3757 Exporting invalid tiffs: Missing
+    required "ImageLength" field.
+  *  01f3d0472e - Update Romanian translation
+  *  2a84311090 - libgimpbase: fix copy-paste error in documentation
+    comments.
+  *  4631cbd015 - plug-ins: file-tiff-save looks for the wrong exif tags
+    to delete.
+  *  098344bb8c - Update Romanian translation
+  *  7cfbb1739c - app: properly free internal strings at finalization
+    and before…
+  *  230e4fe731 - configure: do not show "profile support: yes" when
+    HEIC support is OFF.
+  *  f15f64b5f8 - Update Romanian translation
+  *  a1c2119011 - Update Ukrainian translation
+  *  9814b47046 - Issue #5783: Accessibility: Button focus not visible
+    in dark theme.
+  *  59a1dff35e - Issue #5788: 10/12 bpc in HEIF export does not mean
+    HDR.
+  *  8227fe7d30 - autotools: separate line for HEIC and AVIF support.
+  *  bfc492fb1b - Issue #4777: "New version available" after update.
+  *  7f7fc3bb6c - Update Slovak translation
+  *  2fcdabd878 - Update Slovak translation
+  *  91a91542f7 - plug-ins: Let the user know if we fail to save image
+    metadata in file-jpeg.
+  *  7c5b585df7 - libgimpbase: fix #2253 saving metadata failed if
+    Pentax PreviewOffset present in exif tags.
+  *  94f5fc33de - Update Romanian translation
+  *  bae2fbd8b0 - Update Romanian translation
+  *  f0045eb105 - Update Romanian translation
+  *  8e4144359e - Update Catalan translation
+  *  df10e278ba - Update Catalan translation
+  *  3a09eefd56 - Update Polish translation
+  *  1202c2555b - Fix a GUI bug in HEIF/AVIF export dialog.
+  *  84e5a6eea8 - Update Croatian translation
+  *  523a2bb56e - Update Croatian translation
+  *  901825908a - Update Croatian translation
+  *  d969cd7dc4 - plug-ins: fix tiff load of grayscale images without
+    alpha.
+  *  1b2f58f8ce - Update Slovak translation
+  *  5551428d28 - Update Slovak translation
+  *  46a12d4a4a - Update Slovak translation
+  *  781d5bceb7 - Add Slovak translation
+  *  b5e9bdb5df - Issue #5735: incorrect condition because of missing
+    parenthesis.
+  *  993a7f80e5 - Update Slovak translation
+  *  f29a637236 - Update Slovak translation
+  *  6d491fbab9 - Issue #5734: fix typos in if() test.
+  *  6271f8b262 - Update Catalan translation
+  *  6c6ee7e145 - Update Spanish translation
+  *  492c1eb90f - Update Spanish translation
+  *  76ed00db93 - Update Spanish translation
+  *  4afccca4fe - Add Kabyle translation
+  *  128f848c60 - Update Swedish translation
+  *  6f7927f2f8 - configure.ac: post-release version bump to 2.10.23
+  *  e11d7f0980 - Update Ukrainian translation
+  *  0c8a7891f7 - configure.ac: bump versions for the 2.10.22 release
+  *  dd9a426fa4 - desktop: update appdata with date and additional
+    release note items.
+  *  2cfdeaeb1f - plug-ins: change export dialog title when exporting as
+    AVIF.
+  *  2c8e2599ac - Update Indonesian translation
+  *  7b49f881fb - NEWS: add fixed bugs
+  *  5e7928560f - desktop: add a <developer_name> tag.
+  *  e97d46e48b - 2.10.22: update NEWS to list recent bug fixes
+  *  daeb3ebe17 - Updated Italian translation
+  *  48b52eb5b7 - Updated Italian translation
+  *  5dd80acd07 - NEWS: update.
+  *  0a55c44705 - plug-ins: When exporting BMP with color space info,
+    always include color masks.
+  *  761e93a49e - plug-ins: The plugin can leak the "tif" file
+    descriptor as written...
+  *  df6e13a560 - app: GimpFilterTool displays a "Sample merged"
+    checkbox.
+  *  4d74802521 - Issue #5630: Sample Merged as defaults in Color Picker
+    tool.
+  *  171ec7c24f - app: NULL log domain is not a bug.
+  *  9dcd0de28c - Update Ukrainian translation
+  *  85656b2365 - Issue #4505: Adjust the Preferences size to fit on
+    smaller displays.
+  *  7a0634fa49 - 2.10.22: NEWS update (bug fixes, translations)
+  *  5ade6acb56 - Issue #3481: Cannot paste images into GIMP copied from
+    Telegram.
+  *  b7b6612a4c - Update French translation
+  *  a2b70bad60 - Update French translation
+  *  f0a3e76e2a - NEWS: update.
+  *  0a9bb2839e - Fix #4560 - file-xpm saving unused transparency
+  *  7e4d4f9d60 - Issue #2275: rotate commands not actually applied to
+    the image.
+  *  757e741991 - Update Catalan translation
+  *  b5ba019f33 - Update Catalan translation
+  *  c97e8dd3a5 - Update Catalan translation
+  *  a413a7950e - Update German translation
+  *  3ca4c44062 - gitlab-ci: fixing CI (hopefully) on gimp-2-10 branch.
+  *  8b306eea7c - NEWS: update.
+  *  32bedc7fa6 - Update Swedish translation
+  *  0923ad63ef - Update Swedish translation
+  *  8d0fe7151f - Update Polish translation
+  *  c969c8fc03 - Update Ukrainian translation
+  *  1f2bb44bc9 - Update Ukrainian translation
+  *  f43f0546df - Rename misleading Lossless string
+  *  3a7ab25c7a - Update Spanish translation
+  *  096cd27f49 - Update Russian translation
+  *  8237fa5bba - 2.10.22: we don't know how many more bug fixes we do
+    before we tag the release, so let's not annoy translators as much
+  *  c7cdb59125 - 2.10.22: HEIF and PSP support updates, more
+    contributors and translators, more bug fixes
+  *  1b91757332 - Update Polish translation
+  *  c0b0a47a90 - Update Ukrainian translation
+  *  31867ac2f2 - 2.10.22: mention PSP support improvements
+  *  9854327e9a - libgimp: link libgimpui against GEGL
+  *  6005652b21 - Update Ukrainian translation
+  *  51ada32d07 - Update Ukrainian translation
+  *  5e4e073b48 - 2.10.22: mention HEIF changes in AppData
+  *  ea725ba523 - Update Russian translation
+  *  11f7c6fabf - Make strings translateable in HEIF/AVIF export dialog
+  *  ae23c9ac55 - Update Ukrainian translation
+  *  52b3194fd4 - plug-ins: add support for indexed images in psp
+    reader.
+  *  9ec44fd835 - plug-ins: add support for grayscale images in psp
+    reader.
+  *  712063a5eb - plug-ins: add support for 16 bit integer images in psp
+    reader.
+  *  256292d514 - plug-ins: show descriptive layer type name for psp
+    layers we can't convert.
+  *  8a85af71fc - plug-ins: add defines for psp reader to include  new
+    things up to psp file version 8.
+  *  6421a05549 - plug-ins: replace a few occurrences of g_message with
+    g_set_error in psp reader.
+  *  7670e7980a - Update Ukrainian translation
+  *  e2f2a3f23c - Updated HEIF plug-in in 2.10 branch
+  *  a710fa59e9 - Typo - Put a blank after the fullstop.
+  *  d9b102e196 - Misc typo fixes in plug-ins/
+  *  a830ce5bb3 - Issue #5623: https://gimp.org/gimp_versions.json is
+    redirected…
+  *  3bc240d0f5 - Fix compilation with old libheif 1.3.2
+  *  2a1c76a251 - Updated Spanish translation
+  *  71ac378d17 - Update Spanish translation
+  *  14546cf8b7 - Updated HEIF plug-in
+  *  95fcd80466 - Update German translation
+  *  8aaa0e15f5 - Update Polish translation
+  *  4849391428 - Updated Italian translation
+  *  bd57def840 - Typo fixed in Italian translation.
+  *  987101df36 - plug-ins: add most likely blend modes for certain psp
+    blend modes.
+  *  146a8d644b - plug-ins: fix reading of psp tubes when psp file
+    version >= 4.
+  *  a42cf4fb7f - NEWS: update.
+  *  8caa5e93de - plug-ins: backport spyrogimp Issue #5043 - reduce
+    undos
+  *  b1334bc40c - Update Ukrainian translation
+  *  94bea61b10 - plug-ins: add support for reading raster layers of
+    newer psp versions.
+  *  7746e829c2 - plug-ins: enable reading of psp images with file
+    versions > 6.
+  *  a4344fff7b - plug-ins: refactor reading of raster layer extension
+    info for psp images.
+  *  3765f80652 - plug-ins: Take zero length layer names into account in
+    psp reader.
+  *  6b4f0490f5 - Issue #4816: fix spyrogimp to work with grayscale
+    images
+  *  feda32a436 - gitlab-ci: update dependencies to add libraw20
+  *  81ca0de44d - 2.10.22: update NEWS re plugins, add the
+    developers/contributors section
+  *  8439dc3fcd - 2.10.22: update NEWS
+  *  2871367f9a - Update Chinese (China) translation
+  *  d2e1596fed - Update Chinese (China) translation
+  *  85e8c19290 - Update Ukrainian translation
+  *  dab2ed5b0b - Update Polish translation
+  *  04c42c5ce5 - Update release appdata
+  *  fbbdb62a98 - build: Prefer to find libwmf using pkg-config
+  *  bceb288a58 - 2.10.22: bug fixes, translation updates, translators
+  *  442f806288 - Update Ukrainian translation
+  *  0855ea91b2 - Fix markup issue in appdata
+  *  8a3eaaf9be - 2.10.22: start filling in appdata re changes in the
+    new version
+  *  2321ab22fd - NEWS: update.
+  *  ed671d7eac - Issue #5584: JPEG magics detection failure.
+  *  63caa83eb7 - plug-ins: fix reading layer names with high bit ASCII
+    characters in psp files.
+  *  cebd634ec1 - plug-ins: fix wrong layer offset of psp layers.
+  *  0757f78097 - Update Turkish translation
+  *  05341fada3 - app: avoid dropping motion events in spin-scales
+  *  2fea312f03 - Update Polish translation
+  *  2cabb436d9 - Update Ukrainian translation
+  *  2cc7f4b6bb - plug-ins: improve psp image reader stability by always
+    using the block/chunk length.
+  *  0a9b2c8da6 - Update Croatian translation
+  *  753b69da19 - Update Croatian translation
+  *  1907584a76 - Update Croatian translation
+  *  c5bd7dfebf - Issue #5530: do not fail font loading on broken
+    user/GIMP fonts.conf.
+  *  464f259473 - app: during splash-screen lookup, don't leak
+    GFileEnumerator
+  *  78901653dc - Update German translation
+  *  2ad03dc61c - plug-ins: fix incorrect loading of PSP images with
+    uncompressed channel data.
+  *  af9ccbbe4e - plug-ins: fix reading of creator block data of PSP
+    images. Since string data in PSP images is not zero terminated
+    reading creator block data always failed.
+  *  aa3d054017 - Update Ukrainian translation
+  *  718c6ec2b8 - gitlab-ci: add a distribution step.
+  *  e1d88f1765 - gitlab-ci: run distcheck with multi-jobs.
+  *  de4f981192 - Update Turkish translation
+  *  7ca97bb0c1 - Update Turkish translation
+  *  0a58aa881b - Update Polish translation
+  *  030b8b1e59 - gitlab-ci: move pygtk build into deps-debian/testing
+    step.
+  *  25065ebf54 - Update Swedish translation
+  *  542d11eed3 - NEWS: update with GimpMemSizeEntry changes.
+  *  c8c12f2ac1 - libgimpwidgets: improve/fix more of GimpMemSizeEntry.
+  *  35c9e0a213 - libgimpwidgets: fix setting GimpMemSizeEntry value
+    with unit change.
+  *  dcc28a1ffc - Updated Italian translation
+  *  502804281e - configure: look for pygtk-codegen-2.0 and pygtk
+    defsdir in all cases.
+  *  bdc7f912f9 - gitlab-ci: fix the GIMP 2.10 CI distcheck.
+  *  562715dbf2 - build, app: depend on GEGL-0.4.26
+  *  7f2d52a575 - Issue #4328: Distorted path of an open/imported circle
+    from an svg file.
+  *  42511194d5 - Update Ukrainian translation
+  *  3456d544ff - NEWS: some minor typo fixes and alike.
+  *  006e85e5ea - Update Swedish translation
+  *  da1a29c9f0 - Update Polish translation
+  *  7bac21b6be - devel-docs: document new "Messages" performance-log
+    parameter
+  *  638e05494a - app: allow recording GLIB log messages in performance
+    logs
+  *  a8e3f36e38 - app: add gimp_log_{set,remove}_handler()
+  *  7dc9cdf42e - devel-docs: use actual em-dashes in performance-logs
+    documentation
+  *  09a3058839 - devel-docs: remove old performance-logs-parameters
+    section
+  *  5d07a99bdc - devel-docs: fix image URL in performance-logs
+    documentation
+  *  980d6df67a - devel-docs: update documentation of performance-log
+    parameters
+  *  86dd161f53 - app: improve layout of performance-log file-selection
+    dialog parameters
+  *  18b62f1af4 - NEWS: update.
+  *  596ab794c5 - Update Ukrainian translation
+  *  38b1298c2d - app: in GimpDashboard, fix progressive-performance-log
+    env-var
+  *  460db9d302 - tools: add performance-log-progressive-coalesce.py;
+    use in performance-log-viewer
+  *  b58ccec833 - tools: add performance-log-close-tags.py, use in
+    performance-log-viewer
+  *  60ca611096 - app: add progressive performance logs
+  *  7e21f79270 - app: allow controlling performance-log parameters
+    through the UI
+  *  5fc30e59d3 - app: in GimpBacktrace Windows backend, return NULL
+    backtrace if not initialized
+  *  22690abac3 - Issue #5472 - CRITICAL while using Move tool with
+    arrow keys
+  *  0bf0f31a5b - Issue 2874 - gimp-tool-pencil.svg icon size is
+    corrected on Color icon theme
+  *  a6c66e49fb - build: add an additional distcheck step to .gitlab-
+    ci.yml
+  *  c38a23b90c - Issue #4536 - Seg fault when trying to open image on
+    Google Drive (Gnome 3.34.3)
+  *  040c7b8b03 - NEWS: update.
+  *  8f539680de - plug-ins: fix #5357 Image marked as compressed, but
+    DDSD_LINEARSIZE is not set.
+  *  430e60a898 - Stop writing file paths into TIFF DocumentNames
+  *  4d0db02081 - NEWS: update.
+  *  08ae0a9bb9 - Offer image/webp content type in .desktop file
+  *  7942fe66b7 - Update Kazakh translation
+  *  3f0ffaa461 - Update Kazakh translation
+  *  08d94826d5 - Update German translation
+  *  40586036ee - NEWS: kickstart the 2.10.22 section!
+  *  a897b48921 - app: show playground if any of the experimental
+    feature is enabled.
+  *  ebb5c3c0d2 - app: move OpenCL settings into the Playground.
+  *  a0c1a2cc36 - app: add contents of /.flatpak-info in the verbose
+    info.
+  *  b0a4a95be4 - Issue #5069: Gfig uses the Stroke color for filling
+    instead of the fill color
+  *  5feae636f3 - Update Chinese (China) translation
+  *  88ef1d9156 - libgimpwidgets: handle Enter/Esc keys in
+    GimpSpinButton
+  *  1fc254a48a - Update Chinese (China) translation
+  *  aeed6fcb85 - app: make "gegl:matting-levin" default engine of
+    Foreground Select tool.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 29 Oct 2020 17:23:29 +0300
+
+gimp-devel (2.10.18+git44082-2953d70620-1) unstable; urgency=medium
 
   * Compile
   * URL: https://gitlab.gnome.org/GNOME/gimp.git

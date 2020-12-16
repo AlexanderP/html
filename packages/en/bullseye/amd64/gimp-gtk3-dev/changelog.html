@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package gimp-gtk3-dev_2.99.0+git45901-df5b363a96-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package gimp-gtk3-dev_2.99.0+git46441-4187b840d0-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,764 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package gimp-gtk3-dev in bullseye of architecture amd64</h5>
-<div class="highlight"><pre><span></span>gimp-gtk3 (2.99.0+git45901-df5b363a96-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>gimp-gtk3 (2.99.0+git46441-4187b840d0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: 4187b840d00717d44fd43b74e04e534457eea01b
+  * Date: 1607545592
+  * git changelog:
+  *  4187b840d0 - Update Catalan translation
+  *  fc1952ce05 - Update Ukrainian translation
+  *  ac343368ec - Change _Misc Ops. to _Misc
+  *  1c06751c08 - app: update when device axes/keys change.
+  *  e3ee463815 - app: move GimpDeviceInfo variables to a private
+    structure.
+  *  de739bde23 - app: better code to handle GimpDeviceInfo axes.
+  *  a60d5fc2e0 - gitlab: comment out bug reporting howto text.
+  *  822d875589 - Update Swedish translation
+  *  12fcf4b930 - Update Ukrainian translation
+  *  502dcf7d19 - Update Ukrainian translation
+  *  685d938c1a - Update Polish translation
+  *  d6913fd622 - Update POTFILES.in
+  *  fc4fedeb68 - gitlab-ci: disable building file-mng for gimp-win32
+    explicitly.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 11 Dec 2020 00:11:12 +0300
+
+gimp-gtk3 (2.99.0+git46397-bb03641794-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: bb036417947d6b6efa28140a30857e88c2ccd625
+  * Date: 1606396457
+  * git changelog:
+  *  bb03641794 - Update Catalan translation
+  *  10bc6a11d3 - Update Catalan translation
+  *  69d187f320 - Update Ukrainian translation
+  *  0e8acc5dd6 - Issue #5985: GIMP crashed when deleting paths.
+  *  733986513a - Issue #5967: Inconvenient focus in PNG export.
+  *  222c820024 - libgimp, plug-ins: make mnemonic unique.
+  *  b7d55fa066 - libgimp, libgimpwidgets: fix
+    gimp_prop_scale_entry_new() for integer…
+  *  00573560d4 - libgimp: add gimp_procedure_dialog_get_scale_entry to
+    gimpui.def
+  *  731537befd - plug-ins: port file-jpeg export procedure to new API.
+  *  87062e22ec - libgimp: new gimp_procedure_dialog_get_scale_entry()
+    function.
+  *  f678aeba77 - Update Catalan translation
+  *  2ea5dec56e - libgimpwidgets: improved gimp_prop_scale_entry_new(),
+    new function…
+  *  8d5008d76f - libgimp, libgimpbase, libgimpwidgets: new
+    gimp_range_estimate_settings()
+  *  9ca18c37cd - INSTALL: add information about GEGL options to enable
+    for the…
+  *  78fabc1e47 - icons: (meson) install the new icons for the Paint
+    Select tool.
+  *  31111d2802 - app: mark the paint select tool as experimental.
+  *  9f6fbe8aca - app: fix generated tool-enums.c and deactivate Paint
+    Select tool…
+  *  3fb2ff1b9d - libgimp: improvements to GimpProcedureDialog API.
+  *  e53ce2fde9 - libgimp: output a saving metadata failed message when
+    relevant.
+  *  5bbc7899bc - menus: remove PaintSelect tool from the menus...
+  *  0b27fec6f9 - Update Ukrainian translation
+  *  d3260b594b - Update Ukrainian translation
+  *  9e391bc3b6 - app: Paint Select tool, reflect changes applied to the
+    gegl operation...
+  *  e1cdb9f54e - app, icons: add Paint Select tool in the playground
+  *  3e67d7d676 - plug-ins: file-tiff using the new dialog generation.
+  *  56bfda3dd3 - plug-ins: update file-png to new metadata handling.
+  *  3918a0a04c - libgimp: new metadata support concept in
+    GimpSaveProcedure and new…
+  *  ae4daf9465 - Update Polish translation
+  *  f9f516a99a - libgimpwidgets: fix missing doc comments and
+    annotations.
+  *  9f03bdce30 - libgimpwidgets: fix the def file.
+  *  c58b7ad80b - libgimp: mnemonic duplicate verification in
+    GimpProcedureDialog.
+  *  4511de4268 - plug-ins: file-tiff dialog now generated too.
+  *  cd0ac72314 - libgimp: generated text buffer should also have a
+    tooltip taken from…
+  *  bc3602a787 - libgimpwidgets: new gimp_label_int_widget_get_widget()
+    function.
+  *  3128047a0b - plug-ins: in metadata editor and viewer only convert
+    values to UTF-8 if they are not.
+  *  d004305019 - plug-ins: fix metadata-editor not saving
+    Xmp.photoshop.Urgency and Xmp.xmpRights.Marked.
+  *  47065df53c - plug-ins: let metadata-editor also save Iptc tags.
+  *  96c5d1c1a1 - plug-ins: add missing Iptc equivalents of Xmp tags in
+    metadata-editor.
+  *  7cce45b377 - plug-ins: In metadata-editor always read iptc
+    equivalent values of xmp tags.
+  *  879b3745d2 - plug-ins: fix not showing all values of iptc tags that
+    appear more than once.
+  *  bd2f43bf20 - plug-ins: Refactor cleaning xmp values into a separate
+    function in metadata-editor.
+  *  c855590ffa - plug-ins: fix incorrect struct used for comparison in
+    metadata-editor.
+  *  786aaec2a3 - plug-ins: fix incorrect single/multi(ple) values for
+    certain iptc tags used in metadata editor.
+  *  26db975a84 - plug-ins: fix incorrect reading of iptc tags that
+    appear more than once.
+  *  599d91db54 - plug-ins: Refactor certain string handling into
+    separate functions in metadata-viewer.
+  *  d0f67faf29 - libgimpbase: fix incorrect reading of iptc tags that
+    appear more than once.
+  *  501675b8a3 - plug-ins: file-png now uses generated dialog.
+  *  5fa38d5765 - libgimp: bug fixes and design improvements for
+    generated widgets.
+  *  bb322d94d7 - Fix typos
+  *  0b040dc109 - Update Serbian translation
+  *  02142e92f7 - Update German translation
+  *  de91d84906 - meson: libjpeg and libtiff are not optional
+    dependencies!
+  *  3f59769120 - INSTALL: update GEGL build instructions.
+  *  22534f71b3 - Update Ukrainian translation
+  *  9a90eefe1f - plug-ins: improvement of TIFF loading when
+    TIFFNumberOfDirectories()…
+  *  9ff0204230 - Issue #5837: TIFF file not recognized.
+  *  2a439ba21e - NEWS: update.
+  *  5d639dcd97 - Update Ukrainian translation
+  *  9c52af21ea - app: better translatable text for Indexed color color
+    space text…
+  *  b7796b0bfb - app: improve sample text logics for CJK fonts.
+  *  b19e7796b2 - app: s/pango_fc_font_has_char/pango_font_has_char/
+    (undeprecation).
+  *  7a50b0940e - app: undeprecate some Pango/Harfbuzz calls.
+  *  4dd64e75c3 - Update Romanian translation
+  *  4485296bdc - libgimp: fix timezone in IPTC tag
+    Iptc.Application2.TimeCreated.
+  *  435d5ce83a - libgimpbase: do not use g_snprintf() with same source
+    and buffer.
+  *  74eb2b1f8a - libgimp, libgimpwidgets: re-argh - fix the def files
+    too.
+  *  e16f5bc1a1 - libgimpwidgets: argh forgot to edit the autotools
+    Makefile too!
+  *  c85a6ca9d3 - libgimp: fix typo.
+  *  e6e2e11ff6 - libgimp: some more functions to GimpProcedureDialog.
+  *  636044a0c3 - libgimp: export_comment values was not set in libgimp.
+  *  7b6f2e5c2b - libgimp, libgimpwidgets, plug-ins: improved
+    GimpProcedureDialog API.
+  *  673f490a95 - libgimp: also size prop switch widget's label as
+    GimpLabeled's labels.
+  *  735a071c4e - libgimpwidgets: align gimpproswitch label to the left.
+  *  377de0a65b - app: proper ellipsis & wrap on Image Properties label
+    where it matters.
+  *  b9ab461977 - app: display profile name in Color space field of
+    Image Properties.
+  *  b2649daf11 - app: improve opening images through the DBus service.
+  *  a86ed68870 - app: wait for the software to be fully initialized
+    before processing…
+  *  75e6f1062e - app: fix Luma Lighten/Darken only layer modes.
+  *  a8a8e57a29 - Update Spanish translation
+  *  f40dc40cbc - app: fix autotools build.
+  *  8069659e60 - Update Slovak translation
+  *  b3fc24268a - Issue #5888: GIMP 2.99.2 crash when using brush in
+    multiply mode.
+  *  93756733ee - Fixes Catalan translation
+  *  18598915e4 - Update Romanian translation
+  *  1514f99b18 - Update Catalan translation
+  *  3d24f6cd06 - Update Polish translation
+  *  93ad5ebe95 - Update Swedish translation
+  *  e85dd77ad1 - libgimpwidgets: fix GimpChainButton init().
+  *  efd2af9994 - build: update nightly flatpak manifest.
+  *  dce67b41f9 - gitlab form - Do not show compilation tips
+  *  60f1095d4b - Issue 5870: add reference to GNU documentation in
+    INSTALL.
+  *  3e35fe4d80 - Cppcheck fixes
+  *  fb7a46c6a2 - libgimpwidgets: fix gimpwidgets.def file.
+  *  6b846b4600 - plug-ins: update file-fli to use the
+    GimpProcedureDialog generation.
+  *  2322c3759a - libgimp: improve design and usability of generated
+    procedure dialog.
+  *  d95f417719 - app, libgimpwidgets, modules, plug-ins: code changes
+    after GimpScaleEntry…
+  *  079d8fd7f2 - libgimpwidgets: make GimpScaleEntry a child class of
+    GimpLabelSpin.
+  *  4ea2b430be - libgimpwidgets: new GimpLabeled class and
+    GimpLabelSpin subclass.
+  *  3449652fe8 - app: properly grab focus when targetting text input of
+    GimpSpinScale.
+  *  4f20155696 - Update Romanian translation
+  *  78702da4c2 - Update Romanian translation
+  *  85fe0e7243 - Update Romanian translation
+  *  4e612b0f2a - NEWS: remove GeoTIFF support (moved to GIMP 2.10.24
+    NEWS file).
+  *  c1a32e5763 - libgimp: add some first API to populate a
+    GimpProcedureDialog.
+  *  4ce6d35a53 - Update Romanian translation
+  *  4b50588bc3 - Update Romanian translation
+  *  9c0ce5a051 - Update Romanian translation
+  *  005f3bd63a - Update Romanian translation
+  *  2997230416 - Update Romanian translation
+  *  a821b47f6f - Update Romanian translation
+  *  9b9b43627f - NEWS: update 2.99.4 section.
+  *  96f36f0da1 - Update Ukrainian translation
+  *  6109015250 - Update German translation
+  *  b67ca557f0 - Issue #5691: Import/Export of GeoTIFF loses important
+    header tags.
+  *  61c345cd89 - Update Polish translation
+  *  924a863bce - Update Ukrainian translation
+  *  0d98969a47 - libgimpwidgets, plug-ins: rename
+    gimp_scale_entry_set_range() to…
+  *  b3c0ba061b - app, libgimpwidgets, modules, plug-ins: finishing
+    GimpScaleEntry port.
+  *  77d2a93a52 - libgimpwidgets, plug-ins: remove legacy
+    gimp_color_scale_entry_new().
+  *  1cdfb0bd3f - libgimpwidgets: use G_DECLARE_* macros on
+    Gimp*ScaleEntry classes.
+  *  f27d172750 - libgimpwidgets: new GimpColorScaleEntry class.
+  *  4fe56cd388 - plug-ins: fix GIMPressionist build warning.
+  *  aa0b70ea38 - libgimpwidgets: get rid of old gimp_scale_entry_new().
+  *  e0854b62b6 - plug-ins: port remaining plug-ins using old
+    gimp_scale_entry_new().
+  *  dbc198001e - plug-ins: Fix incomplete port of file-openraster.
+  *  6830cbe92f - Update Catalan translation
+  *  8eabc21e22 - Update Catalan translation
+  *  52c3b9115b - plug-ins: port GIMPressionist to GimpScaleEntry.
+  *  611e22fd81 - plug-ins: port script-fu-interface to GimpScaleEntry.
+  *  7ebd19636c - plug-ins, modules: more port to GimpScaleEntry.
+  *  f342b566c8 - plug-ins: various plug-ins ported to new
+    GimpScaleEntry.
+  *  10dfaead68 - libgimpwidgets, plug-ins: continue GimpScaleEntry port
+    to real widget.
+  *  ad8b417871 - libgimpwidgets: better algorithm for GimpScaleEntry
+    default increments.
+  *  99193230b3 - libgimpwidgets: fix def files.
+  *  0f05825a29 - app, libgimpwidgets, plug-ins: default increments for
+    GimpScaleEntry.
+  *  1e81bdabb0 - app, libgimpwidgets: improve GimpScaleEntry API.
+  *  d81b151e79 - app, plug-ins: use the updated
+    gimp_prop_scale_entry_new() API.
+  *  5238958e55 - libgimpwidgets: make GimpScaleEntry into its own
+    widget.
+  *  1a5eea4f0f - app, libgimp, pdb: improve a bit
+    gimp_image_get_parasite_list() docs.
+  *  82ee478920 - libgimpwidgets: store GimpFileEntry private data in
+    appropriate struct.
+  *  c109a35c25 - plug-ins: fix PDB data identifier to be canonical.
+  *  1fb2448850 - app, pdb: use gimp_is_canonical_identifier() for pdb-
+    get|set-data…
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 26 Nov 2020 17:53:16 +0300
+
+gimp-gtk3 (2.99.0+git46255-79319803a2-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://gitlab.gnome.org/GNOME/gimp.git
+  * Branch: master
+  * Commit: 79319803a216148b0cd1e70cd29b3a9da6ab4c5b
+  * Date: 1603914708
+  * git changelog:
+  *  79319803a2 - GimpArray: Add missing array length GIR annotation
+  *  961be4dd23 - libgimp: Fix regression in GimpRunSaveFunc
+  *  a7f40df469 - Add some new files to the GIMP3-plug-in-porting-guide,
+    including a README
+  *  adef87e616 - Update Romanian translation
+  *  df916239f2 - Update Romanian translation
+  *  29c7ec9c43 - libgimp: typo and wording fix in comment docs.
+  *  7473931429 - NEWS: some update.
+  *  d48dae7181 - plug-ins: implement file-heif proc list in
+    init_procedures() instead…
+  *  cebeb90a87 - configure.ac: fix `--with-linux-input` handling with
+    upcoming autoconf-2.70
+  *  81f9ea457c - Revert "gitlab-ci: temporary allow distcheck job
+    failure."
+  *  b96bed5909 - app: show unavailable actions in Action Search after
+    available ones.
+  *  85a6b86b66 - NEWS: update a bit the 2.99.2 release section.
+  *  4d67667efc - devel-docs: add a "removed functions" table with
+    replacement proposal.
+  *  90bcdf9bda - app, libgimp, pdb: remove references of removed
+    functions.
+  *  952441653a - Update Romanian translation
+  *  8139c3bc5d - Update Romanian translation
+  *  73f84ea08b - libgimp: update .gitignore
+  *  f90f183b01 - Update Romanian translation
+  *  c3032018cf - Update Ukrainian translation
+  *  eb886032d0 - Update Ukrainian translation
+  *  f47ba9d879 - Update Romanian translation
+  *  136e5b6ff8 - Update Romanian translation
+  *  c6f6c42e7a - configure.ac, meson.build: post-release version bump
+    to 2.99.3
+  *  71d24f1103 - configure.ac, meson.build: bump versions for the
+    2.99.2 release
+  *  0052803313 - devel-docs: REVERT THIS once module.actions get
+    removed automatically
+  *  4e79aaf20c - devel-docs: add the newly generated module.actions
+    files to .gitignore
+  *  d5892c4794 - desktop: set the appdata 2.99.2 release date to today
+  *  12cf70596d - docs, etc: regenerate the default gimprc and its
+    manpage
+  *  fa37ca9aa0 - po*: update POTFILES.skip with the new toplevel
+    extensions/ folder
+  *  1640a25159 - NEWS: some more news items.
+  *  517f7e707e - NEWS: more API update.
+  *  ea8da00dd8 - NEWS: update with many of the major API changes.
+  *  3ddec66471 - Update Russain translation again
+  *  f243b4743f - Update Russian translation
+  *  df8d0bccba - Update Polish translation
+  *  7e6ced5c99 - Issue #5322: [Wayland] broken splash size.
+  *  f336f86f60 - plug-ins: use g_message instead of g_printerr when
+    there is data loss.
+  *  3a50e52ac7 - app: fix some glitches in the splash status text.
+  *  8e97d56d1e - libgimp, libgimpbase: don't use a fixed GIMP 2.10
+    version number in exif metadata.
+  *  e4514567f9 - plug-ins: don't try to read tiff pages with an invalid
+    directory.
+  *  c6063183d3 - Issue #4922: install software-update-available from
+    Adwaita on hicolor.
+  *  2920a13609 - Issue #5809: missing dependency on libm for
+    libgimpwidgets/test-eevl
+  *  e676ad46ec - app: clean tab indentation.
+  *  7462945360 - plug-ins: fix a type warning.
+  *  7957653e98 - plug-ins: fix #3757 Exporting invalid tiffs: Missing
+    required "ImageLength" field.
+  *  679fe079f6 - libgimpbase: fix copy-paste error in documentation
+    comments.
+  *  c10bb098b4 - plug-ins: file-tiff-save looks for the wrong exif tags
+    to delete.
+  *  9b0b20698e - libgimp: only save metadata after all settings have
+    been updated.
+  *  f67312293a - Update Russian translation
+  *  c86d909dda - plug-ins: fix parameters of Gimp.file_save().
+  *  1baaeabb87 - Update Ukrainian translation
+  *  bca4d434b3 - NEWS: update with new "file-heif-av1-load" procedure.
+  *  68cea84658 - app: fix AppStream tag localization.
+  *  35c0d7dca6 - HEIF plug-in: runtime detection of supported formats
+  *  e869a11270 - gitlab-ci: temporary allow distcheck job failure.
+  *  5c03dd1677 - extensions: goat-exercise appdata depends on po files.
+  *  6c26d39c8e - app: unstable versions will check available
+    development releases.
+  *  89db5f65fd - app: properly free internal strings at finalization
+    and before…
+  *  057b94f5f5 - app: use gimp_viewable_is_ancestor() instead of
+    gimp_item_is_ancestor().
+  *  fc25709367 - configure: do not show "profile support: yes" when
+    HEIC support is OFF.
+  *  e736b5fa0c - meson: do not show "profile support: yes" when HEIC
+    support is OFF.
+  *  4b9dc93d08 - app, pdb: set string arguments to "" *after* the
+    GFile.
+  *  0f6e43f0b8 - pdb: fix gimp-file-save PDB procedure implementation.
+  *  9487c5648b - app: fix gimp-file-save PDB procedure implementation.
+  *  1a90a2df32 - app: fix alpha to selection on single layer with
+    offset.
+  *  eee04288c8 - data: new splash screen for GIMP 2.99.2.
+  *  3f3c5b242e - build: improve a bit the dll_link build script.
+  *  29565fcfd8 - Update Ukrainian translation
+  *  05bb84ebed - Issue #5788: 10/12 bpc in HEIF export does not mean
+    HDR.
+  *  22b8cd305c - autotools: separate line for HEIC and AVIF support.
+  *  7ada877b4d - Update Ukrainian translation
+  *  cb2268ab21 - meson: separate line for HEIC and AVIF support.
+  *  172bdbaad3 - Update Spanish translation
+  *  2ac9b6069b - Update Spanish translation
+  *  bd8f13a950 - Update Spanish translation
+  *  0d01567b61 - extensions: flag labels and documentation strings for
+    localization…
+  *  59292c1432 - po-*: move the Python goat exercise to the gimp30-std-
+    plug-ins domain.
+  *  d4598ddefd - extensions: fix localization of the Python 3 goat
+    exercise.
+  *  a3498f427a - meson: add a `install-extensions` target to
+    meson/ninja.
+  *  02cb754b4a - plug-ins: run gimp_displays_flush() in foggify.
+  *  326b2feddb - extensions: do not build Vala plug-in without GObject
+    Introspection.
+  *  22b516a1cc - extensions: Lua and Python 3 goat-exercise procedure
+    name consistency.
+  *  228ad503ad - extensions: update the remote URI for the up-to-date
+    source code.
+  *  a9a9bb7cc0 - extensions: removing a bunch of useless semicolon on
+    Python script.
+  *  042ed7e299 - Update Ukrainian translation
+  *  78ee8ae2c8 - desktop: kick start the Appdata for GIMP 2.99.2
+    release.
+  *  7f303b3787 - desktop: sync AppData file with `gimp-2-10` branch.
+  *  025309b0d7 - app, libgimpconfig: "printer-profile" becomes
+    "simulation-profile".
+  *  7bb0748caa - NEWS: HEIF improvements available on master only.
+  *  5c89099f75 - Issue #4777: "New version available" after update.
+  *  534e0a4967 - Update Slovak translation
+  *  d844b31572 - Update Slovak translation
+  *  2ca6c87e2d - Update Ukrainian translation
+  *  fafe9889e0 - plug-ins: Let the user know if we fail to save image
+    metadata in file-jpeg.
+  *  9069d812ef - libgimpbase: fix #2253 saving metadata failed if
+    Pentax PreviewOffset present in exif tags.
+  *  64bfa57eec - Improved HEIF plug-in
+  *  05d0d5b123 - Update Spanish translation
+  *  e77d9517f7 - meson, autotools, CI: simplify plug-in binding build
+    options.
+  *  4766373023 - Update Catalan translation
+  *  f79fafb053 - Update Polish translation
+  *  b9ad5d46cc - extensions, po-plug-ins: fix localization of extension
+    metadata.
+  *  e4dfd04ab7 - Update Ukrainian translation
+  *  81aea1fd6c - Update Ukrainian translation
+  *  3e0be2046e - app: fix wrong extension active state on exit.
+  *  9c4860b31e - app: check extensionrc existence before trying to
+    parse it.
+  *  915657153f - app: don't show an uninstall button for system
+    extensions.
+  *  ecbc38f9e9 - plug-ins, extension: goat-exercises becomes a GIMP
+    extension.
+  *  45fb76beb4 - Update Slovak translation
+  *  14e1d802c9 - Update Slovak translation
+  *  db37b1b14a - Update Slovak translation
+  *  f106c231b6 - Add Slovak translation
+  *  02bad34a41 - Issue #5735: incorrect condition because of missing
+    parenthesis.
+  *  37242c0466 - Update Slovak translation
+  *  e1f10755d8 - Update Slovak translation
+  *  c04c2d841d - app: fix file comparison.
+  *  66dae000f9 - Issue #5734: fix typos in if() test.
+  *  45ad1c0b93 - Update Ukrainian translation
+  *  5ec3293fee - plug-ins: change export dialog title when exporting as
+    AVIF.
+  *  6f4155ee34 - gitlab-ci: name the distribution artifacts and small
+    build-deps.sh fix.
+  *  42e25e5b6f - gitlab-ci: "needs" jobs have to be in a prior stage.
+  *  6eab32c71a - build: (Windows) glib-compile-schemas and gdk-pixbuf-
+    query-loaders in…
+  *  cdb61d829e - build: dll_link.py improved to handle both i686 and
+    x86-64 Windows…
+  *  8f8f7e497a - gitlab, build: Win32 distribution jobs for our CI.
+  *  b326b68b32 - libgimpwidgets: GtkComboBox "active" property must
+    trigger…
+  *  b5298d0673 - etc: smaller default position and size of main image
+    window.
+  *  68e0463501 - icons: (meson) gimp-curve-point-* icons were not
+    installed for the…
+  *  7fb2fb930e - NEWS: update with some of the master-only changes.
+  *  9727a38977 - plug-ins: When exporting BMP with color space info,
+    always include color masks.
+  *  fe340c822a - plug-ins: The plugin can leak the "tif" file
+    descriptor as written...
+  *  9f385b287f - gitlab: update Container Registry link.
+  *  9acefd22de - fix: themes_theme_change_notify: error parsing
+    theme.css on Windows.
+  *  9c90ab44fe - MR !343: using GimpUi prefix in Vala plug-ins too.
+  *  2e73e30afd - libgimp: 'gimp_ui' as priority prefix for GimpUi
+    introspected module.
+  *  aac49878f7 - Update Kabyle translation
+  *  578c078590 - app: GimpFilterTool displays a "Sample merged"
+    checkbox.
+  *  578e3b0bd9 - Issue #5630: Sample Merged as defaults in Color Picker
+    tool.
+  *  b4fefc004d - Update Ukrainian translation
+  *  2ec6510973 - Issue #4505: Adjust the Preferences size to fit on
+    smaller displays.
+  *  09fa321074 - app: new profile conversion policy to preferred color
+    profile.
+  *  41c8d19634 - app: argh metadata-rotation-import-dialog.h missing
+    from Makefile.am.
+  *  9005a3aa46 - libgimp, po: fix def files and POTFILES.in.
+  *  5a8d69629a - libgimp, pdb: new functions gimp_image_policy_rotate()
+    and…
+  *  67e2e1b5bb - app, libgimp, plug-ins: move Orientation metadata
+    handling into core.
+  *  5fb0577768 - app: NULL log domain is not a bug.
+  *  1ae180121b - Update Ukrainian translation
+  *  71ad53ebcf - libgimpconfig: fix conversion of negative int values
+    in gimp_scanner_parse_float()
+  *  6dae2c1d33 - app: remove unused function.
+  *  3fb28202f0 - icons: remove old file move error.
+  *  0ec5ee4394 - plug-ins: get rid of pygimp!
+  *  2271b5bbdb - Issue #4368: remove 2 more outdated Python plug-ins.
+  *  e154cd220d - plug-ins: delete Python whirlpinch and clothify
+    without porting them.
+  *  a455c72929 - plug-ins: update previous commit to API changes.
+  *  12b4d9b097 - Port histogram-export plugin to python 3
+  *  33085b5182 - plug-ins: Port python-eval.py plugin to python 3.
+  *  a07576b219 - Port benchmark-foreground-extract.py to python 3.
+  *  cc2f064d8d - plug-ins: Port palette-sort to Python 3
+  *  943e00b357 - Update Catalan translation
+  *  43d0f0fbd2 - gimppdb: Allow more easy bindable API
+  *  ec26bc44ae - app: (meson) create_test_env.sh was not run.
+  *  273ff383dd - Update British English translation
+  *  22bedfc376 - Fix #4560 - file-xpm saving unused transparency
+  *  0fc8821932 - plug-ins: fix missing "plug-in-colormap-swap"
+    procedure.
+  *  8dcf258ffc - Issue #2275: rotate commands not actually applied to
+    the image.
+  *  678f400ee8 - Update Ukrainian translation
+  *  783f7cae55 - Re-enable Twain plugin on Windows for Meson build
+  *  9e3508cc23 - plug-ins: silence some warnings in twain plug-in.
+  *  d0b1c143b6 - plug-ins: fix #3854 by porting twain to the new plugin
+    framework.
+  *  b3bed72d84 - plug-ins: default export bit depth for 16 or 32 bpc
+    images should be 12.
+  *  db71a8ffc7 - libgimpwidgets: add a "value" property to
+    GimpIntComboBox…
+  *  e426cdafc4 - Update Catalan translation
+  *  771b78089f - Update Catalan translation
+  *  76db57e738 - Metadata (Exif, XMP) export in HEIF plug-in
+  *  6ef0a5f294 - libgimpwidgets: minor alignment and indentation fixes.
+  *  0828a371c2 - propwidgets: Use g_bind_property()
+  *  436a9d2b5d - Update Polish translation
+  *  6e00a19fd0 - Don't compile gimpmarshal source file many times
+  *  883b6a7c8e - libgimp: update def files.
+  *  b90c91555d - Update Polish translation
+  *  09475b539a - Update POTFILES.in
+  *  1b4834126f - libgimp: better organization of
+    gimp_image_metadata_*() API.
+  *  25aefa972e - libgimp: link libgimpui against GEGL
+  *  91bf3f2e55 - Update Ukrainian translation
+  *  7f95abc4ef - Make strings translateable in HEIF/AVIF export dialog
+  *  73aecaeb19 - Update Ukrainian translation
+  *  5de6b2c1ea - autotools, meson: bump GEGL dependency to 0.4.27.
+  *  bf66a07d20 - plug-ins: add support for indexed images in psp
+    reader.
+  *  2054f9f163 - plug-ins: add support for grayscale images in psp
+    reader.
+  *  7863d668e0 - plug-ins: add support for 16 bit integer images in psp
+    reader.
+  *  84f06e976a - plug-ins: show descriptive layer type name for psp
+    layers we can't convert.
+  *  d7abb774a9 - plug-ins: add defines for psp reader to include  new
+    things up to psp file version 8.
+  *  0a8f5b99f5 - plug-ins: replace a few occurrences of g_message with
+    g_set_error in psp reader.
+  *  fcaf582de9 - Add Kabyle translation
+  *  3dc47c05e6 - Add Kabyle translation
+  *  68a7431a10 - Issue #5623: https://gimp.org/gimp_versions.json is
+    redirected…
+  *  0fce1b042b - Fix compilation with old libheif 1.3.2
+  *  88f31208ce - Update Catalan translation
+  *  167b8d3780 - Updated Spanish translation
+  *  4375b44a6f - Update Indonesian translation
+  *  a81846d1b6 - Update German translation
+  *  f8de798329 - Update Polish translation
+  *  762c319346 - Typo fixed.
+  *  987325f1a7 - INSTALL: update with libheif required dependency for
+    AVIF support.
+  *  7d1e108b90 - plug-ins: spyrogimp - fix type of new layer to include
+    alpha channel
+  *  19b261f3c6 - plug-ins: add most likely blend modes for certain psp
+    blend modes.
+  *  b968a93ab2 - plug-ins: fix reading of psp tubes when psp file
+    version >= 4.
+  *  97dc1bf9c6 - plug-ins: fix wrong return type warning.
+  *  17b701a940 - Issue #5043: Spyrogimp 'Live' Preview Pollutes Undo
+    History
+  *  3801c79372 - gitlab-ci: update dependencies to add libraw20
+  *  97ace5e9a6 - Add Kabyle translation
+  *  d7b96c4b76 - Update Chinese (China) translation
+  *  4076785c63 - Update Chinese (China) translation
+  *  7063fd2cc9 - Update Polish translation
+  *  fe6af57830 - Update Kabyle translation
+  *  8cb02716d6 - icons: modify dialog-information to work around a
+    librsvg bug.
+  *  cb1f01a42b - tools: update the build-only tool compute-svg-viewbox.
+  *  05de70e002 - icons: add all missing icons in the main SVG files.
+  *  2f74f8931e - Update German translation
+  *  a3a95ad47e - icons: rename ID of some icons moved to Freedesktop
+    naming.
+  *  792847d377 - Update Ukrainian translation
+  *  fa40bc7778 - plug-ins: add support for reading raster layers of
+    newer psp versions.
+  *  85241a205b - plug-ins: enable reading of psp images with file
+    versions > 6.
+  *  0666f7a4f9 - plug-ins: refactor reading of raster layer extension
+    info for psp images.
+  *  00024db382 - build: Prefer to find libwmf using pkg-config
+  *  01e1587ec1 - Updated HEIF plug-in
+  *  47a68dc871 - Issue #5584: JPEG magics detection failure.
+  *  d7089c93b2 - plug-ins: Take zero length layer names into account in
+    psp reader.
+  *  56982e6ce9 - Allow building GIMP of without vala.
+  *  e815c615e1 - icons: install switch-(on|off)-symbolic icons in
+    GIMP's hicolor theme.
+  *  5d3ca7d714 - propwidget: Add gimp_prop_switch_new()
+  *  a084032c59 - build: (meson) fix CC_VERSION contains backslashes on
+    Windows.
+  *  4ac373e84f - plug-ins: fix reading layer names with high bit ASCII
+    characters in psp files.
+  *  7a64218407 - Update Kabyle translation
+  *  cb6a1a75c9 - build: (meson) fix building with -Dwindows-
+    installer=true option.
+  *  dc80c78a26 - plug-ins: fix wrong layer offset of psp layers.
+  *  35a97e94f2 - Update Kabyle translation
+  *  12f3ccd191 - Update Polish translation
+  *  5bb19ad6db - Update Ukrainian translation
+  *  3e4acd0e3b - Update Catalan translation
+  *  15ad952288 - plug-ins: improve psp image reader stability by always
+    using the block/chunk length.
+  *  e50f522d5b - app: "drawable-linked" multi-drawable aware.
+  *  84e587d255 - app: GimpSelectionEditor multi-drawable aware.
+  *  bd452d7df1 - app: (selection editor) fix clicking on selection mask
+    or dropping color
+  *  c5f9b8e190 - Issue #5530: do not fail font loading on broken
+    user/GIMP fonts.conf.
+  *  1e94bd3f83 - Update Kabyle translation
+  *  10d3ae2894 - app: during splash-screen lookup, don't leak
+    GFileEnumerator
+  *  451fcc1af5 - Update British English translation
+  *  ed02a54a4d - Update German translation
+  *  7f08b940c7 - Update British English translation
+  *  e8de03c5b5 - Update Ukrainian translation
+  *  fe085200c3 - Correct typos in layers-commands.c
+  *  f4088adefa - plug-ins: fix incorrect loading of PSP images with
+    uncompressed channel data.
+  *  fcb9de07f6 - plug-ins: fix reading of creator block data of PSP
+    images. Since string data in PSP images is not zero terminated
+    reading creator block data always failed.
+  *  96073ae1b0 - gitlab-ci: add a distribution step.
+  *  63dddb5eb7 - gitlab-ci: run distcheck with multi-jobs.
+  *  b4cac9dc25 - Fix non-linear/perceptual symbolic icons
+  *  30d73c6311 - Update Polish translation
+  *  bd6abe0654 - gitlab-ci: rename the CI jobs.
+  *  b8d151367d - Update Swedish translation
+  *  d886bb1b90 - libgimpwidgets: improve/fix more of GimpMemSizeEntry.
+  *  0be4e5c1dc - libgimpwidgets: fix setting GimpMemSizeEntry value
+    with unit change.
+  *  b8d96c49f3 - Updated Italian translation
+  *  a68989e7dc - Updated Greek translation
+  *  a10c85cf34 - Updated Greek translation
+  *  c73ac8fdf4 - app: action "drawable-visible" now multi-layer aware.
+  *  6d2b6b8ea0 - Makefile: update DISTCHECK_CONFIGURE_FLAGS to fix CI
+    distcheck.
+  *  d93d7effb2 - libgimp: gimp_vectors_stroke_reverse missing in def
+    file.
+  *  596bf1dbc3 - gitlab-ci: add a distcheck step on master too.
+  *  ec746901c3 - build, app: depend on GEGL 0.4.26
+  *  be0e63aa1c - Issue #4328: Distorted path of an open/imported circle
+    from an svg file.
+  *  154756326a - Update Ukrainian translation
+  *  70cf57154f - plug-ins: fix some warnings in Win32 screenshot code.
+  *  c0361889ca - desktop: prepare 2.10.22 release.
+  *  ef171ec70c - Update Polish translation
+  *  d7de0781ab - devel-docs: document new "Messages" performance-log
+    parameter
+  *  9e0fdc8e2c - app: allow recording GLIB log messages in performance
+    logs
+  *  a143bfdf1d - app: add gimp_log_{set,remove}_handler()
+  *  892fbafdf8 - app: some more gimp_image_get_active_drawable()
+    removed.
+  *  248d2e95b8 - plug-ins: enable screenshot for non x11 targets in
+    meson build.
+  *  9b55f82579 - app: drawables translation with arrow keys multi-layer
+    aware.
+  *  8b55346500 - app: Color Select tool multi-layer aware.
+  *  6093399d7b - app: Fuzzy Select tool multi-layer aware.
+  *  67b757f55a - app: drop a color or a buffer multi-layer aware.
+  *  1fa951127e - app: more code in paint and brightness-contrast tool
+    to port.
+  *  ac0287e2f3 - app: window title stays single layer for now.
+  *  5950fafbef - Update Ukrainian translation
+  *  5357628df2 - app, pdb: fix pdb and generated code.
+  *  6b699640df - Update Ukrainian translation
+  *  2ba6ac6286 - app: selection stroke and "Stroke Path" now multi-
+    layer aware.
+  *  8237c4c3d9 - Update Ukrainian translation
+  *  6b829c7008 - app: Selection fill and "Fill Path" now multi-layer
+    aware.
+  *  5d14a7a595 - app: some fixes/improvements.
+  *  5eec3e3457 - app: get rid of last remnants of single-layer logics
+    in edit-actions.
+  *  552991b2d2 - app: return visible widgets from a few more
+    gimp_prop() functions
+  *  ae0f595a19 - app: edit-fill-fg|bg|pattern multi-layer aware.
+  *  117495323f - app: fix layer double click (Layer Attributes dialog).
+  *  696fb34cc5 - app: layers-mask-edit only works with a single layer
+    selected.
+  *  897b0952ba - Update Ukrainian translation
+  *  0f1f8b7b45 - app: layers-resize and layers-scale work on one layer
+    at once.
+  *  bf7d555759 - app: edit-clear multi-layers aware.
+  *  62eedd41b4 - app: layers-alpha-add|remove multi-layer aware.
+  *  da9284b737 - plug-ins: fix goat-exercise-lua not working after the
+    split between Gimp and GimpUi.
+  *  9d844dbe39 - Update Ukrainian translation
+  *  4b3348dffe - app: layers-crop-to-selection and layers-crop-to-
+    content multi-layers…
+  *  0fae46133c - devel-docs: use actual em-dashes in performance-logs
+    documentation
+  *  ca6f577413 - devel-docs: remove old performance-logs-parameters
+    section
+  *  1d70fee1fd - devel-docs: fix image URL in performance-logs
+    documentation
+  *  d72e6b3aed - devel-docs: update documentation of performance-log
+    parameters
+  *  9b29d17895 - app: improve layout of performance-log file-selection
+    dialog parameters
+  *  b5af88a563 - devel-docs: add some debugging tricks for Flatpak.
+  *  802ba92ca5 - app: do not allocate a GFile when crashing.
+  *  89d1010790 - Update Ukrainian translation
+  *  949d7eee3b - app: fix backup creation on crash.
+  *  d11e59fc42 - app: allow a number of drawables to 0 for "gimp-xcf-
+    save".
+  *  9069919931 - app: output errors to stderr when
+    gimp_procedure_execute() fails with…
+  *  d11cbbbbc9 - app: in GimpDashboard, fix progressive-performance-log
+    env-var
+  *  76f9e5feaf - tools: add performance-log-progressive-coalesce.py;
+    use in performance-log-viewer
+  *  e5fe1ef152 - tools: add performance-log-close-tags.py, use in
+    performance-log-viewer
+  *  146c234350 - app: add progressive performance logs
+  *  126002c5c9 - app: allow controlling performance-log parameters
+    through the UI
+  *  95b69dd77b - app: in GimpBacktrace Windows backend, return NULL
+    backtrace if not initialized
+  *  281f17e53c - app: GimpToolRectangle multi-layer aware.
+  *  3a462a5e63 - Issue #5472 - CRITICAL while using Move tool with
+    arrow keys
+  *  9d3b2ba756 - Issue 2874 - gimp-tool-pencil.svg icon size is
+    corrected on Color icon theme
+  *  e78fbccea7 - Fix pygimp.interp generation, add /usr/bin/python3
+    alias
+  *  5c2fd398df - Fix python version check (python's
+    sysconfig.get_python_version() returns only major.minor)
+  *  0829dba97f - Issue #4536 - Seg fault when trying to open image on
+    Google Drive (Gnome 3.34.3)
+  *  1ac4a8f890 - Update Ukrainian translation
+  *  aea69dc165 - plug-ins: file-dds (read) cleaned up a bit for better
+    error handling.
+  *  81a3370e1d - plug-ins: fix #5357 Image marked as compressed, but
+    DDSD_LINEARSIZE is not set.
+  *  a3a88bf6b9 - Stop writing file paths into TIFF DocumentNames
+  *  5c51224594 - meson: add image/webp content type.
+  *  84c08e55e1 - Offer image/webp content type in .desktop file
+  *  962a1cfea6 - Update Kazakh translation
+  *  c0c0d21ed9 - Update Kazakh translation
+  *  5169264e1c - Update Kazakh translation
+  *  0f31dafaf4 - Update Kazakh translation
+  *  1a7a53dc09 - plug-ins: fix argument description.
+  *  73b960aefb - app: fix a build warning.
+  *  df2083dcb0 - Update German translation
+  *  d3ef6cfb18 - app: show playground if any of the experimental
+    feature is enabled.
+  *  0f806d0e9c - app: move OpenCL settings into the Playground.
+  *  bc5f6371e9 - app: add contents of /.flatpak-info in the verbose
+    info.
+  *  f2ef0ec6a5 - Update Chinese (China) translation
+  *  e531023031 - libgimpwidgets: handle Enter/Esc keys in
+    GimpSpinButton
+  *  2e46e6552b - Update Kabyle translation
+  *  24c740b0e0 - Add Kabyle translation
+  *  0a611bd8ad - Issue #5069: Gfig uses the Stroke color for filling
+    instead of the fill color
+  *  74d0990456 - app: fix Alpha to Selection for single selected layer.
+  *  b52cdf4c90 - app: make "gegl:matting-levin" default engine of
+    Foreground Select tool.
+  *  1a19ac6a3a - Try to reenable Print plugin on Windows. Let's see if
+    the CI passes.
+  *  979b0bd9b3 - Fix GIMP_UNSTABLE macro. Fixes #5261.
+  *  fae85e704a - Issue #5349: meson build with -Dpoppler=false has no
+    effect.
+  *  47afc8170d - gitlab: add a trailing space to the bug template
+    reproduction list steps
+  *  89fa643ef9 - Fix broken markup in Asturian UI translation
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 29 Oct 2020 18:32:47 +0300
+
+gimp-gtk3 (2.99.0+git45901-df5b363a96-1) unstable; urgency=medium
 
   * Compile
   * URL: https://gitlab.gnome.org/GNOME/gimp.git

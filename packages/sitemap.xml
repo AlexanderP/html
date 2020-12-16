@@ -1648,12 +1648,6 @@
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/bullseye/amd64/aegisub/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/bullseye/amd64/aegisub-l10n/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/apdtool/</loc>
     </url>
     <url>
@@ -1730,6 +1724,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/gimagereader-qt5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/gimp-devel/</loc>
@@ -1826,9 +1829,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/ocrfeeder/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/bullseye/amd64/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/pinta/</loc>
@@ -2413,12 +2413,6 @@
         <loc>https://notesalexp.org/packages/en/bullseye/i386/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/bullseye/i386/aegisub/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/bullseye/i386/aegisub-l10n/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/apdtool/</loc>
     </url>
     <url>
@@ -2495,6 +2489,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/gimagereader-qt5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/gimp-devel/</loc>
@@ -2591,9 +2594,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/ocrfeeder/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/bullseye/i386/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/pinta/</loc>
@@ -3278,6 +3278,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/gimagereader-qt5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/gimp/</loc>
@@ -4132,6 +4141,15 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/freecad-daily/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/gimagereader-qt5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/gimp/</loc>
     </url>
     <url>
@@ -4975,6 +4993,15 @@
         <loc>https://notesalexp.org/packages/en/eoan/amd64/freecad-daily/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/eoan/amd64/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/amd64/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/amd64/gimagereader-qt5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/eoan/amd64/gimp-devel/</loc>
     </url>
     <url>
@@ -5060,6 +5087,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/eoan/amd64/llpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/amd64/meson/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/eoan/amd64/myrulib/</loc>
@@ -5755,6 +5785,15 @@
         <loc>https://notesalexp.org/packages/en/eoan/i386/freecad-daily/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/eoan/i386/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/i386/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/i386/gimagereader-qt5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/eoan/i386/gimp-devel/</loc>
     </url>
     <url>
@@ -5840,6 +5879,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/eoan/i386/llpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/eoan/i386/meson/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/eoan/i386/myrulib/</loc>
@@ -6526,6 +6568,15 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/freecad-daily/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/gimagereader-qt5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/gimp-devel/</loc>
     </url>
     <url>
@@ -6611,6 +6662,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/llpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/meson/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/myrulib/</loc>
@@ -6707,6 +6761,270 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/znotes/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/apdtool/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/azpainter/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/deadbeef/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/deadbeef-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/deadbeef-gtk2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-cli/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-emoticons/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-gtk-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-qt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-qt-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-scripts/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/fatrat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/fatrat-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/fatrat-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gimagereader-qt5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gimp-devel/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gimp-devel-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gimp-devel-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gimp-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gimp-gtk3-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gimp-gtk3-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/goldendict/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/gscan2pdf/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/jbig2enc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/keepassxc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/kvirc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/kvirc-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/labplot-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libeiskaltdcpp2.4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libjbig2enc-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/librecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/librecad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libslvs1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libslvs1-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libtesseract4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libvacuumutils37/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/llpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/myrulib/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/pinta/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/psi-plus/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/psi-plus-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/psi-plus-icons-nonfree/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/psi-plus-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/psi-plus-plugin-psimedia/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/psi-plus-plugins/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/psi-plus-plugins-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/psi-plus-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/psi-plus-webkit/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/q4wine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/qcad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/qcad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/rubyripper/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/scantailor-universal/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/smplayer/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/smplayer-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/sqlitebrowser/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/tesseract-ocr/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/tesseract-ocr-all/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/truecrypt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/vacuum/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/vacuum-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/veracrypt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/znotes/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/jessie/amd64/</loc>
@@ -8689,9 +9007,6 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/didjvu/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -8735,6 +9050,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/gimagereader-qt5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/gimp-devel/</loc>
@@ -8846,9 +9170,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/ocrfeeder/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/amd64/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/pinta/</loc>
@@ -9487,9 +9808,6 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/didjvu/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -9533,6 +9851,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/gimagereader/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/gimagereader-qt5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/gimp-devel/</loc>
@@ -9644,9 +9971,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/ocrfeeder/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/sid/i386/ocrodjvu/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/pinta/</loc>
@@ -10304,6 +10628,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/gettext/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/gimagereader/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/gimp2.8/</loc>
@@ -16088,6 +16415,33 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2020/10/04/20201004/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/10/18/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/10/18/20201018/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/11/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/11/01/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/11/01/20201101/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/11/15/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/11/15/20201115/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/11/29/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2020/11/29/20201129/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>

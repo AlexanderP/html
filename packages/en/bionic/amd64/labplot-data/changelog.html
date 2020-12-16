@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package labplot-data_2.7.0+git7754-75cbee6f1-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package labplot-data_2.8.0+git7869-73120f7ef-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,7 +41,229 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package labplot-data in bionic of architecture amd64</h5>
-<div class="highlight"><pre><span></span>labplot (2.7.0+git7754-75cbee6f1-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>labplot (2.8.0+git7869-73120f7ef-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/KDE/labplot.git
+  * Branch: master
+  * Commit: 73120f7ef1ee93086895583d7fa6227884c95233
+  * Date: 1607636335
+  * git changelog:
+  *  73120f7ef - Added missing changes on InfoElementPrivate.h.
+  *  17a5bb16f - [worksheet] improvements in InfoElement: 1. added all
+    properties for lines that we also have in other areas 2. add new
+    tabs in the dock widget for the label and for the lines 3. reworked
+    the logic in save/load.
+  *  5f5b1fa5a - GIT_SILENT Add KUserFeedback to INSTALL
+  *  1a70ca84e - [worksheet] in the datetime combobox for axis labels
+    react also on text changes and not only on index changes.
+  *  3b159a1c1 - Fix clang warnings
+  *  809a8d4a5 - [worksheet] don't crash when loading a project with a
+    saved info element.
+  *  8aa5c5497 - [worksheet] properly handle the locale for the info
+    element position in the dock widget and retransform the info element
+    if the label text was changed.
+  *  d19dc044d - [worksheet] in the InfoElementDock use LineEdit instead
+    of SpinBox for better positioning of double values.
+  *  8d3066cbc - fix style
+  *  7fab22c5b - textwrapper must also set
+  *  e25631bbb - rename arguments, so it is more readable
+  *  bab3096c8 - rename placeholder to allowPlaceholder, because it
+    matches better its usage
+  *  b6174fcc5 - [worksheet] improved the layout and the variable naming
+    in InfoElementDock.
+  *  556c334a2 - [worksheet] don't allow to hide a TextLabel if it's a
+    child of an InfoElement and hide the InfoElement in the worksheet
+    view if no curves are selected.
+  *  6d9b724d6 - [worksheet] improvements in InfoElement: 1. when
+    selecting new curves and adding new symbols, don't jump to the newly
+    added CustomPoint objects in the project explorer, stay at the
+    InfoElement 2. hide the info element label in the project explorer
+    if no curves are selected 3. better wording for some 18n-able
+    strings.
+  *  0f553e9fc - [worksheet] if the theme is reset to the default one,
+    use the black color for the legend text color instead of white since
+    the default background color is already white.
+  *  ef9662e47 - [Range] Fix inverted range used in plot
+  *  cdc93039c - [worksheet] react on name and comment changes in
+    InfoElement and somre more code style fixes.
+  *  b3ae19ba6 - Fix minor typos
+  *  14bffc7a7 - add position spinbox to dock
+  *  3cb5f08ce - add option to set position from the dock
+  *  e82c52dc6 - do not end before the last row
+  *  0a5c07ce5 - [cartesian] code cleanup
+  *  3d2f3aec8 - [worksheet] fixes in InfoElement: 1. don't crash when
+    loading a saved info element 2. apply the color theme also for info
+    element's children (text label and custom points)
+  *  fa2be37dd - Fix compilation
+  *  2bac71349 - Merge branch 'master' of https://github.com/KDE/labplot
+  *  febd13992 - [axis] use range instead of start/end
+  *  4ce9d944e - Fix some marker issues
+  *  7b3541087 - clean up
+  *  4f9eb9c39 - clean up cartesian plot
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 11 Dec 2020 21:00:19 +0300
+
+labplot (2.8.0+git7839-0bc95b1b8-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/KDE/labplot.git
+  * Branch: master
+  * Commit: 0bc95b1b810fe24ce3502f44997968ca8b22b3bb
+  * Date: 1606344695
+  * git changelog:
+  *  0bc95b1b8 - Use double consistently
+  *  c1dcac647 - [worksheet] simplified the UX in the properties panel
+    for the info element - for points to be shown on curves, use on
+    single list widget with items having check boxes instead of two
+    current list widgets.
+  *  a9ef93e03 - Fix numeric limits
+  *  14cc4ac00 - readstat: use default build command
+  *  ba3aae28a - Add missing dependency to readstat library (fix build
+    with Qt Creator)
+  *  f9d7e14ba - Don't crash when the rc file was not found.
+  *  3fc867fc5 - gsl: minor improvement
+  *  f9cd81e4a - gsl: add Mathieu functions
+  *  4e179d38a - gsl: add missing Ln
+  *  044378c6b - Update Hermite polynomials and functions for GSL 2.6
+  *  953e369e9 - [worksheet] improved layout in InfoElementDock.
+  *  601fde47f - [worksheet] use the colors from the current theme for
+    the info element lines.
+  *  4a16646f1 - GIT_SILENT clean up
+  *  1c834ebbe - Moved liborigin to src/3rdparty
+  *  f4e64f1af - Improve status bar and memory info bar
+  *  443fbde00 - Support semicolon as function argument separator in
+    parser to improve support for locale with comma decimal separator
+  *  188133063 - GIT_SILENT made messages (after extraction)
+  *  33b22d2f7 - [fit] Fix custom model equation validation
+  *  43227e3d1 - Update appdata for flathub
+  *  c9020caae - [CAS] fixed the regression introduced after the python2
+    backend was deprecated in Cantor. There is no Python 3 and Python 2
+    backend names anymore, there is only Python now.
+  *  6e54c8753 - Fixed the compiler warning in InfoElement about the
+    function override.
+  *  93125ad99 - GIT_SILENT made messages (after extraction)
+  *  a1c0c0d3b - ReadStat: Fix possible build problem
+  *  6c47004bc - fixuifiles
+  *  7a9241786 - GIT_SILENT changelog
+  *  71afe611a - parser: explicitly reset error count in parser
+  *  62bf94e02 - Merge branch 'master' of https://github.com/KDE/labplot
+  *  ad27fe233 - Bump version to 2.9.0
+  *  bf0d1fb8b - More KDE like behavior for the entries in the Settings
+    menu: 1. added the Show menubar action 2. use KStandardAction also
+    for Show statusbar. No need to create it on our own and handle the
+    save and load of its status. This action is now in the Settings menu
+    and not in View anymore.
+  *  5f075c67f - Fix another compilation issue
+  *  cd5c373dc - Fix compilation with Qt < 5.13 and code style
+  *  5bdb45a70 - Enable ReadStat per default
+  *  e203a13cc - Established the coordinate binding (got lost during the
+    merge of the MR) and more cleanup of the unused variables in the
+    info element code.
+  *  f06bb6bda - Cleanup in the recently added info element files.
+  *  eaf0e78e1 - Fix the build.
+  *  122e57ae8 - otherwise there is an infinity loop. This does not
+    occur previously, because the Custom point of the Marker is one step
+    below all other elements
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 26 Nov 2020 20:59:06 +0300
+
+labplot (2.8.0+git7803-d0573f64a-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/KDE/labplot.git
+  * Branch: master
+  * Commit: d0573f64a0edc64b2167a9ce86f2064b8f781299
+  * Date: 1605038347
+  * git changelog:
+  *  d0573f64a - GIT_SILENT Updated Changelog.
+  *  e5a934870 - Fix full screen mode on macOS
+  *  373fc93e1 - Fix full screen action
+  *  0cfbf73a9 - [textlabel] Fix regression
+  *  680dc4605 - Opimize drawing text label
+  *  f7683f04a - GIT_SILENT Add icons for Windows store
+  *  4840579c4 - Add option for reproducable builds
+  *  7d170193a - GIT_SILENT changelog
+  *  30c06bad1 - Don't crash when doing drag&drop between different main
+    windows.
+  *  d6f0b31b5 - Fix changing font of text label for newer Qt versions
+  *  437a3e547 - GIT_SILENT made messages (after extraction)
+  *  27bdb848f - GIT_SILENT made messages (after extraction)
+  *  7efdf6aa9 - Code style
+  *  00fc63b46 - Fix datetime add/substract operations
+  *  9193bd86c - Fix add/substract datetime values
+  *  ce3b45b1f - GIT_SILENT made messages (after extraction)
+  *  8d78da661 - Typo
+  *  61edd3e60 - [spreadsheet] when pasting values into the spreadsheet,
+    convert to the proper column mode also if the whole target column
+    was selected, i.e. clicked on the header.
+  *  644d51fc7 - Use qint64 instead of quint64 in AddSubtractValueDialog
+    when converting from the Unix epoch to milliseconds.
+  *  3976d0c8f - Replace old syntax in all standard actions
+  *  3e9519f00 - [spreadsheet] unified the handling of the column
+    context menu generated in the view and and in the project explorer.
+    This also fixes a regression where it was not possible anymore to
+    add/subtract values in a datetime column.
+  *  f119ace69 - GIT_SILENT made messages (after extraction)
+  *  53aa1ced7 - GIT_SILENT changelog
+  *  3082e81d1 - Improve standard actions and fix missing Preferences
+    menu on macOS
+  *  dd2af1987 - GIT_SILENT made messages (after extraction)
+  *  ced921c05 - Minor improvement
+  *  7b1bf1faf - Put double comparison into NSL
+  *  5f1678bc8 - GIT_SILENT made messages (after extraction)
+  *  8bfda6a8e - GIT_SILENT made messages (after extraction)
+  *  eee041498 - In the previous commit a signal was removed in
+    ProjectExplorer::load() to avoid calling the update of windows
+    visibility multiple times in MainWin. This caused a regression with
+    the views not being shown after the project load. To address both
+    problems - show views and avoid multiple update visibility calls - a
+    new signal is introduced and the update of the visibility is done
+    only once after the project was loaded.
+  *  8a6de1100 - Merge branch 'master' of https://github.com/KDE/labplot
+  *  77a95ebba - GIT_SILENT Minor changes
+  *  791eb64b5 - When loading the project, handle the current aspect
+    changed signal only once after the project was completely loaded and
+    some minor refactoring in MainWin.
+  *  039edb1b5 - Handle the change of the windows visibily settings.
+  *  b1b228734 - When openning a project, set the project file name for
+    all supported formats and not for the navive format only.
+  *  fab541817 - [worksheet] avoid potential division by zero and one
+    more index==-1 case.
+  *  7c399a879 - Remove sub-window shadow remnants when closing the
+    project.
+  *  95cd6ca15 - More handling of the index == -1 cases in the
+    comboboxes in Axis and Worksheet dock widgets.
+  *  57dc9d83b - GIT_SILENT improve build scripts
+  *  e30684b88 - Fix build on FreeBSD
+  *  ebcbf6124 - [AbstractCoordinateSystem] Replace legacy round()
+    function
+  *  f549042fe - [spreadsheet] when loading columns, don't call the
+    setters for the numeric formats and digits if the saved values are
+    equal to the default values of Column. This removes some overhead
+    during the project load.
+  *  4879c2d10 - In the event filter in ProjectExplorer only react on
+    mouse events in the tree view to avoid wrong casts. The issue is
+    reported by UBSAN.
+  *  c745baf3e - When populating a comboboxe with pen and brush styles
+    via GuiTools, the items in the combobox get deleted first and the
+    current index is -1. Don't react on -1 in the corresponding slots
+    otherwise we convert -1 to Qt::PenStyle or Qt::BrushStyle which is
+    wrong. This issue is reported by UBSAN.
+  *  1e831a259 - Updated the version in the splash screen and in the
+    Changelog file to 2.8.1.
+  *  d502b1aa6 - [worksheet] user the icon for xy-curve also for
+    convolution and correlation curves since we don't have any dedicated
+    icons for them yet and some minor layout improvements in the
+    convolution dock widget.
+  *  93449579a - [mqtt] properly set the status of the widgets
+    (enabled/disabled) in the last will message widget.
+  *  5d2261a8c - Use qPrintable()
+  *  264db0764 - Fix crash importing JSON (regression)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 13 Nov 2020 01:15:40 +0300
+
+labplot (2.7.0+git7754-75cbee6f1-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/KDE/labplot.git

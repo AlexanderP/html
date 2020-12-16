@@ -48,6 +48,7 @@
 [<a href="https://notesalexp.org/packages/en/bionic/amd64/fatrat">bionic</a>]
 [<a href="https://notesalexp.org/packages/en/eoan/amd64/fatrat">eoan</a>]
 [<a href="https://notesalexp.org/packages/en/focal/amd64/fatrat">focal</a>]
+[<a href="https://notesalexp.org/packages/en/groovy/amd64/fatrat">groovy</a>]
 </div>
 <div id="potherssource">
     [Source: <a href="https://notesalexp.org/packages/en/source/fatrat">fatrat</a>]
@@ -55,7 +56,7 @@
     </header>
     <div id="wrapper">
         <div id="content">
-<h1>Package: fatrat ( 1.2.0+git20180628-2 ) </h1>
+<h1>Package: fatrat ( 1.2.0+git20180628-3 ) </h1>
 <div id="pmoreinfo">
 <p><strong>Links for fatrat</strong></p>
 <a href="https://notesalexp.org/packages/images/fatrat.png" data-lightbox="fatrat" data-title="fatrat -  multi-protocol download manager, feature rich and extensible via plugin "><img class="example-image" src="https://notesalexp.org/packages/images/thumb/fatrat.png" alt="fatrat" /></a>
@@ -66,8 +67,8 @@
 </ul>
 <p><strong>Download Source Package <a href="https://notesalexp.org/packages/en/source/fatrat">fatrat</a>:</strong></p>
 <ul>
-<li><a href="https://notesalexp.org/source/main/f/fatrat/fatrat_1.2.0+git20180628-2.debian.tar.xz">[fatrat_1.2.0+git20180628-2.debian.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/source/main/f/fatrat/fatrat_1.2.0+git20180628-2.dsc">[fatrat_1.2.0+git20180628-2.dsc]</a></li>
+<li><a href="https://notesalexp.org/source/main/f/fatrat/fatrat_1.2.0+git20180628-3.debian.tar.xz">[fatrat_1.2.0+git20180628-3.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/source/main/f/fatrat/fatrat_1.2.0+git20180628-3.dsc">[fatrat_1.2.0+git20180628-3.dsc]</a></li>
 <li><a href="https://notesalexp.org/source/main/f/fatrat/fatrat_1.2.0+git20180628.orig.tar.xz">[fatrat_1.2.0+git20180628.orig.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
@@ -104,15 +105,7 @@
         </tbody></table>
 <ul class="uldep">
 <li><dl>
-<dt><span><strong>dep:</strong> libboost-date-time1.67.0 </span></dt>
-<dt><span> set of date-time libraries based on generic programming concepts</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libboost-system1.67.0 </span></dt>
-<dt><span> Operating system (e.g. diagnostics support) library</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> libc6 (&gt;=2.29)  </span></dt>
+<dt><span><strong>dep:</strong> libc6 (&gt;=2.14)  </span></dt>
 <dt><span> Embedded GNU C Library: Shared libraries</span></dt>
 </dl></li>
 <li><dl>
@@ -120,26 +113,26 @@
 <dt><span> easy-to-use client-side URL transfer library (GnuTLS flavour)</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libgcc1 (&gt;=1:3.0)  </span></dt>
+<dt><span><strong>dep:</strong> libgcc-s1 (&gt;=3.0)  </span></dt>
 <dt><span> GCC support library</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libgloox17 </span></dt>
+<dt><span><strong>dep:</strong> libgloox18 (&gt;=1.0.24)  </span></dt>
 <dt><span> C++ jabber/xmpp library</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt5core5a (&gt;=5.12.2)  </span></dt>
+<dt><span><strong>dep:</strong> libqt5core5a (&gt;=5.14.1)  </span></dt>
 <dt><span> Qt 5 core module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt5dbus5 (&gt;=5.0.2)  </span></dt>
+<dt><span><strong>dep:</strong> libqt5dbus5 (&gt;=5.14.1)  </span></dt>
 <dt><span> Qt 5 D-Bus module</span></dt>
 </dl></li>
 <li><dl><dt><span><strong>dep:</strong></span>
-<span>libqt5gui5 (&gt;=5.7.0) </span> </dt>
+<span>libqt5gui5 (&gt;=5.14.1) </span> </dt>
 <dt><span> Qt 5 GUI module</span></dt>
 <dt><span><strong>or </strong></span>
-<span>libqt5gui5-gles (&gt;=5.7.0) </span> </dt>
+<span>libqt5gui5-gles (&gt;=5.14.1) </span> </dt>
 <dt><span> Qt 5 GUI module - OpenGLES</span></dt>
 </dl></li>
 <li><dl>
@@ -147,7 +140,7 @@
 <dt><span> Qt 5 help module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt5network5 (&gt;=5.0.2)  </span></dt>
+<dt><span><strong>dep:</strong> libqt5network5 (&gt;=5.14.1)  </span></dt>
 <dt><span> Qt 5 network module</span></dt>
 </dl></li>
 <li><dl>
@@ -155,7 +148,7 @@
 <dt><span> Qt 5 SVG module</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libqt5widgets5 (&gt;=5.11.0~rc1)  </span></dt>
+<dt><span><strong>dep:</strong> libqt5widgets5 (&gt;=5.14.1)  </span></dt>
 <dt><span> Qt 5 widgets module</span></dt>
 </dl></li>
 <li><dl>
@@ -167,11 +160,7 @@
 <dt><span> GNU Standard C++ Library v3</span></dt>
 </dl></li>
 <li><dl>
-<dt><span><strong>dep:</strong> libtorrent-rasterbar9 (&gt;=1.1.13)  </span></dt>
-<dt><span> C++ bittorrent library by Rasterbar Software</span></dt>
-</dl></li>
-<li><dl>
-<dt><span><strong>dep:</strong> fatrat-data (=1.2.0+git20180628-2)  </span></dt>
+<dt><span><strong>dep:</strong> fatrat-data (=1.2.0+git20180628-3)  </span></dt>
 <dt><span> data files for fatrat</span></dt>
 </dl></li>
 <li><dl>
@@ -193,16 +182,16 @@
     </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/bullseye/amd64/fatrat/download.html">amd64</a></th>
-    <td> 1.2.0+git20180628-2 </td>
-    <td class="size"> 860 KiB  </td>
-    <td class="size"> 2.39 MiB  </td>
+    <td> 1.2.0+git20180628-3 </td>
+    <td class="size"> 696 KiB  </td>
+    <td class="size"> 1.74 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/bullseye/amd64/fatrat/filelist.html">list of files</a>]</td>
 </tr>
 <tr>
     <th><a href="https://notesalexp.org/packages/en/bullseye/i386/fatrat/download.html">i386</a></th>
-    <td> 1.2.0+git20180628-2 </td>
-    <td class="size"> 900 KiB  </td>
-    <td class="size"> 2.41 MiB  </td>
+    <td> 1.2.0+git20180628-3 </td>
+    <td class="size"> 728 KiB  </td>
+    <td class="size"> 1.69 MiB  </td>
     <td>[<a href="https://notesalexp.org/packages/en/bullseye/i386/fatrat/filelist.html">list of files</a>]</td>
 </tr>
 <tr>

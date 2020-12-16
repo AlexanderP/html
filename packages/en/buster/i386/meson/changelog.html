@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package meson_0.53.1-1+nmu2_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package meson_0.55.3-1.1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -41,12 +41,111 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package meson in buster of architecture i386</h5>
-<div class="highlight"><pre><span></span>meson (0.53.1-1+nmu2) unstable; urgency=medium
+<div class="highlight"><pre><span></span>meson (0.55.3-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
-  * Bacports from sid
+  * Bacports from Sid 
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 18 Feb 2020 21:07:55 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 23 Oct 2020 23:27:19 +0300
+
+meson (0.55.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Fri, 11 Sep 2020 18:38:53 +0300
+
+meson (0.55.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Install Bash completion files. Closes: #968462.
+  * Remove TAP test distro patch that is now upstream.
+  * Do not install openmpi packages as the tests don't run under pbuilder.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Thu, 10 Sep 2020 19:44:56 +0300
+
+meson (0.55.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove patches no longer needed in 0.55.1.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Fri, 21 Aug 2020 00:08:05 +0300
+
+meson (0.55.0-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Don't consider skipped tests as failures. Closes: #966923
+  * Fix test with setuptools 49. Closes: #968704
+
+ -- Marco Trevisan (Treviño) &lt;censored&gt;  Thu, 20 Aug 2020 18:10:34 +0100
+
+meson (0.55.0-2) unstable; urgency=medium
+
+  * Fix crossbuild test from Gianfranco Costamagna. Closes: #963546
+  * Add dep to Python pkg resources from Kunal Mehta. Closes: #965033.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Thu, 16 Jul 2020 22:15:06 +0300
+
+meson (0.55.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Sun, 12 Jul 2020 17:29:15 +0300
+
+meson (0.55.0~rc2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Fix test dependency setup to work on all arches. Closes: #963546.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Wed, 08 Jul 2020 10:51:14 +0300
+
+meson (0.54.3-1) unstable; urgency=medium
+
+  * New upstream release. Closes: #960877.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Mon, 15 Jun 2020 19:48:23 +0300
+
+meson (0.54.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Fri, 15 May 2020 10:26:05 +0300
+
+meson (0.54.1-2) unstable; urgency=medium
+
+  * Add libdir regression fix. Closes: #959708.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Wed, 06 May 2020 23:25:28 +0300
+
+meson (0.54.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Sun, 26 Apr 2020 12:10:21 +0300
+
+meson (0.54.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Sun, 29 Mar 2020 20:03:27 +0300
+
+meson (0.54.0~rc1-1) experimental; urgency=medium
+
+  * New upstream rc release.
+  * Updated debcrossgen to not write to stderr. Closes: #952610.
+
+ -- Jussi Pakkanen &lt;censored&gt;  Tue, 24 Mar 2020 11:32:25 +0200
+
+meson (0.53.2-2) unstable; urgency=medium
+
+  * Fix autopkgtest dependencies. Closes: #952610
+
+ -- Jussi Pakkanen &lt;censored&gt;  Sat, 29 Feb 2020 00:20:11 +0200
+
+meson (0.53.2-1) unstable; urgency=medium
+
+  * New upstream release. Closes: #950020, #951487
+
+ -- Jussi Pakkanen &lt;censored&gt;  Tue, 25 Feb 2020 18:02:37 +0200
 
 meson (0.53.1-1) unstable; urgency=medium
 
