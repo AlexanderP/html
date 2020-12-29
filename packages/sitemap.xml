@@ -208,6 +208,15 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/libtesseract-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/libusrsctp-examples/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/libvacuumutils37/</loc>
     </url>
     <url>
@@ -1024,6 +1033,15 @@
         <loc>https://notesalexp.org/packages/en/bionic/i386/libtesseract-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/libusrsctp-examples/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/libvacuumutils37/</loc>
     </url>
     <url>
@@ -1781,6 +1799,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/labplot-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/libdispatch0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/libdispatch-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/libeiskaltdcpp2.4/</loc>
@@ -2548,6 +2572,12 @@
         <loc>https://notesalexp.org/packages/en/bullseye/i386/labplot-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/libdispatch0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/libdispatch-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
@@ -3211,6 +3241,21 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/clementine/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/cmake/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/cmake-curses-gui/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/cmake-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/cmake-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/cmake-qt-gui/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/compizboxmenu/</loc>
     </url>
     <url>
@@ -3352,6 +3397,12 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/leptonica-progs/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libdispatch0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libdispatch-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
@@ -3407,6 +3458,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libusrsctp-examples/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/libvacuumutils37/</loc>
@@ -4072,6 +4132,21 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/clementine/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/cmake/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/cmake-curses-gui/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/cmake-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/cmake-doc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/cmake-qt-gui/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/compizboxmenu/</loc>
     </url>
     <url>
@@ -4213,6 +4288,12 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/leptonica-progs/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libdispatch0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libdispatch-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
@@ -4268,6 +4349,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libusrsctp-examples/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/libvacuumutils37/</loc>
@@ -5074,6 +5164,15 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/libtesseract-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/libusrsctp-examples/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/libvacuumutils37/</loc>
     </url>
     <url>
@@ -5342,6 +5441,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/groovy/amd64/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libusrsctp-examples/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/groovy/amd64/libvacuumutils37/</loc>
@@ -9010,6 +9118,9 @@
         <loc>https://notesalexp.org/packages/en/source/clementine-qt5/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/cmake/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/compizboxmenu/</loc>
     </url>
     <url>
@@ -9101,6 +9212,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/libsodium/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/libusrsctp/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/linuxdcpp/</loc>
@@ -9479,6 +9593,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/amd64/libusrsctp-examples/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/amd64/libvacuumutils37/</loc>
@@ -10355,6 +10478,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/stretch/i386/libusrsctp-examples/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/stretch/i386/libvacuumutils37/</loc>
@@ -12973,6 +13105,15 @@
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libtesseract-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/amd64/libusrsctp-examples/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/xenial/amd64/libvacuumutils37/</loc>
     </url>
     <url>
@@ -13880,6 +14021,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libusrsctp1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libusrsctp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/xenial/i386/libusrsctp-examples/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/xenial/i386/libvacuumutils37/</loc>
