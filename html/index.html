@@ -38,9 +38,7 @@
 You can find the packages of this repository following this <a href="http://notesalexp.org/packages/">link</a>.</p>
 <p><strong>Instructions</strong></p>
 <p><em>1. Open a terminal and install apt-transport-https</em></p>
-<div class="highlight"><pre><span></span><code><span class="err">sudo apt-get install apt-transport-https</span>
-</code></pre></div>
-
+<p><code>sudo apt-get install apt-transport-https</code></p>
 <p><em>2. Open /etc/apt/sources.list</em></p>
 <p>Add this line for <strong>Jessie</strong>: <code>deb https://notesalexp.org/debian/jessie/ jessie main</code><br>
 Add this line for <strong>Stretch</strong>: <code>deb https://notesalexp.org/debian/stretch/ stretch main</code><br>
@@ -54,20 +52,14 @@ Add this line for <strong>Focal</strong>: <code>deb https://notesalexp.org/debia
 Add this line for <strong>Groovy</strong>: <code>deb https://notesalexp.org/debian/groovy/ groovy main</code></p>
 <p>Save and close sources.list</p>
 <p><em>3.Fetch and install the GnuPG key</em></p>
-<div class="highlight"><pre><span></span><code><span class="err">sudo apt-get update -oAcquire::AllowInsecureRepositories=true</span>
-<span class="err">sudo apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true</span>
-<span class="err">sudo apt-get update</span>
-</code></pre></div>
-
+<p><code>sudo apt-get update -oAcquire::AllowInsecureRepositories=true</code><br>
+<code>sudo apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true</code><br>
+<code>sudo apt-get update</code>  </p>
 <p>or</p>
-<div class="highlight"><pre><span></span><code><span class="err">wget -O - https://notesalexp.org/debian/alexp_key.asc | sudo apt-key add -</span>
-<span class="err">sudo apt-get update</span>
-</code></pre></div>
-
+<p><code>wget -O - https://notesalexp.org/debian/alexp_key.asc | sudo apt-key add -</code><br>
+<code>sudo apt-get update</code></p>
 <p><em>4. Enjoy</em></p>
-<div class="highlight"><pre><span></span><code><span class="err">sudo apt-get install package</span>
-</code></pre></div>
-
+<p><code>sudo apt-get install package</code></p>
 <p><strong>Warning</strong>: Need to update the gpg-key.(2018-09-13)<br>
 <strong>Warning</strong>: Some packages for Debian GNU/Linux require http://www.deb-multimedia.org/ repository to be connected.</p>
 <p><strong><a href="https://www.patreon.com/notesalexp">Support the project on Patreon.</a></strong></p>
