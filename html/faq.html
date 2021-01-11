@@ -37,28 +37,30 @@
                 <p><strong>How to install one package ignoring others</strong></p>
 <p>As an example you don’t need all the repository packages but <em>clementine</em> only.
 It’s needed to create file <code>/etc/apt/preferences.d/notesalexp</code> containing:</p>
-<div class="highlight"><pre><span></span><code><span class="n">Package</span><span class="p">:</span> <span class="o">*</span>
-<span class="n">Pin</span><span class="p">:</span> <span class="n">release</span> <span class="n">o</span><span class="o">=</span><span class="n">notesalexp</span><span class="p">.</span><span class="n">org</span>
-<span class="n">Pin</span><span class="o">-</span><span class="n">Priority</span><span class="p">:</span> <span class="mi">200</span>
+<div class="highlight"><pre><span></span>Package: *
+Pin: release o=notesalexp.org
+Pin-Priority: 200
 
-<span class="n">Package</span><span class="p">:</span> <span class="n">clementine</span>
-<span class="n">Pin</span><span class="p">:</span> <span class="n">release</span> <span class="n">o</span><span class="o">=</span><span class="n">notesalexp</span><span class="p">.</span><span class="n">org</span>
-<span class="n">Pin</span><span class="o">-</span><span class="n">Priority</span><span class="p">:</span> <span class="mi">500</span>
-</code></pre></div>
+Package: clementine
+Pin: release o=notesalexp.org
+Pin-Priority: 500
+</pre></div>
+
 
 <p>Now <em>clementine</em> will be installed from http://notesalexp.org/ the other packages from other sources.</p>
 <hr>
 <p><strong>Как установить только один пакет, не затрагивая другие пакеты?</strong></p>
 <p>Допустим Вам ненужны все пакеты из моего репозитория, а только <em>clementine</em>. 
 Тогда создадим файл <code>/etc/apt/preferences.d/notesalexp</code> со следующим содержанием:</p>
-<div class="highlight"><pre><span></span><code><span class="n">Package</span><span class="p">:</span> <span class="o">*</span>
-<span class="n">Pin</span><span class="p">:</span> <span class="n">release</span> <span class="n">o</span><span class="o">=</span><span class="n">notesalexp</span><span class="p">.</span><span class="n">org</span>
-<span class="n">Pin</span><span class="o">-</span><span class="n">Priority</span><span class="p">:</span> <span class="mi">200</span>
+<div class="highlight"><pre><span></span>Package: *
+Pin: release o=notesalexp.org
+Pin-Priority: 200
 
-<span class="n">Package</span><span class="p">:</span> <span class="n">clementine</span>
-<span class="n">Pin</span><span class="p">:</span> <span class="n">release</span> <span class="n">o</span><span class="o">=</span><span class="n">notesalexp</span><span class="p">.</span><span class="n">org</span>
-<span class="n">Pin</span><span class="o">-</span><span class="n">Priority</span><span class="p">:</span> <span class="mi">500</span>
-</code></pre></div>
+Package: clementine
+Pin: release o=notesalexp.org
+Pin-Priority: 500
+</pre></div>
+
 
 <p>Теперь <em>clementine</em> будет устанавливаться с http://notesalexp.org/, а другие пакеты с других источников.</p>
             </div>
