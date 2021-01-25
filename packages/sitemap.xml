@@ -1666,6 +1666,12 @@
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/aegisub-l10n/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/apdtool/</loc>
     </url>
     <url>
@@ -2435,6 +2441,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/aegisub-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/apdtool/</loc>
@@ -5279,6 +5291,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/groovy/amd64/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/aegisub-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/groovy/amd64/apdtool/</loc>
