@@ -190,6 +190,12 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/libmypaint-2.0-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/libreadstat1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/libreadstat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/librecad/</loc>
     </url>
     <url>
@@ -296,6 +302,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/rubyripper/</loc>
@@ -1015,6 +1024,12 @@
         <loc>https://notesalexp.org/packages/en/bionic/i386/libmypaint-2.0-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/libreadstat1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/libreadstat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/librecad/</loc>
     </url>
     <url>
@@ -1121,6 +1136,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/rubyripper/</loc>
@@ -1705,6 +1723,9 @@
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/deadbeef-gtk3/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -1828,6 +1849,12 @@
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/libkvilib5/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/libreadstat1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/libreadstat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/librecad/</loc>
     </url>
     <url>
@@ -1904,6 +1931,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/rubyripper/</loc>
@@ -2480,6 +2510,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/eiskaltdcpp/</loc>
@@ -3454,6 +3487,12 @@
         <loc>https://notesalexp.org/packages/en/buster/amd64/libmypaint-2.0-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libreadstat1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/libreadstat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/librecad/</loc>
     </url>
     <url>
@@ -3563,6 +3602,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/amd64/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/amd64/rubyripper/</loc>
@@ -5041,6 +5083,9 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/deadbeef-gtk3/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/eiskaltdcpp/</loc>
     </url>
     <url>
@@ -5158,6 +5203,12 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/libkvilib5/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/libreadstat1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/libreadstat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/librecad/</loc>
     </url>
     <url>
@@ -5245,6 +5296,9 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/qcomicbook/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/readstat/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/rubyripper/</loc>
     </url>
     <url>
@@ -5324,6 +5378,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/groovy/amd64/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/deadbeef-mpris2-plugin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/groovy/amd64/eiskaltdcpp/</loc>
@@ -5443,6 +5500,12 @@
         <loc>https://notesalexp.org/packages/en/groovy/amd64/libkvilib5/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libreadstat1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/libreadstat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/groovy/amd64/librecad/</loc>
     </url>
     <url>
@@ -5525,6 +5588,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/groovy/amd64/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/groovy/amd64/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/groovy/amd64/rubyripper/</loc>
@@ -7681,6 +7747,12 @@
         <loc>https://notesalexp.org/packages/en/sid/amd64/libleptonica-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/libreadstat1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/libreadstat-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/librecad/</loc>
     </url>
     <url>
@@ -7760,6 +7832,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/rubyripper/</loc>
@@ -9287,6 +9362,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/rubyripper/</loc>
@@ -15083,6 +15161,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2021/03/21/20210321/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2021/04/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2021/04/03/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2021/04/03/20210403/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
