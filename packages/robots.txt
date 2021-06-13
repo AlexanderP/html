@@ -14,3 +14,4 @@ Disallow: /xenial
 Disallow: /bionic
 Disallow: /focal
 Disallow: /groovy
+Disallow: /hirsute
