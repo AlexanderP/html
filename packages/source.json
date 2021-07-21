@@ -42,16 +42,16 @@
     },
     "azpainter": 
     {
-      "version": "3.0.2-2",
+      "version": "3.0.3-1",
       "description": " 16bit RGB full color paint software",
       "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-      "sourcefile": "azpainter_3.0.2-2.debian.tar.xz azpainter_3.0.2-2.dsc azpainter_3.0.2.orig.tar.gz ",
+      "sourcefile": "azpainter_3.0.3-1.debian.tar.xz azpainter_3.0.3-1.dsc azpainter_3.0.3.orig.tar.bz2 ",
       "homepage": "https://osdn.net/projects/azpainter/",
       "depends": "debhelper(>=9)  autotools-dev  libx11-dev  libxext-dev  libxft-dev  libxi-dev  libjpeg-dev  libpng-dev|libpng12-dev  libtiff-dev  libfreetype6-dev  libfontconfig1-dev  zlib1g-dev  libwebp-dev  libxcursor-dev ",
       "binary": "azpainter ",
       "description_azpainter": "16bit RGB full color paint software",
-      "md5": " 7f6acbd71c59b8281785572c4e888768 d2faf86cc2cf31769f2a72180d35b2f5 51de68fa83497db4a13f166490b1cc3e",
-      "size": " 4_KiB  4_KiB  1.18_MiB "
+      "md5": " 8c4d01b29299e2e2bc90283af66232d0 1d6c33c45ab0e6993d1413e6998e56fc 5c592a7104a6faffc6b67fca899be0ab",
+      "size": " 4_KiB  4_KiB  944_KiB "
     },
     "balsa": 
     {
