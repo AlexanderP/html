@@ -55,15 +55,15 @@
     },
     "balsa": 
     {
-      "version": "2.6.2+git9723-a0e884347-1",
+      "version": "2.6.2+git9725-349526322-1",
       "description": " e-mail client for GNOME",
       "sourceurl": "https://notesalexp.org/source/main/b/balsa",
-      "sourcefile": "balsa_2.6.2+git9723-a0e884347-1.debian.tar.xz balsa_2.6.2+git9723-a0e884347-1.dsc balsa_2.6.2+git9723-a0e884347.orig.tar.xz ",
+      "sourcefile": "balsa_2.6.2+git9725-349526322-1.debian.tar.xz balsa_2.6.2+git9725-349526322-1.dsc balsa_2.6.2+git9725-349526322.orig.tar.xz ",
       "homepage": "http://pawsa.fedorapeople.org/balsa/",
       "depends": "autotools-dev  debhelper(>=9)  dh-autoreconf  gnome-pkg-tools  intltool  libcanberra-gtk3-dev  libcompfaceg1-dev  libesmtp-dev  libglib2.0-dev  libgmime-3.0-dev  libgpgme11-dev  libgspell-1-dev|libgtkspell3-3-dev  libgtk-3-dev  libgtksourceview-3.0-dev  libkrb5-dev  libldap2-dev  libnotify-dev  libsecret-1-dev  libsqlite3-dev  libssl-dev(>=0.9.8)  libwebkit2gtk-4.0-dev  libxml2-dev  pkg-config  python3-html2text  yelp-tools  zlib1g-dev  libfribidi-dev  libgnutls30-dev|libgnutls28-dev  libical-dev  libgtksourceview-4-dev ",
       "binary": "balsa ",
       "description_balsa": "e-mail client for GNOME",
-      "md5": " 80e3e33c82c156f7973a7b95b8eb2be0 bcf34307b313fa14cc9014710785c328 53fd3de803352e011feeda3d8cc81659",
+      "md5": " 4da3e1eb4c2ae45a4de935951bff6df3 a2eb587647b4694354f629200891e814 540490efcc0a294024bdb9e234c5ec30",
       "size": " 32_KiB  4_KiB  3.52_MiB "
     },
     "bmpanel2": 
@@ -121,15 +121,15 @@
     },
     "clementineqt5": 
     {
-      "version": "1.4.0~git700-g03e13c69e-1",
+      "version": "1.4.0~git716-g2cca75d93-1",
       "description": " modern music player and library organizer",
       "sourceurl": "https://notesalexp.org/source/main/c/clementine-qt5",
-      "sourcefile": "clementine-qt5_1.4.0~git700-g03e13c69e-1.debian.tar.xz clementine-qt5_1.4.0~git700-g03e13c69e-1.dsc clementine-qt5_1.4.0~git700-g03e13c69e.orig.tar.xz ",
+      "sourcefile": "clementine-qt5_1.4.0~git716-g2cca75d93-1.debian.tar.xz clementine-qt5_1.4.0~git716-g2cca75d93-1.dsc clementine-qt5_1.4.0~git716-g2cca75d93.orig.tar.xz ",
       "homepage": "http://www.clementine-player.org/",
       "depends": "cmake(>=2.6)  debhelper(>=9)  docbook-to-man  libboost-dev  libboost-serialization-dev  libcdio-dev  libchromaprint-dev  libcrypto++-dev  libechonest-dev|wget  libfftw3-dev  libglew-dev  libgpod-dev  libgstreamer1.0-dev  libgstreamer-plugins-base1.0-dev  libimobiledevice-dev  liblastfm5-dev  libmtp-dev  libplist-dev  libprojectm-dev|p7zip  libqt5opengl5-dev  libqt5webkit5-dev  libsparsehash-dev  libsqlite3-dev  libtag1-dev(>=1.8)  libusbmuxd-dev  qtbase5-private-dev  qttools5-dev  libprotobuf-dev  protobuf-compiler  libqca2-dev|aria2  libasound2-dev  libpulse-dev  libqt5x11extras5-dev ",
       "binary": "clementine ",
       "description_clementine": "modern music player and library organizer",
-      "md5": " 4993f59d6c3c57783392a074956d5d44 70105ae028cbfc1e717f857b975dc719 0f3abc3cae5b01d2b19c81f214ca5def",
+      "md5": " 3d52a4981a9bb5f3e8a3d1804a40ff41 eb57dc2a7dda67480e447b1fd2c8bd86 00a9ccf9ec4c024d1b78fd88473b4a8f",
       "size": " 44_KiB  4_KiB  5.58_MiB "
     },
     "cmake": 
@@ -300,15 +300,15 @@
     },
     "freecaddaily": 
     {
-      "version": "0.19.0+git25541-ca043dcb6d-1",
+      "version": "0.19.0+git25645-37d9757399-1",
       "description": " Extensible Open Source CAx program (beta)",
       "sourceurl": "https://notesalexp.org/source/main/f/freecad-daily",
-      "sourcefile": "freecad-daily_0.19.0+git25541-ca043dcb6d-1.debian.tar.xz freecad-daily_0.19.0+git25541-ca043dcb6d-1.dsc freecad-daily_0.19.0+git25541-ca043dcb6d.orig.tar.xz ",
+      "sourcefile": "freecad-daily_0.19.0+git25645-37d9757399-1.debian.tar.xz freecad-daily_0.19.0+git25645-37d9757399-1.dsc freecad-daily_0.19.0+git25645-37d9757399.orig.tar.xz ",
       "homepage": "http://www.freecadweb.org/",
       "depends": "cmake  debhelper(>=11~)  dh-exec  dh-python  libboost-date-time-dev  libboost-dev  libboost-filesystem-dev  libboost-graph-dev  libboost-iostreams-dev  libboost-program-options-dev  libboost-python-dev  libboost-regex-dev  libboost-serialization-dev  libboost-signals-dev|libboost-all-dev  libboost-thread-dev  libcoin-dev  libdouble-conversion-dev  liblz4-dev  libglew-dev  libopencv-dev|libcv-dev  libeigen3-dev(>=3.3~beta1)  libgts-bin  libgts-dev  libkdtree++-dev  libmedc-dev  libmetis-dev  libocct-data-exchange-dev  libocct-ocaf-dev  libocct-visualization-dev  libproj-dev  libpyside2-dev  libqt5opengl5-dev  libqt5svg5-dev  libqt5webkit5-dev  libqt5x11extras5-dev  libqt5xmlpatterns5-dev  libshiboken2-dev  libspnav-dev  libvtk7-dev|libvtk6-dev  libx11-dev  libxerces-c-dev  libzipios++-dev  lsb-release  netgen  netgen-headers  occt-draw  pybind11-dev  pyqt5-dev-tools  python3-pyqt5  pyside2-tools  python3-pyside2.qtcore  python3-pyside2.qtgui  python3-pyside2.qtsvg  python3-pyside2.qtuitools  python3-pyside2.qtwidgets  python3-pyside2.qtxml  python3-requests  python3-dev  python3-ply  qtbase5-dev  qttools5-dev  swig ",
       "binary": "freecad-daily ",
       "description_freecaddaily": "Extensible Open Source CAx program (beta)",
-      "md5": " 7ac2d347cd6a037370c1857ad0fb2a9d 9ace36e8556ef9bbeb2a39b675a50f35 0b84c700af6896ea1ece5f2cca2fa49f",
+      "md5": " d5ccb68426f12f0662a9a390086ff8f8 d7832ee27afbe4129c04d3feedbf2c3a 8d0cbf1ad804edf31146dec7ab47283d",
       "size": " 344_KiB  4_KiB  256.21_MiB "
     },
     "gettext": 
@@ -426,15 +426,15 @@
     },
     "goaccess": 
     {
-      "version": "1:1.4.3+git3599-d3d8d329-1",
+      "version": "1:1.4.3+git3603-1ce51ed8-1",
       "description": " log analyzer and interactive viewer for the Apache Webserver",
       "sourceurl": "https://notesalexp.org/source/main/g/goaccess",
-      "sourcefile": "goaccess_1.4.3+git3599-d3d8d329-1.debian.tar.xz goaccess_1.4.3+git3599-d3d8d329-1.dsc goaccess_1.4.3+git3599-d3d8d329.orig.tar.xz ",
+      "sourcefile": "goaccess_1.4.3+git3603-1ce51ed8-1.debian.tar.xz goaccess_1.4.3+git3603-1ce51ed8-1.dsc goaccess_1.4.3+git3603-1ce51ed8.orig.tar.xz ",
       "homepage": "http://goaccess.prosoftcorp.com/",
       "depends": "debhelper(>=9)  autotools-dev  libncurses5-dev  libglib2.0-dev  libgeoip-dev  autoconf  automake  libncursesw5-dev  autopoint ",
       "binary": "goaccess ",
       "description_goaccess": "log analyzer and interactive viewer for the Apache Webserver",
-      "md5": " 1ef61cbb6f8090766e6a25569ee85826 ef0ceec121c21aa604be5e53f0255ac5 a3a542a5e1eecab41c3b13da8ee44919",
+      "md5": " 59355864f4a55f02ed9a731900ad1dd9 d6ea7f916058e46b7b500b7f95eb9119 261183362af499a3f006e53ce811e6ee",
       "size": " 40_KiB  4_KiB  320_KiB "
     },
     "goldendict": 
@@ -493,10 +493,10 @@
     },
     "kvirc": 
     {
-      "version": "4:5.0.1+git-7466-18c6261ca-1",
+      "version": "4:5.0.1+git-7467-654754206-1",
       "description": " Next generation IRC client with module support",
       "sourceurl": "https://notesalexp.org/source/main/k/kvirc",
-      "sourcefile": "kvirc_5.0.1+git-7466-18c6261ca-1.debian.tar.xz kvirc_5.0.1+git-7466-18c6261ca-1.dsc kvirc_5.0.1+git-7466-18c6261ca.orig.tar.xz ",
+      "sourcefile": "kvirc_5.0.1+git-7467-654754206-1.debian.tar.xz kvirc_5.0.1+git-7467-654754206-1.dsc kvirc_5.0.1+git-7467-654754206.orig.tar.xz ",
       "homepage": "http://www.kvirc.de/",
       "depends": "debhelper(>=9)  cmake(>=3.1)  libperl-dev  zlib1g-dev  libx11-dev  libxrender-dev  libssl-dev  qtbase5-dev  qttools5-dev-tools  libqt5x11extras5-dev  libphonon4qt5-dev  qttools5-dev  libqt5svg5-dev  qtmultimedia5-dev  libqt5webkit5-dev  libphonon4qt5experimental-dev  pkg-config  libxss-dev  python-dev  libenchant-dev|libenchant-2-dev ",
       "binary": "kvirc libkvilib5 kvirc-modules kvirc-data ",
@@ -504,22 +504,22 @@
       "description_libkvilib5": "KVIrc (IRC client) base library",
       "description_kvircmodules": "KVIrc (IRC client) modules",
       "description_kvircdata": "Data files for KVIrc",
-      "md5": " d4d582f25e55b3164e3c8bcc4bf1dffd 80ac3cb09a18fc1dc994d8483fbeeaa3 2735e3d02e453f08225acacec0b8d51c",
+      "md5": " 4c2e826d8c0a1c8de55de60fa08e2e92 59079cb5839538d09b3f8def8e0cc910 1d076906aafbca7d792e4d13ad8db310",
       "size": " 28_KiB  4_KiB  3.55_MiB "
     },
     "labplot": 
     {
-      "version": "2.8.2+git8654-9348dffe5-1",
+      "version": "2.8.2+git8681-c635d74d8-1",
       "description": " interactive graphing and analysis of scientific data",
       "sourceurl": "https://notesalexp.org/source/main/l/labplot",
-      "sourcefile": "labplot_2.8.2+git8654-9348dffe5-1.debian.tar.xz labplot_2.8.2+git8654-9348dffe5-1.dsc labplot_2.8.2+git8654-9348dffe5.orig.tar.xz ",
+      "sourcefile": "labplot_2.8.2+git8681-c635d74d8-1.debian.tar.xz labplot_2.8.2+git8681-c635d74d8-1.dsc labplot_2.8.2+git8681-c635d74d8.orig.tar.xz ",
       "homepage": "https://edu.kde.org/applications/science/labplot/",
       "depends": "debhelper  cmake(>=3.2.0)  gettext  pkg-kde-tools(>=0.15.16)  pkg-config  qtbase5-dev(>=5.6.0)  libqt5svg5-dev  libqt5serialport5-dev  extra-cmake-modules(>=1.3.0)  libkf5archive-dev(>=5.16.0)  libkf5completion-dev(>=5.16.0)  libkf5config-dev(>=5.16.0)  libkf5configwidgets-dev(>=5.16.0)  libkf5coreaddons-dev(>=5.16.0)  libkf5crash-dev(>=5.16.0)  libkf5doctools-dev(>=5.16.0)  libkf5i18n-dev(>=5.16.0)  libkf5iconthemes-dev(>=5.16.0)  libkf5kio-dev(>=5.16.0)  libkf5newstuff-dev(>=5.16.0)  libkf5parts-dev(>=5.16.0)  libkf5service-dev(>=5.16.0)  libkf5syntaxhighlighting-dev(>=5.16.0)  libkf5textwidgets-dev(>=5.16.0)  libkf5widgetsaddons-dev(>=5.16.0)  libkf5xmlgui-dev(>=5.16.0)  kuserfeedback-dev|axel  bison  libcfitsio-dev  libspectre-dev  libgsl-dev  libnetcdf-dev  libfftw3-dev  libhdf5-dev  libcerf-dev  zlib1g-dev  liblz4-dev  xauth  xvfb  cantor-dev(>=4:19.12)|libcantor-dev(>=4:19.12)|wget  libpoppler-qt5-dev  libreadstat-dev|aria2  libpoppler-dev  libmatio-dev ",
       "binary": "labplot labplot-data ",
       "description_labplot": "interactive graphing and analysis of scientific data",
       "description_labplotdata": "data files for labplot",
-      "md5": " 003f638ae8e114dc09711d770684d492 100049cf8270cf04b84e5636960c8bfb 46769a120fb9338e52877c89aa3a5157",
-      "size": " 52_KiB  4_KiB  14.51_MiB "
+      "md5": " 5f66f0ecb7ce0530e68c394b8a1f2529 395fa78dd508dea731fcc308d1711034 80699bafd9ffb95bace7e1adfd1fc7a4",
+      "size": " 56_KiB  4_KiB  15.04_MiB "
     },
     "leptonlib": 
     {
@@ -635,16 +635,16 @@
     },
     "llpp": 
     {
-      "version": "27.0.0+git4446-69b1210-1",
+      "version": "27.0.0+git4448-a3df589-1",
       "description": " lightweight PDF viewer",
       "sourceurl": "https://notesalexp.org/source/main/l/llpp",
-      "sourcefile": "llpp_27.0.0+git4446-69b1210-1.debian.tar.xz llpp_27.0.0+git4446-69b1210-1.dsc llpp_27.0.0+git4446-69b1210.orig.tar.xz ",
+      "sourcefile": "llpp_27.0.0+git4448-a3df589-1.debian.tar.xz llpp_27.0.0+git4448-a3df589-1.dsc llpp_27.0.0+git4448-a3df589.orig.tar.xz ",
       "homepage": "http://repo.or.cz/w/llpp.git",
       "depends": "debhelper(>=8.0.0)  git  mesa-common-dev  libglu1-mesa-dev  libfreetype6-dev  pkg-config  libjpeg-dev  libjbig2dec0-dev  libopenjpeg-dev|libopenjp2-7-dev  libcrypto++-dev  libssl-dev  libxext-dev  wget  libxcursor-dev  libxrandr-dev  libxinerama-dev  bc  libglib2.0-dev  asciidoc  xmlto  asciidoctor ",
       "binary": "llpp ",
       "description_llpp": "lightweight PDF viewer",
-      "md5": " 46351923f33686ff21a6bf1f00391cbd 32e21a26b23be5c83fc04325b8234ba1 74dd9cb679a8418ec74fcced75d22b12",
-      "size": " 36_KiB  4_KiB  75.58_MiB "
+      "md5": " 75f775cc3029f413f74d37aa77b69844 3285daa89b359c24b976d22ae257468b e51250fad0443c1672d6275a4948204c",
+      "size": " 36_KiB  4_KiB  75.60_MiB "
     },
     "meson": 
     {
@@ -772,15 +772,15 @@
     },
     "pinta": 
     {
-      "version": "1.7+git1976-9053409d-1",
+      "version": "1.7+git1978-d4bb0881-1",
       "description": " Simple drawing/painting program",
       "sourceurl": "https://notesalexp.org/source/main/p/pinta",
-      "sourcefile": "pinta_1.7+git1976-9053409d-1.debian.tar.xz pinta_1.7+git1976-9053409d-1.dsc pinta_1.7+git1976-9053409d.orig.tar.xz ",
+      "sourcefile": "pinta_1.7+git1978-d4bb0881-1.debian.tar.xz pinta_1.7+git1978-d4bb0881-1.dsc pinta_1.7+git1978-d4bb0881.orig.tar.xz ",
       "homepage": "http://pinta-project.com/",
       "depends": "debhelper(>=9)  cli-common-dev(>=0.5.7~)  autoconf  automake  dh-autoreconf  gettext  gtk-sharp2  yelp-tools  libglib2.0-dev  nunit-console  mono-reference-assemblies-4.0|wget ",
       "binary": "pinta ",
       "description_pinta": "Simple drawing/painting program",
-      "md5": " 8a944a5764f47681fd80bed78c8ed4d5 81bc4ee6c7a0ef80402f7a03fd083eac c4edf8941d746263d70ccfc4ab2a2b46",
+      "md5": " 520c942483be9b04cdc952e4d8fd7baa 5e630a18c35906e13230d5c3b8f23f24 45f7235c7081fe431c3f818faca4fa36",
       "size": " 20_KiB  4_KiB  1.25_MiB "
     },
     "ppastats": 
@@ -798,10 +798,10 @@
     },
     "psiplus": 
     {
-      "version": "1.5.1552-1",
+      "version": "1.5.1554-1",
       "description": " Qt-based XMPP/Jabber client",
       "sourceurl": "https://notesalexp.org/source/main/p/psi-plus",
-      "sourcefile": "psi-plus_1.5.1552-1.debian.tar.xz psi-plus_1.5.1552-1.dsc psi-plus_1.5.1552.orig.tar.xz ",
+      "sourcefile": "psi-plus_1.5.1554-1.debian.tar.xz psi-plus_1.5.1554-1.dsc psi-plus_1.5.1554.orig.tar.xz ",
       "homepage": "https://psi-plus.com/",
       "depends": "cmake  debhelper-compat(=11)  libgstreamer-plugins-bad1.0-dev  libgstreamer-plugins-base1.0-dev  libgstreamer1.0-dev  libhttp-parser-dev  libhunspell-dev  libminizip-dev  libotr5-dev|libotr2-dev  libqca-qt5-2-dev  libqt5svg5-dev  libqt5webkit5-dev  libqt5x11extras5-dev  libsignal-protocol-c-dev  libsm-dev  libssl-dev  libtidy-dev  libusrsctp-dev(>=0.9.3.0+20201102)  libxss-dev  qt5keychain-dev  qtbase5-dev  qtmultimedia5-dev  zlib1g-dev ",
       "binary": "psi-plus psi-plus-webkit psi-plus-common psi-plus-plugins psi-plus-plugins-dev psi-plus-plugin-psimedia psi-plus-sounds psi-plus-icons-nonfree ",
@@ -813,20 +813,20 @@
       "description_psipluspluginpsimedia": "plugin for audio and video calls in Psi+",
       "description_psiplussounds": "sound files for Psi+",
       "description_psiplusiconsnonfree": "additional icons for Psi+",
-      "md5": " 2f086c110c4bbc0932bff716ae03821b 23a6283e221db06aa06d3d71d03f4707 52d226c82c83c2241a66813d25b818c3",
-      "size": " 28_KiB  4_KiB  25.73_MiB "
+      "md5": " 071edc0c1ac9b3532c1e273e3224d965 a400c611b228db2b01ebd70014553b17 1ada94fb809b8972992d9fb6f36efc8b",
+      "size": " 28_KiB  4_KiB  27.79_MiB "
     },
     "psiplusl10n": 
     {
-      "version": "1.5.1550-1",
+      "version": "1.5.1552-1",
       "description": " localization files for Psi+",
       "sourceurl": "https://notesalexp.org/source/main/p/psi-plus-l10n",
-      "sourcefile": "psi-plus-l10n_1.5.1550-1.debian.tar.xz psi-plus-l10n_1.5.1550-1.dsc psi-plus-l10n_1.5.1550.orig.tar.xz ",
+      "sourcefile": "psi-plus-l10n_1.5.1552-1.debian.tar.xz psi-plus-l10n_1.5.1552-1.dsc psi-plus-l10n_1.5.1552.orig.tar.xz ",
       "homepage": "https://github.com/psi-plus/psi-plus-l10n",
       "depends": "debhelper(>=9)  qtbase5-dev  qttools5-dev-tools ",
       "binary": "psi-plus-l10n ",
       "description_psiplusl10n": "localization files for Psi+",
-      "md5": " a190c5f231f22f2fac9ccb0458c8215d 897903dea9f5fc4b41d5f9b947992886 4c7419bf514c4949eefbb66d5356fa5d",
+      "md5": " 58bc9146a20272a0b23cf6fe45587b89 b77f4b7799614143ffdf9bac57a4187e a96320b1208c544acd3d0b43bd90448e",
       "size": " 12_KiB  4_KiB  1.18_MiB "
     },
     "q4wine": 
@@ -844,17 +844,17 @@
     },
     "qcad": 
     {
-      "version": "3.26.0+git8527-913cbc8c2-1",
+      "version": "3.26.0+git8563-851706bf4-1",
       "description": " Computer Aided Drafting (CAD) software",
       "sourceurl": "https://notesalexp.org/source/main/q/qcad",
-      "sourcefile": "qcad_3.26.0+git8527-913cbc8c2-1.debian.tar.xz qcad_3.26.0+git8527-913cbc8c2-1.dsc qcad_3.26.0+git8527-913cbc8c2.orig.tar.xz ",
+      "sourcefile": "qcad_3.26.0+git8563-851706bf4-1.debian.tar.xz qcad_3.26.0+git8563-851706bf4-1.dsc qcad_3.26.0+git8563-851706bf4.orig.tar.xz ",
       "homepage": "http://www.qcad.org/",
       "depends": "debhelper(>=9)  dh-exec  libx11-dev  libxext-dev  libxrender-dev  libglu1-mesa-dev  libfreetype6-dev  libfontconfig1-dev  libssl-dev  libdbus-1-dev  libsm-dev  qtbase5-dev  libqt5svg5-dev  qttools5-dev  qtchooser  qt5-qmake  qtscript5-dev  qttools5-dev-tools  libqt5xmlpatterns5-dev  libqt5webkit5-dev  libqt5opengl5-dev  imagemagick  librsvg2-bin  libqt5sql5-sqlite  qt5-image-formats-plugins  libqt5printsupport5 ",
       "binary": "qcad qcad-data ",
       "description_qcad": "Computer Aided Drafting (CAD) software",
       "description_qcaddata": "Computer Aided Drafting (CAD) software -- shared files",
-      "md5": " b1f5407dc973e2e7be50d4cc106d7c10 77ff75de07818d78f133e9cebd7c68b9 eb8f5084faf7e4b0a6cf683e38bf3271",
-      "size": " 80_KiB  4_KiB  17.31_MiB "
+      "md5": " 6eed5f6a24cd6fabcca992cd52432a0a 5d5d34ec3ee95bac0026896968c46aae 31e1c7751f4ac7a292631d77492612d0",
+      "size": " 80_KiB  4_KiB  17.62_MiB "
     },
     "qcomicbook": 
     {
@@ -965,18 +965,18 @@
     },
     "solvespace": 
     {
-      "version": "3.0.0~git1779-0a3504c-1",
+      "version": "3.0.0~git1790-6bc63e9-1",
       "description": " parametric 2d/3d CAD",
       "sourceurl": "https://notesalexp.org/source/main/s/solvespace",
-      "sourcefile": "solvespace_3.0.0~git1779-0a3504c-1.debian.tar.xz solvespace_3.0.0~git1779-0a3504c-1.dsc solvespace_3.0.0~git1779-0a3504c.orig.tar.xz ",
+      "sourcefile": "solvespace_3.0.0~git1790-6bc63e9-1.debian.tar.xz solvespace_3.0.0~git1790-6bc63e9-1.dsc solvespace_3.0.0~git1790-6bc63e9.orig.tar.xz ",
       "homepage": "http://solvespace.com",
       "depends": "debhelper(>=9)  cmake  libpng-dev  zlib1g-dev  libjson-c-dev  libfontconfig1-dev  libgtkmm-3.0-dev(>=3.18)  libpangomm-1.4-dev  libgl-dev  libglu-dev  libglew-dev  libspnav-dev  libfreetype6-dev ",
       "binary": "solvespace libslvs1 libslvs1-dev ",
       "description_solvespace": "parametric 2d/3d CAD",
       "description_libslvs1": "SolveSpace geometric kernel",
       "description_libslvs1dev": "SolveSpace geometric kernel (development files)",
-      "md5": " 280740c0f005b27d59b68722201543e5 4353e53d938c5a9dbf21dc886326293a ba22d226cde14e0dc20093fd9cd84229",
-      "size": " 32_KiB  4_KiB  27.24_MiB "
+      "md5": " 6d0b8014a3f6c6a9c6412e5ad06e29ce 4ffed84ffb35404b15b262d79905d789 b2c5d0c09ec808e5c27f2318714cb757",
+      "size": " 32_KiB  4_KiB  27.40_MiB "
     },
     "sqlitebrowser": 
     {
