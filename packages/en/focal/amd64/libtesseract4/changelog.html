@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package libtesseract4_4.1.1+git4247-97079fa3-1_amd64.deb </title>
+    <title>notesalexp.org | ChangeLog of package libtesseract4_4.1.1+git4259-c1a56cce-1_amd64.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -40,21 +40,44 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package libtesseract4 in focal of architecture amd64</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.1+git4247-97079fa3-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.1+git4259-c1a56cce-1) unstable; urgency=medium
 
   * Compile
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: 4.1
-  * Commit: 97079fa353557af6df86fd20b5d2e0dff5d8d5df
-  * Date: 1592143597
+  * Commit: c1a56cceb90eb4dcce7a58a169599d1932fc8745
+  * Date: 1631961986
   * git changelog:
+  *  c1a56cce - Update ChangeLog and prepare new release 4.1.2
+  *  9b688e6e - Update documentation
+  *  15aee49d - Abort LSTM training with integer model (fixes issue
+    #1573)
+  *  ffb71e57 - Extend URI support for Tesseract with libcurl
+  *  b2eb72b6 - Don't output empty ALTO sourceImageInformation (issue
+    #2700)
+  *  4e362bba - Make automake builds less noisy by default
+  *  77108707 - Fix broken build for unittest
+  *  dbc79b09 - Use more compiler and linker flags from pkg-config
+  *  6dc4b184 - Fix autoconf build for latest MacOS (Intel and M1)
+  *  412d8a98 - Adding SVMutex and SVSemaphore destructors to avoid
+    system objects leaks
+  *  3cedf198 - Merge pull request #2971 from poke1024/rowattr
   *  97079fa3 - Allow line images with larger width (depending on
     height)
   *  6c29f9c4 - Allow line images with larger width
+  *  3e74c1eb - Add RowAttributes getter to PageIterator
   *  bf2129d0 - Update appveyor.yml
   *  088995df - Fix 3.0x version info
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 21 Jun 2020 11:44:07 +0300
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 20 Sep 2021 20:32:01 +0000
+
+tesseract (4.1.1-2.1) unstable; urgency=medium
+
+  [ Peter Green ]
+  * Edit configure.ac to disable -march=native (Closes: #949638)
+  * Edit control/rules to enable autoreconf.
+
+ -- Paul Gevers &lt;censored&gt;  Thu, 04 Feb 2021 21:49:33 +0100
 
 tesseract (4.1.1-2) unstable; urgency=medium
 

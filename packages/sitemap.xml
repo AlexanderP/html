@@ -5662,6 +5662,9 @@
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/deadbeef-gtk3/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/deadbeef/</loc>
     </url>
     <url>
@@ -5770,6 +5773,12 @@
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/libslvs1/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/libtesseract-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/libtesseract4/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/libvacuumutils37/</loc>
     </url>
     <url>
@@ -5834,6 +5843,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/tesseract-ocr-all/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/tesseract-ocr/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/vacuum-dev/</loc>
