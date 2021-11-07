@@ -2638,6 +2638,12 @@
         <loc>https://notesalexp.org/packages/en/bullseye/i386/libkvilib5/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/libreadstat-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/libreadstat1/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/librecad-data/</loc>
     </url>
     <url>
@@ -2714,6 +2720,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/rubyripper/</loc>
@@ -4387,6 +4396,12 @@
         <loc>https://notesalexp.org/packages/en/buster/i386/libmypaint-2.0-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libreadstat-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/libreadstat1/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/librecad-data/</loc>
     </url>
     <url>
@@ -4496,6 +4511,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/buster/i386/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/buster/i386/rubyripper/</loc>
@@ -8782,6 +8800,12 @@
         <loc>https://notesalexp.org/packages/en/sid/i386/libleptonica-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/libreadstat-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/libreadstat1/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/librecad-data/</loc>
     </url>
     <url>
@@ -8861,6 +8885,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/qt-box-editor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/readstat/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/rubyripper/</loc>
@@ -15476,6 +15503,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2021/09/23/20210923/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2021/10/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2021/10/16/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2021/10/16/20211016/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
