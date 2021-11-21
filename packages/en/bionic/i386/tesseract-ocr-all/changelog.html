@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.1+git4259-c1a56cce-1_all.deb </title>
+    <title>notesalexp.org | ChangeLog of package tesseract-ocr-all_4.1.3-1_all.deb </title>
     <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
     <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
     <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
@@ -40,14 +40,28 @@
         <div id="content">
 <div class="page">
 <h5>ChangeLog of package tesseract-ocr-all in bionic of architecture i386</h5>
-<div class="highlight"><pre><span></span>tesseract (4.1.1+git4259-c1a56cce-1) unstable; urgency=medium
+<div class="highlight"><pre><span></span>tesseract (4.1.3-1) unstable; urgency=medium
 
-  * Compile
+  * New upstream release.
+  * disable patch - no-march-native
+  * update patch - helptext
+  * Bump Standards-Version to 4.5.1
+  * debian/control:
+    - Included Rules-Requires-Root: no
   * URL: git://github.com/tesseract-ocr/tesseract.git
   * Branch: 4.1
-  * Commit: c1a56cceb90eb4dcce7a58a169599d1932fc8745
-  * Date: 1631961986
+  * Commit: f38e7a7ba850b668d4505dd4c712238d7ec63ca8
+  * Date: 1636966228
   * git changelog:
+  *  f38e7a7b - Create new release 4.1.3
+  *  28ad3e8b - Fix broken autoconf build
+  *  4a5760dd - Update sw.cpp
+  *  d358270d - Create new release 4.1.2
+  *  4b2b7219 - Don't use compiler flags -march=native -mtune=native in
+    autoconf builds
+  *  9dabb7ad - Fix automake warning because of redefined
+    DEFAULT_INCLUDES
+  *  0d479d52 - Make automake builds less noisy by default
   *  c1a56cce - Update ChangeLog and prepare new release 4.1.2
   *  9b688e6e - Update documentation
   *  15aee49d - Abort LSTM training with integer model (fixes issue
@@ -69,7 +83,7 @@
   *  bf2129d0 - Update appveyor.yml
   *  088995df - Fix 3.0x version info
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 20 Sep 2021 20:32:01 +0000
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 16 Nov 2021 19:46:19 +0000
 
 tesseract (4.1.1-2.1) unstable; urgency=medium
 
