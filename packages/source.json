@@ -89,7 +89,7 @@
       "homepage": "http://www.calculix.de",
       "depends": "debhelper(>=9)  gfortran  libarpack2-dev  libspooles-dev  liblapack-dev ",
       "binary": "calculix-ccx ",
-      "description_calculixccx": "Three-Dimensional Structural Finite Element Program",
+      "description_calculixccx": "",
       "md5": " 9d2720b30c1b4f2c42e30cb6e83a5ad2 0b9f60be59ff9a955d5800af8da705f3 0a8d206675155325017ade75ee04c0bd",
       "size": " 32_KiB  4_KiB  1008_KiB "
     },
@@ -227,8 +227,8 @@
       "homepage": "http://eigen.tuxfamily.org",
       "depends": "cmake  debhelper(>=9)  gfortran  pkg-config ",
       "binary": "libeigen3-dev libeigen3-doc ",
-      "description_libeigen3dev": "lightweight C++ template library for linear algebra",
-      "description_libeigen3doc": "eigen3 API documentation",
+      "description_libeigen3dev": "",
+      "description_libeigen3doc": "",
       "md5": " 7188de10bac5472174ded0f158db6eea d031cd34cd35f5a0986890d18e0474ae fd1ecefaacc9223958b6a66f9a348424",
       "size": " 44_KiB  4_KiB  1.55_MiB "
     },

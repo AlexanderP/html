@@ -4,7 +4,6 @@ Sitemap: https://notesalexp.org/sitemap.xml
 Disallow: /debian
 Disallow: /kvirc
 Disallow: /source
-Disallow: /jessie
 Disallow: /stretch
 Disallow: /buster
 Disallow: /bullseye
@@ -13,5 +12,5 @@ Disallow: /trusty
 Disallow: /xenial
 Disallow: /bionic
 Disallow: /focal
-Disallow: /groovy
 Disallow: /hirsute
+Disallow: /impish
