@@ -42,16 +42,16 @@
     },
     "azpainter": 
     {
-      "version": "3.0.3-1",
+      "version": "3.0.4-1",
       "description": " 16bit RGB full color paint software",
       "sourceurl": "https://notesalexp.org/source/main/a/azpainter",
-      "sourcefile": "azpainter_3.0.3-1.debian.tar.xz azpainter_3.0.3-1.dsc azpainter_3.0.3.orig.tar.bz2 ",
+      "sourcefile": "azpainter_3.0.4-1.debian.tar.xz azpainter_3.0.4-1.dsc azpainter_3.0.4.orig.tar.gz ",
       "homepage": "https://osdn.net/projects/azpainter/",
       "depends": "debhelper(>=9)  autotools-dev  libx11-dev  libxext-dev  libxft-dev  libxi-dev  libjpeg-dev  libpng-dev|libpng12-dev  libtiff-dev  libfreetype6-dev  libfontconfig1-dev  zlib1g-dev  libwebp-dev  libxcursor-dev ",
       "binary": "azpainter ",
       "description_azpainter": "16bit RGB full color paint software",
-      "md5": " 8c4d01b29299e2e2bc90283af66232d0 1d6c33c45ab0e6993d1413e6998e56fc 5c592a7104a6faffc6b67fca899be0ab",
-      "size": " 4_KiB  4_KiB  944_KiB "
+      "md5": " 60867a27fefab163af7b40eea1dfd536 ab8a330fdbf14e15f18d8011cab270ad 9106456d3c0d9310be04d687ea711fd9",
+      "size": " 4_KiB  4_KiB  1.22_MiB "
     },
     "balsa": 
     {
@@ -163,33 +163,46 @@
       "md5": " d822e4d7318799ca844bad0e9b07c82e ce76a77d36f2082e56c7a076385e7508 13a9cd8c13b910d1547c76857c743c3b",
       "size": " 8_KiB  4_KiB  21.90_MiB "
     },
+    "ddbguiqt5": 
+    {
+      "version": "0.0.1+git212-10ecff2-1",
+      "description": "",
+      "sourceurl": "https://notesalexp.org/source/main/d/ddb-gui-qt5",
+      "sourcefile": "ddb-gui-qt5_0.0.1+git212-10ecff2-1.debian.tar.xz ddb-gui-qt5_0.0.1+git212-10ecff2-1.dsc ddb-gui-qt5_0.0.1+git212-10ecff2.orig.tar.xz ",
+      "homepage": "https://github.com/kuba160/ddb_gui_qt5",
+      "depends": "debhelper(>=9)  deadbeef-dev  qtbase5-dev  qttools5-dev  qtchooser  qttools5-dev-tools  libqt5svg5-dev ",
+      "binary": "ddb-gui-qt5 ",
+      "description_ddbguiqt5": "Qt5 interface to DeaDBeeF",
+      "md5": " 7636bb571daea84d7ecbda60f9657a52 e30d0453ee1d2410c9a38962119bd54e 6dfa2a160e6d439f9ccf293c4591dcf4",
+      "size": " 4_KiB  4_KiB  728_KiB "
+    },
     "deadbeef": 
     {
-      "version": "1.8.8-1",
+      "version": "1.8.8-nap1",
       "description": " ultimate music player for GNU/Linux systems",
       "sourceurl": "https://notesalexp.org/source/main/d/deadbeef",
-      "sourcefile": "deadbeef_1.8.8-1.debian.tar.xz deadbeef_1.8.8-1.dsc deadbeef_1.8.8.orig.tar.bz2 ",
+      "sourcefile": "deadbeef_1.8.8-nap1.debian.tar.xz deadbeef_1.8.8-nap1.dsc deadbeef_1.8.8.orig.tar.bz2 ",
       "homepage": "http://deadbeef.sourceforge.net/",
-      "depends": "debhelper(>=9)  libltdl-dev|libltdl7-dev  libtool  libasound2-dev  libsamplerate0-dev  libmad0-dev  libmpg123-dev  libavformat-dev  libsndfile1-dev  libx11-dev  libvorbis-dev  libavutil-dev  libcddb2-dev  libgtk2.0-dev  libgtk-3-dev  libcdio-dev  libogg-dev  libcurl4-gnutls-dev  libflac-dev  autotools-dev  libwavpack-dev  libavcodec-dev  automake  autoconf  libnotify-dev  libpulse-dev  intltool  libmpcdec-dev  libmms-dev  libfaad-dev  bison  libzip-dev  libimlib2-dev  quilt  yasm  autopoint  libglu1-mesa-dev  mesa-common-dev  libgtkglext1-dev  libjansson-dev  libopusfile-dev  libopus-dev  libsndio-dev|wget  clang  libdispatch-dev  libglib2.0-bin ",
+      "depends": "debhelper(>=9)  libltdl-dev|libltdl7-dev  libtool  libasound2-dev  libsamplerate0-dev  libmad0-dev  libmpg123-dev  libavformat-dev  libsndfile1-dev  libx11-dev  libvorbis-dev  libavutil-dev  libcddb2-dev  libgtk2.0-dev  libgtk-3-dev  libcdio-dev  libogg-dev  libcurl4-gnutls-dev  libflac-dev  autotools-dev  libwavpack-dev  libavcodec-dev  automake  autoconf  libnotify-dev  libpulse-dev  intltool  libmpcdec-dev  libmms-dev  libfaad-dev  bison  libzip-dev  libimlib2-dev  quilt  yasm  autopoint  libglu1-mesa-dev  mesa-common-dev  libgtkglext1-dev  libjansson-dev  libopusfile-dev  libopus-dev  libsndio-dev|wget  clang  clang-12|aria2  libdispatch-dev  libglib2.0-bin ",
       "binary": "deadbeef-dev deadbeef-gtk3 deadbeef-gtk2 deadbeef ",
       "description_deadbeefdev": "DeaDBeeF plugins development files",
       "description_deadbeefgtk3": "GTK3 interface to DeaDBeeF",
       "description_deadbeefgtk2": "GTK2 interface to DeaDBeeF",
       "description_deadbeef": "ultimate music player for GNU/Linux systems",
-      "md5": " 59f649c53eeaf6c03eda59ab06f1b848 cae5e3ee3b9dc315192b7e3713986c53 cbc3cc9055e026ea8ae06d720ba38a52",
+      "md5": " 4902f676574533df24c3d7c7f24d5dba be03a00d65e42f37483bccfd9740ca7f cbc3cc9055e026ea8ae06d720ba38a52",
       "size": " 60_KiB  4_KiB  4.85_MiB "
     },
     "deadbeefmpris2plugin": 
     {
-      "version": "1.14+git20210322-1",
+      "version": "1.14+git20210322-1.1",
       "description": " MPRISv2 plugin for DeaDBeeF-player",
       "sourceurl": "https://notesalexp.org/source/main/d/deadbeef-mpris2-plugin",
-      "sourcefile": "deadbeef-mpris2-plugin_1.14+git20210322-1.debian.tar.xz deadbeef-mpris2-plugin_1.14+git20210322-1.dsc deadbeef-mpris2-plugin_1.14+git20210322.orig.tar.xz ",
+      "sourcefile": "deadbeef-mpris2-plugin_1.14+git20210322-1.1.debian.tar.xz deadbeef-mpris2-plugin_1.14+git20210322-1.1.dsc deadbeef-mpris2-plugin_1.14+git20210322.orig.tar.xz ",
       "homepage": "https://github.com/Serranya/deadbeef-mpris2-plugin",
       "depends": "debhelper(>=9)  deadbeef-dev  libglib2.0-dev  autotools-dev  automake  autoconf  autopoint  libtool ",
       "binary": "deadbeef-mpris2-plugin ",
       "description_deadbeefmpris2plugin": "MPRISv2 plugin for DeaDBeeF-player",
-      "md5": " 2f2c309c21a83e7bf7d2d94efaa5cb3c f3de7b78cb0554e27f9066e49f47abb7 50d8838416fcc7a19038cbee9b5a4e36",
+      "md5": " 952e13089045893caa55e14dc1c8aca6 61302924411180fce6631ef81d8e75d3 50d8838416fcc7a19038cbee9b5a4e36",
       "size": " 4_KiB  4_KiB  20_KiB "
     },
     "didjvu": 
@@ -307,17 +320,17 @@
     },
     "gimagereader": 
     {
-      "version": "3.3.1-2.1",
+      "version": "3.3.1-2.2",
       "description": "",
       "sourceurl": "https://notesalexp.org/source/main/g/gimagereader",
-      "sourcefile": "gimagereader_3.3.1-2.1.debian.tar.xz gimagereader_3.3.1-2.1.dsc gimagereader_3.3.1.orig.tar.xz ",
+      "sourcefile": "gimagereader_3.3.1-2.2.debian.tar.xz gimagereader_3.3.1-2.2.dsc gimagereader_3.3.1.orig.tar.xz ",
       "homepage": "https://github.com/manisandro/gImageReader",
       "depends": "debhelper(>=9)  cmake  intltool  libcairomm-1.0-dev  libdjvulibre-dev  libenchant-2-dev|libenchant-dev  libgtkmm-3.0-dev  libgtksourceviewmm-3.0-dev  libgtkspellmm-3.0-dev(>=3.0.4)  libjpeg-dev  libjson-glib-dev  libpangomm-1.4-dev  libpodofo-dev  libpoppler-glib-dev  libpoppler-qt5-dev  libqtspell-qt5-dev  libquazip5-dev  libquazip5-headers|wget  libsane-dev  libtesseract-dev  libxml++2.6-dev  libzip-dev  python3-gi  qtbase5-dev  uuid-dev ",
       "binary": "gimagereader gimagereader-qt5 gimagereader-common ",
       "description_gimagereader": "Graphical GTK+ front-end to tesseract-ocr",
       "description_gimagereaderqt5": "Graphical Qt 5 front-end to tesseract-ocr",
       "description_gimagereadercommon": "gImageReader common files",
-      "md5": " 8f2f02cfaa79b79cc92c621cba9a0c47 f54e67795f0f1d2d8ab054494d6d0970 f884deb1db93b2ff24f82fe0ebe7542c",
+      "md5": " 0d354989c510b78d64efe647a0ef09bf 06e33c7df08c12b3ede9ef7a538ddd3a f884deb1db93b2ff24f82fe0ebe7542c",
       "size": " 8_KiB  4_KiB  9.04_MiB "
     },
     "gimpdevel": 
@@ -938,31 +951,31 @@
     },
     "solvespace": 
     {
-      "version": "3.0.0+git1801-2450010-1",
+      "version": "3.0.1~git1802-e07b082-1",
       "description": " parametric 2d/3d CAD",
       "sourceurl": "https://notesalexp.org/source/main/s/solvespace",
-      "sourcefile": "solvespace_3.0.0+git1801-2450010-1.debian.tar.xz solvespace_3.0.0+git1801-2450010-1.dsc solvespace_3.0.0+git1801-2450010.orig.tar.xz ",
+      "sourcefile": "solvespace_3.0.1~git1802-e07b082-1.debian.tar.xz solvespace_3.0.1~git1802-e07b082-1.dsc solvespace_3.0.1~git1802-e07b082.orig.tar.xz ",
       "homepage": "http://solvespace.com",
       "depends": "debhelper(>=9)  cmake  libpng-dev  zlib1g-dev  libjson-c-dev  libfontconfig1-dev  libgtkmm-3.0-dev(>=3.18)  libpangomm-1.4-dev  libgl-dev  libglu-dev  libglew-dev  libspnav-dev  libfreetype6-dev ",
       "binary": "solvespace libslvs1 libslvs1-dev ",
       "description_solvespace": "parametric 2d/3d CAD",
       "description_libslvs1": "SolveSpace geometric kernel",
       "description_libslvs1dev": "SolveSpace geometric kernel (development files)",
-      "md5": " 9af7e03653cc22516ac945b162b598ac 9fdea5e8b1935e18460ffd8d1aaf9541 423405ffdb27cd4eb6828b8443311593",
-      "size": " 32_KiB  4_KiB  27.25_MiB "
+      "md5": " 69f0f43e8074f09173457ca74b8420ff 259a796ae4bb6294aa8db9ee916dc47a db8a62db4821a44ce20e62542f3b1b23",
+      "size": " 32_KiB  4_KiB  27.26_MiB "
     },
     "sqlitebrowser": 
     {
-      "version": "3.12.1-1",
+      "version": "3.12.2-1",
       "description": " GUI editor for SQLite databases",
       "sourceurl": "https://notesalexp.org/source/main/s/sqlitebrowser",
-      "sourcefile": "sqlitebrowser_3.12.1-1.debian.tar.xz sqlitebrowser_3.12.1-1.dsc sqlitebrowser_3.12.1.orig.tar.xz ",
+      "sourcefile": "sqlitebrowser_3.12.2-1.debian.tar.xz sqlitebrowser_3.12.2-1.dsc sqlitebrowser_3.12.2.orig.tar.gz ",
       "homepage": "http://sqlitebrowser.org/",
       "depends": "debhelper(>=9)  qtbase5-dev  libsqlite3-dev  cmake  libantlr-dev  qttools5-dev  qttools5-dev-tools  libqt5scintilla2-dev|libqscintilla2-qt5-dev ",
       "binary": "sqlitebrowser ",
       "description_sqlitebrowser": "GUI editor for SQLite databases",
-      "md5": " 3e80f17290ecdc9e3d67decab3f38b5f 7f9dc433b3b3ffb1c319088bbe313dd4 6470ca9a8f8158e7d4ee6b22eb56f540",
-      "size": " 8_KiB  4_KiB  27.17_MiB "
+      "md5": " 974dbc0ed0696ba7b98888993f97f8d1 8b5aeff513671ee16d4478c160c99517 e4498f6f8b9414133e1905283b1b4c05",
+      "size": " 8_KiB  4_KiB  3.80_MiB "
     },
     "sz81": 
     {
@@ -1210,16 +1223,16 @@
     },
     "veracrypt": 
     {
-      "version": "1.24+update7-1",
+      "version": "1.25.4-1",
       "description": " Free open-source disk encryption software",
       "sourceurl": "https://notesalexp.org/source/main/v/veracrypt",
-      "sourcefile": "veracrypt_1.24+update7-1.debian.tar.xz veracrypt_1.24+update7-1.dsc veracrypt_1.24+update7.orig.tar.bz2 ",
+      "sourcefile": "veracrypt_1.25.4-1.debian.tar.xz veracrypt_1.25.4-1.dsc veracrypt_1.25.4.orig.tar.gz ",
       "homepage": "https://www.veracrypt.fr/en/Home.html",
       "depends": "debhelper(>=9)  libgtk2.0-dev  libfuse-dev  dmsetup  libsm6  nasm  makeself  pkg-config  yasm  libsm-dev  libglw1-mesa-dev  libwxgtk3.0-dev|libwxgtk3.0-gtk3-dev ",
       "binary": "veracrypt ",
       "description_veracrypt": "Free open-source disk encryption software",
-      "md5": " 4fee99081bf8b252d4777e05ab741fdb 0a0d35401e2bfcca478045087ac6824c d514854adf9f22890cfa46428d722945",
-      "size": " 4_KiB  4_KiB  22.43_MiB "
+      "md5": " c993ac6f50e7980c69dd235e25fc3b0f 76ef367915e8fcc4879a5bd4b8a16720 6a38b1b9fbeb0e3c8e9944520eb5f455",
+      "size": " 4_KiB  4_KiB  24.91_MiB "
     },
     "yagf": 
     {

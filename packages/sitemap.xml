@@ -40,6 +40,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/amd64/clementine/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/amd64/ddb-gui-qt5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/amd64/deadbeef-dev/</loc>
     </url>
     <url>
@@ -880,6 +883,9 @@
         <loc>https://notesalexp.org/packages/en/bionic/i386/clementine/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bionic/i386/ddb-gui-qt5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bionic/i386/deadbeef-dev/</loc>
     </url>
     <url>
@@ -1711,6 +1717,9 @@
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/clementine/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/amd64/ddb-gui-qt5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/bullseye/amd64/deadbeef-dev/</loc>
     </url>
     <url>
@@ -2498,6 +2507,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/bullseye/i386/ddb-gui-qt5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/bullseye/i386/deadbeef-dev/</loc>
@@ -5089,6 +5101,9 @@
         <loc>https://notesalexp.org/packages/en/focal/amd64/clementine/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/focal/amd64/ddb-gui-qt5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/focal/amd64/deadbeef-dev/</loc>
     </url>
     <url>
@@ -5380,6 +5395,9 @@
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/clementine/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/ddb-gui-qt5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/deadbeef-dev/</loc>
     </url>
     <url>
@@ -5429,6 +5447,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/gimagereader-qt5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/gimagereader/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/gimp-devel-data/</loc>
@@ -5566,6 +5593,9 @@
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/sqlitebrowser/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/tesseract-ocr-all/</loc>
     </url>
     <url>
@@ -5578,10 +5608,16 @@
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/vacuum/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/hirsute/amd64/veracrypt/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/hirsute/amd64/znotes/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/impish/amd64/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/azpainter/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/impish/amd64/balsa/</loc>
@@ -5591,6 +5627,24 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/impish/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/ddb-gui-qt5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/deadbeef-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/deadbeef-gtk2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/deadbeef-mpris2-plugin/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/deadbeef/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/impish/amd64/eiskaltdcpp-cli/</loc>
@@ -5624,6 +5678,15 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/impish/amd64/eiskaltdcpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/gimagereader-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/gimagereader-qt5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/gimagereader/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/impish/amd64/goaccess/</loc>
@@ -5731,6 +5794,9 @@
         <loc>https://notesalexp.org/packages/en/impish/amd64/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/sqlitebrowser/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/impish/amd64/tesseract-ocr-all/</loc>
     </url>
     <url>
@@ -5741,6 +5807,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/impish/amd64/vacuum/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/impish/amd64/veracrypt/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/impish/amd64/znotes/</loc>
@@ -5777,6 +5846,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/amd64/ddb-gui-qt5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/amd64/deadbeef-dev/</loc>
@@ -6587,6 +6659,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/sid/i386/ddb-gui-qt5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/sid/i386/deadbeef-dev/</loc>
@@ -7406,6 +7481,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/cuneiform-linux/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/ddb-gui-qt5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/deadbeef-mpris2-plugin/</loc>
@@ -13472,6 +13550,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/html/2021/12/07/20211207/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2021/12/19/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/html/2021/12/19/20211219/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/html/archives/</loc>
