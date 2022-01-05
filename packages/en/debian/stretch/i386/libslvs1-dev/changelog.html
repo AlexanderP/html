@@ -1,0 +1,1956 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>notesalexp.org | ChangeLog of package libslvs1-dev </title>
+    <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
+    <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="https://notesalexp.org/packages/css/package.css" type="text/css" /> 
+<meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+<li>                <a href="https://notesalexp.org/html/">Home</a></li>
+                <li><a href="https://notesalexp.org/html/donate.html">Donate</a></li>
+                <li><a href="https://notesalexp.org/packages/en/contact.html">Contact</a></li>
+                <li class="selected" ><a href="https://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="https://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="https://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+                &nbsp;&#x2F;<a href="https://notesalexp.org/packages">Packages</a>
+                &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/debian/stretch/i386">stretch&nbsp;&#x2F;i386</a>
+                &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/debian/stretch/i386/libslvs1-dev"> libslvs1-dev </a>
+                &nbsp;&#x2F; ChangeLog
+            </div> <!-- end navbar -->
+    </header>
+        <div id="wrapper">
+            <div id="content">
+    <div class="page">
+    <h5>ChangeLog of package libslvs1-dev in stretch of architecture i386</h5>
+    <div class="highlight">
+<pre><span></span>solvespace (3.0.0~git1722-2df786e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 2df786e7415501c748f34741aa1d5c561e730814
+  * Date: 1617312640
+  * git changelog:
+  *  2df786e - correct the order of glyphs 2334, 2335 and 2312 in
+    unicode.lff.gz font file.
+  *  6b94af0 - minor fix open/save dialogue on windows (#983)
+  *  5c3ce9b - GTK: make spacenavd work through its socket, too
+  *  d881686 - CI: Lock qemu version to known working
+  *  1628097 - Save stipple settings for default styles to config
+  *  58b425c - formatting
+  *  204ca31 - Add some notes on ID lists, Entities, and Remap
+  *  5e42275 - Fix pathologically slow translate groups on Linux
+  *  d511ce4 - Trigger redraw on load factory default styles
+  *  53f5e4e - export style for construction entities for edges
+  *  39c18a7 - Update uk_UA.po
+  *  e75f6b3 - Add Turkish translation by mhalil (Mustafa Halil).
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 02 Apr 2021 07:28:07 +0300
+
+solvespace (3.0.0~git1710-10ca307-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 10ca307d986ab0c52faaab4fcaedb26bd42d1fd6
+  * Date: 1615996918
+  * git changelog:
+  *  10ca307 - Add exportable option to default styles
+  *  83dfcf4 - Add new symbols to the vector font. unicode 2334, 2335,
+    21A7 counterbore, countersink, depth
+  *  979a9f0 - Hide editor window when user hits Esc
+  *  bef6bc3 - Use better pointer cursor for link text in GTK
+  *  2a3f598 - Remove res/icons/graphics-window/Clipboard01.png added by
+    mistake
+  *  a14d841 - Icons: Fix non transparent pixels in line.png and
+    pointonx.png
+  *  20b0677 - UI: Update the Nearest isometric view icon to a more
+    typical view
+  *  aa07525 - UI: Update non anti aliased icons to match original ones
+    better
+  *  d3a6e96 - UI: Non anti aliased icons for the graphics and text
+    windows
+  *  8c101d5 - Fix tangent constraints of curves.
+  *  697ffdd - UI: Show XYZ distance components in the text window for
+    two points
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 18 Mar 2021 23:35:15 +0300
+
+solvespace (3.0.0~git1699-3309181-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 33091817738d780d904bcd3e077022d87ebf2cd3
+  * Date: 1614650976
+  * git changelog:
+  *  3309181 - fix problems with ctrl/shift key drag modifiers When
+    dragging points we must always update position and mark them dirty
+    through all code paths. Ensure the ctrl and shift modifier rotation
+    quarternion is always set to something reasonable. separate
+    extraLine tracking code from drag tracking code
+  *  60dca4c - Fix incorrect styling on svg export
+  *  2fcc933 - Clarify ambiguous license terms.
+  *  0858fe6 - Update Changelog
+  *  745a12c - permit construction geometry toggle while drawing
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 04 Mar 2021 22:46:57 +0300
+
+solvespace (3.0.0~git1694-47c3209-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 47c3209b483ee7979b4ccd118f38f85500cdfbd5
+  * Date: 1613659945
+  * git changelog:
+  *  47c3209 - Win32: If the main or text window is off-screen make it
+    visible...
+  *  04e872a - remember auto-removed constraints for undo
+  *  7795b0b - mark group dirty when toggling reference dimension
+  *  cdeb6c9 - Update mimalloc to 2.0.0 release.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 20 Feb 2021 16:04:25 +0300
+
+solvespace (3.0.0~git1690-02aa9ea-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 02aa9ea827a128636e2d56d472e25b311868e073
+  * Date: 1612394069
+  * git changelog:
+  *  02aa9ea - Update translations
+  *  1c5c4c0 - Fix a crash when opening an empty file.
+  *  11a8a0a - do not Invalidate() when dragging new points to prevent
+    refresh bugs on Windows
+  *  ebb194e - Add version command to solvespace-cli
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 04 Feb 2021 23:32:30 +0300
+
+solvespace (3.0.0~git1686-2e1f532-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 2e1f5324c8d3bba948f8fc3a66484185cfd6b643
+  * Date: 1611420333
+  * git changelog:
+  *  2e1f532 - Update ru_RU translation
+  *  0404cd4 - Standardize how we refer to the other javascript files we
+    include, too.
+  *  d16e33a - Update to THREE.js revision 111 as found in Debian
+    Testing
+  *  6d9bbb6 - Update build instructons Add use of OPEN_MP to linux and
+    macOS build instructions, and a mention of ENABLE_LTO.
+  *  d3951af - GTK: Fix a warning for file->open dialogs.
+  *  36719c6 - Improved de_DE
+  *  1817816 - Update translations
+  *  0adb13c - Change Dim Solid for Sketch Groups to Darken Inactive
+    Solids
+  *  422bb0c - Translations: update de_DE for 3.0
+  *  76589a8 - Fix SpaceNavigator type 6DOF controllers on Windows.
+  *  d6c2983 - Update messages
+  *  41c81a7 - Override minimum displayed digits as needed to avoid
+    showing zero.
+  *  bd41485 - Correct toolbar height calculation (#885)
+  *  758095a - Win32: Avoid the Default Beep sound in Еrror and Message
+    dialogs (#881)
+  *  5ef7034 - README.md: Use the SVG icon with a relative path. (#883)
+  *  3abfd91 - Win32: Update the year in the Windows version resource
+  *  82698b1 - Update the year in the About dialog
+  *  a76e7f2 - Update ISSUE_TEMPLATE.md (#859)
+  *  d45e2c4 - Add toolbar icons for Revolve and Helix created by jkrei0
+    in issue #857. (#878)
+  *  3e3ccdc - Revert Clean up paste transformed and constrain
+    operations a bit.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 24 Jan 2021 01:31:17 +0300
+
+solvespace (3.0.0~git1666-222c80e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 222c80e4c132f6d1fa1bc0a293660f65874a683f
+  * Date: 1609268950
+  * git changelog:
+  *  222c80e - Add OpenMP debug information to conf screen (#869)
+  *  440ea55 - Add menu checkbox Dim Solid for Sketch Groups.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 06 Jan 2021 22:03:43 +0300
+
+solvespace (3.0.0~git1664-14e837a-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 14e837a45f599b9b2a8a28d8628f96490b593c24
+  * Date: 1608662450
+  * git changelog:
+  *  14e837a - Clean up paste transformed and constrain operations a
+    bit.
+  *  96958f4 - Fix paste transformed not correcting tangent arcs when
+    mirrored (#833)
+  *  679e2b9 - Fix an off-by-one error that missed the last point when
+    generating screen bounding boxes
+  *  0e5a246 - Fix normal selection with marquee
+  *  f343bbc - Fix marquee selection when the view is rotated away from
+    the working plane
+  *  4275fb1 - Fix snap to grid not working in some situations
+  *  cac3aae - remove the CLA and commercial licensing text.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 24 Dec 2020 23:14:48 +0300
+
+solvespace (3.0.0~git1657-2939abf-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 2939abf5f876a7454e0afbc06b32c888989b6546
+  * Date: 1607689562
+  * git changelog:
+  *  2939abf - Improve zooming with trackpad and scrollwheel
+  *  681a50d - Run Test CI for pull requests
+  *  640a1b9 - Use good default filenames on Linux/GTK
+  *  e59186a - Suggest sensible defaults in file dialogs
+  *  a8b8a34 - Make Path::SetExtension() not include a dot
+  *  f5086b6 - Analyze | Stop Tracing (Ctrl+Shift+S) saves CSV only if a
+    point is being traced
+  *  5fa2318 - CI: Replace Travis with GitHub Actions (#824)
+  *  b316a88 - Use EXACT for checking theta
+  *  6b91ab5 - Better rotating
+  *  aa78043 - Swap vertical and horizontal constraints when rotating
+    90/270 degrees
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 12 Dec 2020 01:01:16 +0300
+
+solvespace (3.0.0~git1647-9390ab0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 9390ab02d5e1d921cfaa4e4948082a818d0e8246
+  * Date: 1606494289
+  * git changelog:
+  *  9390ab0 - Set the default font for text objects correctly.
+  *  a2b5d0d - Win32: Remove sscheck on IsWindowVisible and ShowWindow
+  *  22dea59 - Edit newly added dimensions is now turned on by default.
+    issue826
+  *  5d17369 - Win32: Remove sscheck on SetScrollInfo - it returns the
+    scrollbar position
+  *  bb5994e - UI: Display err in the property browser only if check
+    sketch for closed contour
+  *  f285024 - Move z-index of construction segments behind normal
+    segments
+  *  8dcb2db - Changelog: Describe the err indicator in the property
+    browser.
+  *  fac093a - Translations: update de_DE
+  *  d0d5df1 - Update contour_area test image to match the change in
+    displayed units.
+  *  08f37de - Make better choices of SI units by considering order.
+  *  5137da2 - Win32: Mouse wheel zooming always remains properly
+    centered
+  *  bdd2be6 - Translations: Add solvespace.cpp to the translations...
+  *  942bf3f - Remove Q3DO export.
+  *  427a29a - Travis: build snaps in LXD containers
+  *  bcb8cd2 - Fix unsequenced modification and access warnings.
+  *  898fb6f - Travis: deploy tagged & master commits to GitHub
+  *  1b2d47c - Travis: deploy tagged commits & edge tagging fixes
+  *  5a3f45e - ran make translate_solvespace. cleaned out some obsolete
+    strings in en_US.po
+  *  142252d - Add z distance checking to entity picking. Fixes issue
+    521
+  *  6c2b967 - Use recent flatbuffers commit to solve compiling issue on
+    OpenBSD
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 28 Nov 2020 00:08:09 +0300
+
+solvespace (3.0.0~git1627-d0876d5-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: d0876d5f43f8e4663b0743e426babaa59fb57013
+  * Date: 1604782635
+  * git changelog:
+  *  d0876d5 - Update README.md (by @nii236)
+  *  5945d55 - Add end marker to text window and increase max rows.
+  *  953c472 - Travis: add clean edge script
+  *  6ff8db9 - Use zOrder for selections within the same group
+  *  d973405 - adjust logo size
+  *  078fb99 - add logo in heading
+  *  ef7e2c7 - README: Add Travis & Snap Store badges
+  *  8a3e5b4 - Don't do numeric surface intersections if an exact curve
+    has been copied. We don't want 2 overlapping but different sets of
+    PWLs.
+  *  eadeac4 - use VERY_NEGATIVE and VERY_POSITIVE instead of numeric
+    values which is some cases were 1e-10 instead of -1e10
+  *  6c4b075 - Increase MAX_UNDO to 100
+  *  7e99ba0 - UI: Fix the Property Browser window scrollbar
+  *  3694c9b - Travis: sign libomp.dylib
+  *  73bbbde - Travis: include libomp in macOS .app
+  *  88b26aa - Update the year in the About dialog
+  *  7292c32 - Performance: inline the Bernstein functions
+  *  5388e10 - Travis: use force to overwrite tag
+  *  57f8b37 - Travis: skip build if tag is edge, staple to the .dmg
+  *  5fbb1b8 - Travis: remove old secrets from .travis.yml
+  *  24720a0 - Revert CMake: use sanitizer flags for internal targets
+    only
+  *  da87a68 - Travis: try fixing deploy secret (sorry, has to happen on
+    master)
+  *  8f509f1 - Travis: CI improvements and fixing edge builds (#766)
+  *  7035071 - Performance optimization of the Vector class
+  *  68b1abf - CMake: use sanitizer flags for internal targets only
+  *  c674bc8 - Add OpenMP parallel for to SShell::CopyCurvesSplitAgainst
+  *  0f1ece2 - Resovle a huge performance regression introduced by
+    commit ab10e38 while still fixing the NURBS issues resolved by that
+    commit with only modest speed penalty. The performance is
+    significantly improved by using bounding box tests on curves prior
+    to doing complex intersection testing.
+  *  0761339 - STEP Export: include colors and alpha
+  *  400056c - CMake: Give ENABLE_LTO a default and a description so it
+    shows up in cmake-gui
+  *  aa83681 - snap: enable OpenMP and LTO
+  *  32e695b - STEP Export: include colors and alpha
+  *  b3cd928 - Travis: release macOS and Windows edge builds
+  *  8a2e77d - CMake: fix LTO on Linux
+  *  f3f33d3 - Travis: optimize macOS deploy build
+  *  ab10e38 - Add vertexes to curve intersection list in addition to
+    surface intersections.
+  *  6b5936b - remove zh_CN.mo
+  *  2be2e42 - Chinese translation added.
+  *  9d2641a - Travis: update travis and macos build configs
+  *  3af8127 - macOS: add NSOpenGLPFADoubleBuffer to
+    NSOpenGLPixelFormatAttribute
+  *  8e7416f - Travis: Build improvements and fixes (#751)
+  *  b28499e - initial support (disabled) for keepout regions in IDF
+    files.
+  *  b12bcc5 - Fix some IDF file curves.
+  *  0548702 - macOS CI fixes
+  *  408128a - Avoid zero tangnet vectors on degenerate NURBS edges.
+    Fixes #652
+  *  e42aa0f - Update .travis.yml for macOS build
+  *  91684fe - Add macOS travis config, fix issue in CMakeLists.txt
+    causing macOS build to break
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 13 Nov 2020 01:03:29 +0300
+
+solvespace (3.0.0~git1583-0288c0a-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 0288c0a98b139dfb57acf99d6303d44a75fa5929
+  * Date: 1602885202
+  * git changelog:
+  *  0288c0a - Travis: add windows target
+  *  6558cb9 - Fix crash in solvespace-cli
+  *  3ea8ebf - Win32: Fix "File|Open...", "Save" and "Save As" when a
+    command line argument is used.
+  *  d72eba8 - Create intersection curves from existing ones.
+  *  c514dda - Fix for
+    https://github.com/solvespace/solvespace/issues/248
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 17 Oct 2020 14:48:41 +0300
+
+solvespace (3.0.0~git1578-c021df3-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: c021df33c04eb599c30ce9832e69ac7ab55bfb77
+  * Date: 1601574940
+  * git changelog:
+  *  c021df3 - Fix issue 684 as whitequark suggested via WM_KEYDOWN-
+    >WMCHAR change.
+  *  3ce8c29 - Allow DXF import of 3D arcs and circles
+  *  6b7f114 - Updated changelog
+  *  8cf9d68 - IDF file Linking.
+  *  0a061b6 - NFC: Performance. For step-and-repeat groups, create the
+    copies first (in parallel) and then combine them using unions of
+    equal size shells to reduce the total time spent on booleans.
+  *  7c766c7 - translate_solvespace updates
+  *  d49c8a1 - add debug message showing the name of a group whose
+    linked file can't be found.
+  *  d575da8 - Add cmake option ENABLE_LTO for link time optimization on
+    Release builds.
+  *  39f419e - Flip sign of exportCanvas dx and dy. Fixes issue #523
+  *  704bb4a - Fix view centering and directions or cli thumbnail
+    function.
+  *  34328c9 - solvespace-cli: Fix --view
+  *  2adf5de - de_DE: missing translations
+  *  6e515b6 - Fix 699: Allow dragging linked objects in an assembly.
+  *  094eff7 - Fix 197 Update the state of checkboxes in menus after
+    failed workplace activation.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 03 Oct 2020 02:05:47 +0300
+
+solvespace (3.0.0~git1564-668fe6f-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 668fe6f493eb96e9b4add37b6dbe9b82070cd9cc
+  * Date: 1600288783
+  * git changelog:
+  *  668fe6f - Make the redundant constraint timeout a configuration
+    value and add the config UI elements to edit that value.
+  *  6157084 - Fix #131. Prevent UI freeze by having a timeout when
+    finding which constraints can be removed to fix jacobian.
+  *  e74185b - Fix #696. Account for multiple coincident edges when
+    looking for naked edges.
+  *  d8f5a8d - Fix issue #296.
+  *  7052496 - Fix #693 issues.
+  *  0413c1b - NFC:Triangulation - don't add zero-length bridges to
+    avoid list.
+  *  b208cd8 - NFC, Performance: Use OpenMP for boolean function
+    MakeItersectionCurvesAgainst.
+  *  360b347 - Export backgrounds in vector files
+  *  028b613 - Add ExportBackgroundColor config to GUI and CLI
+  *  d3da2c8 - Performance: Don't call std::inplace_merge for
+    IdList::AddAndAssignID() via Add() because it is redundant.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 17 Sep 2020 10:02:35 +0300
+
+solvespace (3.0.0~git1554-6894b0c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 6894b0c9c3e5ba3e080cf364d5f6e68a760b2b8c
+  * Date: 1597874142
+  * git changelog:
+  *  6894b0c - NFC: remove a critical section, runs faster.
+  *  d974615 - NFC replace 2 nested loops with 1 loop and a lookup for
+    speed improvement.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 28 Aug 2020 09:10:39 +0300
+
+solvespace (3.0.0~git1552-bc4924a-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: bc4924ae471bc01d70d9a19e10ad347a7b87cf1c
+  * Date: 1597437549
+  * git changelog:
+  *  bc4924a - Don't duplicate points when connecting contours with zero
+    length bridge. Fixes #303
+  *  04b332d - Ratpoly - Less noise in terminal. Comment out expected
+    dbg print and try harder to converge.
+  *  4cceaa5 - NURBS boolean improvement.
+  *  f952991 - Fix issue161 and 174. Use the same logic for selction and
+    dragging, but ignore entites that are inherently undraggable.
+  *  575ddb5 - Add a pass in triangulation to create convex triangle
+    fans. These triangles will have smaller bounding boxes and look
+    better.
+  *  b3eb589 - Fix issue659 - Problems constraining to ends of Helix.
+  *  6ae417a - Update mimalloc to v1.6.4
+  *  a296220 - Improve text screen for a selected entity.
+  *  afa9e28 - Improve text screen for a selected constraint.
+  *  fef6a39 - Don't init srand(0) because rand isn't used any more.
+  *  3c2f82b - Remove the Random() function and use a fixed table of
+    arbitrary vectors in raycast.cpp
+  *  fd2dfe8 - Fix #656 by making SSurface::SplitInHalf thread safe.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 15 Aug 2020 23:34:04 +0300
+
+solvespace (3.0.0~git1540-d8b76ef-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: d8b76ef7f105df873c978d17d5dc8660c73d2d5b
+  * Date: 1595948215
+  * git changelog:
+  *  d8b76ef - Drop backtrace generation.
+  *  bbf402b - Fix "Sketch → In Workplane" not updating the UI
+    immediately.
+  *  56e2592 - Make "Toggle Reference" remember undo state.
+  *  e0fa99b - remove another redundant pass checking earness
+  *  2640034 - NFC: Remove a redundant pass over all verticies in ear
+    triangulation.
+  *  b0fc191 - Create mimalloc heaps only when necessary.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 31 Jul 2020 04:29:45 +0300
+
+solvespace (3.0.0~git1534-188b2e2-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 188b2e26cec71fa7de86fd8202932c79eeecf295
+  * Date: 1595038541
+  * git changelog:
+  *  188b2e2 - Implement #524 Allow flat colors. Adds an edit control
+    for Ambient lighting.
+  *  c75b2e4 - Fix #647 Helix mesh defects.
+  *  f0623fa - CMake: don't install mimalloc.
+  *  c4ca4be - Replace {Alloc,FreeAll}Temporary() with mimalloc
+  *  cbac182 - Add and build mimalloc at
+    07c6e60a5a3bd7de09e4a170cd97bafba59cfafd
+  *  9802b5d - Better helical triangulation - issue 489.
+  *  873085e - README: fix extlib/q3d{o,} typo
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 19 Jul 2020 19:35:36 +0300
+
+solvespace (3.0.0~git1527-211ae8c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 211ae8c44649532991c5fbedf40a735fa799ea81
+  * Date: 1592879997
+  * git changelog:
+  *  211ae8c - Show area of closed contour with SI units.
+  *  35c6af4 - Show center of mass using the same format as for
+    constraints.
+  *  586b047 - Delete all entities on a workplane request that is being
+    deleted.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 03 Jul 2020 11:21:44 +0300
+
+solvespace (3.0.0~git1524-d238f98-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: d238f985fbcff478b52d9459567d7280d83b0b8a
+  * Date: 1592704770
+  * git changelog:
+  *  d238f98 - GTK: filter events more precisely.
+  *  a80a033 - Disable OpenMP.
+  *  0da4a6b - Use C++11 [[noreturn]] attribute instead of GNU-specific
+    one.
+  *  3d51b39 - Change default chord tolerance (to 0.1%) and maximum
+    segments (to 20).
+  *  c876104 - Make sure circles have at least 16 segments.
+  *  e83e483 - Change criteria for short edge removal
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 21 Jun 2020 08:58:19 +0300
+
+solvespace (3.0.0~git1518-94a3cfd-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 94a3cfdeb74aa3cbfd91ffe26ffa57c63a1094b2
+  * Date: 1591410661
+  * git changelog:
+  *  94a3cfd - Fix SSurface::EdgeNormalsWithinSurface() to handle non-
+    orthogonal u,v derivatives correctly.
+  *  225f82a - Get rid of the FPS counter.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 06 Jun 2020 10:48:51 +0300
+
+solvespace (3.0.0~git1516-89e6559-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 89e6559e2d7edb6985a97b74671df4bbda98588a
+  * Date: 1590201122
+  * git changelog:
+  *  89e6559 - Bring some parallelism to boolean code
+  *  c89a2e4 - Use a thread-safe temporary arena on every platform.
+  *  060a328 - Use HTML comments in issue template.
+  *  72d9978 - Eliminate a trailing dot before the SI prefix if there
+    are no decimals.
+  *  51f6236 - Simplify MmToString. NFC.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 24 May 2020 23:57:43 +0300
+
+solvespace (3.0.0~git1511-70ec7cc-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 70ec7cc257acaaa0580b9c948343e42cebedb36f
+  * Date: 1589323165
+  * git changelog:
+  *  70ec7cc - Improve triangle mesh (splitting of quads based on
+    angle).
+  *  23dfd97 - Fix use-after-free in Lathe, Revolve, and Helix. Issue
+    #611.
+  *  0be42a8 - Rename our isnan() function to IsReasonable().
+  *  771086f - Use C++ instead of C versions of standard library
+    headers.
+  *  e84fd46 - Use omp critical to simplify parallel triangulation. NFC.
+  *  c355a47 - Split quads based on angle.
+  *  1930602 - UI: split "union assemble" and "difference intersection"
+    on two lines.
+  *  9b07aaf - UI: Fix the logic for switching between union/assemble
+    and difference/intersection
+  *  6245c63 - Intersection boolen in triangle mesh mode is properly
+    implemented
+  *  3888909 - NURBS: Add intersection boolean operation.
+  *  c95a07a - Win32: when building with MSVC, require VS2015.
+  *  cd30e04 - Expand "edit newly added dimensions" to edit "Length
+    Ratio" and "Length Difference"
+  *  01af666 - Fix typo. NFC.
+  *  e29f71f - Update changelog
+  *  d857e3e - Various header cleanups. NFC.
+  *  e00d486 - Refactor dbp. NFC.
+  *  9951da8 - macOS: ignore spurious `-psn_` command line argument.
+  *  1442ee5 - Refactor InitPlatform.
+  *  9c1804b - Get rid of MemAlloc/MemFree.
+  *  521473e - Win32: use CRT heap instead of our own.
+  *  74103ee - CMake: expand sanitizer support to include TSan.
+  *  47e8279 - CMake: detect OpenMP and use if available.
+  *  b4e1ce4 - Use OpenMP for triangulation
+  *  7baf585 - No message if cached points to don't converge. Quiet the
+    terminal.
+  *  a7e0a17 - Don't create redundant edges in UvGridTriangulate into.
+  *  05aa649 - Update changelog
+  *  a52d88b - Less work in AssembleContour
+  *  88a0e55 - Eliminate infinite loop AssemblePolygon
+  *  7366a6c - Bernstein polynomials with no branching. (#591)
+  *  76b3efb - Travis: allow Snap arm64 to fail
+  *  3544829 - README: update Linux-to-Windows cross-compilation
+    instructions.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 13 May 2020 12:10:48 +0300
+
+solvespace (3.0.0~git1480-f36ac50-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: f36ac500a14da169c2017947710fc6e13b712c4e
+  * Date: 1587764275
+  * git changelog:
+  *  f36ac50 - Add rotated face from point entity type. Fixes issue 585,
+    problems constraining to Revolve and Helix ends. (#586)
+  *  700b5d6 - Allow Revolve and Helix end surface selection and
+    constraints. (#584)
+  *  45eb246 - Eliminate some entity copies in lathe groups. Eliminates
+    a crash due to copy numbers going over 1000. May break some older
+    files with constaints on lathed entities. (#582)
+  *  b55dac7 - Don't create extra copies of entities in Revolve and
+    Helix groups.
+  *  e51fdf6 - Use handles instead of pointers in GenerateAll(). NFC.
+  *  f5415b3 - snap: Upgrade from gnome-3-28 extension to gnome-3-34
+  *  13b461d - snap: Use symlink instead of bind-mount for layout
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 25 Apr 2020 10:14:58 +0300
+
+solvespace (3.0.0~git1473-72635df-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 72635df56ec915ab6ce79b4386d2c183f9e4e4a5
+  * Date: 1585776318
+  * git changelog:
+  *  72635df - Add menu options for line styles / view / configuration.
+  *  6471710 - Fix more segfaults in mouse.cpp lambdas (#574)
+  *  485fd01 - Fix segfault in Remove Spline Point context menu
+  *  f7b6f69 - Nurbs (#473)
+  *  83b0402 - Added developer instructions for creating new entity
+    transformations in the solver. (#491)
+  *  645353c - Force SSE2 floats for i686 targets
+  *  aeaece5 - Accept both slashes in test harness on Win32
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 10 Apr 2020 01:52:10 +0300
+
+solvespace (3.0.0~git1466-e355a09-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: e355a095c4c3456487be8bc48675757ab79d44d3
+  * Date: 1584241404
+  * git changelog:
+  *  e355a09 - Force vendor zlib, png, and FreeType on Win32, too
+  *  7e33d2d - Update ANGLE to 8776e911bf71f68518ddd1995ce09d80db8c1216
+  *  a6c34bb - Fix a crash when trying to show an error with bad
+    separator.
+  *  6017ecd - Fix two trivial implicit double to int conversion
+    warnings. NFC
+  *  c29624f - Update flatbuffers, fixing build on Clang trunk
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 20 Mar 2020 05:57:51 +0300
+
+solvespace (3.0.0~git1461-fcb2757-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: fcb2757d5d18e8ad7a82b4ecf4dd48529dab70b9
+  * Date: 1582533705
+  * git changelog:
+  *  fcb2757 - Win32: Drastically reduce stack usage at startup. NFC?
+  *  8ef3cac - Fix a bug with 3Dconnexion: SpaceMouse
+  *  f6a774d - Fix some trivial warnings found by MSVC. NFC.
+  *  bae84b2 - snap: Fix missing extension for cli
+  *  1cd727d - snap: Remove superfluous files from package
+  *  dcc80de - snap: Add missing sudo in Travis deploy step
+  *  65ab595 - snap: Build snaps on Travis without remote-build & drop
+    i386 + armhf
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 06 Mar 2020 15:37:04 +0300
+
+solvespace (3.0.0~git1454-3ed1719-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 3ed1719de2dc6e0525c94de78353d076623e46e4
+  * Date: 1580880873
+  * git changelog:
+  *  3ed1719 - Fix immediate editing of reference constraints.
+  *  72bc71c - README: add snap as an installation option.
+  *  2dcd81d - snap: Release snaps to store via script instead of snap
+    provider
+  *  d5351c4 - snap: build snaps on Travis via remote-build.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 06 Feb 2020 08:24:31 +0300
+
+solvespace (3.0.0~git1450-16c5fa6-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 16c5fa6889202f2059b52c4a89599910541dd1a0
+  * Date: 1576611344
+  * git changelog:
+  *  16c5fa6 - Fix eight trivial "implicit conversion 'double' to 'int'"
+    warnings. NFC.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 22 Dec 2019 15:07:11 +0300
+
+solvespace (3.0.0~git1449-64c0f62-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 64c0f62b92a35a83b2c7620ee264db383b54283a
+  * Date: 1575645711
+  * git changelog:
+  *  64c0f62 - Win32: mark all remaining functions as Unicode. NFC.
+  *  69baf52 - Linux: fix Z-order in scalable icon.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 07 Dec 2019 11:53:45 +0300
+
+solvespace (3.0.0~git1447-0b786e6-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 0b786e6e2bcdeab58e6d164aa4cdc895e158907c
+  * Date: 1575312718
+  * git changelog:
+  *  0b786e6 - CMake: review minimum required CMake version.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 03 Dec 2019 02:48:22 +0300
+
+solvespace (3.0.0~git1446-0472b9e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 0472b9ea603003d59fd885d499ff176ca0bf7890
+  * Date: 1574859087
+  * git changelog:
+  *  0472b9e - macOS: fix tooltips not closing on Catalina.
+  *  dcdfdec - Add an option to edit dimension immediately after adding.
+  *  58f23aa - macOS: force show property browser when opening
+    preferences from menu.
+  *  552fe35 - Fix commit 07992cecaa.
+  *  0501f0c - Don't call GL functions in OpenGl3Renderer::GetIdent.
+  *  22525e6 - CMake: update policy to 3.11.
+  *  07992ce - Remove unused offscreen GL renderer.
+  *  a60d4df - Refactor Travis config
+  *  fb536a1 - Test for -ffile-prefix-map support instead of comparing
+    versions.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 01 Dec 2019 12:52:56 +0300
+
+solvespace (3.0.0~git1437-690f87c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 690f87cf4a908d89238dccb3165059b913f8dd63
+  * Date: 1574528255
+  * git changelog:
+  *  690f87c - On GNU-compatible compilers, avoid embedding paths into
+    binaries.
+  *  14e095c - Don't show unusable fonts in font selector.
+  *  e74137d - Fix misuse of glTexImage2D (again).
+  *  2fe17a4 - Remove prototype for an unimplemented function.
+  *  38f4287 - Remove an integer cast.
+  *  93184c5 - Use standard std::count_if. NFC.
+  *  8c750ce - Freeze the scrollbar while editor is open in property
+    browser.
+  *  f035955 - Recompute property browser viewport on resize.
+  *  54015b6 - Call glGetError() after glFinish(), not glFlush().
+  *  9b61f98 - macOS: Don't use offscreen rendering.
+  *  e386d40 - Make some arguments const/const references, where
+    possible. NFC.
+  *  65d0bdf - Split Canvas::FinishFrame out of Canvas::FlushFrame.
+  *  ec30567 - Simplify UNION and DIFFERENCE boolean operations.
+  *  b5ccf5a - macOS: fix CMake Xcode generator.
+  *  0dcc8f3 - Fix Xcode auto-fixable issues
+  *  74aa80b - Fix misuse of glTexImage2D.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 23 Nov 2019 22:34:36 +0300
+
+solvespace (3.0.0~git1421-5d78f99-2) unstable; urgency=medium
+
+  * Rebuild 
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 06 Oct 2019 22:12:44 +0300
+
+solvespace (3.0.0~git1421-5d78f99-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 5d78f993cea3749b6644e0a2f9ddf89c9754e377
+  * Date: 1568941798
+  * git changelog:
+  *  5d78f99 - Make helix origin create a line even if it's in a
+    different group.
+  *  162897e - Reimplement DivPivoting as DivProjected.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 27 Sep 2019 19:21:18 +0300
+
+solvespace (3.0.0~git1419-7f9117b-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 7f9117b2bf0636a594eb1f1ba76b9dbe0e8a4e83
+  * Date: 1568198290
+  * git changelog:
+  *  7f9117b - Calculate area of selected faces, if any.
+  *  915f55a - Show volume of current group alongside total volume.
+  *  a0e9923 - Clean up virtual, override, default, and void params.
+    NFC.
+  *  ae417fc - Use emplace_back. NFC.
+  *  34dccbf - Don't call static methods through an instance. NFC.
+  *  219df31 - Linux: add support for building snap packages.
+  *  b1e280e - Fix undefined behavior in IdList::end().
+  *  ec13839 - Modify clang-format config to avoid single-line things.
+    NFC.
+  *  bedea1e - Avoid undefined behavior from out-of-range access. NFC.
+  *  b8ee0e9 - Remove extraneous semicolon. NFC.
+  *  78819ff - Fix "virtual function without virtual destructor"
+    warning. NFC.
+  *  c959af1 - Fix a comment. NFC.
+  *  3e566d7 - Remove std::move from trivially-copyable types. NFC.
+  *  c0904e2 - Use IsEmpty() or .empty() to check if a container is
+    empty. NFC.
+  *  61c0167 - Fix TTF iteration in case of an empty list.
+  *  15838dc - For loop cleanup. NFC.
+  *  231dff6 - Add and use List::Last(). NFC.
+  *  c5f3cd1 - Use the same @todo hot comment style everywhere.
+  *  d514a26 - Fix use-after-free in revolve and helix.
+  *  a4c0022 - Fix a warning about a virtual destructor.
+  *  43b2261 - CLI/testsuite: do not crash if a dialog is displayed.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 12 Sep 2019 04:55:35 +0300
+
+solvespace (3.0.0~git1398-22e4011-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 22e4011cb67e3eca150f74e47695ebb859215598
+  * Date: 1566743437
+  * git changelog:
+  *  22e4011 - use std::vector in helix operations instead of fixed
+    length array. Remove limit on number of sections. Delete definition
+    of Revolved struct.
+  *  e22c522 - use std::vector in lathe operations instead of fixed
+    length array
+  *  2dd50d0 - Only allow lathe, revolve and helix for 2d sketches.
+  *  13820bf - Revert "IdList::RemoveTagged switch to std::remove_if
+    from iteration. NFC."
+  *  b284e80 - Improve NextAfter. NFC.
+  *  533ca61 - Fix a manual manipulation of List::n. NFC.
+  *  dd738dd - Add Last(). NFC.
+  *  610e35f - Improve Clear(). NFC.
+  *  b9d035c - Improve MoveSelfInto. NFC.
+  *  9fd09dd - Add IdList::AllocForOneMore() based on List. NFC.
+  *  0bfbbe2 - Improve implementation hiding in IdList/List. NFC.
+  *  482f0e8 - Replace qsort with std::sort and lambda. NFC.
+  *  1b97a00 - Add and use List<T>::IsEmpty, range-for, etc. NFC.
+  *  0bb6a34 - IdList::RemoveTagged switch to std::remove_if from
+    iteration. NFC.
+  *  3ea077b - Reduce scopes and placate clang-tidy. NFC.
+  *  60fdac1 - Simplify IdList::Add(). NFC.
+  *  3340392 - Add and use LowerBound methods in IdList. NFC.
+  *  0c941ae - Revise IdList::Tag to reduce code duplication. NFC.
+  *  5ada4db - Add and use IdList::IsEmpty. NFC.
+  *  b5f36a4 - Provide cbegin(), cend() in containers. NFC.
+  *  86f20cc - Convert many loops to range-for or std algorithms. NFC.
+  *  97c8cb7 - Make sure changing color of a group does not reset alpha.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 26 Aug 2019 23:26:42 +0300
+
+solvespace (3.0.0~git1376-d9081b0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: d9081b0b08ccfc7f5138dd40878cc87cf3c8b0f1
+  * Date: 1565393544
+  * git changelog:
+  *  d9081b0 - VRML: add support for transparency.
+  *  837628e - Add VRML (WRL) triangle mesh export.
+  *  986da7d - Implement helical extrusion groups.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 10 Aug 2019 22:53:07 +0300
+
+solvespace (3.0.0~git1373-b3f739f-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: b3f739f2c4f75cbdb2613e1fe9cb7fff9b880143
+  * Date: 1562930608
+  * git changelog:
+  *  b3f739f - Improve layout for reference axes with very vertically
+    small windows.
+  *  b2af9ce - Use the fact that handles are now less-than comparable.
+    NFC.
+  *  5efb09e - Use the new equality/inequality operators of handles to
+    reduce references to .v. NFC.
+  *  7bd4b14 - Traits work for handles to permit sharing functionality
+    and operators. NFC.
+  *  346f004 - Brighter blue and yellow in text window for higher
+    contrast/readability.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 14 Jul 2019 01:36:43 +0300
+
+solvespace (3.0.0~git1368-02d7f0c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 02d7f0c0aa2f5bcf4f21942fca7b462b0da4427f
+  * Date: 1561423737
+  * git changelog:
+  *  02d7f0c - Auto-recover files corrupted by the bug in commit
+    bd84bc1a.
+  *  49a7f86 - Fix off-by-1 in Group::Remap.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Jun 2019 14:01:26 +0300
+
+solvespace (3.0.0~git1366-cb0fdb1-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: cb0fdb1c289106f8f01e886362adbe251f47b770
+  * Date: 1560545976
+  * git changelog:
+  *  cb0fdb1 - Freedesktop: add scalable SVG icon.
+  *  5df53fc - Implement revolve groups.
+  *  3d80062 - GTK: delete all gtkmm objects before destrying Gtk::Main.
+  *  3596979 - Update q3d submodule.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 15 Jun 2019 21:31:49 +0300
+
+solvespace (3.0.0~git1362-9ac55f3-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 9ac55f392aeac6839e1ad2252848f520f1420939
+  * Date: 1559142385
+  * git changelog:
+  *  9ac55f3 - Win32: fix build with -DOPENGL=1.
+  *  6352405 - Deselect entities with Ctrl-LMB.
+  *  bd84bc1 - Replace entity map implementation with
+    std::unordered_map.
+  *  406c55e - Instead of creating an exact copy of existing constraint,
+    select it.
+  *  09ca442 - Commit missing parts of cf2f0e5d.
+  *  eb7e12b - Make sure file from a recent menu exists before using it.
+  *  beea444 - Move logic for handling allowRedundant out of System.
+    NFC.
+  *  cf2f0e5 - In TryConstrain(), reject redundant constraints in
+    overconstrained groups.
+  *  5495659 - Skip creating an automatic H/V constraint if it would be
+    redundant.
+  *  394c1f6 - Remove forceDofCheck parameter from SolveRank(). NFC.
+  *  88879d3 - Show Degrees of Freedom → Show Underconstrained Points
+  *  9d1c295 - Add a setting to format constraint labels using SI
+    prefixes.
+  *  9faa7cb - Fix commit cc107887.
+  *  6c167db - Add an explicit mirror checkbox for Paste Transformed.
+  *  df6777a - Warn on broken extrusions, like on broken polygons.
+  *  43a59e2 - Work around MSVC bug 746973.
+  *  9f2077b - Explain how forceDofCheck in System::Solve works. NFC.
+  *  cc10788 - Remove the last use of memmove. NFC.
+  *  fabffba - Get rid of FreeTemporary. NFC.
+  *  ac7b82d - Allow configuring the amount of digits displayed after
+    decimal point.
+  *  d01f715 - CLI: accept --chord-tol as an option to regenerate.
+  *  50c004b - Add a button to hide construction entities.
+  *  e67f967 - Implement turntable (SketchUp-like) mouse navigation.
+  *  c2c26e9 - Make minor errors visible at a glance in the group list.
+  *  260769c - Win32: Restore Windows XP Compatibility
+  *  31f5873 - Add a few asserts. NFC.
+  *  e243396 - Three.js: with a window-sized canvas, resize canvas with
+    the window.
+  *  ffef006 - Add a .clang-format file - not for bulk use!
+  *  c9397ea - Make help text for image and TTF request creation reflect
+    reality.
+  *  3296474 - Rework tooltip implementation to track tip area.
+  *  f6484c7 - macOS: fix a crash at startup introduced in 75a09c8b.
+  *  e9b9dca - Win32: use native OpenGL drivers, if available.
+  *  0921296 - Update copyright statement in about box.
+  *  25b6eba - Adjust angle label margin similarly to eda294ef.
+  *  9500487 - Fix an edge case with fps measured as infinite.
+  *  39c3480 - Add CountIf method to IdList to simplify some call sites.
+    NFC.
+  *  43c9cba - Reduce Vector::Element calls in SKdNode::SnapToVertex.
+    NFC.
+  *  f885daf - Simplify. NFC.
+  *  75a09c8 - Minor cleanups. NFC.
+  *  7f75148 - Win32: ignore WM_MOUSEWHEEL events that are forwarded to
+    other window.
+  *  5dbe090 - Win32: do not insert windows with parents after
+    HWND_TOPMOST.
+  *  be0dc7e - Win32: silence a GetProcAddress-related warning.
+  *  e11e234 - Win32: remove dead code in keyboard event handling.
+  *  bda3b80 - GTK: fix last remains of legacy event handling code.
+  *  f43954c - Adjust GL1 and GL3 ReadFrame to take pixel ratio into
+    account.
+  *  11c5cdc - Adjust GL3 ReadFrame() for GL ES 2.1 compatibility.
+  *  c18deb2 - test harness: Identify build host system in CMake to use
+    for path separator.
+  *  62aba39 - Move two members of Vector to be inline.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 29 May 2019 23:05:53 +0300
+
+solvespace (3.0.0~git1314-201e15e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 201e15e68a9aaccbad86d25d1925c455b514618c
+  * Date: 1557763329
+  * git changelog:
+  *  201e15e - Three.js: update inaccurate comment. NFC.
+  *  b97a80b - Three.js: style fixes. NFCI.
+  *  6f9358a - Three.js: fix rotate and pan on HiDPI devices.
+  *  26c8cdc - Three.js: fix mousemove event listener.
+  *  52a481c - Small performance optimization in Vector::Equals.
+  *  838126f - GTK: rework f07e975d to fix build on both pre and post
+    3.24 GTK.
+  *  7d181f0 - Include custom styled entities in the same plane when
+    exporting section.
+  *  c44a471 - Win32: fix destruction order issue leading to crash on
+    close.
+  *  f07e975 - GTK: fix build on Ubuntu 18.04 by removing debug define
+  *  0b7b8a4 - Linux: add Flatpak integration.
+  *  bc3e09e - GTK: use native file chooser dialog, if available.
+  *  e7b75f1 - Revert "CMake: replace GetGitCommitHash with
+    .gitattributes and $Id$."
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 13 May 2019 19:45:27 +0300
+
+solvespace (3.0.0~git1302-fa66229-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: fa6622903010eb82b07b16adf06d31d5ffcd6bb9
+  * Date: 1555933847
+  * git changelog:
+  *  fa66229 - Fix choice of normal for revolution in some corner cases.
+  *  b69ef71 - Fix misuse of Path in dc6c7bd0.
+  *  dc6c7bd - Add a lookup for resources in ../share/solvespace.
+  *  945a282 - README: update submodule instructions.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 27 Apr 2019 22:35:41 +0300
+
+solvespace (3.0.0~git1298-ce0b130-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: ce0b130d6ceb2145c8150eecbffe7380948899d4
+  * Date: 1555153363
+  * git changelog:
+  *  ce0b130 - Disable mnemonics when pathnames are used as menu item
+    labels.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 13 Apr 2019 20:21:33 +0300
+
+solvespace (3.0.0~git1297-a7b2f28-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: a7b2f2899944cd267767caa96c0da995b38bb203
+  * Date: 1553766376
+  * git changelog:
+  *  a7b2f28 - Silence some gcc 7 warnings.
+  *  8903e17 - Travis, Appveyor: remove IRC notifications.
+  *  3a3a275 - Implement Q3DO export.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 30 Mar 2019 09:36:21 +0300
+
+solvespace (3.0.0~git1294-9d1601e-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 9d1601eea9039011c16c435b26a680fb4bc35c34
+  * Date: 1550576156
+  * git changelog:
+  *  9d1601e - Fix uninitialized memory access in toolbar.
+  *  8d07a6b - Import missing styles from linked files.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 22 Feb 2019 22:07:10 +0300
+
+solvespace (3.0.0~git1292-9e51288-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 9e512882d157ecc17c22fef46e50ccf2c67493dd
+  * Date: 1549891058
+  * git changelog:
+  *  9e51288 - Add checkbox to control automatic line constraints
+  *  b2418a0 - README, CONTRIBUTING: mention the CLA.
+  *  f4d394a - README: add note on cross-compilation from Ubuntu.
+  *  94b26dd - Add a built-in Bitstream Vera Sans Roman font.
+  *  e69478e - Let tangent arc modify the original entities.
+  *  c0678d7 - Update ANGLE.
+  *  c962357 - CMake: replace GetGitCommitHash with .gitattributes and
+    $Id$.
+  *  e383b7f - Remove superfluous glPolygonOffset() call in GL3
+    renderer.
+  *  28fa348 - Use correct polygon winding order in GL3 renderer.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 16 Feb 2019 02:58:06 +0300
+
+solvespace (3.0.0~git1283-1012373-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 1012373818e59b5ff1d6ca08ea20631790cb7183
+  * Date: 1547105424
+  * git changelog:
+  *  1012373 - Update libdxfrw.
+  *  8e4c4b0 - Check return values of fread, etc in ReadFile/WriteFile.
+  *  8f2af5b - Add Fedora packages to README and add sudo before apt
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 19 Jan 2019 17:17:34 +0300
+
+solvespace (3.0.0~git1280-52c4178-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 52c41782d8be467807df83bae51ab303b2748936
+  * Date: 1541650214
+  * git changelog:
+  *  52c4178 - cli: fix typo.
+  *  258545a - Misc. typos
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 10 Nov 2018 02:12:19 +0300
+
+solvespace (3.0.0~git1278-4d1e134-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 4d1e1341d926ac356b295d5cc3d61c7a6cd7d07d
+  * Date: 1533303540
+  * git changelog:
+  *  4d1e134 - GTK: fix an use-after-free in message dialog ShowModal().
+  *  fc873c5 - Remove double word in DOC.txt
+  *  42bc7ef - Fix Z-index of UI elements drawn by the color picker.
+  *  21d1a62 - Fix a few warnings emitted by Clang.
+  *  80c111b - Finish OpenGL 2 to OpenGL 3 renaming started in ecb6550b.
+  *  4d1bd55 - GTK: fix dismissing the editor with Escape.
+  *  88d59ea - README: mention third-party Debian/Ubuntu packages.
+  *  eda294e - Adjust the horizontal constraint label margin to equal
+    vertical.
+  *  1a2911f - extlib: use https:// URL for the freetype submodule.
+  *  bc6a923 - macOS: fix crash on startup.
+  *  c3875cb - Add missing override qualifier.
+  *  2b4c484 - Discard fragments with zero texture alpha in
+    imesh_tex.frag.
+  *  a4644cc - GTK: fix message dialogs not being responsive to buttons.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 05 Aug 2018 00:31:03 +0300
+
+solvespace (2.3.0+git1265-8426992-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 8426992f27b62de8af753f656429a09a271cc60f
+  * Date: 1532061619
+  * git changelog:
+  *  8426992 - Eliminate blocking in Error() and Message() calls.
+  *  7017716 - I18n: add de-DE locale.
+  *  396cac5 - Add missing virtual destructors.
+  *  c37cddf - I18n: internationalise some messages that were missing
+    gettext calls.
+  *  fb138f4 - Add final qualifiers where applicable.
+  *  4f52167 - Use std::shared_ptr instead of std::unique_ptr for
+    Platform::TimerRef.
+  *  a738e3f - Eliminate imperative redraws.
+  *  738ac02 - Fix some strict GL ES 2 conformance issues.
+  *  02ec64e - Fix unaligned access in LoadStringFromGzip.
+  *  efc3da4 - CMake: add an ENABLE_CLI flag.
+  *  22a9705 - Win32: fix crash on application exit.
+  *  5853fa0 - Finish refactoring of platform code.
+  *  350d2ad - CLI: fix crash running the "thumbnail" command.
+  *  0fb9a4c - GUI: fix formatting of messages with only one sentence.
+  *  7630e0e - Make some dubious type conversions explicit.
+  *  c1f1c7c - Add a platform abstraction for 6-DOF input devices.
+  *  6b5db58 - Add a platform abstraction for file dialogs.
+  *  d796897 - Add a platform abstraction for message dialogs.
+  *  84bf37a - GTK: save boolean settings as JSON booleans.
+  *  26f3751 - macOS: rename application bundle to SolveSpace.
+  *  a93283d - macOS: put assertion message into crash reporter dialog.
+  *  eb5501e - Implement a platform abstraction for settings.
+  *  f324477 - Implement a platform abstraction for windows.
+  *  55baaf3 - Implement a platform abstraction for menus.
+  *  7ab87ca - Implement a platform abstraction for timers.
+  *  28f94dc - Start using C++ in-place member initialization.
+  *  501a482 - I18n: add fr_FR locale.
+  *  975b49f - Win32: offer to restart application on fatal errors.
+  *  8192c96 - Show degrees of freedom in property browser.
+  *  4fab5b7 - Appveyor: add IRC notifications.
+  *  595ae86 - I18n: update translations.
+  *  76561e3 - README: add Community section.
+  *  fb1065d - Travis: add a workaround for travis-ci/travis-ci#4704.
+  *  f54dabb - Clean up includes and include guards.
+  *  d471e65 - Implement splitting at point with "Split Curves at
+    Intersection".
+  *  9cd0044 - macOS: update instructions in README.
+  *  ba71dba - CMake: use correct gtkmm version constraint.
+  *  f2ecd7a - macOS: use correct format for connexionName field.
+  *  fa55577 - macOS: add CFBundleIdentifier to MacOSXBundleInfo.plist.
+  *  a16c204 - Allow using m (in addition to mm and inch) as base unit.
+  *  6ad5c68 - Avoid degenerate triangles when snapping to mesh.
+  *  025bb96 - Improve performance of mesh-forced assemblies.
+  *  c8fc033 - macOS: fix #include to work on case-sensitive filesystem.
+  *  9c99f69 - Clean up unused shader variables.
+  *  20a4a2b - Avoid using `tan` as identifier in shaders.
+  *  f37881a - macOS: bundle and statically link external dependencies.
+  *  03e479e - Ensure va_end() is always called in TextWindow::Printf().
+  *  771b415 - Fix various comment and UI string typos.
+  *  572869d - GTK: install MIME type specification.
+  *  c5a3b43 - CMake: support sanitizers on gcc builds, too.
+  *  49ff36f - Use a more rigorous check for library containing
+    backtrace().
+  *  8cedefc - Allow using non-ASCII format strings in Printf.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 21 Jul 2018 19:00:07 +0300
+
+solvespace (2.3.0+git1213-2b9ffd1-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 2b9ffd15424eb95a21db6e6ca35339b3d9372b2e
+  * Date: 1525966315
+  * git changelog:
+  *  2b9ffd1 - Fix handling of relative paths with no directory in
+    solvespace-cli.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 12 May 2018 11:34:06 +0300
+
+solvespace (2.3.0+git1212-c6fc012-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: c6fc0125a21aa27f89ab6e0bb16037f04bc39fd4
+  * Date: 1513536278
+  * git changelog:
+  *  c6fc012 - README: add OpenBSD instructions.
+  *  3d7e9f5 - Provide correct arguments to inflateInit2.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 19 Dec 2017 22:21:40 +0300
+
+solvespace (2.3.0+git1210-13695be-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 13695be03a8e78ccc24d0179a3ff243d8bd148d6
+  * Date: 1509946849
+  * git changelog:
+  *  13695be - CMake: update required version to 3.2.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 16 Nov 2017 12:11:38 +0300
+
+solvespace (2.3.0+git1209-16540b1-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 16540b1b2c540a4b44500ac02aaa4493bccfba7e
+  * Date: 1502195260
+  * git changelog:
+  *  16540b1 - Update libdxfrw.
+  *  a10db16 - Fix dash-dash-dot line style.
+  *  afe2279 - Elaborate build instructions in README.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 10 Aug 2017 22:03:18 +0300
+
+solvespace (2.3.0+git1206-49c64f7-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 49c64f7f1520160ad4584ca55382055f3111d4ac
+  * Date: 1500781960
+  * git changelog:
+  *  49c64f7 - CMake, macOS: create bundle directory explicitly.
+  *  32120ea - CONTRIBUTING, README: add XCode instructions.
+  *  0b79dc2 - Update macOS build section in README.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 28 Jul 2017 01:36:44 +0300
+
+solvespace (2.3.0+git1203-33b6e51-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 33b6e5173724ebb207c4d8450a561448b2e07e5d
+  * Date: 1494193553
+  * git changelog:
+  *  33b6e51 - Locale LCID is a hex number, not a decimal.
+  *  90e9fc7 - CONTRIBUTING: add a section on translations.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 14 May 2017 13:23:13 +0300
+
+solvespace (2.3.0+git1201-280d5b9-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 280d5b902f95fda3727d0d12a2653c38c9675049
+  * Date: 1493248074
+  * git changelog:
+  *  280d5b9 - TTF: avoid crashes on fonts without U+0041 LATIN CAPITAL
+    LETTER A.
+  *  5078907 - I18n: regenerate.
+  *  ab7cdea - I18n: add a ru_RU translation.
+  *  5408f73 - Fix a crash creating a group from a non-reference
+    workplane.
+  *  fe622a1 - Add a test for workplane request.
+  *  85b4b25 - Fix a crash changing g->meshCombine when g-
+    >type!=EXTRUDE.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 28 Apr 2017 10:22:52 +0300
+
+solvespace (2.3.0+git1194-e5259d7-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: e5259d7a3eef2662b98c27853b0eda506ab62416
+  * Date: 1491972683
+  * git changelog:
+  *  e5259d7 - Swap arc endpoints when pasting transformed with negative
+    scale.
+  *  5d67b42 - CMake: don't have multiple rules generating same targets.
+  *  287bd98 - Fix copying and pasting image requests.
+  *  99f6ea3 - Add an option to display areas of closed contours.
+  *  c0b6eaa - Fix automatic marking of constraints as reference.
+  *  43dc162 - Rewrite equation for pt-on-circle to avoid negative
+    diameter.
+  *  8fd11f4 - Fix forcing NURBS to mesh in a step group when the flag
+    is inherited.
+  *  ecb6550 - Change mentions of OpenGL 2 to OpenGL 3.
+  *  7eb6574 - Rename TextWindow::CHAR_WIDTH to CHAR_WIDTH_.
+  *  b0ea9d8 - Allow suppressing solid model of extrude and lathe
+    groups.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 14 Apr 2017 09:51:21 +0300
+
+solvespace (2.3.0+git1184-6337bbb-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 6337bbbcd6e753427bed47d7e9f43d9836e4347b
+  * Date: 1490209980
+  * git changelog:
+  *  6337bbb - Fix a missing semicolon.
+  *  aaa9c6d - Fix a texture memory leak.
+  *  827f54f - GTK: ensure the editor always uses contrasting colors.
+  *  911c67b - Fix benchmark harness after e2e74762.
+  *  acc25ec - Fix toolbar height after 5744d1d5.
+  *  ca2aad7 - Remove the "style → background image" feature.
+  *  5744d1d - Implement an image request.
+  *  e2e7476 - Rework path and file operations to be more robust.
+  *  335c217 - Collect together and rigorously test all our ad-hoc path
+    functions.
+  *  60f85f5 - Win32: fix invalid accelerator labels.
+  *  7e2b1b1 - Add a test for the link group.
+  *  15f3490 - Make CLI usage text more readable.
+  *  27b59f6 - Fix type conversion warnings.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 25 Mar 2017 10:59:52 +0300
+
+solvespace (2.3.0+git1171-dbf6663-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: dbf66639aa17c77d105072ab689bcf657f306636
+  * Date: 1489001145
+  * git changelog:
+  *  dbf6663 - Replace ad-hoc implementations of Basename with calls to
+    it.
+  *  f2f37ae - Remove dead code.
+  *  9ab37c2 - README: update zlib package version.
+  *  61fe8ba - GTK: take scale factor into account when positioning
+    entry.
+  *  8e27a5e - GTK: take margin and border size into account when
+    positioning entry.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 10 Mar 2017 22:12:36 +0300
+
+solvespace (2.3.0+git1166-9157425-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 91574254fefbc46fa5a14127b37e2a93dcb01fa1
+  * Date: 1487307679
+  * git changelog:
+  *  9157425 - Improve handling of corner cases related to assembled
+    loop normals.
+  *  dea573e - Highlight normals and circle radii that have a degree of
+    freedom.
+  *  3bcc376 - Same orientation constraint doesn't exist in a workplane.
+  *  6bc2ed9 - Remove nonexistent degrees of freedom from lathe groups.
+  *  3c36d8f - Pin comments with custom styles to front layer, like
+    regular ones.
+  *  3121845 - Fix undefined behavior in solvespace-cli.
+  *  41794db - Fix a crash in expression parser.
+  *  e6ed36f - Add solvespace-debugtool, to expose some internals via
+    CLI.
+  *  f29d9d7 - GTK: run DoLater after the next main loop iteration.
+  *  1871efa - Commit missing parts of d77f617.
+  *  2e15f60 - Win32: implement support for full-screen graphics window.
+  *  d77f617 - Remove the "show menu bar" option.
+  *  6cf5409 - Update testsuite after ced4244.
+  *  cd26256 - Travis: run tests again.
+  *  97e7185 - Snap point to entity when constraining to a hovered
+    entity.
+  *  ced4244 - Explicitly represent the parameter used in constraints.
+  *  80c7296 - Win32: do not redefine VOS_NT_WINDOWS32/VFT_APP.
+  *  4260be2 - DXF: mark POLYLINE as 3d if any of the points have non-
+    zero Z.
+  *  baf9dc0 - Remove degenerate triangles when generating triangle
+    mesh.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 17 Feb 2017 22:01:55 +0300
+
+solvespace (2.2.0+git1147-4465bc0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 4465bc0270ee185e5029ecacfe27665fa7fe5ab0
+  * Date: 1486058990
+  * git changelog:
+  *  4465bc0 - CMake: do not remove translations on `make clean`.
+  *  51b8828 - README: suggest release builds, as these are much faster.
+  *  2794242 - Remove a redundant ReloadAllImported() call.
+  *  6e88eae - Fix a path construction issue introduced in 3fc85b7.
+  *  d4b052d - Fix logic introduced in 55ae10b.
+  *  3fc85b7 - CLI: add the "regenerate" command, for use in Makefiles
+    etc.
+  *  27a5f6f - CLI: include directory name in %-replacement.
+  *  67a916d - CLI: show usage when --help/-h passed.
+  *  ff0af6f - Fix a typo in 495a7ac.
+  *  495a7ac - Refactor the "File → Export Image" command.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 03 Feb 2017 21:33:08 +0300
+
+solvespace (2.2.0+git1137-bb2cc4a-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: bb2cc4aa568e7206bdc2d02cb3e0eb8b8d3364c5
+  * Date: 1484980484
+  * git changelog:
+  *  bb2cc4a - GTK: do not compose rendered geometry with an alpha
+    buffer.
+  *  669e6f0 - Select the appropriate entity when dragging a circle or a
+    normal.
+  *  119b17a - Fix an occasional crash when starting to drag an entity.
+  *  86f229c - Render points corresponding to a DOF in the front layer.
+  *  db75e06 - Add a command to show center of mass, assuming uniform
+    density.
+  *  068191b - GTK: unbreak the color chooser.
+  *  8749a17 - Draw constraints/entities when hovered or selected even
+    if invisible.
+  *  e388d9f - List applied constraints when selecting an entity.
+  *  5d9356a - List constrained requests when selecting a constraint.
+  *  4aae229 - Add *.slvs to gitignore.
+  *  3e66807 - Fix a crash after creating a constraint.
+  *  8d0e226 - CMake: do not depend on testsuite in the default target.
+  *  572fbc7 - Reapply "Simplify Group::IsVisible(), GroupsInOrder()."
+  *  04e86d9 - Travis: revert the hack for transient build failures.
+  *  67146f6 - Revert "Simplify Group::IsVisible(), GroupsInOrder()."
+  *  8370382 - Fix reference to a shader that no longer exists.
+  *  5b2ad9b - Fix 2d stippling of hovered and selected faces.
+  *  6931979 - Fix an OpenGL initialization glitch.
+  *  5c34b3f - Allow copying and pasting of datum points.
+  *  12a1a35 - Reserve space upfront when possible, to avoid re-
+    allocations.
+  *  fba8885 - Normalize CRLF newlines to LF when loading string
+    resources.
+  *  ec07516 - GTK: work around a gtkmm<3.22 bug.
+  *  29e43e6 - Fall back to en_US if the system locale is not available.
+  *  cde86a0 - Fix an uninitialized variable.
+  *  6b67cfe - Except when using OpenGL ES 2, use OpenGL 3.2+ Core
+    profile.
+  *  6de5133 - GTK: default to the en_US locale if LANGUAGE is set and
+    empty.
+  *  022d012 - Simplify Group::IsVisible(), GroupsInOrder().
+  *  43db220 - Turn newly created redundant constraints with a label
+    into references.
+  *  c00ab25 - Don't move points when automatically constraining
+    coincident.
+  *  855de07 - Automatically constrain arc or rectangle points.
+  *  55ae10b - Do not hover or select entities from any pending request.
+  *  96476ca - GTK: respect the scale factor when computing coordinates.
+  *  fb667fb - Use a dedicated BitmapFont instance per Canvas.
+  *  33c9ffb - Gettext: automatically update all translations.
+  *  c12672b - Internationalize platform-specific code.
+  *  aeebc3c - Gettext: fill in empty msgstrs from msgid.
+  *  0eb33de - Fix typo: ua-UA → uk-UA.
+  *  984f74d - Internationalize all messages without substitutions.
+  *  4fda1e4 - Add ua-UA translation.
+  *  da7c74a - GTK: only attempt to use libspnav on X11.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 22 Jan 2017 13:43:30 +0300
+
+solvespace (2.2.0+git1097-00dda08-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 00dda0891797742faa4ab1afff48397afa6fd83d
+  * Date: 1483619750
+  * git changelog:
+  *  00dda08 - Internationalize the context menu.
+  *  27ac3c7 - Internationalize the toolbar.
+  *  529e1bf - Internationalize the main menu.
+  *  4f04406 - Implement a gettext .po file parser.
+  *  387c5c5 - Fix a tearing issue while dragging a new rect.
+  *  934f33f - Update zlib, libpng and Freetype submodules to latest
+    versions.
+  *  c385740 - Fix a dereference of an iterator one past the end.
+  *  9f697af - Win32: don't display dialogs for CRT assertions, like for
+    aborts.
+  *  6b8f937 - Win32: fix compatibility with MSVC x64 builds.
+  *  d893277 - Don't crash when trying to load a non-existent
+    vector/bitmap character.
+  *  02ab358 - Allow the digit group separator, "_", in expressions.
+  *  daf3c7b - GTK, Win32: always map keypad decimal separator to dot.
+  *  f1d4c4a - README: point to CONTRIBUTING where relevant.
+  *  2eb9342 - README: update Windows version requirement.
+  *  e127b28 - CMake: allow building the CLI without the GUI.
+  *  9253e5f - GTK: update gtkmm dependency.
+  *  6bb73a1 - GTK: remove GlWidget, use standard Gtk::GLArea.
+  *  7dbbd75 - Drop support for GTK 2.
+  *  25631d4 - Choose entities to select in a way appropriate for the
+    operation.
+  *  d99a133 - Do ScheduleGenerateAll in MarkGroupDirty.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 06 Jan 2017 15:20:48 +0300
+
+solvespace (2.2.0+git1077-9148d0c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 9148d0cb91ad4bf6800ba722a9c8ef6378b5aa1e
+  * Date: 1482349233
+  * git changelog:
+  *  9148d0c - Force DOF check every time a constraint is added.
+  *  10251c6 - In OpenGl2Renderer, do not issue a draw call per
+    DrawVectorText call.
+  *  727c0a9 - Draw projected lines for pt-line-distance constraints in
+    3d.
+  *  5763972 - Don't apply scale twice for text if both height and
+    stroke are in mm.
+  *  626ffea - github: add an ISSUE_TEMPLATE file.
+  *  d6e2ac8 - test: add tests for ExprParser, and fix two crashes.
+  *  11adaf2 - README: update Linux dependencies.
+  *  15571ef - Fix swapped operands in boolean operators in expression
+    parser.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 24 Dec 2016 13:04:50 +0300
+
+solvespace (2.2.0+git1069-3dd2fc0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 3dd2fc0093d78bd975c98c798b441b8fe267ff6a
+  * Date: 1481350223
+  * git changelog:
+  *  3dd2fc0 - Add CONTRIBUTING.md.
+  *  4356827 - Unix: add FreeBSD compatibility for
+    FindLocalResourceDir().
+  *  374d1b5 - Win32: simplify.
+  *  6fcf1bb - Somewhat improve rendering of transparent meshes.
+  *  4a0b4fd - Win32: unbreak solvespace-cli.
+  *  679a1f0 - Win32/MSVC: garbage-collect symbols even in debug builds.
+  *  d1ddc6e - Win32: fix inclusion of manifest, to get back visual
+    styles.
+  *  6989a3d - CMake: Cairo is required for CLI, not just tests.
+  *  3858cbe - Fix a possible use-after-free in OpenGl2Batch.
+  *  b975380 - Fix refactoring issue in gl2shader.h.
+  *  47244c5 - Implement a command-line interface.
+  *  dbc567e - Reload linked files before upgrading legacy data.
+  *  9301dec - Use the same code for loading resources in all
+    executables.
+  *  7681f6d - Refactor insertion into BSP tree.
+  *  d37f53e - Improve performance of face picking.
+  *  7758844 - Do not re-solve groups that converge but fail rank test.
+  *  f5485cb - Rewrite equations generated for same-orientation
+    constraints.
+  *  78d141c - Rewrite equations generated for curve-line tangent
+    constraints (in 3d).
+  *  3d6d873 - Rewrite equations generated for parallel constraints (in
+    3d).
+  *  cc07058 - Rewrite equations generated for pt-on-line constraints.
+  *  8f93136 - DXF: Import Z coordinate from DXF/DWG files.
+  *  41365c5 - DXF: Fix export of wireframe as 3D DXF.
+  *  aaab8a0 - Fix a crash when extruding TTF text.
+  *  4362954 - Update ANGLE.
+  *  37defcb - Unbreak Camera::UnProjectPoint3.
+  *  01ae452 - Unbreak drawing of DEPTH_ONLY meshes via OpenGL 2 batch
+    canvas.
+  *  61f2488 - Refactor expression parsing.
+  *  8dc60f6 - Fix Windows build with -DOPENGL=1.
+  *  d3f2ac7 - Remove most dependencies on config.h.
+  *  369b0a3 - Optimize toggling visibility of normals, points, edges,
+    outlines.
+  *  683ac78 - Optimize FromTransformationOf for performing identity
+    transformation.
+  *  0ae0343 - Add a simple benchmarking harness.
+  *  9a0f2c3 - Fix detection of transparent meshes.
+  *  73844f7 - Draw triangle back faces like the front, unless we draw
+    them in red.
+  *  c8ff17f - Add OpenGL 2 support on Windows using ANGLE.
+  *  9db50ed - Refactor the renderer frame flush functionality.
+  *  156fe73 - Allow using z-index in UiCanvas, and use it for tooltips.
+  *  92773a5 - Implement BatchCanvas for GL2.
+  *  52557ee - Add an interface for view-independent rendering.
+  *  6d2c2ae - Implement an OpenGL 2 renderer.
+  *  f8824e1 - Reimplement drawing of the mesh wireframe.
+  *  e56630e - Fix creation of workplane based on a workplane.
+  *  c97ba6b - Optimize IdList::MaximumId() from O(n) to O(1).
+  *  ea0a1b7 - Fix uninitialized variable warnings.
+  *  802d092 - When exporting files, initially fill in the basename of
+    the sketch.
+  *  e681ba3 - Rephrase the error message for sketch in workplane
+    creation.
+  *  3c45158 - Add an ability to create a workplane with another
+    workplane.
+  *  c727752 - Fix error message shown when exporting mesh with wrong
+    extension.
+  *  489ae66 - Fix crash when trying to import not .dxf or .dwg files
+  *  fdd08cb - Warn if exporting a non-watertight mesh.
+  *  3b24139 - Fix rendering of horizontal/vertical constraint labels.
+  *  1ec36fc - Add missing newline in OutputDebugStringA invocation.
+  *  9673225 - Fix a crash when adding a symmetric constraint on a line.
+  *  a0d7f1d - Optimize GroupsInOrder.
+  *  13d4a1b - Fix memory leak in RemoveTagged.
+  *  7b9d730 - Hide OpenGL implementation details.
+  *  f5e955a - README: add gdb and lldb debugging instructions.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 10 Dec 2016 09:47:16 +0300
+
+solvespace (2.2.0+git1012-afecbcc-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: afecbccb0f89e9288c20a06ace8bea998ec3aac7
+  * Date: 1478365517
+  * git changelog:
+  *  afecbcc - OS X: fix another out-of-bounds TW.META access.
+  *  d151eb5 - CMake: reject in-tree builds.
+  *  b846401 - Update CHANGELOG.
+  *  74cb1f5 - Add two more points to the TTF text request.
+  *  23feb4c - TTF: use metrics of 'A' to determine cap height.
+  *  7bd6ade - TTF: actually use CID as GID when CID-to-GID mapping is
+    absent.
+  *  b8bec35 - TTF: only call FT_Request_Size once after loading.
+  *  0e72c60 - tests: fix bugs and inefficiencies in PrepareSavefile.
+  *  505f503 - Don't consider workplane origin point for bounding box
+    calculation.
+  *  600c39d - Don't consider arc center point for bounding box
+    calculation.
+  *  cdd6174 - tests: remove CHECK_RENDER from migrate_from_v* tests.
+  *  071a7ac - tests: bulk add of migrate_from_v22 tests.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 12 Nov 2016 23:30:18 +0300
+
+solvespace (2.2.0+git1000-592bea8-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 592bea81097588d66ab02b1dc4cb7817d53cdd8f
+  * Date: 1477122942
+  * git changelog:
+  *  592bea8 - Travis: add IRC notifications.
+  *  f619a4b - GTK: add a no-op glXSwapBuffers call for apitrace.
+  *  345c982 - OS X: don't crash in GetSaveFile() if default extension
+    is invalid.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Oct 2016 11:46:28 +0300
+
+solvespace (2.1.0+git997-90987d3-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 90987d3ee427f5a06df3e5ce4f81d71f252b2aba
+  * Date: 1476418520
+  * git changelog:
+  *  90987d3 - Fix a rendering bug introduced in 9f97e9a.
+  *  3a585ea - Try to re-solve groups that fail rank test.
+  *  b2092ea - Write params if system is solved as REDUNDANT_OKAY.
+  *  8e329ca - Fix a memory leak in
+    test/group/translate_asy/normal_inters.
+  *  b37aba0 - Preserve stipple phase across separate piecewise linear
+    segments.
+  *  47288e9 - Stitch outlines before display to preserve phase of
+    stippling.
+  *  186911a - Factor out PolylineBuilder from DXF export code.
+  *  d2c2503 - Fix many rendering bugs introduced in df83ee4 and
+    9f97e9a.
+  *  ea52fcb - Remove unnecessary GenerateAll/ZoomToFit calls in
+    AfterNewFile.
+  *  62f5f69 - Print a debug message for generations that are taking a
+    long time.
+  *  2ccf595 - Allow creating n-dimensional arrays with translate and
+    rotate groups.
+  *  6658b1f - Allow combining extrude, lathe, translate and rotate
+    group as assemblies.
+  *  5462fc6 - OS X: map the backspace key to the "Delete" function.
+  *  90f10cc - OS X: set scroller knob style to light.
+  *  b5f5e05 - OS X: don't remap OK in message boxes to Escape.
+  *  b036380 - OS X: revert "sort out window visibility and focus."
+  *  291e16e - Fix a few compiler warnings.
+  *  363f5c1 - Fix BitmapFont to not lose texture updates.
+  *  af226b2 - Fix rendering of reference axes in bottom left corner.
+  *  9f97e9a - Allow selecting unit (px/mm) in Canvas::Stroke.
+  *  a5c7fc6 - Disable closed contour check in the test harness.
+  *  df83ee4 - Factor out Style::Stroke.
+  *  1108a6f - Use Canvas::Stroke, not Canvas::Fill, for drawing a
+    point.
+  *  e80a3a0 - Fix a buffer overrun in ssprintf.
+  *  ffa1046 - Fix spelling error.
+  *  f4e8512 - Wavefront OBJ: export mesh color as well.
+  *  aa95850 - GTK: use 3DConnexion button 0 instead of
+    SI_APP_FIT_BUTTON.
+  *  b10e621 - Rephrase error messages that say "select a workplane".
+  *  456c987 - Use transparent white fill color for drawing pixmaps, not
+    black.
+  *  e9725bd - Update CHANGELOG.
+  *  9febc57 - Travis: install libstdc++ 5.
+  *  93da883 - Debian: remove in-tree packaging.
+  *  66ed417 - Fix a handle leak in TtfFontList::PlotString.
+  *  476860a - Normalize the string returned by Extension() to
+    lowercase.
+  *  2371068 - Don't regenerate the entire sketch in AddRequest().
+  *  0e66eaf - OS X: correctly parse output of otool -D.
+  *  3ff236c - Mark group dirty when clicking "allow redundant
+    constraints" link.
+  *  9bcba4b - Fix incorrect rendering of XYZ axes in the bottom left
+    corner.
+  *  a8e7233 - Replace convenience #defines with const auto references.
+  *  f5a37ae - OS X: fix out-of-bounds TW.META access.
+  *  4537444 - Travis: add a few more retries to OS X build script.
+  *  21a4305 - Add "Zoom to Fit" to context menu.
+  *  2f64f18 - Add "Select All" to context menu for no selection.
+  *  2f4c6a6 - Add "Toggle Construction" to context menu.
+  *  da2d035 - Remove exact numeric values from ContextCommand.
+  *  c43a198 - Win32: add proper Unicode support to message boxes.
+  *  fbd89a7 - Update 819c4c5 for Wine compatibility.
+  *  819c4c5 - GL1: work around lack of NPOT textures in Windows OpenGL
+    renderer.
+  *  7787923 - MinGW: unbreak the test harness.
+  *  d12bf04 - Update 58db06d8 to not even try to use std::fstream with
+    Unicode paths.
+  *  fb87431 - Fix a numeric conversion warning.
+  *  58db06d - DXF: update to use Unicode-aware file open routines on
+    Windows.
+  *  fd54e5a - Make translate/rotate groups inherit the "suppress solid
+    model" option.
+  *  06a188c - GTK: show files with uppercase extensions in file open
+    dialog.
+  *  cd5b5b2 - Travis: update brew installation instructions.
+  *  e7edc39 - Alias the "=" key to "+" key.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 15 Oct 2016 18:37:20 +0300
+
+solvespace (2.1.0+git941-ffd9c62-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: ffd9c6241a54fc5daf734f6b0d8e73267ec99cee
+  * Date: 1472403036
+  * git changelog:
+  *  ffd9c62 - Fix a crash when adding a symmetric constraint on two
+    points.
+  *  b9d3756 - Recognize .ngc as a valid G-Code export extension.
+  *  a1e18ae - GlOffscreen: create color/depth renderbuffers separately.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 02 Sep 2016 22:54:54 +0300
+
+solvespace (2.1.0+git938-991909d-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 991909d7949e69027f042e5dc3a72f5db1112adf
+  * Date: 1471139373
+  * git changelog:
+  *  991909d - Show pt-ln distance projected onto workplane when one is
+    active.
+  *  f998293 - Allow displaying outlines without any other edges.
+  *  4c30c09 - Correctly draw vector text for constraints free in 3d.
+  *  efd358d - Unbreak PNG export.
+  *  6e860fb - Make "Show/hide hidden lines" a tri-state button instead.
+  *  8ce2922 - Refactor text window buttons to allow for more custom
+    behavior.
+  *  e2e9167 - Get rid of the MAX_SELECTED restriction in
+    GroupSelection().
+  *  0bf6167 - Update CHANGELOG.
+  *  e381c70 - DXF export: always declare layers before using them.
+  *  35a20ae - GTK: fix an uninitialized variable.
+  *  065a0a8 - Forcibly show the current group once we start a drawing
+    operation.
+  *  b2ab15c - Do not clear selection during operations that don't need
+    it.
+  *  cf9c331 - Update libdxfrw.
+  *  8bf55b3 - Fix multiple memory leaks found with LeakSanitizer.
+  *  fbe2705 - CMake: disable unsigned overflow sanitizer check.
+  *  415a6d3 - Travis: build with clang, so that we can use its
+    sanitizers.
+  *  068ed28 - CMake: fix typo.
+  *  f8b6c33 - CMake: use pkg-config directories in test/.
+  *  e462387 - Add tests to cover 95.3% of constrainteq.cpp branches.
+  *  4b49442 - Align constraint lines to pixel grid.
+  *  ba1cd83 - README: clarify Windows instructions.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 20 Aug 2016 06:27:06 +0300
+
+solvespace (2.1.0+git917-f2633e4-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: f2633e4a57ba0fef8864b62ef04a09baa66e15d6
+  * Date: 1470060196
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 03 Aug 2016 11:52:05 +0300
+
+solvespace (2.1.0+git888-7f411d1-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 7f411d1593b766e081f8bcafcabc09df00241f8a
+  * Date: 1469313676
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 24 Jul 2016 11:29:24 +0300
+
+solvespace (2.1.0+git871-32a2a4d-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 32a2a4dbd9fb67bddc86d49d91e52d393753ef67
+  * Date: 1467219527
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 09 Jul 2016 18:43:13 +0300
+
+solvespace (2.1.0+git866-ced5b78-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: ced5b784200894d50de98c366c40d05f75755390
+  * Date: 1466683847
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 24 Jun 2016 23:31:08 +0300
+
+solvespace (2.1.0+git858-251948b-1) unstable; urgency=medium
+
+  * Compile
+  * Branch: master
+  * Commit: 251948bdbd5c4987eab68be5b6b023045f427296
+  * Date: 1466046345
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 18 Jun 2016 17:28:05 +0300
+
+solvespace (2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #123456)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 17 Jun 2016 23:26:33 +0300
+
+</pre></div>
+    </div></div>
+                <div class="clear"></div>
+                <footer>
+                    <p>
+                    <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                    &middot;
+                    <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+                    &middot;
+                    <a href="https://t.me/notesalexp" rel="alternate">Telegram channel</a>
+                    <p> © Alexander Pozdnyakov, 2010–2022
+                </footer>
+            </div>
+            <div class="clear"></div>
+        </div>
+<script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-101010045-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    </body>
+    </html>

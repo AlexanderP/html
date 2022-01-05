@@ -3,7 +3,6 @@ Allow: /
 Sitemap: https://notesalexp.org/sitemap.xml
 Disallow: /debian
 Disallow: /kvirc
-Disallow: /source
 Disallow: /stretch
 Disallow: /buster
 Disallow: /bullseye
