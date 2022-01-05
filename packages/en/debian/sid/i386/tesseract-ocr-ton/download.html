@@ -54,11 +54,11 @@
 <div class="highlight"><pre><span></span>deb https://notesalexp.org/debian/sid/ sid main</pre></div>
 <p>3. Fetch and install the GnuPG key</p>
     <div class="highlight"><pre><span></span>sudo apt-get update -oAcquire::AllowInsecureRepositories=true
-    sudo apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true
-    sudo apt-get update</pre></div>
+sudo apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true
+sudo apt-get update</pre></div>
     <p>or</p>
     <div class="highlight"><pre><span></span>wget -O - https://notesalexp.org/debian/alexp_key.asc | sudo apt-key add -
-    sudo apt-get update</pre></div>
+sudo apt-get update</pre></div>
     <p>4. Enjoy </p>
     <div class="highlight"><pre><span></span>sudo aptitude install tesseract-ocr-ton</pre></div>
     <p>You can download the requested file from the <em>tesseract-ocr-ton</em> subdirectory at this link:</p>
