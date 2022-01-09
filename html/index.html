@@ -38,9 +38,8 @@
 You can find the packages of this repository following this <a href="http://notesalexp.org/packages/">link</a>.</p>
 <p><strong>Instructions</strong></p>
 <p><em>1. Open a terminal and install apt-transport-https</em></p>
-<div class="highlight"><pre><span></span>sudo apt-get install apt-transport-https
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>sudo apt-get install apt-transport-https
+</code></pre></div>
 
 <p><em>2. Open /etc/apt/sources.list</em></p>
 <p>Add this line for <strong>Stretch</strong>: <code>deb https://notesalexp.org/debian/stretch/ stretch main</code><br>
@@ -55,22 +54,19 @@ Add this line for <strong>Hirsute</strong>: <code>deb https://notesalexp.org/deb
 Add this line for <strong>Impish</strong>: <code>deb https://notesalexp.org/debian/impish/ impish main</code></p>
 <p>Save and close sources.list</p>
 <p><em>3.Fetch and install the GnuPG key</em></p>
-<div class="highlight"><pre><span></span>sudo apt-get update -oAcquire::AllowInsecureRepositories=true
+<div class="highlight"><pre><span></span><code>sudo apt-get update -oAcquire::AllowInsecureRepositories=true
 sudo apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true
 sudo apt-get update
-</pre></div>
-
+</code></pre></div>
 
 <p>or</p>
-<div class="highlight"><pre><span></span>wget -O - https://notesalexp.org/debian/alexp_key.asc | sudo apt-key add -
+<div class="highlight"><pre><span></span><code>wget -O - https://notesalexp.org/debian/alexp_key.asc | sudo apt-key add -
 sudo apt-get update
-</pre></div>
-
+</code></pre></div>
 
 <p><em>4. Enjoy</em></p>
-<div class="highlight"><pre><span></span>sudo apt-get install package
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>sudo apt-get install package
+</code></pre></div>
 
 <p><strong>Warning</strong>: Need to update the gpg-key.(2018-09-13)<br>
 <strong>Warning</strong>: Some packages for Debian GNU/Linux require http://www.deb-multimedia.org/ repository to be connected.</p>
