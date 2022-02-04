@@ -53,6 +53,7 @@ usr/lib/freecad-daily/Ext/freecad/gui/RemoteDebugger.py
 usr/lib/freecad-daily/Ext/freecad/gui/RemoteDebugger.ui
 usr/lib/freecad-daily/Ext/lazy_loader/__init__.py
 usr/lib/freecad-daily/Ext/lazy_loader/lazy_loader.py
+usr/lib/freecad-daily/Mod/AddonManager/ALLOWED_PYTHON_PACKAGES.txt
 usr/lib/freecad-daily/Mod/AddonManager/AddonManager.py
 usr/lib/freecad-daily/Mod/AddonManager/AddonManager.ui
 usr/lib/freecad-daily/Mod/AddonManager/AddonManagerOptions.ui
@@ -60,8 +61,8 @@ usr/lib/freecad-daily/Mod/AddonManager/AddonManagerRepo.py
 usr/lib/freecad-daily/Mod/AddonManager/AddonManager_rc.py
 usr/lib/freecad-daily/Mod/AddonManager/Init.py
 usr/lib/freecad-daily/Mod/AddonManager/InitGui.py
+usr/lib/freecad-daily/Mod/AddonManager/NetworkManager.py
 usr/lib/freecad-daily/Mod/AddonManager/addonmanager_macro.py
-usr/lib/freecad-daily/Mod/AddonManager/addonmanager_metadata.py
 usr/lib/freecad-daily/Mod/AddonManager/addonmanager_utilities.py
 usr/lib/freecad-daily/Mod/AddonManager/addonmanager_workers.py
 usr/lib/freecad-daily/Mod/AddonManager/compact_view.py
@@ -72,6 +73,7 @@ usr/lib/freecad-daily/Mod/AddonManager/package_details.py
 usr/lib/freecad-daily/Mod/AddonManager/package_list.py
 usr/lib/freecad-daily/Mod/Arch/Arch.py
 usr/lib/freecad-daily/Mod/Arch/ArchAxis.py
+usr/lib/freecad-daily/Mod/Arch/ArchAxisSystem.py
 usr/lib/freecad-daily/Mod/Arch/ArchBuilding.py
 usr/lib/freecad-daily/Mod/Arch/ArchBuildingPart.py
 usr/lib/freecad-daily/Mod/Arch/ArchCommands.py
@@ -82,6 +84,7 @@ usr/lib/freecad-daily/Mod/Arch/ArchEquipment.py
 usr/lib/freecad-daily/Mod/Arch/ArchFence.py
 usr/lib/freecad-daily/Mod/Arch/ArchFloor.py
 usr/lib/freecad-daily/Mod/Arch/ArchFrame.py
+usr/lib/freecad-daily/Mod/Arch/ArchGrid.py
 usr/lib/freecad-daily/Mod/Arch/ArchIFC.py
 usr/lib/freecad-daily/Mod/Arch/ArchIFCSchema.py
 usr/lib/freecad-daily/Mod/Arch/ArchIFCView.py
@@ -954,6 +957,7 @@ usr/lib/freecad-daily/Mod/PartDesign/PartDesignTests/TestDatum.py
 usr/lib/freecad-daily/Mod/PartDesign/PartDesignTests/TestDraft.py
 usr/lib/freecad-daily/Mod/PartDesign/PartDesignTests/TestFillet.py
 usr/lib/freecad-daily/Mod/PartDesign/PartDesignTests/TestHole.py
+usr/lib/freecad-daily/Mod/PartDesign/PartDesignTests/TestInvoluteGear.py
 usr/lib/freecad-daily/Mod/PartDesign/PartDesignTests/TestLinearPattern.py
 usr/lib/freecad-daily/Mod/PartDesign/PartDesignTests/TestLoft.py
 usr/lib/freecad-daily/Mod/PartDesign/PartDesignTests/TestMirrored.py
@@ -1000,6 +1004,8 @@ usr/lib/freecad-daily/Mod/PartDesign/fcsprocket/sprocket.py
 usr/lib/freecad-daily/Mod/Path/Data/Threads/imperial-internal.csv
 usr/lib/freecad-daily/Mod/Path/Data/Threads/metric-internal.csv
 usr/lib/freecad-daily/Mod/Path/Generators/drill_generator.py
+usr/lib/freecad-daily/Mod/Path/Generators/helix_generator.py
+usr/lib/freecad-daily/Mod/Path/Generators/rotation_generator.py
 usr/lib/freecad-daily/Mod/Path/Images/Ops/chamfer.svg
 usr/lib/freecad-daily/Mod/Path/Images/Tools/drill.svg
 usr/lib/freecad-daily/Mod/Path/Images/Tools/endmill.svg
@@ -1007,6 +1013,8 @@ usr/lib/freecad-daily/Mod/Path/Images/Tools/v-bit.svg
 usr/lib/freecad-daily/Mod/Path/Init.py
 usr/lib/freecad-daily/Mod/Path/InitGui.py
 usr/lib/freecad-daily/Mod/Path/PathCommands.py
+usr/lib/freecad-daily/Mod/Path/PathFeedRate.py
+usr/lib/freecad-daily/Mod/Path/PathMachineState.py
 usr/lib/freecad-daily/Mod/Path/PathPythonGui/__init__.py
 usr/lib/freecad-daily/Mod/Path/PathPythonGui/simple_edit_panel.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/PathAdaptive.py
@@ -1125,6 +1133,7 @@ usr/lib/freecad-daily/Mod/Path/PathScripts/PathWaterline.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/PathWaterlineGui.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/PostUtils.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/__init__.py
+usr/lib/freecad-daily/Mod/Path/PathScripts/drillableLib.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/post/__init__.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/post/centroid_post.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/post/comparams_post.py
@@ -1144,6 +1153,7 @@ usr/lib/freecad-daily/Mod/Path/PathScripts/post/rml_post.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/post/slic3r_pre.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/post/smoothie_post.py
 usr/lib/freecad-daily/Mod/Path/PathScripts/post/uccnc_post.py
+usr/lib/freecad-daily/Mod/Path/PathTests/Drilling_1.FCStd
 usr/lib/freecad-daily/Mod/Path/PathTests/PathTestUtils.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathAdaptive.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathCore.py
@@ -1152,13 +1162,17 @@ usr/lib/freecad-daily/Mod/Path/PathTests/TestPathDepthParams.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathDressupDogbone.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathDressupHoldingTags.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathDrillGenerator.py
+usr/lib/freecad-daily/Mod/Path/PathTests/TestPathDrillable.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathGeom.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathHelix.py
+usr/lib/freecad-daily/Mod/Path/PathTests/TestPathHelixGenerator.py
+usr/lib/freecad-daily/Mod/Path/PathTests/TestPathHelpers.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathLog.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathOpTools.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathPost.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathPreferences.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathPropertyBag.py
+usr/lib/freecad-daily/Mod/Path/PathTests/TestPathRotationGenerator.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathSetupSheet.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathStock.py
 usr/lib/freecad-daily/Mod/Path/PathTests/TestPathThreadMilling.py
@@ -1273,6 +1287,15 @@ usr/lib/freecad-daily/Mod/TechDraw/TDTest/TestImage.png
 usr/lib/freecad-daily/Mod/TechDraw/TDTest/TestSymbol.svg
 usr/lib/freecad-daily/Mod/TechDraw/TDTest/TestTemplate.svg
 usr/lib/freecad-daily/Mod/TechDraw/TDTest/__init__.py
+usr/lib/freecad-daily/Mod/TechDraw/TechDrawTools/CommandCopyView.py
+usr/lib/freecad-daily/Mod/TechDraw/TechDrawTools/CommandMoveView.py
+usr/lib/freecad-daily/Mod/TechDraw/TechDrawTools/DlgPageChooser.ui
+usr/lib/freecad-daily/Mod/TechDraw/TechDrawTools/TDToolsMovers.py
+usr/lib/freecad-daily/Mod/TechDraw/TechDrawTools/TDToolsUtil.py
+usr/lib/freecad-daily/Mod/TechDraw/TechDrawTools/TaskCopyView.py
+usr/lib/freecad-daily/Mod/TechDraw/TechDrawTools/TaskMoveView.py
+usr/lib/freecad-daily/Mod/TechDraw/TechDrawTools/TaskMoveView.ui
+usr/lib/freecad-daily/Mod/TechDraw/TechDrawTools/__init__.py
 usr/lib/freecad-daily/Mod/TechDraw/TestTechDrawApp.py
 usr/lib/freecad-daily/Mod/Test/BaseTests.py
 usr/lib/freecad-daily/Mod/Test/Document.py
