@@ -41,7 +41,447 @@
     <div class="page">
     <h5>ChangeLog of package freecad-daily in hirsute of architecture amd64</h5>
     <div class="highlight">
-<pre><span></span>freecad-daily (0.19.2+git27332-4d395f85bb-1) unstable; urgency=medium
+<pre><span></span>freecad-daily (0.19.2+git27662-c1fbf28e22-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/FreeCAD/FreeCAD.git
+  * Branch: master
+  * Commit: c1fbf28e22215d891c95601767f9188129f63d0f
+  * Date: 1645295520
+  * git changelog:
+  *  c1fbf28e22 - [PD] Datums: remove unused includes
+  *  b7e7c52ecb - [PD] remove unused and empty files
+  *  7c8031d356 - [PD] Hole, Pipe and Revolution: remove unused includes
+  *  61d54b6078 - [PD] Pad and Pocket: remove unused includes
+  *  c6b719a45c - [PD] Helix: remove unused includes
+  *  3e7830c21b - [Sketcher] Allow multiplicity change of B-Spline end
+    knots
+  *  e8f7a58fc9 - [Sketcher] Fix some strings in
+  *  1e314b0165 - [Gui] improvements for PCH builds
+  *  7518dad67b - [Gui] compilation fixes for non-PCH
+  *  4eeac6dde3 - [Gui] Qt4All: add some includes
+  *  8a376e5ade - [Gui] Application and Document: remove unused headers
+  *  862047010b - [Gui] Selection and MainWindow: remove unused headers
+  *  281b70db58 - [Gui] remove some more unused headers
+  *  3f4e7e7df7 - [Gui] remove more unused headers
+  *  dd5a681fd8 - [Gui] remove unused headers
+  *  3b1280c587 - [Gui] View3DPy and View3DInventorViewer: remove unused
+    headers
+  *  d4f72d7562 - [Gui] Tree: fix another typo
+  *  ee295d0376 - [Gui] Tree: fix typo
+  *  82132e39bb - [Gui] CommandView and Tree: remove unused headers
+  *  9b7572e9a9 - [PD] FeatureHelix: simplify code
+  *  57e2d8b31d - Gui: Clean up mod init error messages
+  *  781f0bd626 - Addon Manager: Improve macro metadata extraction
+  *  7b7b76f1ec - Merge pull request #6373 from
+    Russ4262/fix/3d_surface_property_enumerations
+  *  d6a12b7a0e - Merge pull request #6391 from
+    Russ4262/revert/extensions_waterline
+  *  3960325821 - [Sketcher] Use knot insertion pointer when using that
+    tool
+  *  c912d5002f - [Sketcher] Use point-and-click for knot insertion
+  *  03fa2f398f - Addon Manager: Fix bug in error messaging
+  *  d357d59c02 - Addon Manager: Black reformat
+  *  f28278dca5 - Addon Manager: Add error checking for proxy setup
+  *  13fb62fc3f - Gui: Fix unused variable warning
+  *  a4628adb49 - Remove unused 3rdparty library
+  *  785d9067cd - Tools: [skip ci] in thumbnail provider replace CxImage
+    library with Win32 API
+  *  fe2719014b - Gui: move reloadActive() to WorkbenchPy base class
+  *  56f95bb4e8 - Path: Remove waterline, outline, and avoid extensions
+  *  44a0b5308f - Path: Convert enable extensions button to checkbox
+  *  fdc4196384 - [TD] ViewProviders: remove more unused includes
+  *  7daff0960f - [TD] ViewProviders: remove unused includes
+  *  9f8d54d804 - [PD] ViewProviderBody: add missing include
+  *  74e473d162 - [Part] ViewProvider2DObject: remove unused includes
+  *  5f760bd4de - [PD] ViewProviderDatum: sorting
+  *  f306199091 - [PD] ViewProviderBody: remove unused includes
+  *  07740a881d - [PD] ViewProviderDatum: add missing includes
+  *  4deff60abc - [Sketch] ViewProviderDatum/Primitive: remove unused
+    includes
+  *  5a3b1c4ebe - [Sketch] ViewProviderSketch: add missing include
+  *  87d293f404 - [Sketch] ViewProviderSketch: remove unused includes
+  *  7a566ea4d8 - Gui: Add interface for managing preference packs
+  *  38327fa71c - Addon Manager: Force recache on custom repo change
+  *  a3e310ab55 - Addon Manager: Improve manual update display
+  *  cbb93da3ff - Addon Manager: Correct displayed modification time
+  *  3a5f824755 - Addon Manager: Add -ff-only option to pull
+  *  ef8be833fd - Addon Manager: Fix missing update button connection
+  *  494396c768 - Addon Manager: Fix custom repos ending in .git
+  *  524992b8db - Addon Manager: Correct macro display
+  *  c5dfa7fa01 - Sketcher: fix warnings: * fix -Winconsistent-missing-
+    override * fix -Woverloaded-virtual that is also a bug because the
+    DrawSketchHandlerArcOfParabola didn't set the suitable mouse cursor
+  *  d8c052c666 - DrawSketchHandler: activation and deactivation via NVI
+    pattern
+  *  74371fd1f1 - Merge pull request #5343 from
+    Russ4262/fix/open_edge_zero_start
+  *  54cf7713f4 - PD: make sure that Attachment editor shows up the
+    context-menu of datum objects
+  *  c3511ba2f0 - Sketch: make sure that Attachment editor shows up in
+    the context-menu
+  *  59ffad387c - Part: in ViewProviderAttachExtension check if feature
+    has the AttachExtension
+  *  cfabcbe9d5 - TD: Fix MSVC compilation failure
+  *  621c0b31e1 - Gui: Correct generation of macro pref name
+  *  c4d5b68a5b - Merge pull request #6387 from
+    SamuelMayer/kinetic_nc_pp
+  *  3b1d8fd918 - [Sketcher] Fix typo
+  *  a360829e9b - [Sketcher] Disable constraint selectability on Shift
+    press
+  *  34106f49e7 - [Sketcher] Disable constraints selection when
+    geometry/constraint handler is active
+  *  3ffae251bf - Update CommandExtensionDims.cpp
+  *  adc8574d52 - Update CommandExtensionDims.cpp
+  *  2c1c322d68 - Update TaskCustomizeFormat.ui
+  *  65cad2e54b - New extension tool: cutomize format
+  *  0cba14638a - Icons and Ui-files
+  *  6f731a7d23 - Force tree update
+  *  e24da8dd94 - Tools: Allow to treat one single module with updatets
+    script
+  *  18ab2c80fb - Merge pull request #6355 from Roy-043/Draft-
+    Housekeeping-call-'make'-functions-with-new-name-(3)
+  *  a2bd8da848 - Merge pull request #6384 from 0penBrain/tuxMouseModel
+  *  020998cf41 - added KineticNC_post.py
+  *  b6ebeef6f3 - Part: fix regression by commit 289a9bcc8 *
+    Standard_Version.hxx is required for the OCC version check macro *
+    group sorted header includes by library
+  *  289a9bcc87 - [Part] ViewProviderExt: remove unused includes
+  *  414ac4cb7d - [PD] ViewProvider: remove unused includes
+  *  bf07e0752e - [Gui] ViewProviderDragger: add missing include
+  *  fa08936b3a - [Gui] ViewProviderDragger: remove unused includes
+  *  c623e7d178 - [Gui] ViewProviderLink: remove unused includes
+  *  a94d4778ec - [Gui] fix include sorting mistake from previous commit
+  *  c17f118976 - [Gui] add context menu icon for Std_TransformManip
+  *  aa02ab5c66 - [Part] add context menu icon for color face
+  *  0bbc253dde - Gui: add method to reload active workbench
+  *  7ae60bdb92 - Tux: get rid of timer usage to update navigation style
+  *  a46592d45a - Merge pull request #5488 from dirkolbrich/path-
+    cmakelists-link-fix
+  *  013dd8be55 - Merge pull request #6378 from mlampert/bugfix/abort-op-
+    creation-without-tc
+  *  54fb832dae - Merge pull request #6357 from sliptonic/master
+  *  55208aae47 - Merge pull request #6377 from
+    sliptonic/bug/drillheight
+  *  95f583a677 - Part: fix typos in make* functions
+  *  8f1c5ae76d - Gui: Add Mod info to copied About string
+  *  7786e24fcd - [PD] change default FaceMaker to Bullseye
+  *  ce6d9e7573 - Addon Manager: Better failure diagnostics
+  *  df3569b799 - [Part] Bullseye whitespace fixes
+  *  09c10dada0 - Gracefully handle op creation abort when no TC is
+    available or selected.
+  *  6e012520d9 - Sketcher: for Linux systems put definition of
+    GeoElementId members back to header file to fix possible linker
+    errors
+  *  f637a6a9c8 - add option to preferences to suppress velocity warning
+  *  a5e561b31d - Base: fix Matrix4D::hasScale * If all column vectors
+    of the 3x3 sub-matrix are equal the function incorrectly claims that
+    it's uniform scaling. * Detect also non-uniform scaling and if was
+    applied from the left or right side * Replace the int with an enum
+    and expose it to Python * Add several new unit tests
+  *  48e2ee100c - Addon Manager: Fix race condition
+  *  06bea999d4 - Fixes #6367
+  *  8a92953f2a - TechDraw: Use Draft.get_svg instead of Draft.getSVG
+  *  30daaa66bc - Sketcher: add GeoID on extended naming of geometries
+  *  6037553f3c - Sketcher: add construction mode display for points in
+    element list
+  *  8888489aed - [Sketcher] Add comment suggesting future segfault
+    fixes
+  *  82edb612ad - [Sketcher] Check constraint type before drawing icons
+  *  4ad0bdc5b2 - [Sketcher] Reformat statements in
+  *  f9c4c88768 - Part: Part_SectionCut command active only if view is
+    View3DInventor class
+  *  e72ffc41c7 - Path: Correct restoration of property enumerations
+  *  ccbc0863a9 - [Part] remove unused precompiled headers
+  *  f0f30b47f6 - [Part] try to fix compilation error without
+    precompiled headers
+  *  ab6ac65455 - [Part] more simplification of SectionCut code
+  *  0ce24d985f - Addon Manager: Fix bug in macro git state
+  *  217af3d0e0 - [Part] fix signal blocking in SectionCut code
+  *  8e1cf21208 - [Part] improve SectionCut code
+  *  098b773208 - [Part] simplify a but the SectionCut code
+  *  a3b6c272ed - [Part] add icon for sectionCut feature
+  *  6cd68bf644 - Core: Eliminate compiler warnings on Metadata
+  *  c9240fbb4a - GUI: Add Python interface to create custom command
+  *  58a70cbbe5 - Part: define Part_SectionCut as permanent menu item
+  *  07200f9260 - Gui: extend Workbench class to allow to define
+    permanent menu items
+  *  024bde641c - Update FindPySide2Tools.cmake
+  *  3319447120 - Update FindPySide2Tools.cmake
+  *  ef7e2a5124 - [Image] whitespace fixes
+  *  3e64b10dd6 - Gui: Improve docstrings in DocumentPy.xml
+  *  ce7b27d93f - Gui: Clean up code in DocumentPyImp.cpp
+  *  7250097f39 - [Part] improve SectionCutting code
+  *  9e6bd8265e - Set ImagePlane ShapeColor white at creation
+  *  2aba33aba3 - Mesh: fix test code so it will compile when used
+  *  5e5e69013b - Sketcher: fix linking errors with Conda builds
+  *  19b89b1085 - Merged crowdin translations
+  *  67dcb21efd - Updated ts files
+  *  7fa42aba73 - Merge pull request #6345 from Roy-043/Arch-
+    Arch_Window.py-do-isdir-and-isfile-check-for-librarypath
+  *  17c07c09cf - Merge pull request #5507 from mdkus/Branch_060222
+  *  27e020e28e - Test: [skip ci] limit the text in the error dialog to
+    1000 chars as otherwise it can become larger than the available
+    vertical space of the desktop
+  *  4abd91c8e0 - StartPage: fix regression of #5515
+  *  8edc1ebe73 - Addon Manager: Make branch switching scarier
+  *  074c4b0a3b - Addon Manager: Add branch switching GUI
+  *  68a5c7e438 - [PD, Part] bring section cutting feature back to the
+    View menu
+  *  9b1245ab5f - [PD] use Part's face coloring
+  *  15ff4c8f94 - PD: for better cohesion do not call
+    generateTaperedPrism inside generatePrism
+  *  af8cf76c50 - [Test] fix typo
+  *  32ae033b43 - PD: restore old method name and fix doxygen
+    documentation
+  *  0095f97299 - [Win installer] improve line breaks in README.md
+  *  b9a12e672c - [Win installer] add support for logging
+  *  0d44a4bb8f - Warn user if current schema doesn't generate proper
+    velocity (unit/min)
+  *  5cb2c315a2 - Part: section cut window is not bound to 3d viewer
+    widget
+  *  d29bd2f804 - Mesh: [skip ci] add Mesh unit test for
+    nearestFacetOnRay
+  *  1ceba9670d - Base: [skip ci] include header with export macro
+  *  8145923c67 - Base: in TimeInfo replace uint64_t with int64_t
+  *  a6f0f69ed6 - Mesh: overload MeshAlgorithm::NearestFacetOnRay to set
+    a max. angle between facet and ray
+  *  effd40ec99 - Draft: Housekeeping: call 'make' functions with new
+    name (3)
+  *  2a79ce4bdc - OpenSCAD: Support installation into read-only
+    locations
+  *  dc332a5ca0 - [PD] moves Extrude code to FeatureExtrude
+  *  5bbf59141e - Draft: Housekeeping: call 'make' functions with new
+    name, continued
+  *  6953a7cea8 - Fix some typos and whitespace
+  *  9227b4ab24 - Path: Fix open edge zero value start point
+  *  484ff4fafb - [TD]fix handling of composite shapes
+  *  4e0498c48e - [Sketcher] Use proper formatting for knot list in
+    dialog
+  *  d53eabed07 - [Sketcher] Make B-Spline curvature comb piecewise
+  *  f179acf062 - Merge pull request #6340 from
+    Russ4262/fix/slot_translation
+  *  fc7cb5a767 - Merge pull request #6343 from sliptonic/bug/5904
+  *  88004e8dc9 - [TD]correct retrieval of dim text for DXF export
+  *  5a33bb4d24 - Arch: Arch_Window.py: do isdir and isfile check for
+    librarypath
+  *  09a05a9cd0 - Part: Circle variable name change to create
+    consistency Change variable names of the Circle from Angle0 to
+    Angle1 to create consistency with all other named angle variables
+  *  dc561d0125 - Core: Fix metadata compiler warning
+  *  be47e43e2b - GitHub: Update PR template with link to GH Issues
+  *  ce40cbe2aa - Part: handle to load old project files with
+    Part::Ellipse
+  *  2158eebc88 - Ellipse variable name change to create consistency
+  *  b8162dfa28 - avoid unnecessary error
+  *  83118395c1 - Path: Fix translation issues for Slot operation
+  *  489d16b0ae - Path: Correct docStrings
+  *  1e33533539 - Merge pull request #6337 from Roy-043/Draft-
+    Housekeeping-call-'make'-functions-with-new-name
+  *  32fdcc6478 - Merge pull request #5485 from Roy-043/Arch-
+    ArchWindow.py-fix-alignment-of-library-windows
+  *  206cc71308 - Merge pull request #5496 from Roy-043/Draft-fix-
+    isClosed-bug-in-offsets.py
+  *  59528d8058 - Merge pull request #6332 from marioalexis84/draft-
+    arc_snapper
+  *  71130d31b0 - OpenSCAD: Add missing geometry check
+  *  ba42231b9c - Addon Manager: Check for requires newer FreeCAD
+  *  00ab1f7634 - Core: Add additional Python bindings for Metadata
+  *  638fd41db7 - Update README.md installation info
+  *  4e3723b9a0 - StartWB: Remove superfluous paranthesis [skip ci]
+  *  d26bd6ffb8 - StartWB: Remove python2 support
+  *  07f604efaa - Merge branch 'FreeCAD:master' into master
+  *  6b808987ad - Draft: Housekeeping: call 'make' functions with new
+    name
+  *  e1eb74e220 - Merge pull request #6331 from
+    sliptonic/bug/translations
+  *  4160588fc6 - Draft: Fix SoSeparator not deleted
+  *  426b736cd4 - Workbench context for menus
+  *  6dacdbf93f - Merge branch 'FreeCAD:master' into Draft-fix-isClosed-
+    bug-in-offsets.py
+  *  455adec471 - Fixed an error in the connect function. Point v2 could
+    be undefined.
+  *  092afacfcb - Ignore 'typo fix' rev in git blame history [skip ci]
+  *  08c41ffb00 - Gui: replace s# format unit with s*
+  *  2e48c62c37 - Sketcher: [skip ci] fix build failure with Qt 5.9
+  *  efe0a39d34 - Fem: Call PyMem_Free() to free allocated buffer
+  *  7895af1822 - TechDraw: Call PyMem_Free() to free allocated buffer
+  *  30cb87a8c5 - Cloud: Call PyMem_Free() to free allocated buffer
+  *  588331515d - [Sketcher] Fix some points mentioned in #6323
+  *  f12eccd9e8 - Path: fix build failure for OCCT >= 7.6.1
+  *  7b3a9d5640 - [Path] remove duplicate link of PathCommands.py
+  *  83cc413e18 - GitHub Actions: Correct the label for Sketcher and
+    Mesh
+  *  2a5bc84410 - Update PrimitiveFeature.cpp
+  *  e0399e83c3 - Assembly: fix older assembly code typos
+  *  aed8864cd9 - Modernize signal/slot connection for real :)
+  *  47e7257cd3 - Base: introduce uniform scaling of matrix
+  *  538f4dd14b - Base: fix move+scale Python error cleaning after
+    parsing args
+  *  5c9bffb73d - PD: fix 'stack-use-after-scope' crash
+  *  79aedcabad - Tools: remove py2 support from  script
+  *  f14f952c83 - Gui: modernize C++11 * remove redundant void-arg * use
+    nullptr
+  *  fc6e870a67 - Part: Move Part_SectionCut command to Part menu item
+    list
+  *  13a64235f1 - GitHub: Update Feature Request form
+  *  c68bf9206e - GitHub: Update bug template
+  *  4f3e4eff03 - OpenSCAD: More fixes from Keith Sloan
+  *  3d62aeba37 - Merge branch 'master' into master
+  *  c282015ceb - TD: Adding more TechDraw svg symbols
+  *  2b8336157b - Gui: implement Inventor node for color legend
+  *  a0b333ab2c - App: set by default three colors for legend
+  *  fa5dc04d2a - Merge pull request #1 from SamuelMayer/SamuelMayer-
+    KineticNC_Postprocessor
+  *  4969f8c625 - Add files via upload
+  *  bb17aa97e1 - Tools: icon error when envoking pure python test
+    module
+  *  b806115015 - Gui: replace floats with SbBox2f in SoFCColorGradient
+  *  91c0895e26 - Test: add unit tests for FreeCAD.Units.toNumber
+  *  befbd95d64 - Base: expose UnitsApi::toNumber to Python
+  *  243f81fd94 - Base: harmonize UnitsApi::toString/UnitsApi::toNumber
+    with UnitsSchema::toLocale
+  *  5f8bb65757 - Base: [skip ci] fix inconsistency in overloaded
+    UnitsApi::toNumber()
+  *  faf60a5ed4 - Sketcher: remove extra semicolon
+  *  b7fb430e67 - [Sketcher] Give knot information in insert knot
+    command
+  *  6d890b75c6 - [Sketcher] Fix section mode automation
+  *  2c2b9752fd - [Sketcher] Fix check for fixed items in
+    tangent+perpendicular
+  *  51d9ce64d0 - GitHub: Tweak templates to include WB, etc.
+  *  4f44568bd8 - GitHub: Prepare issue templates for upcoming migration
+  *  fa5cec69f9 - Addon Manager: Add timeout to page load
+  *  cafb8601e0 - Base: Remove old unused C-style function
+  *  2746035850 - Update CMakeLists.txt
+  *  9068dbcdd6 - Gui: force a redraw of the 3d view when creating it as
+    otherwise on some systems the bottom and right side of the main
+    window becomes black
+  *  409d36df30 - App: [skip ci] fix regression in
+    ColorGradient/ColorField
+  *  6a9a3cb08f - Part: [skip ci] add Part unit tests to test
+    Geom2dCircle::getCircleCenter
+  *  18579134b5 - Part: fix possible creation of NaN in
+    Geom2dCircle::getCircleCenter
+  *  3dc91fa2b8 - Part: expose Geom2dCircle::getCircleCenter to Python
+    and fix a regression
+  *  d938733eaf - [Part] SectionCutting: remove another unused variable
+  *  e1f4fde88b - [3rdParty] fix typo
+  *  ce8df41709 - App: fix ColorField::set/ColorGradient::set in case an
+    invalid value range is passed
+  *  76f17e2935 - smesh: suppress -Wcast-function-type
+  *  4ca4204340 - PyCXX: fix warning with function casts for
+    METH_VARARGS or METH_KEYWORDS functions
+  *  1257c80a79 - Merge branch 'master' of github.com:FreeCAD/FreeCAD
+  *  819f89941b - [Part] SectionCutting: remove unused variable
+  *  575f31b886 - Merge pull request #5497 from
+    sliptonic/bug/pythonversion
+  *  cf268e6e6e - App: fix Py3.8 warnings
+  *  9fa035ba22 - [Part] Extrusion: reduce angle step size
+  *  91da38ada5 - Sketcher: Correct comment
+  *  7aefd2366f - Sketcher: Control Polygon incomplete for periodic
+    BSplines
+  *  d9f8516c4a - [PD] Extrude: modernize SignalSlot connection
+  *  eb0c313506 - [PD] Extrude: handle angle edit visibility
+  *  bb204842f2 - [Part] feature to make persistent section cut views
+    (#4118)
+  *  aa76cbc875 - [PartDesign Fillet/Chamfer] add UseAllEdges boolean
+    property (#5340)
+  *  9c9ed2847b - App: add missing pragma for GCC diagnostic
+  *  ef2d2db778 - Base: [skip ci] add comment about possible issues with
+    Matrix4D::hasScale()
+  *  57a5143864 - Addon Manager: Fallback when QtWebEngine is missing
+  *  4796f7bd41 - remove dataclass usage. Fix toolcontroller import bug
+  *  c236649595 - Draft: fix isClosed bug in offsets.py
+  *  6b45122a46 - Test: add unit tests for matrices
+  *  eab9afbbad - Base: support of multiplication of a matrix with a
+    scalar, add functions to check whether it's the unit or null matrix
+  *  aedb961676 - Test: replace deprecated failUnless with the new
+    assert* functions
+  *  f986ab46fd - Base: fix bug in matrix multiplication (Python API)
+  *  7bba2ce61f - [TD] sort and simplify a header
+  *  e54b6e167a - App: improve ColorLegend
+  *  90a5c200d4 - [TD]fix CMakeLists.txt to allow no-Gui build
+  *  3bf994635c - [TD]Add sodipodi namespace to exported SVG
+  *  8492cfb9eb - Draft: Upgrade: make compound when unable to turn
+    edges to wire - fixes #3483
+  *  d6d7c4fa68 - [TD]rename CopyView to ShareView
+  *  8268f22dad - [TD]fix ui file location
+  *  9eb69d2270 - Merge pull request #5479 from Roy-043/Arch-Fix-
+    ArchFrame
+  *  5196b223fb - Gui: modernize C++11 * remove redundant void-arg * use
+    nullptr
+  *  49539c1998 - Gui: [skip ci] replace tabs with spaces, replace NULL
+    with nullptr
+  *  5afbdd5f6b - Gui: Improve the docstrings and clean up code in
+    ApplicationPy.cpp
+  *  8d2bd97588 - [Gui] Decrease click number on recovery transient
+    deletion
+  *  607180bd9c - App: fix ColorField::set/ColorGradient::set in case an
+    invalid value range s passed
+  *  e553a0e3ab - Addon Manager: Switch to QWebEngineView for README
+  *  bc49fed462 - TechDraw: Fix texts in TaskSelectLineAttributes.ui
+  *  6f8fa8c80a - Github: typo in codespell workflow
+  *  bc509c8069 - App/Gui: make color bar to handle very small values
+  *  95744bab89 - Addon Manager: Fix tags on compact view
+  *  129005d36f - Arch: ArchWindow.py fix alignment of library windows
+  *  343f31589a - Fem: fix crash caused by
+    PropertyPostDataObject::getPyObject()
+  *  9db4f613c9 - [Draft] Fix widget property in preference UI
+  *  df7d235fc6 - Update Geometry2d.cpp
+  *  7cf4bfbc94 - Issue Y-position of dim labels
+  *  717c478863 - New tool remove prefix characters
+  *  049889b72f - add accuracy to getCircleCenter method
+  *  af82959b02 - New tool circle through 3 points
+  *  10c49ded21 - Arch: Fix ArchFrame
+  *  8859b8e4cd - Core: Python translate() wrapper arg correction
+  *  cfdf334b7f - [PD] add option to create tapered Pad / Pocket
+  *  9bb351516a - Merge pull request #5470 from
+    sliptonic/bug/bottomfacedrilling
+  *  c670710dd1 - Merge pull request #5474 from
+    sliptonic/bug/translationDisamb
+  *  8506453c93 - Refactor
+  *  a97dd7139e - Only update weld dialog on directory change
+  *  8780ac7222 - Resizing of weld symbol selection dialog, fixes
+    #0004386
+  *  0218ba47f1 - [TD]Prevent segfault on exit with open task dialog
+  *  bfc75818ed - [TD]shrink detail view matting
+  *  309a1455cb - [TD]Fix 4486 allow detail view of Base with no solids
+  *  69c6272e11 - [TD]fix wrong preference path
+  *  4f9e5cd464 - Improve code simplicity/readability
+  *  bcfcd0a337 - Merge pull request #5449 from mwganson/pointarray
+  *  d0aacbd064 - Merge pull request #5427 from 0penBrain/draftGrid
+  *  f0cf660104 - Merge pull request #5444 from Roy-043/Arch-Fix-
+    ArchCutPlane-translation-issue
+  *  d8f6878d76 - Merge pull request #5465 from Roy-043/Arch-Fix-some-
+    dimensions-in-profiles.csv
+  *  448cc5e93d - Merge pull request #5473 from PrzemoF/copr_fix_v42
+  *  0d1f76d53a - Merge pull request #5476 from Roy-043/Draft-Fix-
+    gui_edit.py-Y-is-zero-input-bug
+  *  b0b1c0afbb - Merged crowdin translations
+  *  dc9e3e5326 - Updated ts files
+  *  5bf2f91feb - [Part] whitespace only in CMake file
+  *  4c2dc83202 - [Part] sort includes
+  *  e4703ba5e6 - revert unwanted part from previous commit
+  *  7018506cdf - [Gui] sort includes
+  *  3cd760961b - [Part] fix a comment
+  *  efd0f6f8a2 - Addon Manager: Correct display of Maintainers
+  *  b0d6a5a6b0 - [Plugin] update build setup to latest LibPack
+  *  d21c7e1248 - Ignore rev w/ 'header uniformity' from git blame
+    history [skip ci]
+  *  a0e4bb37d0 - Addon Manager: Add search and display of tags
+  *  89cf2f74be - Draft: Fix-gui_edit.py Y is zero input bug
+  *  0eaea3a9aa - ci/packaging: add missing rpkg.macros
+  *  752d8cf964 - Remove unnecessary third argument from translate()
+    calls
+  *  98d804ef52 - Make drillable detection ignore blind bottom facing
+    holes Toolchange gcode generation moved to generator
+  *  586dd83663 - drillable ignores bottom facing blind holes
+  *  b1fa3103e5 - Toolchange generator
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 20 Feb 2022 07:26:14 +0000
+
+freecad-daily (0.19.2+git27332-4d395f85bb-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/FreeCAD/FreeCAD.git

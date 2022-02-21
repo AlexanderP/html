@@ -41,7 +41,32 @@
     <div class="page">
     <h5>ChangeLog of package solvespace in buster of architecture amd64</h5>
     <div class="highlight">
-<pre><span></span>solvespace (3.1.0~git1849-a1b2db5-1) unstable; urgency=medium
+<pre><span></span>solvespace (3.1.0~git1856-c5ea9a4-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: c5ea9a44e110b1d08c2656887b6b0ae2e9bab0be
+  * Date: 1644855972
+  * git changelog:
+  *  c5ea9a4 - Move shell functions out of surface.cpp and into
+    shell.cpp (#1220)
+  *  2383a39 - UI: Display the circumference of a circle in the property
+    browser
+  *  d8b5281 - MacOS: Update the year to 2022 in the About dialog.
+  *  43795f5 - CI: Create tarballs with submodules included for releases
+  *  026f936 - A workplane can now be defined from a workplane defined
+    by point and normal
+  *  4655066 - Fix normal issue, when a workplane is created from a
+    point and normal we were only storing the numeric normal so the
+    plane (and subsequent extrusion) wouldn't follow if the sketch was
+    on the face of a revolve. Now we store the handle to the defining
+    normal it predef.entityB so it can update properly on regeneration.
+  *  7fa7250 - Turkish translation tr_TR.po updated (#1203)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 20 Feb 2022 07:42:22 +0000
+
+solvespace (3.1.0~git1849-a1b2db5-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/solvespace/solvespace.git

@@ -41,7 +41,128 @@
     <div class="page">
     <h5>ChangeLog of package labplot in sid of architecture amd64</h5>
     <div class="highlight">
-<pre><span></span>labplot (2.8.2+git9333-b100ff258-1) unstable; urgency=medium
+<pre><span></span>labplot (2.8.2+git9387-fdcb2c96c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/KDE/labplot.git
+  * Branch: master
+  * Commit: fdcb2c96ca6ecbead6f022eb1d9ca09c85af08e2
+  * Date: 1645317623
+  * git changelog:
+  *  fdcb2c96c - GIT_SILENT made messages (after extraction)
+  *  51b94cef7 - [box plot] better plot size and positions of axis ticks
+    when multiple box plot are created via the plot data-dialog in the
+    spreadsheet.
+  *  5cfe1b702 - tests: fix multi range test with new nice range
+  *  ede195fd5 - range: optimize nice range and adapt tests
+  *  f72a415f3 - [worksheet] work with the logical positioning in
+    ReferenceLineDock since this is what is semantically the case for
+    the reference line.
+  *  cf5f786f9 - tests: add text label test
+  *  96a3475e3 - [import] in the Import File dialog shown the correct
+    file info message for the Ngspice binary format.
+  *  83596748d - text label: don't set background if not defined text
+    (breaks default)
+  *  b7e0e307c - [worksheet] when adding new childred to the plot, no
+    need to retransform/rescale the plot and it's children when for
+    example TextLabel or Image or CustomPoint or ReferenceLine is being
+    added. These objects are always inside of the current data rect and
+    cannot change the ranges. Ranges can only be changed when new
+    curves, historgrams, etc. are added and only in these cases we need
+    to check and change the ranges.
+  *  53581374b - Fixing the build, adding the file changes that were
+    forgotten in the previous commit.
+  *  55e61bff4 - [import] improved the auto-detection of the DateTime
+    format: * added more DateTime format strings to the list of the
+    known formats * in case an empty format string was provided, auto-
+    detect the format - this was already implemented to the detection of
+    the column type but was not used for the data preview and for the
+    actual import.
+  *  ad17a624a - legend: fix empty title
+  *  1af93945a - less debugging
+  *  c19e76784 - fix compiler warning
+  *  2b0d6968e - use colors when not in html label text (old projects or
+    new text)
+  *  bfbcc5bbc - Add expand/collapse items to the context menu in the
+    Project Explorer only if the selected indices have children.
+  *  d0b242ded - SVN_SILENT made messages (.desktop file) - always
+    resolve ours
+  *  b65e8e8af - GIT_SILENT made messages (after extraction)
+  *  cec1c2cc2 - SVN_SILENT made messages (.desktop file) - always
+    resolve ours
+  *  a5793676b - GIT_SILENT made messages (after extraction)
+  *  931f76675 - Minor improvements: * initial values in
+    WorksheetElement::PositionWrapper * more usage of
+    AbstractColumn::isNumeric() in XYCurve * avoid detaching from the
+    container in a for-loop in AspectTreeModel * improved padding in
+    CartesianPlotPrivate
+  *  e2da0613a - Don't show the Configure CAS menu entry if there are no
+    CAS backends installed or found.
+  *  fe6789f0f - [histogram] re-wrote the algorithm to calculate the
+    filling polygon and made the logic similar to what we have for the
+    box plot now. This solves many issues for the filling being not
+    correctly drawn when zooming in and out and when switching the
+    orientation.
+  *  31dc0ecac - box plot: fix duplicate crash (wrong aspect type)
+  *  80b68172e - When restoring the state of the selected object during
+    the project load, call aspect->setSelected(true); to also properly
+    select it in the view.
+  *  4b2eeea4e - Show the modified DateTime in the project explorer in
+    short and user's locale specific format.
+  *  13533b085 - axis dock: fix showing/hiding offset buttons
+  *  b1593db39 - [spreadsheet] use the new box plot icon also in for the
+    plot data dialog in the spreadsheet.
+  *  fb199b811 - minor code improvements
+  *  2be19d2ba - plot: fix calculating ranges with empty histograms or
+    box plots
+  *  3e46674a3 - [box plot] draw the icon directly in the code until we
+    have a breeze version of it.
+  *  9075386f6 - tests: fix column tests (indizes)
+  *  afc5bda4e - column: fix index calculations
+  *  855db3773 - tests: disable hanging MQTT test
+  *  22105b6b9 - Minor changes in the import related code: * properly
+    hide the text field for vector/column names if use first row for
+    name the vectors option is used in AsciiOptionsWidget * don't
+    simplify the SQL query string in ImportSQLDatabaseWidget when saving
+    the last used query, we want to keep the line breaks provided by the
+    user * added tooltip text for the Refresh button in
+    ImportSQLDatabaseWidget * removed Ankit from the license header in
+    ImportSQLDatabaseWidget, he never contributed to it
+  *  27ef7efd5 - worksheet element: fix positionwrapper initialization
+  *  777122b43 - must be connected to positionLogicalChanged, otherwise
+    the scene Coordinates are used
+  *  786e512e7 - add Position limit option
+  *  d733cd8d4 - fix positioning of the reference line
+  *  8c0bb565c - allow also negative position values, otherwise it is
+    not possible to align to the center and then moving to the left and
+    down-
+  *  dac2cfea0 - do not set scene coordinate points with logical
+    coordinates. UpdatePosition() will do the recalculation
+  *  49eea1686 - Use the menu to create a new notebook that is created
+    via KXMLGUI, no need to have an additional private menu.
+  *  12a755e4b - icons: add ico for app icons
+  *  c15b34a18 - When starting the application for the first time, use
+    IconOnly mode for all toolbars and maximize the full window.
+  *  fcf337cb9 - SVN_SILENT made messages (.desktop file) - always
+    resolve ours
+  *  cb4437d7c - GIT_SILENT made messages (after extraction)
+  *  2426304b6 - reference line: partly fix coordinates
+  *  25312ca40 - [box plot] improved the algorithm to determine which
+    area of the box needs to be filled out when filling is activated.
+  *  c9b9ed6a7 - label: fix color initialization
+  *  f9d311f52 - label: check height > 0 before resizing
+  *  a0b0a94d6 - label: minor fixes
+  *  4dd177dab - tests: more OPJ checks
+  *  aed42eecb - [worksheet] treat the x and y values independently of
+    each other in ReferenceLine. The user should be able to modify them
+    separately depending on the current orientation of the line (horiz
+    vs. vert)
+  *  56d7db91f - Fix using helper apps. See
+    https://kde.org/info/security/advisory-20220131-1.txt
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 20 Feb 2022 07:46:30 +0000
+
+labplot (2.8.2+git9333-b100ff258-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/KDE/labplot.git
