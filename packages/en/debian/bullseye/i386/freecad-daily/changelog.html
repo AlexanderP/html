@@ -41,19 +41,487 @@
     <div class="page">
     <h5>ChangeLog of package freecad-daily in bullseye of architecture i386</h5>
     <div class="highlight">
-<pre><span></span>freecad-daily (0.19.2+git27662-c1fbf28e22-1) unstable; urgency=medium
+<pre><span></span>freecad-daily (0.19.2+git28019-c3828d6225-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/FreeCAD/FreeCAD.git
   * Branch: master
-  * Commit: c1fbf28e22215d891c95601767f9188129f63d0f
-  * Date: 1645295520
+  * Commit: c3828d62259b5233da65c059e33b5310bade26ec
+  * Date: 1647032798
   * git changelog:
+  *  c3828d6225 - Part: refactor PropertyPartShape::SaveDocFile and
+    PropertyPartShape::RestoreDocFile Set exception mask of
+    std::istream::failbit | std::istream::badbit to istream to make sure
+    it raises an exception for corrupted input files. See:
+    https://forum.freecadweb.org/viewtopic.php?p=536747
+  *  ed82b361bf - [TD]fix getScale should be Scale.getValue
+  *  e1ce0c7695 - Merge pull request #6552 from
+    Russ4262/fix/leadin_leadout_simulation
+  *  0bc9edeb50 - Merge pull request #6541 from
+    Russ4262/fix/ramp_entry_dressup
+  *  182cabcfbb - Merge pull request #6530 from sliptonic/bug/6114
+  *  5eb170df1a - Merge pull request #6536 from J-Dunn/master
+  *  0676c27443 - [TD]fix Dim text on wrong side
+  *  92ec0d2334 - Test: fix unit test 'Menu'
+  *  6a00ef0ed1 - Minor spelling fixes
+  *  ffbbb4ec9f - Arch: Fixed auto-height of child walls & structures -
+    fixes #5732
+  *  87f848a2c1 - zipios++: Apply patch from
+    https://sourceforge.net/p/zipios/news/2019/07/version-017-cve-/
+    (fixes #6453)
+  *  248946009c - Addon Manager: Fix bug in macro button
+  *  48e4622193 - Path: Fix Leadin-Leadout dressup simulation related to
+    arcs
+  *  8204fc84bf - AddonManager: fix typos
+  *  c5a0db5e47 - Gui: fix crash on editing PropertyVectorList in
+    property view
+  *  3b4b5a4e7c - [TD]add missing ScaleType to Section dlg
+  *  bbffb3f413 - [TD]handle ScaleType in old documents
+  *  dd1b0e0a3d - Draft: Fixed error in SVG rendering of LinkedArrays -
+    fixes #6516
+  *  2a73ac7cb1 - App: add convenience method
+    DocumentObject::clearExpression()
+  *  c2055689a5 - Addon Manager: Refactor to improve testability
+  *  6b8b870e21 - Path: Fix enumeration dictionary error
+  *  b9028eb8a9 - Part: Some updates in CompoundFilter.py
+  *  fa0e6dfa9e - App: correctly handle int as argument for
+    ocumentPy::getObject Add a unit test to confirm correct behaviour
+  *  ae94c8489c - App: [skip ci] fix bug in
+    Metadata::supportsCurrentFreeCAD() clang prints the warning:
+    operator '?:' has lower precedence than '<<'; '<<' will be evaluated
+    first [-Wparentheses]
+  *  8d3c66cf18 - Core/Mod: modernize C++11 * use nullptr
+  *  56a04dbbc0 - Addon Manager: Begin Macro unit tests
+  *  c596c2fe3d - [Sketcher] Constrain first pole when created
+  *  0f093f4221 - [Sketcher] Safeguard against spurious pre-selection
+  *  1d9dd035e7 - [Sketcher] Redraw correctly on pole delete in create b-
+    spline
+  *  8723f0b96d - Part: Check geometry in Part_ExplodeCompound command
+  *  d425a5562b - Add files via upload
+  *  d1fc159f4c - [Part] change sGroup for Section Cut
+  *  f122061424 - Core: Support disabling Addon by FreeCAD version
+  *  907ef395f4 - [Part] Section Cut: fix cut object naming issue
+  *  b14638c439 - Addon Manager: Add unit tests for dependencies
+  *  75aed7f375 - Addon Manager: Improve dependency handling
+  *  e3e455cd5c - [Part] Section Cut: fix for tooltip handling
+  *  9e91a8991e - Gui: Optimize includes to reduce compile time
+  *  9654786c67 - [Gui] Quarter: remove unused includes
+  *  6193fc9cdb - Sketch: [skip ci] fix linking error with MSVC For more
+    details see: https://forum.freecadweb.org/viewtopic.php?f=10&t=66939
+  *  6384f367d2 - Base: [skip ci] change identation in Console.h
+  *  faec9e36c2 - fixes #5954
+  *  84f2340170 - [TD]Change grid default to OFF
+  *  2c55cda567 - Merge pull request #6510 from alafr/fix-basemirror
+  *  7a68a950e5 - Gui: [skip ci] remove text
+  *  068f02c4b7 - [Part] Section Cut: also handle normal Link objects
+  *  5dd531ea22 - [Gui] intermediate compilation fix for Windows
+  *  42c7eb02f3 - [Base] compile fix for Windows without PCH
+  *  5587569629 - [Gui] DAGView: remove few includes
+  *  51b9d40010 - fixes 6114 replaces DlgJobChooser with QInputDialog.
+  *  bda12907de - [Gui] rename the Qt header list
+  *  2c86fe2ab1 - [App] AutoTransaction: a change to silence MSVC
+    compiler
+  *  1ca7429705 - Gui: Optimize includes to reduce compile time
+  *  38471cc76b - Base: [skip ci] Optimize includes to reduce compile
+    time
+  *  4977e55e51 - App: Optimize includes to reduce compile time
+  *  5926060281 - [TD]fix ScaleType change behaviour
+  *  7653a9473d - Merged crowdin translations
+  *  5aec63d704 - Updated master translation files
+  *  c7546287d2 - [Sketcher] Check for b-spline before starting knot
+    insertion mode
+  *  f602fc872b - [Part] Section cutting: fix read of cut state of
+    existing cuts
+  *  c3138db55f - App: include cstddef to get definition of size_t
+  *  e4435cdcba - Base/App: fix warnings from code analysers: * convert
+    old-style-casts to explicit C++ casts where possible * make some
+    implicit conversions explicit
+  *  1be4ed57ae - [App] add a missing return statement (#6519)
+  *  8b3902bcfd - [Raytracing] Bugfix for compiling with OCC 7.6.x
+  *  51b7d98788 - Base: [skip ci] revert copyright change
+  *  f9b2489ae2 - [Gui] Quarter: remove few unused includes
+  *  8eea478832 - [Gui] Quarter: add missing copyright headers
+  *  b68064e378 - [Gui] InteractionMode: add missing copyright header
+  *  196bc966af - [Gui] iis: remove few unused includes
+  *  b00a8aa056 - Gui: fix property view synchronization of property
+    status
+  *  70aa0842a5 - [Gui] Translator: sort includes
+  *  bd58a73731 - Base: Fix wrong character encoding for micro-siemens
+  *  271abecb53 - Test: Provide more useful information when unit
+    translation fails
+  *  6eedd0f9c5 - [Sketcher] Remove incomplete from insert knot command
+  *  47a040537b - [Sketcher] Allow deleting last knot during B-Spline
+    creation
+  *  00ef0e0504 - [Sketcher] Reduce duplicate code in
+  *  471ae07025 - [Gui] move xerces to precompiled header
+  *  a113f4f24e - [Gui] compilation fix for precompiled headers
+  *  f2c8bdd525 - [Base] ConsoleObserver: fix compilation with
+    precompiled headers
+  *  273d7f8bd6 - [TD]fix integer grid step variable to double
+  *  64ddcc68fc - [Base] ConsoleObserver: correct copyright
+  *  58a719e207 - Base: move ILogger sub-classes to their own source
+    files in order to reduce including stream classes in client code
+  *  a64563c92e - [Gui] Inventor: remove unused includes
+  *  c96f61b0a1 - [App] next attempt to fix CI build error
+  *  befd041147 - [App] try to fix CI build failure
+  *  8dfe91204b - [Gui] ViewProviderPython* etc.: remove unused includes
+  *  cfd00bbf63 - [Gui] ViewProviderOrigin* etc.: remove unused includes
+  *  c613304473 - [Gui] ViewProviderLink etc.: remove unused includes
+  *  9df800289b - [Gui] ViewProviderFeature etc.: remove unused includes
+  *  f706adc2c2 - [Gui] ViewProviderDocument* etc.: remove unused
+    includes
+  *  14288f9725 - [Gui] View3D*: remove unused includes
+  *  c023c61562 - [TD]update menu text and tip to std
+  *  2465840791 - Base: fix warnings from code analysers: * replace some
+    C-style casts with static_cast * remove unneeded destructors *
+    define default copy-constructor and assignment operator
+  *  042f0ee8c6 - [Gui] Tool* etc.:remove unused includes
+  *  2a2c6e5319 - Addon Manager: Fix number of updates available
+  *  aa7977c51a - [Gui] Task* and Text*: remove unused includes
+  *  f4dbd6b2b2 - Addon Manager: Add unit tests for Addon class
+  *  e8a96f72fd - [Gui] SoTextLabel etc.: remove unused includes
+  *  cf5732dfad - [Gui] SpinBox etc.: remove unused includes
+  *  15022c8065 - [Gui] SoTextLabel: unify mixed line endings
+  *  5f092f9072 - [Gui] fix when compiling with PCH
+  *  fe3feb30df - [Gui] Selection: remove unused includes
+  *  a55d1b03fd - [Gui] Python and Property: remove unused includes
+  *  07ac6433c0 - [Gui] QuantitySpinBox: remove unused includes
+  *  658e03822d - [Gui] Progress: remove unused includes
+  *  063efd56de - [Gui] Placement: remove unused includes
+  *  f60d67a121 - [Gui] MDIView: remove unused includes
+  *  212506b4f1 - [Gui] Graphviz: remove unused includes
+  *  c7aed638ed - [Gui] compilation fix for ExpressionCompleter
+  *  95c70e7f4c - App: use forward declarations
+  *  e6f0a0238a - Arch: fix BaseMirror property
+  *  693315755f - Merge pull request #6485 from
+    mlampert/feature/external-thread-milling
+  *  0d98056384 - Merge pull request #4911 from
+    sliptonic/feature/nopathjob
+  *  c0bb11384c - Split out thread milling generator into its own file
+  *  228fce273b - black format
+  *  79779ac96f - Fixed unit tests
+  *  d80c4ce399 - Removed debugging gates
+  *  f082f40473 - Fixed UI update upond changing the thread type
+  *  238bb7c2bb - Fixed multi pass for external threads with proper lead
+    in/out
+  *  46827df206 - Changed passes for constant tool engagement
+  *  e00e1b3591 - Disabled debugging comments
+  *  e4fb163cc1 - Fixed lead in/out with elevator location.
+  *  de6ab3fc79 - Added thread generation unit tests and fixed finishing
+    the thread
+  *  60772c4c90 - Fixed threads data file list
+  *  fae7b96b3f - Some code cleanup
+  *  eb48466724 - Added imperial external and split data files according
+    to tolerance classes
+  *  7c2a8a92fb - First shot at external thread milling
+  *  ca3c8185e0 - App/Gui: move template classes
+    (ViewProvider)ExtensionPythonT to their own header files
+  *  4ae1ca58d1 - App: use forward declaration to reduce compile time
+  *  032cea587d - Base: implement a lightweight smart pointer for
+    PyObject like Py::Object to reduce includes of Python.h in header
+    files
+  *  8020c1f975 - [TD]fix folder name in preference ui
+  *  3c34abc0fa - [TD]move format spec to dimension tab
+  *  953304089a - [TD]make page grid unit aware
+  *  362045677c - Gui: Added 'Report a bug' help menu entry
+  *  fb926cb626 - Start: Added possibility to provide custom CSS for the
+    start page
+  *  464ae1f6b0 - Sketcher: Clean up old crosshair code
+  *  42a71ccbbd - [Gui] DocumentObserver: re-add a header
+  *  5f9020b09a - [Gui] Document and Download: remove unused includes
+  *  bb76c7cc55 - [Main] remove unused includes
+  *  fccb743fd6 - [Gui] DockWindow and DemoMode: remove unused includes
+  *  2be0a9706e - [Gui] Command: remove unused includes
+  *  4d9ddcfa66 - App: move member DocumentPythonObject to DocumentP
+  *  6c1e940b69 - Base: use forward declaration instead of including
+    Python.h
+  *  c07473ba5b - Base: use forward declaration instead of including
+    Python.h
+  *  913fb21502 - [TD]fix misplaced section line
+  *  2439a9d90e - [TD]use <br> in ToolTipText vs \n
+  *  7546c03509 - [TD]fix area scale and make unit aware
+  *  b222248071 - Added new opencollective to funding links
+  *  88d12c6842 - Fixed missing include
+  *  f00c0e6458 - Merge pull request #6496 from Roy-043/Arch-Fix-
+    Arch_PipeConnector-for-pipes-with-wall-thickness
+  *  57fe294c3e - [Gui] PropertyEditor: remove unused includes
+  *  6c4acb6ea7 - [Gui] Task: remove unused includes
+  *  9df3059d3b - [Gui] Navigation styles: remove unused includes
+  *  4f5283744a - [Gui] ActiveObjectList etc.: remove unused includes
+  *  39ce4dde0d - [Base] Exception and others: remove unused includes
+  *  2b1b300eae - Preparation for Help module
+  *  5d5f31725d - Code clean
+  *  3af20938cd - Core: Remove Init.py stop file check from inner
+    package loop
+  *  4c33c9622d - Arch: Fix Arch_PipeConnector for pipes with wall
+    thickness
+  *  2562c80c9b - Sketcher: GeoElementId VAxis fix - windows
+  *  1eeb1fecd0 - [Base] BoundBox etc.: remove unused includes
+  *  7bb7efc55f - [Base] Parameter and Matrix: remove unused includes
+  *  6ad885fdd3 - PartDesign: fix crash in MultiTransform if moving on
+    empty list
+  *  919de5a233 - Sketcher: Fix GeoElementId VAxis
+  *  2add401282 - Sketcher: GeoElementId - isCurve and PosIdAsInt
+    members
+  *  b9777464c3 - [Gui] Expression: remove unused includes
+  *  10380abd95 - [Gui] Manual alignment etc.: remove unused includes
+  *  83c06d14f6 - [PD] Gui: remove unused includes
+  *  b5163ab49f - [PD] Boolean: re-add necessary include
+  *  1e640865a9 - [PD] Boolean: remove unused include
+  *  8a9ee1951b - [App] remove header
+  *  a5c838fefc - [Base] some sorting and cleanup
+  *  663d4fe93a - PartDesign: Fillets / Chamfers add unit tests for
+    UseAllEdges property
+  *  d5edaf568b - [RecentMacros] Check and warn for shortcut conflicts
+  *  8bedccb564 - [RecentMacros] Refactor restore()
+  *  94ddcde7f2 - [RecentMacros] Fix shortcut display in status bar
+  *  d6c397ea22 - Tools: [skip ci] remove the last reference to CxImage:
+    fixes #6432
+  *  e3d51eb3aa - Update SketchObject.cpp
+  *  ebe57601cd - PD: remove duplicate verifications
+  *  de56e1b6d8 - Gui: cleanup of PR #5516 * instead of breaking
+    encapsulation of PropertyItem apply the attorney idiom * refactoring
+    of PropertyItemDelegate::createEditor by moving the code to
+    PropertyItem::createPropertyEditorWidget
+  *  9955c64752 - Mod: add string header to dxf.h
+  *  b2f77797a7 - Merge pull request #6480 from
+    sliptonic/bug/velocitywarn
+  *  f43db33764 - Merge pull request #6486 from mlampert/cleanup/black-
+    formatting-pylint-removal
+  *  2dc1a4c412 - Mod: add string header to dxf.h
+  *  9252f5f9ec - Part: issue #6488: Cone surface returns wrong dv
+    derivative This is a workaround to fix a bug in ElSLib::ConeDN
+  *  6afab502ca - [Base] Geometry etc.: remove unused includes
+  *  34c77609dd - Gui: [skip ci] export PDF of 3D view in landscape
+    orientation
+  *  831d569f52 - Draft, Import, area: include iosfwd instead of
+    iostream if forward declarations are sufficient
+  *  60ee579fb4 - Base: fix warnings reported by code analysers *
+    disable copy-constructor and assignment operator for Stream classes
+    * remove destructor of sub-classes of SequencerBase * fix some old C-
+    style cast warnings
+  *  9a42b61fcb - [Base] Py and Placement: remove unused includes
+  *  f20840442f - [Base] Quantity, Rotation, Stream: remove unused
+    includes
+  *  934b0aaa07 - Consistent black formatting of all Path python files
+  *  8583894284 - Remove pylint annotations and script
+  *  36d865df04 - fix uninitialized variables
+  *  13cd8d2c15 - Fix bug with velocity warning.
+  *  974bb02c4d - GUI: Clean up copy of addon list
+  *  a3cb945d4e - Tools: [skip ci] remove all references to CxImage
+  *  49a6394018 - Addon Manager: Force update check after recache
+  *  420fbb3d28 - TD: further security checks in
+    CmdTechDrawExtensionPositionSectionView::activated
+  *  13e7d47154 - TD: improve handlings with casts
+  *  90659c131c - Fix uninitialized  variable
+  *  20eccc3ea2 - Addon Manager: Unit tests for addon init
+  *  b7b1d74a30 - Addon Manager: Fix bug in URL parsing
+  *  5e0789e2f1 - PD: fix const correctness in ProfileBased
+  *  647be84648 - PD: tmp. suppress errors in helix feature when
+    creating it
+  *  7f8940b858 - App: [skip ci] Add enum value to suppress error
+    messages on document recompute
+  *  c036128aa0 - Sketch: Fix algorithm seeking for missing coincidences
+    in Validate
+  *  6e4c61881b - Sketch: [skip ci] add unit test to detect missing
+    point-on-point constraints
+  *  280c76f770 - check for nullptr
+  *  40c7b1660b - [App] Origin and Part: remove unused includes
+  *  97368310c7 - TD: fix compiler warnings added with eb4a5384c *
+    warning: private field 'm_showGrid' is not used [-Wunused-private-
+    field] * warning: private field 'm_gridStep' is not used [-Wunused-
+    private-field]
+  *  063077ce84 - Gui: [skip ci] std::isspace requires cctype header
+  *  853aa8c93e - Core: Correct metadata docs
+  *  96006c7587 - Addon Manager: Add tests for Addon
+  *  0d6a506447 - Addon Manager: Renaming and cleanup
+  *  b5b86863e7 - [Path] Voronoi: add include needed to compile with the
+    CI
+  *  e2f3fa2587 - [Path] Voronoi: add include needed to compile with the
+    CI
+  *  3d944c47ca - [Path] Voronoi: remove unused includes
+  *  d7334bda13 - AddonManager: improve dark mode heuristic
+  *  262e9726ca - [TD] CommandExtensionDims: remove unused includes
+  *  178e082271 - [App] Object, Meta, Merge: remove unused includes
+  *  2ff5e1aaeb - [Import]Fix #6461 MEASUREMENT/INSUNITS
+  *  3a88639e19 - [App] remove unused code and some header sorting
+  *  4184218284 - [TD] fix compilation error introduced with
+    https://github.com/FreeCAD/FreeCAD/pull/6465
+  *  7b14b3b02e - [Base] Reader and Writer: remove unused includes
+  *  07912f7388 - [App] Link and Material: remove unused includes
+  *  eb4a5384c0 - [TD]add alignment grid to page
+  *  6a606783d6 - [Base] remove unused code
+  *  f35a1237b2 - [App] Annotation: remove unused code
+  *  15281aed86 - [Sketcher] Allow setting B-Spline degree at creation
+  *  8bedc25344 - [App] Feature: remove unused includes
+  *  b5965a4869 - Addon Manager: Add packages requested by Ickby
+  *  75d2233ed6 - Addon Manager: Add wiki macro icon scraping
+  *  1a7fcd575e - Addon Manager: Auto-create toolbar button
+  *  3be45f4087 - Gui: Add function to search custom commands
+  *  126c9aace0 - GitHub: Correct YAML syntax
+  *  b2966a51ca - Update requirements.txt
+  *  896b036aee - [FEM] Bugfix Gmsh Version check to be...
+  *  b05fb73196 - PD: [skip ci] refactor Hole feature
+  *  3ce87cb2fa - PD: [skip ci] refactor Hole feature
+  *  9ddfcb89a5 - PD: [skip ci] fix const correctness in Hole feature
+  *  df0fac1de8 - PD: [skip ci] refactor Hole feature
+  *  4753b0232d - PD: fix error 'gp_Dir::Crossed() - result vector has
+    zero norm' As reported here:
+    https://forum.freecadweb.org/viewtopic.php?f=3&t=65826
+  *  6b062b25e1 - [CMake] Abort configuration when required uic/rcc is
+    not found
+  *  4e9363c70b - [CMake] Use imported executable targets for finding Qt
+    uic/rcc
+  *  a5bc46afb2 - Base: fix build failure with MSYS/clang
+  *  f24fe8157a - Base: [skip ci] fix build failure with MSYS/clang
+  *  14ff42be13 - Addon Manager: Add unit test framework
+  *  b1d6768d1c - Addon Manager: Minor improvements to utilities
+  *  f90a987cac - [Sketcher] Create internal geometry after converting
+    to NURBS
+  *  690a7b4ab9 - [Sketcher] Correct NURB to NURBS
+  *  b4fff07d9e - [App] Expression and Extension: remove unused includes
+  *  8196033d1b - Merge pull request #6444 from Roy-043/Draft-Fix-
+    Draft_Line-Length-is-zero-bug
+  *  75dd3d6533 - Gui: add missing PropertyItemDelegate::eventFilter()
+  *  d5b032970c - Github: rename Workbench tags so they present
+    alphabetically in GH UI
+  *  26102318a0 - [App] remove some unused includes
+  *  713fdfc32d - [TD] tweak verbiage for weld symbol directory tooltip
+    [skip ci]
+  *  de3168606a - [TD] Fix some more grammatical issues
+  *  3a14133269 - [TD] Improve weld task tool tips, partially fixes
+    #0004838
+  *  ef4fdc7ecf - Addon Manager: Improve darkmode check
+  *  0ccca56532 - Gui: [skip ci] make some minor improvements in
+    ReportOutput class
+  *  b9b32c7ebf - Gui: Fix problem where Python output and errors are
+    not redirected to report view until preferences window is opened
+  *  189bec3e5a - Addon Manager: Remove restart need for pref packs
+  *  af8890df69 - Addon Manager: Switch cache strategy to PreferNetwork
+  *  b5c72365a8 - Addon Manager: Fix compact view tag label
+  *  9dd852202b - OpenSCAD: Warning message tweaks
+  *  ed031b5b28 - Merge pull request #6420 from marioalexis84/draft-
+    drawing_techdraw
+  *  86c91d71a1 - Sketcher: fix crash in function 'Convert to B-Spline'
+    See also the forum thread:
+    https://forum.freecadweb.org/viewtopic.php?f=19&t=66470
+  *  039457bdd6 - Draft: Fix Draft_Line Length is zero bug
+  *  8dd1140a4b - [App] Range to VRML: remove unused includes
+  *  9ec0bcdcf2 - [Base] Units and Uui: remove unused includes
+  *  c08c4c12ef - [Base] Console and BaseClass: remove unused includes
+  *  e583eec264 - [Part] fix a comment on SectionCut
+  *  2931c3ccb6 - OpenSCAD: Fix for empty groups
+  *  08164b12c7 - Addon Manager: Fix corrupted ZIP downloads
+  *  85390bfb6d - Addon Manager: Minor fixes and error tweaks
+  *  c7910825a3 - [App] Placement and Property: remove unused includes
+  *  a3d8a0e635 - Addon Manager: Show correct buttons when no git
+  *  fb35944604 - Gui: [skip ci] restore block cursor setting for Python
+    console at startup
+  *  89b37a5110 - [Base] Exception and FileInfo: remove unused includes
+  *  098550c702 - [Mod] reorder module imports alphabetically
+  *  d0b0756cbf - Gui: fix use of deprecated Qt::TextColorRole
+  *  4875aa88b6 - Tools: [skip ci] in thumbnail provider replace CxImage
+    library with Win32 API
+  *  155debae48 - Merge pull request #5512 from luzpaz/Path-
+    PathSelection-bug
+  *  dd7650a69b - [Std_SendToPythonConsole] add doc, sub, and subs
+  *  c6afe534ce - [Tools] rename a variable to silence the spellchecker
+    CI
+  *  181fc65d01 - [Robot] fix typo reported by spellchecker CI
+  *  4adabe3de8 - [App] Document: remove unused includes
+  *  7981752305 - [Path] mark deprecated selections
+  *  e0220e7830 - Remove unused cMakes
+  *  8bbec12be3 - [Show] delete empty and unused file
+  *  418cb98010 - [Base] rename a variable to please the spellchecker CI
+  *  64b9841cb8 - Update PathSelection.py
+  *  8e10ce07f9 - Merge pull request #5424 from
+    Russ4262/fix/3D_pocket_overcut
+  *  3ac2a72653 - Merge pull request #6394 from
+    sliptonic/bug/engravingsketch
+  *  b6d2974b63 - Arch: Fixed wrong constant in IFC export
+  *  988464b0d3 - Add new diagonal hatch (flipped)
+  *  4ed705903b - [App] Application: remove unused includes
+  *  d11d00cb70 - [Base] fix typo to silence spellchecker CI
+  *  7162c1a1f4 - [PD] final work to remove unused includes
+  *  278abf5675 - [PD] remove more unused includes
+  *  65b61fe348 - Robot: [skip ci] drop word from tooltip
+  *  41ee5d85f2 - Gui: Change the editor preferences preview to Python 3
+  *  33d0c735b0 - Test: automatically close modal dialogs when running
+    Workbench tests
+  *  cf49fc7c6d - Gui: Attach PythonConsole to parameter group and
+    handle changes in its OnChange() method This avoids code
+    duplications and makes sure the group name is used only once. The
+    parameters are saved to the group 'PythonConsole' instead of
+    'General'.
+  *  973eb27d7e - Gui: move Python console specific settings to its own
+    tab because General is quite overloaded
+  *  aec0ae2d39 - Arch: Replace Drawing functions with TechDraw
+    functions
+  *  bc55cf4007 - [Part] compile fix for precompiled header
+  *  8171b6d87d - Core: Remove accidentally-committed FindOCC.cmake
+  *  a8d17ae270 - Gui: fix warning -Wunused-parameter The function
+    PropertyEditor::recomputeDocument() accepts a pointer to
+    App::Document that is passed by the calling instance
+    closeTransaction(). Since this is the active document there is no
+    need for PropertyEditor::recomputeDocument() to ignore the argument
+    and determine the active document again.
+  *  660436d50b - [PD] remove some more unused includes
+  *  00b062e803 - Added updatets.py log files to gitignore
+  *  c7fd23e808 - [Robot] fix a typo reported by spellchecker CI
+  *  0a0bdf6762 - App: fix undo/redo of dynamic property
+    add/remove/change
+  *  da83695cf7 - [Arch] fix typo reported by spellchecker CI
+  *  0ead5a793b - fix more typos to silence the spellchecker CI
+  *  8cbf141ae5 - fix some typos to silence the spellchecker CI
+  *  d06a17da21 - OpenSCAD: make sure all unit tests pass in command
+    line mode
+  *  c3178343db - App: fix property ordering problem when undo/redo
+    (#3255)
+  *  b42462ba14 - Gui: improve PropertyEditor refresh (#3535)
+  *  f9d0f288be - Removed leftover log files
+  *  8984d192d0 - Gui: [skip ci] fix warning -Winconsistent-missing-
+    override
+  *  c9ea59df60 - Merge pull request #6406 from marioalexis84/draft-
+    drawing_techdraw
+  *  fae36b2da0 - Draft: Housekeeping: call 'make' functions with new
+    name (4)
+  *  a7e356c865 - Preference Packs: Add revert to backup option
+  *  a21b99fed2 - Addon Manager: Add GUI for enabling/disabling addons
+  *  02cfa11c8e - Core: Add mechanism to disable addon
+  *  bfb9d342d9 - Spreadsheet: fix auto completer triggering
+  *  585ed90479 - [GUI] Adjust Preferences dialog display position to be
+    fully visible.
+  *  5f3d727b0d - [Gui] minor header work
+  *  67a0966398 - [Part] remove some unused includes and sorting
+  *  f16a0da841 - [Part] FaceMaker, Command and Extrusion: remove unused
+    includes
+  *  02c8b0452e - [PD] some more work to remove unused includes
+  *  fd19d1a7b0 - [PD] more work to remove unused includes
+  *  52a0a9ba40 - [PD] Gui: Boolean to Groove: remove unused includes
+  *  4b08dd8142 - [PD] Boolean to Groove: remove unused includes
+  *  8e6e3f47ff - [Gui] Widgets and Window: remove unused includes
+  *  44867d9525 - GitHub: Shorten Feature Request template
+  *  6bf4cf7b41 - [Gui] more work to remove unused includes
+  *  261626960f - AddonManager: move superfluous whitespace out of
+    translation [skip ci]
+  *  e55cda20e5 - [Gui] Action: re-add an include
+  *  7cc9261182 - [Gui] Application, command etc: remove unused includes
+  *  fc151aa8b5 - [PD] Workbench and Command: remove unused includes
+  *  c7e48869b6 - [PD] Body and utils: remove unused includes
+  *  7c44008e2d - [PD] App: remove unused includes
+  *  3f67ee78f7 - Draft: Replace Drawing functions with TechDraw
+    functions
+  *  7200915317 - [PartDesign] OCC7.3 regression replace include..
+    (#6402)
+  *  e81eea9bb4 - TD: Substitute string 'Dxf' for 'DXF' [skip ci]
+  *  5007c8358c - Tools: [skip ci] Adjust comment about the creation of
+    a bitmap handle
   *  c1fbf28e22 - [PD] Datums: remove unused includes
   *  b7e7c52ecb - [PD] remove unused and empty files
   *  7c8031d356 - [PD] Hole, Pipe and Revolution: remove unused includes
   *  61d54b6078 - [PD] Pad and Pocket: remove unused includes
   *  c6b719a45c - [PD] Helix: remove unused includes
+  *  c50348697a - Make job work more naturally
   *  3e7830c21b - [Sketcher] Allow multiplicity change of B-Spline end
     knots
   *  e8f7a58fc9 - [Sketcher] Fix some strings in
@@ -73,6 +541,8 @@
   *  9b7572e9a9 - [PD] FeatureHelix: simplify code
   *  57e2d8b31d - Gui: Clean up mod init error messages
   *  781f0bd626 - Addon Manager: Improve macro metadata extraction
+  *  112bea9d5b - [Path] Fix Path generation for forking wires
+  *  bda9cda18a - fix ordering of edges in loop generation
   *  7b7b76f1ec - Merge pull request #6373 from
     Russ4262/fix/3d_surface_property_enumerations
   *  d6a12b7a0e - Merge pull request #6391 from
@@ -255,6 +725,8 @@
     name, continued
   *  6953a7cea8 - Fix some typos and whitespace
   *  9227b4ab24 - Path: Fix open edge zero value start point
+  *  c5956c06c8 - Path: Fix overcut under model below selected faces
+  *  884845a1ec - Path: Black formatting only
   *  484ff4fafb - [TD]fix handling of composite shapes
   *  4e0498c48e - [Sketcher] Use proper formatting for knot list in
     dialog
@@ -329,6 +801,7 @@
   *  4f3e4eff03 - OpenSCAD: More fixes from Keith Sloan
   *  3d62aeba37 - Merge branch 'master' into master
   *  c282015ceb - TD: Adding more TechDraw svg symbols
+  *  1e56ef390a - Path: Fix class 'KeyError' in PathSelection.py
   *  2b8336157b - Gui: implement Inventor node for color legend
   *  a0b333ab2c - App: set by default three colors for legend
   *  fa5dc04d2a - Merge pull request #1 from SamuelMayer/SamuelMayer-
@@ -479,7 +952,7 @@
   *  586dd83663 - drillable ignores bottom facing blind holes
   *  b1fa3103e5 - Toolchange generator
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 20 Feb 2022 07:26:14 +0000
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 11 Mar 2022 21:24:09 +0000
 
 freecad-daily (0.19.2+git27332-4d395f85bb-1) unstable; urgency=medium
 
