@@ -280,10 +280,19 @@
         <loc>https://notesalexp.org//html/2022/03/13/20220313/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org//html/2022/03/31/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org//html/2022/03/31/20220331/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org//html/categories/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org//html/tags/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/</loc>
@@ -2366,6 +2375,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/impish/amd64/psi-plus/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/impish/amd64/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/impish/amd64/ocrfeeder/</loc>

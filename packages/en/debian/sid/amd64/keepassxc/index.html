@@ -46,6 +46,7 @@
 [<a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/keepassxc">bionic</a>]
 [<a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/keepassxc">focal</a>]
 [<a href="https://notesalexp.org/packages/en/ubuntu/hirsute/amd64/keepassxc">hirsute</a>]
+[<a href="https://notesalexp.org/packages/en/ubuntu/impish/amd64/keepassxc">impish</a>]
 </div>
 <div id="potherssource">
         [Source: <a href="https://notesalexp.org/packages/en/source/keepassxc">keepassxc</a>]
@@ -53,7 +54,7 @@
     </header>
         <div id="wrapper">
             <div id="content">
-    <h1>Package: keepassxc (2.6.6-1) </h1>
+    <h1>Package: keepassxc (2.7.0-1) </h1>
     <div id="pmoreinfo">
     <p><strong>Links for keepassxc</strong></p>
 <a href="https://notesalexp.org/packages/images/keepassxc.png" data-lightbox="keepassxc" data-title="keepassxc - KeePass Cross-Platform Community Edition"><img class="example-image" src="https://notesalexp.org/packages/images/thumb/keepassxc.png" alt="keepassxc" /></a>
@@ -62,9 +63,10 @@
     <li><a href="https://notesalexp.org/packages/en/debian/sid/amd64/keepassxc/changelog.html">Debian Changelog</a></li>
     </ul>
 <p><strong>Download Source Package <a href="https://notesalexp.org/packages/en/source/keepassxc">keepassxc</a>:</strong></p><ul>
-<li><a href="https://notesalexp.org/debian/source/pool/main/k/keepassxc/keepassxc_2.6.6-1.dsc">[keepassxc_2.6.6-1.dsc]</a></li>
-<li><a href="https://notesalexp.org/debian/source/pool/main/k/keepassxc/keepassxc_2.6.6.orig.tar.xz">[keepassxc_2.6.6.orig.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/debian/source/pool/main/k/keepassxc/keepassxc_2.6.6-1.debian.tar.xz">[keepassxc_2.6.6-1.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/k/keepassxc/keepassxc_2.7.0-1.dsc">[keepassxc_2.7.0-1.dsc]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/k/keepassxc/keepassxc_2.7.0.orig.tar.xz">[keepassxc_2.7.0.orig.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/k/keepassxc/keepassxc_2.7.0.orig.tar.xz.asc">[keepassxc_2.7.0.orig.tar.xz.asc]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/k/keepassxc/keepassxc_2.7.0-1.debian.tar.xz">[keepassxc_2.7.0-1.debian.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
     <ul>
@@ -89,12 +91,24 @@
     <dt><span> memory-hard hashing function - runtime library </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libc6 (&gt;= 2.29) </span></dt>
+    <dt><span><strong>dep:</strong> libbotan-2-19 (&gt;= 2.19.1+dfsg) </span></dt>
+    <dt><span> multiplatform crypto library (2.x version) </span></dt>
+    </dl></li>
+<li><dl>
+    <dt><span><strong>dep:</strong> libc6 (&gt;= 2.32) </span></dt>
     <dt><span> GNU C Library: Shared libraries </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libgcrypt20 (&gt;= 1.8.0) </span></dt>
-    <dt><span> LGPL Crypto library - runtime library </span></dt>
+    <dt><span><strong>dep:</strong> libgcc-s1 (&gt;= 3.0) </span></dt>
+    <dt><span> GCC support library </span></dt>
+    </dl></li>
+<li><dl>
+    <dt><span><strong>dep:</strong> libminizip1 (&gt;= 1.1) </span></dt>
+    <dt><span> compression library - minizip library </span></dt>
+    </dl></li>
+<li><dl>
+    <dt><span><strong>dep:</strong> libpcsclite1 (&gt;= 1.3.3) </span></dt>
+    <dt><span> Middleware to access a smart card using PC/SC (library) </span></dt>
     </dl></li>
 <li><dl>
     <dt><span><strong>dep:</strong> libqrencode4 (&gt;= 3.2.0) </span></dt>
@@ -128,7 +142,7 @@
     <dt><span> Qt 5 SVG module </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libqt5widgets5 (&gt;= 5.14.1) </span></dt>
+    <dt><span><strong>dep:</strong> libqt5widgets5 (&gt;= 5.15.1) </span></dt>
     <dt><span> Qt 5 widgets module </span></dt>
     </dl></li>
 <li><dl>
@@ -136,36 +150,24 @@
     <dt><span> Qt 5 X11 extras </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libquazip5-1 (&gt;= 0.7.3) </span></dt>
-    <dt><span> C++ wrapper for ZIP/UNZIP </span></dt>
-    </dl></li>
-<li><dl>
     <dt><span><strong>dep:</strong> libreadline8 (&gt;= 6.0) </span></dt>
     <dt><span> GNU readline and history libraries, run-time libraries </span></dt>
-    </dl></li>
-<li><dl>
-    <dt><span><strong>dep:</strong> libsodium23 (&gt;= 1.0.8) </span></dt>
-    <dt><span> Network communication, cryptography and signaturing library </span></dt>
     </dl></li>
 <li><dl>
     <dt><span><strong>dep:</strong> libstdc++6 (&gt;= 5.2) </span></dt>
     <dt><span> GNU Standard C++ Library v3 </span></dt>
     </dl></li>
 <li><dl>
+    <dt><span><strong>dep:</strong> libusb-1.0-0 (&gt;= 2:1.0.8) </span></dt>
+    <dt><span> userspace USB programming library </span></dt>
+    </dl></li>
+<li><dl>
     <dt><span><strong>dep:</strong> libx11-6 </span></dt>
     <dt><span> X11 client-side library </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libxi6 </span></dt>
-    <dt><span> X11 Input extension library </span></dt>
-    </dl></li>
-<li><dl>
     <dt><span><strong>dep:</strong> libxtst6 </span></dt>
     <dt><span> X11 Testing -- Record extension library </span></dt>
-    </dl></li>
-<li><dl>
-    <dt><span><strong>dep:</strong> libykpers-1-1 (&gt;= 1.20.0) </span></dt>
-    <dt><span> Library for personalization of YubiKey OTP tokens </span></dt>
     </dl></li>
 <li><dl>
     <dt><span><strong>dep:</strong> libzxcvbn0 (&gt;= 0.20150103) </span></dt>
@@ -191,16 +193,16 @@
         </tr>
 <tr>
         <th><a href="https://notesalexp.org/packages/en/debian/sid/amd64/keepassxc/download.html">amd64</a></th>
-        <td class="size">2.6.6-1</td>
-        <td class="size">4.97 MiB</td>
-        <td class="size">20.66 MiB</td>
+        <td class="size">2.7.0-1</td>
+        <td class="size">6.57 MiB</td>
+        <td class="size">26.1 MiB</td>
         <td>[<a href="https://notesalexp.org/packages/en/debian/sid/amd64/keepassxc/filelist.html">list of files</a>]</td>
                                         </tr>
 <tr>
         <th><a href="https://notesalexp.org/packages/en/debian/sid/i386/keepassxc/download.html">i386</a></th>
-        <td class="size">2.6.6-1</td>
-        <td class="size">5.13 MiB</td>
-        <td class="size">22.01 MiB</td>
+        <td class="size">2.7.0-1</td>
+        <td class="size">6.69 MiB</td>
+        <td class="size">26.38 MiB</td>
         <td>[<a href="https://notesalexp.org/packages/en/debian/sid/i386/keepassxc/filelist.html">list of files</a>]</td>
                                         </tr>
         </tbody></table>

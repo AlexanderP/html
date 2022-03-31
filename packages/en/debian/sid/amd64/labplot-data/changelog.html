@@ -41,14 +41,97 @@
     <div class="page">
     <h5>ChangeLog of package labplot-data in sid of architecture amd64</h5>
     <div class="highlight">
-<pre><span></span>labplot (2.8.2+git9474-37d98845e-1) unstable; urgency=medium
+<pre><span></span>labplot (2.8.2+git9526-eb2060ac5-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/KDE/labplot.git
   * Branch: master
-  * Commit: 37d98845e824175d695f70daa91fb80fd6f0be69
-  * Date: 1646991539
+  * Commit: eb2060ac57dc6d4a6fd9be31f5b71173d5a4392e
+  * Date: 1648341656
   * git changelog:
+  *  eb2060ac5 - GIT_SILENT made messages (after extraction)
+  *  df5a92053 - [ascii import] minor fixes in the ASCII options widget:
+    * properly show the last used column separator also when a custom
+    character was used * update the status of the SpinBox for the header
+    line (enable/disable the spinbox) when loading the options widget
+  *  c9f2b0c6a - tests: add datetime import test (Datetime before
+    BigInt)
+  *  2794b1f47 - tests: revert spreadsheet temporary changes
+  *  5a4ae51f7 - ASCII import: detect datetime before big int
+  *  400d27df7 - GIT_SILENT made messages (after extraction)
+  *  b8d20ad0b - Manually revert remove path from file
+  *  c13bdc701 - add missing license
+  *  f864cb775 - SpiceFilter: Read all options of ltspice and store them
+    in a hash
+  *  aece06942 - SVN_SILENT made messages (.desktop file) - always
+    resolve ours
+  *  5b5f71691 - GIT_SILENT made messages (after extraction)
+  *  c2ac0e0d1 - GIT_SILENT made messages (after extraction)
+  *  770216cde - Appdata: fix caption (cannot end with '.')
+  *  61918ef74 - Appdata: fix caption length (max. 100 chars allowed)
+  *  ac42d8ff8 - Add retransform check to all MultiRangeTests
+  *  0d28e915a - macOS package: add missing color maps and examples
+  *  fd20c4d7a - macOS: improve packaging
+  *  569052ff1 - final fixing build with MSVC
+  *  de61275bf - another try fixing build with MSVC
+  *  ddfa4a186 - second try fixing build with MSVC
+  *  11230c609 - try fixing build with MSVC
+  *  4bb0e0008 - when enableAutoScaleX, retransform must be done
+  *  3723c0f3a - text label: remove unnecessary adjustSize() to avoid
+    unwanted line wraps
+  *  ebc65c78c - gitlab CI: ... and disable it
+  *  263f6915b - gitlab CI: try Linux Qt6 template
+  *  4d0626b38 - gitlab CI: enable FreeBSD for checking
+  *  514747025 - text label dock: fix color and bg color for latex
+  *  588858080 - Add spinboxes next to the sliders, so it can be seen
+    which value is set and if the maximum already reached. fixes #172
+  *  b3f6f117f - Spice tests: Attempt to fix test on Windows
+  *  311fbd188 - [worksheet] removed the wait cursor when updating/re-
+    calculating curves.
+  *  6878fa960 - [live data] when switching between the differen source
+    types in the ImportFileWidget (e.g. from FileOrPipe to TCPSocket),
+    select Periodically in the combo box in case New Data was selected
+    before since New Data is not possible for this source.
+  *  eef0b5ea3 - [ascii] set the plot designation for additionally
+    created columns Index, Timestamp and Values, if available.
+  *  f93282ba3 - Minor fixes: * use a boolean member variable in
+    AsciiOptionsWidget to decide whether a timestamp column needs to be
+    created for LiveDataSource or not, reading the visibility status of
+    the CheckBox doesn't seem to work * deleted the file
+    labelwidget_marker.ui that was added to the repository by an error
+    most probably
+  *  582cc765c - [worksheet] allow to use DateTime for the y-coordinate
+    also for the custom point and for the reference line.
+  *  140f47cb9 - fix #171
+  *  1f07ebc1b - spice filter: add missing copyright and minor fixes
+  *  2d52dec39 - tests: fix spice test on Windows
+  *  049447c3b - do not include the reference data directly, but read
+    them from a file. So the compilation time is lower
+  *  4c0597f72 - 2.9.0beta splash screen
+  *  4a76f1ef8 - fix compilation
+  *  e79c95b12 - Added the support for LTspice files to ChangeLog and
+    version bump to 2.9.0.beta
+  *  f96f70df1 - Fixes in LiveDataSource: * fixed the issue with the
+    timer being not started after the LiveDataSource was creted (pause
+    reading was unecessily called when creating new columns and changing
+    their column modes). * postpone the creation of the action for the
+    context menu to the point when it's really required
+  *  5c317e44a - splash screen for beta release
+  *  8c97254e4 - Minor changes: * migrated socket related test scripts
+    to python3 * don't show the newly introduced option for the start
+    line of the header when dealing with LiveDataSource * removed the
+    wrong dependency on Matrix.h in LiveDataSource.h * minor code
+    cleanup
+  *  b949eca95 - fixes #165
+  *  fabe869b2 - spice filter: fix compilation
+  *  216b359e6 - LTSpice file support
+  *  1635852cb - CI: disable FreeBSD until fixed upstream
+  *  1720ee0a2 - SVN_SILENT made messages (.desktop file) - always
+    resolve ours
+  *  42f74fcba - GIT_SILENT made messages (after extraction)
+  *  aad97322c - ascii import: count start row from beginning of file
+  *  e6289f991 - ASCII import: add option to select header line (used to
+    name data columns)
   *  37d98845e - changelog
   *  047bc42d2 - hdf5 filter: handle fixed size attribute strings
   *  8bdcb89bb - [worksheet] when exporting the worksheet to the
@@ -293,7 +376,7 @@
   *  56d7db91f - Fix using helper apps. See
     https://kde.org/info/security/advisory-20220131-1.txt
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 11 Mar 2022 21:49:54 +0000
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 27 Mar 2022 20:32:12 +0000
 
 labplot (2.8.2+git9333-b100ff258-1) unstable; urgency=medium
 
