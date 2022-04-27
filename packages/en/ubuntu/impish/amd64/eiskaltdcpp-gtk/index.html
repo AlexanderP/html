@@ -55,7 +55,7 @@
     </header>
         <div id="wrapper">
             <div id="content">
-    <h1>Package: eiskaltdcpp-gtk (2.4.2+git5693-f6df44fe-1) </h1>
+    <h1>Package: eiskaltdcpp-gtk (2.4.2+git5703-bdb1859d-1) </h1>
     <div id="pmoreinfo">
     <p><strong>Links for eiskaltdcpp-gtk</strong></p>
 <a href="https://notesalexp.org/packages/images/eiskaltdcpp-gtk.png" data-lightbox="eiskaltdcpp-gtk" data-title="eiskaltdcpp-gtk - EiskaltDC++ GUI based on GTK+"><img class="example-image" src="https://notesalexp.org/packages/images/thumb/eiskaltdcpp-gtk.png" alt="eiskaltdcpp-gtk" /></a>
@@ -64,9 +64,9 @@
     <li><a href="https://notesalexp.org/packages/en/ubuntu/impish/amd64/eiskaltdcpp-gtk/changelog.html">Debian Changelog</a></li>
     </ul>
 <p><strong>Download Source Package <a href="https://notesalexp.org/packages/en/source/eiskaltdcpp-devel">eiskaltdcpp-devel</a>:</strong></p><ul>
-<li><a href="https://notesalexp.org/debian/source/pool/main/e/eiskaltdcpp-devel/eiskaltdcpp-devel_2.4.2+git5693-f6df44fe-1.dsc">[eiskaltdcpp-devel_2.4.2+git5693-f6df44fe-1.dsc]</a></li>
-<li><a href="https://notesalexp.org/debian/source/pool/main/e/eiskaltdcpp-devel/eiskaltdcpp-devel_2.4.2+git5693-f6df44fe.orig.tar.xz">[eiskaltdcpp-devel_2.4.2+git5693-f6df44fe.orig.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/debian/source/pool/main/e/eiskaltdcpp-devel/eiskaltdcpp-devel_2.4.2+git5693-f6df44fe-1.debian.tar.xz">[eiskaltdcpp-devel_2.4.2+git5693-f6df44fe-1.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/e/eiskaltdcpp-devel/eiskaltdcpp-devel_2.4.2+git5703-bdb1859d-1.dsc">[eiskaltdcpp-devel_2.4.2+git5703-bdb1859d-1.dsc]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/e/eiskaltdcpp-devel/eiskaltdcpp-devel_2.4.2+git5703-bdb1859d.orig.tar.xz">[eiskaltdcpp-devel_2.4.2+git5703-bdb1859d.orig.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/e/eiskaltdcpp-devel/eiskaltdcpp-devel_2.4.2+git5703-bdb1859d-1.debian.tar.xz">[eiskaltdcpp-devel_2.4.2+git5703-bdb1859d-1.debian.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
     <ul>
@@ -76,7 +76,7 @@
     <h4>EiskaltDC++ GUI based on GTK+</h4>
 <p>This package contains EiskaltDC++ program with GUI based on GTK+. Initially it was based on FreeDC++ and LinuxDC++ projects, but now it significantly differs from them.</p>
 <p>Upstream developers are going to stop support of this GUI in the future. Consider using of EiskaltDC++ Qt even in GTK+ based Desktop Environments.</p>
-<p>EiskaltDC++ is a cross-platform program that uses the Direct Connect and Advanced Direct Connect protocols. It is compatible with DC++, FlylinkDC++, LinuxDC++ and other DC clients. EiskaltDC++ also interoperates with all common DC hub software.</p>
+<p>EiskaltDC++ is a cross-platform program that uses the Direct Connect and Advanced Direct Connect protocols. It is compatible with DC++, AirDC++, FlylinkDC++ and other DC clients. EiskaltDC++ also interoperates with all common DC hub software.</p>
 
 <div id="pdeps">
             <h4>Other Packages Related to eiskaltdcpp-gtk</h4>
@@ -93,7 +93,7 @@
     <dt><span> common files for EiskaltDC++ </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> eiskaltdcpp-gtk-data (= 2.4.2+git5693-f6df44fe-1) </span></dt>
+    <dt><span><strong>dep:</strong> eiskaltdcpp-gtk-data </span></dt>
     <dt><span> data files for EiskaltDC++ Gtk </span></dt>
     </dl></li>
 <li><dl>
@@ -101,11 +101,15 @@
     <dt><span> GNU C Library: Shared libraries </span></dt>
     </dl></li>
 <li><dl>
+    <dt><span><strong>dep:</strong> libcanberra0 (&gt;= 0.2) </span></dt>
+    <dt><span> simple abstract interface for playing event sounds </span></dt>
+    </dl></li>
+<li><dl>
     <dt><span><strong>dep:</strong> libeiskaltdcpp2.4 </span></dt>
     <dt><span> core library for EiskaltDC++ </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libgcc-s1 (&gt;= 3.3.1) </span></dt>
+    <dt><span><strong>dep:</strong> libgcc-s1 (&gt;= 3.0) </span></dt>
     <dt><span> GCC support library </span></dt>
     </dl></li>
 <li><dl>
@@ -117,8 +121,8 @@
     <dt><span> GLib library of C routines </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libgtk2.0-0 (&gt;= 2.24.0) </span></dt>
-    <dt><span> GTK graphical user interface library - old version </span></dt>
+    <dt><span><strong>dep:</strong> libgtk-3-0 (&gt;= 3.21.5) </span></dt>
+    <dt><span> GTK graphical user interface library </span></dt>
     </dl></li>
 <li><dl>
     <dt><span><strong>dep:</strong> libnotify4 (&gt;= 0.7.0) </span></dt>
@@ -148,9 +152,9 @@
         </tr>
 <tr>
         <th><a href="https://notesalexp.org/packages/en/ubuntu/impish/amd64/eiskaltdcpp-gtk/download.html">amd64</a></th>
-        <td class="size">2.4.2+git5693-f6df44fe-1</td>
-        <td class="size">607.56 KiB</td>
-        <td class="size">1.75 MiB</td>
+        <td class="size">2.4.2+git5703-bdb1859d-1</td>
+        <td class="size">796.17 KiB</td>
+        <td class="size">3.49 MiB</td>
         <td>[<a href="https://notesalexp.org/packages/en/ubuntu/impish/amd64/eiskaltdcpp-gtk/filelist.html">list of files</a>]</td>
                                         </tr>
         </tbody></table>
