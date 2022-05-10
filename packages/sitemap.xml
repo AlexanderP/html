@@ -310,6 +310,9 @@
         <loc>https://notesalexp.org//html/tags/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
@@ -545,6 +548,54 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/ocrfeeder/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libslvs1-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libslvs1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goldendict/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/labplot/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/freecad-daily/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/labplot-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/librecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/librecad-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/impish/amd64/</loc>
