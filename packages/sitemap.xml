@@ -583,6 +583,9 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp-gtk-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/smplayer-l10n/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libslvs1-dev/</loc>
     </url>
     <url>
@@ -613,6 +616,9 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/freecad-daily/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/smplayer/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp-emoticons/</loc>
     </url>
     <url>
@@ -635,6 +641,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp-gtk/</loc>
@@ -662,6 +671,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/chiaki/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/labplot/</loc>
