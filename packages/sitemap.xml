@@ -280,6 +280,15 @@
         <loc>https://notesalexp.org//html/2022/01/03/20220103/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org//html/2022/06/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org//html/2022/06/21/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org//html/2022/06/21/20220621/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org//html/2022/05/</loc>
     </url>
     <url>
@@ -667,6 +676,9 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libkvilib5/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus-plugin-psimedia/</loc>
     </url>
     <url>
@@ -674,6 +686,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/kvirc-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/labplot/</loc>
@@ -704,6 +719,12 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/kvirc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/trusty/i386/</loc>
