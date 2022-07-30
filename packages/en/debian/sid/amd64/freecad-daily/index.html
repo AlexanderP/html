@@ -45,7 +45,6 @@
 [<a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/freecad-daily">xenial</a>]
 [<a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/freecad-daily">bionic</a>]
 [<a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/freecad-daily">focal</a>]
-[<a href="https://notesalexp.org/packages/en/ubuntu/hirsute/amd64/freecad-daily">hirsute</a>]
 [<a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/freecad-daily">jammy</a>]
 </div>
 <div id="potherssource">
@@ -54,7 +53,7 @@
     </header>
         <div id="wrapper">
             <div id="content">
-    <h1>Package: freecad-daily (0.19.2+git26294-09da245af9-1) </h1>
+    <h1>Package: freecad-daily (0.19.2+git29824-e8e1050620-1) </h1>
     <div id="pmoreinfo">
     <p><strong>Links for freecad-daily</strong></p>
 <a href="https://notesalexp.org/packages/images/freecad-daily.png" data-lightbox="freecad-daily" data-title="freecad-daily - Extensible Open Source CAx program (beta)"><img class="example-image" src="https://notesalexp.org/packages/images/thumb/freecad-daily.png" alt="freecad-daily" /></a>
@@ -63,9 +62,9 @@
     <li><a href="https://notesalexp.org/packages/en/debian/sid/amd64/freecad-daily/changelog.html">Debian Changelog</a></li>
     </ul>
 <p><strong>Download Source Package <a href="https://notesalexp.org/packages/en/source/freecad-daily">freecad-daily</a>:</strong></p><ul>
-<li><a href="https://notesalexp.org/debian/source/pool/main/f/freecad-daily/freecad-daily_0.19.2+git29215-e9bb9afc3b-1.dsc">[freecad-daily_0.19.2+git29215-e9bb9afc3b-1.dsc]</a></li>
-<li><a href="https://notesalexp.org/debian/source/pool/main/f/freecad-daily/freecad-daily_0.19.2+git29215-e9bb9afc3b.orig.tar.xz">[freecad-daily_0.19.2+git29215-e9bb9afc3b.orig.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/debian/source/pool/main/f/freecad-daily/freecad-daily_0.19.2+git29215-e9bb9afc3b-1.debian.tar.xz">[freecad-daily_0.19.2+git29215-e9bb9afc3b-1.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/f/freecad-daily/freecad-daily_0.19.2+git29824-e8e1050620-1.dsc">[freecad-daily_0.19.2+git29824-e8e1050620-1.dsc]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/f/freecad-daily/freecad-daily_0.19.2+git29824-e8e1050620.orig.tar.xz">[freecad-daily_0.19.2+git29824-e8e1050620.orig.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/f/freecad-daily/freecad-daily_0.19.2+git29824-e8e1050620-1.debian.tar.xz">[freecad-daily_0.19.2+git29824-e8e1050620-1.debian.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
     <ul>
@@ -127,6 +126,22 @@
     <dt><span> Python 3 bindings for Qt5 </span></dt>
     </dl></li>
 <li><dl>
+    <dt><span><strong>dep:</strong> python3-pyside2.qtwebenginecore </span></dt>
+    <dt><span> Python bindings for Qt5 WebEngineCore module (Python 3) </span></dt>
+    </dl></li>
+<li><dl>
+    <dt><span><strong>dep:</strong> python3-pyside2.qtnetwork </span></dt>
+    <dt><span> Python bindings for Qt5 Network module (Python 3) </span></dt>
+    </dl></li>
+<li><dl>
+    <dt><span><strong>dep:</strong> python3-pyside2.qtwebenginewidgets </span></dt>
+    <dt><span> Python bindings for Qt5 WebEngineWidgets module (Python 3) </span></dt>
+    </dl></li>
+<li><dl>
+    <dt><span><strong>dep:</strong> python3-pyside2.qtwebchannel </span></dt>
+    <dt><span> Python bindings for Qt5 WebChannel module (Python 3) </span></dt>
+    </dl></li>
+<li><dl>
     <dt><span><strong>dep:</strong> libboost-filesystem1.74.0 (&gt;= 1.74.0) </span></dt>
     <dt><span> filesystem operations (portable paths, iteration over directories, etc) in C++ </span></dt>
     </dl></li>
@@ -135,7 +150,7 @@
     <dt><span> program options library for C++ </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libboost-regex1.74.0-icu67 </span></dt>
+    <dt><span><strong>dep:</strong> libboost-regex1.74.0-icu71 </span></dt>
     <dt><span> regular expression library for C++ </span></dt>
     </dl></li>
 <li><dl>
@@ -143,7 +158,7 @@
     <dt><span> portable C++ multi-threading </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libc6 (&gt;= 2.32) </span></dt>
+    <dt><span><strong>dep:</strong> libc6 (&gt;= 2.33) </span></dt>
     <dt><span> GNU C Library: Shared libraries </span></dt>
     </dl></li>
 <li><dl>
@@ -170,31 +185,35 @@
     </dt><dt><span>Mesa OpenGL utility library (GLU)</span></dt>
 </dl></li>
 <li><dl>
+    <dt><span><strong>dep:</strong> libgomp1 (&gt;= 6) </span></dt>
+    <dt><span> GCC OpenMP (GOMP) support library </span></dt>
+    </dl></li>
+<li><dl>
     <dt><span><strong>dep:</strong> libmedc11 </span></dt>
     <dt><span> Library to exchange meshed data (C version) </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libocct-data-exchange-7.5 (&gt;= 7.5.1+dfsg1) </span></dt>
+    <dt><span><strong>dep:</strong> libocct-data-exchange-7.5 (&gt;= 7.5.2+dfsg1) </span></dt>
     <dt><span> Open CASCADE Technology module for CAD data format interoperability </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libocct-foundation-7.5 (&gt;= 7.5.1+dfsg1) </span></dt>
+    <dt><span><strong>dep:</strong> libocct-foundation-7.5 (&gt;= 7.5.2+dfsg1) </span></dt>
     <dt><span> OCCT module underlying all other OCCT classes </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libocct-modeling-algorithms-7.5 (&gt;= 7.5.1+dfsg1) </span></dt>
+    <dt><span><strong>dep:</strong> libocct-modeling-algorithms-7.5 (&gt;= 7.5.2+dfsg1) </span></dt>
     <dt><span> Open CASCADE Technology geometrical & topological algorithms module </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libocct-modeling-data-7.5 (&gt;= 7.5.1+dfsg1) </span></dt>
+    <dt><span><strong>dep:</strong> libocct-modeling-data-7.5 (&gt;= 7.5.2+dfsg1) </span></dt>
     <dt><span> Open CASCADE Technology 2D/3D geometric primitives data structures </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libocct-ocaf-7.5 (&gt;= 7.5.1+dfsg1) </span></dt>
+    <dt><span><strong>dep:</strong> libocct-ocaf-7.5 (&gt;= 7.5.2+dfsg1) </span></dt>
     <dt><span> Open CASCADE Technology application-specific data and functionality </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libocct-visualization-7.5 (&gt;= 7.5.1+dfsg1) </span></dt>
+    <dt><span><strong>dep:</strong> libocct-visualization-7.5 (&gt;= 7.5.2+dfsg1) </span></dt>
     <dt><span> Open CASCADE Technology graphical data visualization module </span></dt>
     </dl></li>
 <li><dl>
@@ -202,8 +221,8 @@
     <dt><span> Python 3 bindings for Qt5 (base files) </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libpython3.9 (&gt;= 3.9.1) </span></dt>
-    <dt><span> Shared Python runtime library (version 3.9) </span></dt>
+    <dt><span><strong>dep:</strong> libpython3.10 (&gt;= 3.10.0) </span></dt>
+    <dt><span> Shared Python runtime library (version 3.10) </span></dt>
     </dl></li>
 <li><dl>
     <dt><span><strong>dep:</strong> libqt5concurrent5 (&gt;= 5.6.0~rc) </span></dt>
@@ -229,7 +248,7 @@
     <dt><span> Qt 5 OpenGL module </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libqt5printsupport5 (&gt;= 5.0.2) </span></dt>
+    <dt><span><strong>dep:</strong> libqt5printsupport5 (&gt;= 5.3.0) </span></dt>
     <dt><span> Qt 5 print support module </span></dt>
     </dl></li>
 <li><dl>
@@ -316,16 +335,16 @@
         </tr>
 <tr>
         <th><a href="https://notesalexp.org/packages/en/debian/sid/amd64/freecad-daily/download.html">amd64</a></th>
-        <td class="size">0.19.2+git26294-09da245af9-1</td>
-        <td class="size">49.56 MiB</td>
-        <td class="size">208.64 MiB</td>
+        <td class="size">0.19.2+git29824-e8e1050620-1</td>
+        <td class="size">56.38 MiB</td>
+        <td class="size">232.07 MiB</td>
         <td>[<a href="https://notesalexp.org/packages/en/debian/sid/amd64/freecad-daily/filelist.html">list of files</a>]</td>
                                         </tr>
 <tr>
         <th><a href="https://notesalexp.org/packages/en/debian/sid/i386/freecad-daily/download.html">i386</a></th>
-        <td class="size">0.19.2+git26294-09da245af9-1</td>
-        <td class="size">50.61 MiB</td>
-        <td class="size">206.63 MiB</td>
+        <td class="size">0.19.2+git29824-e8e1050620-1</td>
+        <td class="size">57.5 MiB</td>
+        <td class="size">230.02 MiB</td>
         <td>[<a href="https://notesalexp.org/packages/en/debian/sid/i386/freecad-daily/filelist.html">list of files</a>]</td>
                                         </tr>
         </tbody></table>

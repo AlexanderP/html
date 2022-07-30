@@ -11,6 +11,4 @@ Disallow: /trusty
 Disallow: /xenial
 Disallow: /bionic
 Disallow: /focal
-Disallow: /hirsute
-Disallow: /impish
 Disallow: /jammy
