@@ -7,7 +7,6 @@ Disallow: /stretch
 Disallow: /buster
 Disallow: /bullseye
 Disallow: /sid
-Disallow: /trusty
 Disallow: /xenial
 Disallow: /bionic
 Disallow: /focal
