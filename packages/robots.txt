@@ -12,3 +12,4 @@ Disallow: /bionic
 Disallow: /focal
 Disallow: /jammy
 Disallow: /kinetic
+Disallow: /lunar
