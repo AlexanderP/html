@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>notesalexp.org</title><link href="https://notesalexp.org/html/" rel="alternate"></link><link href="https://notesalexp.org/html/feeds/all.atom.xml" rel="self"></link><id>https://notesalexp.org/html/</id><updated>2023-04-30T20:39:00+03:00</updated><entry><title>Update - 2023.04.30</title><link href="https://notesalexp.org/html/2023/04/30/20230430/" rel="alternate"></link><published>2023-04-30T20:39:00+03:00</published><updated>2023-04-30T20:39:00+03:00</updated><author><name>Aлексанр Поздняков</name></author><id>tag:notesalexp.org,2023-04-30:/html/2023/04/30/20230430/</id><summary type="html">&lt;ol&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>notesalexp.org</title><link href="https://notesalexp.org/html/" rel="alternate"></link><link href="https://notesalexp.org/html/feeds/all.atom.xml" rel="self"></link><id>https://notesalexp.org/html/</id><updated>2023-05-24T21:24:00+03:00</updated><entry><title>Update - 2023.05.24</title><link href="https://notesalexp.org/html/2023/05/24/20230524/" rel="alternate"></link><published>2023-05-24T21:24:00+03:00</published><updated>2023-05-24T21:24:00+03:00</updated><author><name>Aлексанр Поздняков</name></author><id>tag:notesalexp.org,2023-05-24:/html/2023/05/24/20230524/</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;balsa(2.6.3+git10047-3555afbd4-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/balsa"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/balsa"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/balsa"&gt;Kinetic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/balsa"&gt;Lunar&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;eiskaltdcpp(2.4.2+git5737-9cf2e097-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/buster/amd64/eiskaltdcpp"&gt;Buster&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/eiskaltdcpp"&gt;Bullseye&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/eiskaltdcpp"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/eiskaltdcpp"&gt;Bionic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/eiskaltdcpp"&gt;Focal&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/eiskaltdcpp"&gt;Kinetic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/eiskaltdcpp"&gt;Lunar&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;goaccess(1.7.2+git4008-fdaafbfa-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/buster/amd64/goaccess"&gt;Buster&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/goaccess"&gt;Bullseye&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/goaccess"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/goaccess"&gt;Xenial&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/goaccess"&gt;Bionic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/goaccess"&gt;Focal&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goaccess"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/goaccess"&gt;Kinetic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/goaccess"&gt;Lunar&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;goldendict(1.5.0~rc2 …&lt;/em&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;balsa(2.6.3+git10047-3555afbd4-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/balsa"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/balsa"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/balsa"&gt;Kinetic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/balsa"&gt;Lunar&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;eiskaltdcpp(2.4.2+git5737-9cf2e097-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/buster/amd64/eiskaltdcpp"&gt;Buster&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/eiskaltdcpp"&gt;Bullseye&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/eiskaltdcpp"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/eiskaltdcpp"&gt;Bionic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/eiskaltdcpp"&gt;Focal&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/eiskaltdcpp"&gt;Kinetic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/eiskaltdcpp"&gt;Lunar&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;goaccess(1.7.2+git4008-fdaafbfa-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/buster/amd64/goaccess"&gt;Buster&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/goaccess"&gt;Bullseye&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/goaccess"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/goaccess"&gt;Xenial&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/goaccess"&gt;Bionic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/goaccess"&gt;Focal&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goaccess"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/goaccess"&gt;Kinetic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/goaccess"&gt;Lunar&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;goldendict(1.5.0~rc2+git20230517-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/buster/amd64/goldendict"&gt;Buster&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/goldendict"&gt;Bullseye&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/goldendict"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/goldendict"&gt;Bionic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/goldendict"&gt;Focal&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goldendict"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/goldendict"&gt;Kinetic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/goldendict"&gt;Lunar&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;qcad(3.28.1.0+git9781-5d19e2085-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/buster/amd64/qcad"&gt;Buster&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/qcad"&gt;Bullseye&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/qcad"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/qcad"&gt;Xenial&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/qcad"&gt;Bionic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/qcad"&gt;Focal&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;smplayer(22.7.0+git10123-c65a1ce92-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/buster/amd64/smplayer"&gt;Buster&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/smplayer"&gt;Bullseye&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/smplayer"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/smplayer"&gt;Bionic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/smplayer"&gt;Focal&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/smplayer"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/smplayer"&gt;Kinetic&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;solvespace(3.1.0+git1967-2e2aceb-1) for:&lt;/em&gt;&lt;br&gt;
+    Debian - &lt;a href="https://notesalexp.org/packages/en/debian/buster/amd64/solvespace"&gt;Buster&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/solvespace"&gt;Bullseye&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/solvespace"&gt;Sid&lt;/a&gt; &lt;br&gt;
+    Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/solvespace"&gt;Focal&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/solvespace"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/solvespace"&gt;Kinetic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/solvespace"&gt;Lunar&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.patreon.com/notesalexp"&gt;Support the project on Patreon.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><category term="Репозиторий"></category><category term="deb"></category><category term="reps"></category><category term="update"></category></entry><entry><title>Update - 2023.04.30</title><link href="https://notesalexp.org/html/2023/04/30/20230430/" rel="alternate"></link><published>2023-04-30T20:39:00+03:00</published><updated>2023-04-30T20:39:00+03:00</updated><author><name>Aлексанр Поздняков</name></author><id>tag:notesalexp.org,2023-04-30:/html/2023/04/30/20230430/</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;&lt;em&gt;balsa(2.6.3+git10031-b20eaf7fa-1) for:&lt;/em&gt;&lt;br&gt;
     Debian - &lt;a href="https://notesalexp.org/packages/en/debian/sid/amd64/balsa"&gt;Sid&lt;/a&gt; &lt;br&gt;
     Ubuntu - &lt;a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/balsa"&gt;Jammy&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/kinetic/amd64/balsa"&gt;Kinetic&lt;/a&gt; &lt;a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/balsa"&gt;Lunar&lt;/a&gt;   &lt;/li&gt;
@@ -963,17 +996,17 @@ MD5
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Так как в &lt;em&gt;Debian GNU/Linux&lt;/em&gt; начиная с версии 8 и в &lt;em&gt;Ubuntu&lt;/em&gt; начиная с версии 16.04 не предоставляется библиотека &lt;em&gt;wxWidgets&lt;/em&gt; версии 2.8 необходимая для сборки &lt;em&gt;TrueCrypt&lt;/em&gt;. Заходим на сайт &lt;a href="https://www.wxwidgets.org/downloads/"&gt;https://www.wxwidgets.org/downloads/&lt;/a&gt; качаем исходники версии 2.8.12:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;wget https://github.com/wxWidgets/wxWidgets/releases/download/v2.8.12/wxWidgets-2.8.12.tar.gz
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;wget&lt;span class="w"&gt; &lt;/span&gt;https://github.com/wxWidgets/wxWidgets/releases/download/v2.8.12/wxWidgets-2.8.12.tar.gz
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Распакуем архивы в любую директорию например /home/user/build&lt;/p&gt;
 &lt;p&gt;Так же нам понадобится заголовочный файлы &lt;em&gt;PKCS#11&lt;/em&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /home/user/build
-mkdir pkcs11
-&lt;span class="nb"&gt;cd&lt;/span&gt; pkcs11
-wget ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11.h
-wget ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11f.h
-wget ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11t.h
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;/home/user/build
+mkdir&lt;span class="w"&gt; &lt;/span&gt;pkcs11
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;pkcs11
+wget&lt;span class="w"&gt; &lt;/span&gt;ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11.h
+wget&lt;span class="w"&gt; &lt;/span&gt;ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11f.h
+wget&lt;span class="w"&gt; &lt;/span&gt;ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11t.h
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Удовлетворим зависимости для сборки&lt;/p&gt;
@@ -982,49 +1015,49 @@ wget ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20/pkcs11t.h
 
 &lt;p&gt;Переходим в папку &lt;em&gt;/home/user/build/truecrypt-7.1a-source&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Переносим исходники &lt;em&gt;wxWidgets&lt;/em&gt; и заголовочный файлы &lt;em&gt;PKCS#11&lt;/em&gt; в &lt;em&gt;/home/user/build/truecrypt-7.1a-source&lt;/em&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;mv ../wxWidgets-2.8.12 .
-mv ../pkcs11 .
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;mv&lt;span class="w"&gt; &lt;/span&gt;../wxWidgets-2.8.12&lt;span class="w"&gt; &lt;/span&gt;.
+mv&lt;span class="w"&gt; &lt;/span&gt;../pkcs11&lt;span class="w"&gt; &lt;/span&gt;.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Теперь самое интересное TrueCrypt не может монтировать разделы, если его собрать с помощью &lt;em&gt;gcc-5.x.&lt;/em&gt; Связанно с изменением C++ ABI.&lt;/p&gt;
 &lt;p&gt;Проверяем версию gcc:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;gcc&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nv"&gt;version&lt;/span&gt;                                                                                                                       
-&lt;span class="nv"&gt;gcc&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;Debian&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;.&lt;span class="mi"&gt;9&lt;/span&gt;.&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;.&lt;span class="mi"&gt;9&lt;/span&gt;.&lt;span class="mi"&gt;2&lt;/span&gt;
-&lt;span class="nv"&gt;Copyright&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;C&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="mi"&gt;2014&lt;/span&gt; &lt;span class="nv"&gt;Free&lt;/span&gt; &lt;span class="nv"&gt;Software&lt;/span&gt; &lt;span class="nv"&gt;Foundation&lt;/span&gt;, &lt;span class="nv"&gt;Inc&lt;/span&gt;.
-&lt;span class="nv"&gt;This&lt;/span&gt; &lt;span class="nv"&gt;is&lt;/span&gt; &lt;span class="nv"&gt;free&lt;/span&gt; &lt;span class="nv"&gt;software&lt;/span&gt;&lt;span class="c1"&gt;; see the source for copying conditions.  There is NO&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;gcc&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nv"&gt;version&lt;/span&gt;&lt;span class="w"&gt;                                                                                                                       &lt;/span&gt;
+&lt;span class="nv"&gt;gcc&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;Debian&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;.&lt;span class="mi"&gt;9&lt;/span&gt;.&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;.&lt;span class="mi"&gt;9&lt;/span&gt;.&lt;span class="mi"&gt;2&lt;/span&gt;
+&lt;span class="nv"&gt;Copyright&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;C&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Free&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Software&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Foundation&lt;/span&gt;,&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Inc&lt;/span&gt;.
+&lt;span class="nv"&gt;This&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;free&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;software&lt;/span&gt;&lt;span class="c1"&gt;; see the source for copying conditions.  There is NO&lt;/span&gt;
 &lt;span class="nv"&gt;warranty&lt;/span&gt;&lt;span class="c1"&gt;; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Если у нас в системе версия gcc 5.x. и выше, ставим gcc 4.9 и экспортируем переменные &lt;em&gt;CC&lt;/em&gt; и &lt;em&gt;CXX&lt;/em&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo aptitude install gcc-4.9 g++-4.9
-&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;CC&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;gcc-4.9
-&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;CXX&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;g++-4.9
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;aptitude&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;gcc-4.9&lt;span class="w"&gt; &lt;/span&gt;g++-4.9
+&lt;span class="nb"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;CC&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;gcc-4.9
+&lt;span class="nb"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;CXX&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;g++-4.9
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Теперь определим еще две переменные PKCS11_INC и WX_ROOT&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;PKCS11_INC&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/home/user/build/truecrypt-7.1a-source/pkcs11
-&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;WX_ROOT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/home/user/build/truecrypt-7.1a-source/wxWidgets-2.8.12
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;PKCS11_INC&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/home/user/build/truecrypt-7.1a-source/pkcs11
+&lt;span class="nb"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;WX_ROOT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/home/user/build/truecrypt-7.1a-source/wxWidgets-2.8.12
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Для сборки нам необходимо подправить строку &lt;em&gt;108&lt;/em&gt; в файле &lt;em&gt;Main/Main.make&lt;/em&gt;, 
 что бы линковка завершилась без ошибок, привести к такому виду &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    &lt;span class="k"&gt;$(&lt;/span&gt;CXX&lt;span class="k"&gt;)&lt;/span&gt; -o &lt;span class="k"&gt;$(&lt;/span&gt;APPNAME&lt;span class="k"&gt;)&lt;/span&gt; &lt;span class="k"&gt;$(&lt;/span&gt;LFLAGS&lt;span class="k"&gt;)&lt;/span&gt; &lt;span class="k"&gt;$(&lt;/span&gt;OBJS&lt;span class="k"&gt;)&lt;/span&gt; &lt;span class="k"&gt;$(&lt;/span&gt;LIBS&lt;span class="k"&gt;)&lt;/span&gt; &lt;span class="k"&gt;$(&lt;/span&gt;FUSE_LIBS&lt;span class="k"&gt;)&lt;/span&gt; &lt;span class="k"&gt;$(&lt;/span&gt;WX_LIBS&lt;span class="k"&gt;)&lt;/span&gt; &lt;span class="k"&gt;$(&lt;/span&gt;EXTRA_LIBS&lt;span class="k"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;CXX&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;-o&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;APPNAME&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;LFLAGS&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;OBJS&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;LIBS&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;FUSE_LIBS&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;WX_LIBS&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;EXTRA_LIBS&lt;span class="k"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Определим переменную &lt;em&gt;EXTRA_LIBS&lt;/em&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;EXTRA_LIBS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;-lX11 -ldl&amp;quot;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;EXTRA_LIBS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;-lX11 -ldl&amp;quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Собираем библиотеку &lt;em&gt;wxWidgets&lt;/em&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;make wxbuild
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;make&lt;span class="w"&gt; &lt;/span&gt;wxbuild
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Собираем &lt;em&gt;TrueCrypt&lt;/em&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;make &lt;span class="nv"&gt;WXSTATIC&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;make&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;WXSTATIC&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Копируем truecrypt в /usr/local/bin&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo cp Main/truecrypt /usr/local/bin/
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;cp&lt;span class="w"&gt; &lt;/span&gt;Main/truecrypt&lt;span class="w"&gt; &lt;/span&gt;/usr/local/bin/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Запускаем и пользуемся&lt;/p&gt;</content><category term="Блог"></category><category term="truecrypt"></category><category term="make"></category></entry></feed>
