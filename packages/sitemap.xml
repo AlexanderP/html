@@ -28,6 +28,18 @@
         <loc>https://notesalexp.org//html/tag/reps/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org//html/2024/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org//html/2024/01/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org//html/2024/01/05/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org//html/2024/01/05/20240105/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org//html/2016/</loc>
     </url>
     <url>
@@ -200,6 +212,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org//html/tags/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/</loc>
@@ -410,6 +425,168 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/psi-plus-plugins-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/psi-plus-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/psi-plus-icons-nonfree/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/psi-plus-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/vacuum-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/smplayer-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/rubyripper/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/psi-plus-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/librecad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/eiskaltdcpp-qt-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/eiskaltdcpp-cli/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/eiskaltdcpp-common/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/eiskaltdcpp-emoticons/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/eiskaltdcpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/kvirc-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/eiskaltdcpp-gtk-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/all/eiskaltdcpp-scripts/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/smplayer/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/vacuum/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/psi-plus/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/scantailor-universal/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/psi-plus-webkit/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/psi-plus-webengine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/psi-plus-plugins/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/psi-plus-plugin-psimedia/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/libvacuumutils37/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/libslvs1-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/libslvs1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/jbig2enc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/librecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/libeiskaltdcpp2.4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/libjbig2enc-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/kvirc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/eiskaltdcpp-qt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/goldendict/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/mantic/amd64/freelib/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/lunar/all/vacuum-dev/</loc>
