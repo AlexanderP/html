@@ -41,10 +41,13 @@
 [<a href="https://notesalexp.org/packages/en/debian/stretch/amd64/qcomicbook">stretch</a>]
 [<a href="https://notesalexp.org/packages/en/debian/buster/amd64/qcomicbook">buster</a>]
 [<a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/qcomicbook">bullseye</a>]
+[<a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/qcomicbook">bookworm</a>]
 [<strong>sid</strong>]
 [<a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/qcomicbook">xenial</a>]
 [<a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/qcomicbook">bionic</a>]
 [<a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/qcomicbook">focal</a>]
+[<a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/qcomicbook">jammy</a>]
+[<a href="https://notesalexp.org/packages/en/ubuntu/lunar/amd64/qcomicbook">lunar</a>]
 </div>
 <div id="potherssource">
         [Source: <a href="https://notesalexp.org/packages/en/source/qcomicbook">qcomicbook</a>]
@@ -52,7 +55,7 @@
     </header>
         <div id="wrapper">
             <div id="content">
-    <h1>Package: qcomicbook (0.9.1+git476-d0fc37d-1) </h1>
+    <h1>Package: qcomicbook (0.9.1+git476-d0fc37d-9reb~2401) </h1>
     <div id="pmoreinfo">
     <p><strong>Links for qcomicbook</strong></p>
 <a href="https://notesalexp.org/packages/images/qcomicbook.png" data-lightbox="qcomicbook" data-title="qcomicbook - qt viewer for comic book archives (cbr/cbz/cba/cbg/cbb)"><img class="example-image" src="https://notesalexp.org/packages/images/thumb/qcomicbook.png" alt="qcomicbook" /></a>
@@ -61,9 +64,9 @@
     <li><a href="https://notesalexp.org/packages/en/debian/sid/amd64/qcomicbook/changelog.html">Debian Changelog</a></li>
     </ul>
 <p><strong>Download Source Package <a href="https://notesalexp.org/packages/en/source/qcomicbook">qcomicbook</a>:</strong></p><ul>
-<li><a href="https://notesalexp.org/debian/source/pool/main/q/qcomicbook/qcomicbook_0.9.1+git476-d0fc37d-1.dsc">[qcomicbook_0.9.1+git476-d0fc37d-1.dsc]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/q/qcomicbook/qcomicbook_0.9.1+git476-d0fc37d-9reb~2401.dsc">[qcomicbook_0.9.1+git476-d0fc37d-9reb~2401.dsc]</a></li>
 <li><a href="https://notesalexp.org/debian/source/pool/main/q/qcomicbook/qcomicbook_0.9.1+git476-d0fc37d.orig.tar.xz">[qcomicbook_0.9.1+git476-d0fc37d.orig.tar.xz]</a></li>
-<li><a href="https://notesalexp.org/debian/source/pool/main/q/qcomicbook/qcomicbook_0.9.1+git476-d0fc37d-1.debian.tar.xz">[qcomicbook_0.9.1+git476-d0fc37d-1.debian.tar.xz]</a></li>
+<li><a href="https://notesalexp.org/debian/source/pool/main/q/qcomicbook/qcomicbook_0.9.1+git476-d0fc37d-9reb~2401.debian.tar.xz">[qcomicbook_0.9.1+git476-d0fc37d-9reb~2401.debian.tar.xz]</a></li>
 </ul>
 <p><strong>External Resources:</strong></p>
     <ul>
@@ -92,31 +95,34 @@
             </tbody></table>
 <ul class="uldep">
 <li><dl>
-    <dt><span><strong>dep:</strong> libc6 (&gt;= 2.14) </span></dt>
+    <dt><span><strong>dep:</strong> libc6 (&gt;= 2.34) </span></dt>
     <dt><span> GNU C Library: Shared libraries </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libgcc1 (&gt;= 1:3.0) </span></dt>
-    <dt><span> GCC support library (dependency package) </span></dt>
+    <dt><span><strong>dep:</strong> libgcc-s1 (&gt;= 3.0) </span></dt>
+    <dt><span> GCC support library </span></dt>
     </dl></li>
 <li><dl>
     <dt><span><strong>dep:</strong> libpoppler-qt5-1 (&gt;= 0.24.5) </span></dt>
     <dt><span> PDF rendering library (Qt 5 based shared library) </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libqt5core5a (&gt;= 5.7.0) </span></dt>
+    <dt><span><strong>dep:</strong> libqt5core5a (&gt;= 5.15.1) </span></dt>
     <dt><span> Qt 5 core module </span></dt>
     </dl></li>
-<li><dl>
-    <dt><span><strong>dep:</strong> libqt5gui5 (&gt;= 5.2.0) </span></dt>
-    <dt><span> Qt 5 GUI module </span></dt>
-    </dl></li>
+<li><dl><dt><span><strong>dep:</strong></span>
+<span>libqt5gui5 (&gt;= 5.2.0) </span> 
+    </dt><dt><span>Qt 5 GUI module</span></dt>
+<dt><span><strong>or </strong></span>
+<span> libqt5gui5-gles (&gt;= 5.2.0)</span> 
+    </dt><dt><span>Qt 5 GUI module — OpenGL ES variant</span></dt>
+</dl></li>
 <li><dl>
     <dt><span><strong>dep:</strong> libqt5printsupport5 (&gt;= 5.0.2) </span></dt>
     <dt><span> Qt 5 print support module </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libqt5widgets5 (&gt;= 5.7.0) </span></dt>
+    <dt><span><strong>dep:</strong> libqt5widgets5 (&gt;= 5.15.1) </span></dt>
     <dt><span> Qt 5 widgets module </span></dt>
     </dl></li>
 <li><dl>
@@ -124,7 +130,7 @@
     <dt><span> Qt 5 X11 extras </span></dt>
     </dl></li>
 <li><dl>
-    <dt><span><strong>dep:</strong> libstdc++6 (&gt;= 5) </span></dt>
+    <dt><span><strong>dep:</strong> libstdc++6 (&gt;= 13.1) </span></dt>
     <dt><span> GNU Standard C++ Library v3 </span></dt>
     </dl></li>
 </ul>
@@ -178,16 +184,16 @@
         </tr>
 <tr>
         <th><a href="https://notesalexp.org/packages/en/debian/sid/amd64/qcomicbook/download.html">amd64</a></th>
-        <td class="size">0.9.1+git476-d0fc37d-1</td>
-        <td class="size">747.51 KiB</td>
-        <td class="size">1.55 MiB</td>
+        <td class="size">0.9.1+git476-d0fc37d-9reb~2401</td>
+        <td class="size">753.71 KiB</td>
+        <td class="size">1.57 MiB</td>
         <td>[<a href="https://notesalexp.org/packages/en/debian/sid/amd64/qcomicbook/filelist.html">list of files</a>]</td>
                                         </tr>
 <tr>
         <th><a href="https://notesalexp.org/packages/en/debian/sid/i386/qcomicbook/download.html">i386</a></th>
-        <td class="size">0.9.1+git476-d0fc37d-1</td>
-        <td class="size">763.75 KiB</td>
-        <td class="size">1.52 MiB</td>
+        <td class="size">0.9.1+git476-d0fc37d-9reb~2401</td>
+        <td class="size">770.0 KiB</td>
+        <td class="size">1.54 MiB</td>
         <td>[<a href="https://notesalexp.org/packages/en/debian/sid/i386/qcomicbook/filelist.html">list of files</a>]</td>
                                         </tr>
         </tbody></table>
