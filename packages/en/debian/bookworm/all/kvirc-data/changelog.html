@@ -41,14 +41,27 @@
     <div class="page">
     <h5>ChangeLog of package kvirc-data in bookworm of architecture all</h5>
     <div class="highlight">
-<pre><span></span>kvirc (4:5.2.0+git-7562-6b57a7bef-1) unstable; urgency=medium
+<pre><span></span>kvirc (4:5.2.0+git-7571-8c8adf27c-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/kvirc/KVIrc.git
   * Branch: master
-  * Commit: 6b57a7bef6ef0a9892e81e4954b6a439f1613787
-  * Date: 1707821669
+  * Commit: 8c8adf27ca2a8ffb4579aab55868e1b54d457df3
+  * Date: 1711011470
   * git changelog:
+  *  8c8adf27c - Fix Wayland appId (#2621)
+  *  c0a899866 - NSIS: make the installer wait for the uninstall to
+    finish before proceeding; fix #2546 (#2619)
+  *  edd04706f - Mac CI: ignore brew warnings caused by multiple python
+    installs that makes the run error out early (#2620)
+  *  b675a2eaf - Fix crash on undo; fix #2617 (#2618)
+  *  5ddf504c5 - Fix linux CI badge
+  *  16ced6886 - Version 5.2.2 (#2614)
+  *  27f96bbae - Switching the mac CI to qt6  (#2612)
+  *  dcba7a1e1 - Fix 2609; while we're at it, make the contextual help
+    work again (#2610)
+  *  9e9049626 - Switch windows CI builds to Github Actions and Qt6
+    (#2606)
   *  6b57a7bef - Use separate caches for CI linux qt5 and qt6 builds
     (#2608)
   *  f5b1a71ba - Use target_compile_features to select C++ standard
@@ -56,13 +69,24 @@
   *  598751f96 - Add a qt6 linux CI build (#2605)
   *  6b57f7f31 - Check for QtMultimedia before using QSound; partially
     fix #2166 (#2604)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 21 Mar 2024 20:05:31 +0000
+
+kvirc (4:5.2.0+git-7558-9b8fa92ef-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/kvirc/KVIrc.git
+  * Branch: master
+  * Commit: 9b8fa92ef5cceccfbb463ccd18cab89d60d5d836
+  * Date: 1707665782
+  * git changelog:
   *  9b8fa92ef - Replace deprecated define. Fix #2601 (#2603)
   *  5cbbeabcf - Add support for sanitizers at compile time (and fix
     some issues) (#2599)
   *  b962ce4b7 - Fix #2597: moc may require the full KviMaskEntry
     declaration in the header file (#2598)
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 13 Feb 2024 19:08:37 +0000
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 12 Feb 2024 16:41:26 +0000
 
 kvirc (4:5.0.1+git-7555-a301aa499-1) unstable; urgency=medium
 
