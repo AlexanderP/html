@@ -14,3 +14,4 @@ Disallow: /focal
 Disallow: /jammy
 Disallow: /lunar
 Disallow: /mantic
+Disallow: /noble
