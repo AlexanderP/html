@@ -41,7 +41,771 @@
     <div class="page">
     <h5>ChangeLog of package qcad in xenial of architecture amd64</h5>
     <div class="highlight">
-<pre><span></span>qcad (3.28.1.3+git9876-a61ca7dc7-1) unstable; urgency=medium
+<pre><span></span>qcad (3.30.1.1+git10509-2d5430a6e5-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 2d5430a6e5049aad7e472f6d8283c9edfd784c1b
+  * Date: 1719516325
+  * git changelog:
+  *  2d5430a6e5 - support arcs in exportPolylineFill
+  *  5dc01ae41d - update wipeout implementation
+  *  9edc6697fb - add setVertexAt
+  *  70d27d8643 - fix initState
+  *  577bf44661 - add wipeout entity support
+  *  b52a655277 - fix slot name collision with Qt 6 QQmlEngine
+  *  9adead23cc - rename WidgetFactory.connect to
+    WidgetFactory.connectSignal
+  *  bbd858b0b1 - update test data
+  *  aa1818f318 - add CSV exporter example script
+  *  f852788ba4 - set version to 3.30.1.1
+  *  5067327cff - set version to 3.30.1
+  *  e9f0953a85 - fi typo
+  *  d25565ceb7 - update user manual
+  *  f01f18037e - remove _debug postfix (Qt 6)
+  *  db9ef18f06 - tool preferences category based on path, not file
+    system
+  *  724dda32e5 - fix exception in tool bar preferences
+  *  fbbaa78d6a - clean up
+  *  b52606dea6 - fix FS#2575 - Shortcuts stop working after click into
+    layer / block list
+  *  0ccdabbcb7 - add comments
+  *  3bc90c9e68 - update translations
+  *  1158028d86 - update translations
+  *  6284a786ee - update user reference manual
+  *  7a14cc58be - clean up
+  *  3f71ea5cae - update
+  *  87d9731394 - clean up
+  *  81e855cb26 - clean up
+  *  2a7394d884 - change shortcuts with . to avoid conflict with line
+    edits
+  *  fa17d243e6 - tag extended shortcuts of snap tools
+  *  9aa4bbe19b - update
+  *  14f8bc4330 - add shortcut hint
+  *  21aa75c8eb - remove broken windows shortcuts
+  *  89e447dd0c - port to older gcc
+  *  aadc0a94c6 - fix border cases
+  *  1a1a771e33 - clean up
+  *  5304287065 - update user manual
+  *  7529144b27 - update user reference manual
+  *  d4228983a6 - fix idling and waiting for event with -no-show
+    argument
+  *  30c0668126 - update user manual
+  *  d012ff5d48 - update icons
+  *  b499890547 - update version number to 3.30
+  *  6d9547450f - update splash screens
+  *  5a256cdc08 - update translations
+  *  bc1327ef47 - update translations
+  *  cac8e8cb85 - update translations
+  *  c7c08acf52 - update translations
+  *  79107f08f1 - update translations
+  *  1727ef6b53 - remove manual shortcuts (genereate auto shortcuts)
+  *  8cfb04e581 - remove manual shortcuts (genereate auto shortcuts)
+  *  01f659c089 - remove manual shortcuts (genereate auto shortcuts)
+  *  44ceb728e0 - remove manual shortcuts (genereate auto shortcuts)
+  *  b2f7688a2c - update translations
+  *  ace6006c87 - clean up
+  *  f7bab87c5d - update
+  *  29d671f65f - remove manual shortcuts
+  *  7e4ad45760 - update translations
+  *  5754252d08 - update test data
+  *  4653e22f77 - fix default paramters
+  *  948a5380c1 - fix exception
+  *  395428831c - fix exception
+  *  beb927435d - add missing test data
+  *  ef7ad43f95 - clean up
+  *  b07c941d49 - update translations
+  *  62160e00cf - fix unit tests, clean up
+  *  0c1836e423 - update translations
+  *  e4ab125804 - don't handle release
+  *  941f6a3af2 - update options toolbar preferences
+  *  399b5951e1 - update tool options shortcuts
+  *  f34e2828f1 - fix input
+  *  734ae26932 - add translator comments
+  *  a37994485e - add translator comments
+  *  4c40d5b6a0 - allow entering comma in math line edit, e.g. pow(2,3)
+  *  a4dc41b714 - update shortcuts
+  *  615b4af032 - ignore shortcut input in RMathLineEdit
+  *  3b46e3fb20 - add tool options shortcuts
+  *  c998b927de - add tool options shortcuts
+  *  eae17732d6 - esc returns focus from options toolbar input field to
+    graphics view
+  *  29cf6b4f55 - Merge branch 'master' of github.com:qcad/qcad
+  *  4118c2d145 - set version to 3.30.0
+  *  f9a29d95f6 - Merge branch 'master' of github.com:qcad/qcad
+  *  b80231f9d7 - update
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Jun 2024 18:42:40 +0000
+
+qcad (3.29.6.5+git10429-e075302d3f-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: e075302d3f9e2f9039224d40bf92ca9ed41deff5
+  * Date: 1716994631
+  * git changelog:
+  *  e075302d3f - add shortcuts for tool options
+  *  6b32cf1a3e - add shortcuts for tool options
+  *  f00b253d12 - add shortcuts for tool options
+  *  7fa968a4c8 - add shortcuts for tool options
+  *  ef2e2b38db - add shortcuts for tool options
+  *  21c93bc8a8 - cache device pixel ratio
+  *  b113b249b6 - add shortcuts for tool options
+  *  0a24783481 - fix initialization of print preview options toolbar
+  *  b62dc5d0d5 - add workaround for qt keyboard focus bug after
+    QMessageBox
+  *  573bf3f3a9 - add workaround for qt keyboard focus bug after
+    QMessageBox
+  *  edcef1ab47 - add shortcuts for tool options
+  *  f6538a1f66 - add shortcuts for tool options
+  *  ec5bab38e0 - add shortcuts for tool options
+  *  35c980f923 - add shortcuts for tool options
+  *  51342b8898 - add shortcuts for tool options
+  *  2e181ed20d - add shortcuts for tool options
+  *  2ef5a07c4b - add shortcuts for tool options
+  *  9e5409107e - add shortcuts for tool options
+  *  7571dab515 - add shortcuts for tool options
+  *  d4a8e8ceaf - add shortcuts for tool options
+  *  ed8e41b44e - add shortcuts for tool options
+  *  d0e3e21314 - regen view on screen change
+  *  526f1cf7e9 - add shortcuts for tool options
+  *  5b2b67ed42 - add shortcuts for tool options
+  *  495bf93adf - fix multi screen setup handling
+  *  c624d1c950 - only remove shortcut if available
+  *  bd33c52b25 - add shortcuts for tool options
+  *  6fa7d56843 - add shortcuts for tool options
+  *  14a0d3f728 - add shortcuts for tool options
+  *  b162e07cd3 - add shortcuts for tool options
+  *  fa6252532c - add shortcuts for tool options
+  *  7a1f923186 - add shortcuts for tool options
+  *  2d0ee4fc5a - add shortcuts for tool options
+  *  748e35ed21 - add shortcuts for secondary tool options
+  *  49aa1ef025 - clean up
+  *  4ce5922d69 - clean up
+  *  3a28ff91a5 - implement all tool options shortcuts as custom
+    properties
+  *  d18485150f - implement all tool options shortcuts as custom
+    properties
+  *  9d171954fb - refactor shortcut / key stroke handling
+  *  f737bbd3a5 - move all shortcuts to dynamic properties
+  *  92f888bcd4 - refactor shortcut handling, add RMainWindowProxy
+  *  8a55b8bdd5 - clean up
+  *  032d06d312 - implement options tool shortcut handling
+  *  36cce368eb - add tool options shortcuts
+  *  213cb9989e - clean up
+  *  921bca4c55 - clean up
+  *  61f078e083 - clean up
+  *  4c876c0b1f - handle tab in block list
+  *  78d9c0499d - Merge branch 'master' of github.com:qcad/qcad
+  *  a5f2711869 - update tab key handling
+  *  684fa594e8 - add tool options shortcuts
+  *  47379b0d5d - update handling of enter key
+  *  fac3c4cf86 - clean up
+  *  565d0b0e93 - clean up
+  *  3f3bb45426 - clean up
+  *  f4426e910f - never tab to invisible widgets
+  *  4924a13a17 - forward enter key press event
+  *  ebf142c5da - add tool options shortcuts
+  *  b1d6fc759d - update preview when tool options change
+  *  21a4d670b7 - update qrc
+  *  fa97b153c2 - update icons in block list when dark mode changes
+  *  88d22ac816 - add tool option shortcuts
+  *  61e7f63c6b - add tool option shortcuts
+  *  6647880260 - remove obsolete tool
+  *  a98a03947b - update preview when options change
+  *  7676e6dbb6 - add tool option shortcuts
+  *  1865d78dd3 - update preview when options change
+  *  b557eb1149 - update preview when options change
+  *  a2ed422cf7 - add tool option shortcuts
+  *  8528946ce6 - no auto focus while restoring widget state
+  *  58dd8beb04 - add tool option shortcuts
+  *  8f07d86759 - add tool option shortcuts
+  *  7b5a38e3ec - add tool option shortcuts
+  *  0afbc6eca5 - add tool option shortcuts
+  *  05a66caf80 - update
+  *  1f1d2105c8 - add shortcuts for tool options
+  *  e67766265d - live preview of tool options
+  *  e958780ac4 - add shortcuts for tool options
+  *  3a704ac7ff - add live update of preview on tool option change
+  *  1e02d7e342 - add shortcuts for tool options
+  *  e0a5005b37 - clean up
+  *  6c30abf6d3 - update icon
+  *  a9b254df01 - fix auto focus on start of tool
+  *  205315b13b - add shortcuts for tool options
+  *  6b055d7838 - clean up
+  *  20a6e2a49f - update tool options
+  *  05053a1ff5 - update
+  *  8e4963de3a - move options toolbar init to OptionsToolBar class
+  *  9a40044799 - add shortcuts to tool options
+  *  78c1503493 - update tool options
+  *  2dc9d5fc0e - add support for RComboBox
+  *  519d996dd5 - fix potential exception
+  *  c4c2e22922 - update preview on parameter change
+  *  0af62a5c02 - port to Qt 6
+  *  0310ee4508 - add tool options shortcuts
+  *  ab80a8faa5 - add tool options shortcuts
+  *  cecca76afb - add tool options shortcuts
+  *  a33824bf11 - fix potential exception
+  *  9703505af2 - add tool options shortcuts
+  *  54c7c19763 - update icons (stronger lines)
+  *  35c4cd5c57 - add tool options shortcuts
+  *  628afae4e1 - update icons
+  *  afef242525 - avoid invalid aux preview with radius 0
+  *  39f8ffcf41 - fix potential exception
+  *  9ae1057979 - port to Qt 6
+  *  202d0480d0 - add ,1 ,2 ... shortcuts for tools with nine reference
+    points
+  *  2ebbbc509e - add tool options shortcuts
+  *  fe3fcc6c81 - add tool options shortcuts
+  *  0e30197f6b - update qrc
+  *  8489555f4f - clean up
+  *  e8fa3f5f0a - add tool options shortcuts
+  *  45429d638c - add aux preview of arc height
+  *  784c4718bc - add LeftClick tool to trigger left click by shortcut
+  *  e0641bc720 - use ,1 ,2 ... for options toolbar combobox shortcuts
+  *  0e0d41bf00 - add isQAction, clean up QButtonGroup on tool exit
+  *  bc7696bf07 - port to Qt 6
+  *  e038d1d65a - Merge branch 'master' of github.com:qcad/qcad
+  *  5503ef8384 - add tool options shortcuts
+  *  da4fae410e - add tool options shortcuts
+  *  076bfe0856 - Merge branch 'master' of github.com:qcad/qcad
+  *  6f7f8249e6 - fix signal calling when QButtonGroup shortcut is
+    triggered
+  *  6a009a9999 - add tool options shortcuts
+  *  abb57b3cee - add support for shortcuts that toggle buttons in tool
+    options button box
+  *  0ed6151d23 - add tool options shortcuts
+  *  5f41579777 - update preview when tool option changes
+  *  7752c847d7 - update tool options shortcuts
+  *  c992eed08f - support spin box for direct text entry
+  *  8c6cdd376d - add tool option shortcuts
+  *  bf30b10245 - Merge branch 'master' of github.com:qcad/qcad
+  *  c4aa97769a - handle keyboard navigation for options toolbar (tab,
+    enter)
+  *  85c2f6a29c - avoid tab focus in tool matrix widget search field
+  *  930b183827 - fix handing back of keyboard focus from options
+    toolbar widget
+  *  5ae6a10c75 - update string
+  *  042c6db1cf - install specialized event filter for tool options
+    widgets
+  *  7e74748ffe - add tool option event filter
+  *  75328929d9 - Merge branch 'master' of github.com:qcad/qcad
+  *  87d488eef9 - update
+  *  09d3df2c0b - update script bindings
+  *  267cfd3d9a - rename tab event filter to tool options event filter
+  *  0f1afca102 - add tool options shortcuts
+  *  71e49bbabf - update script bindings
+  *  8146cafce8 - add tab event filter to fix broken Qt tab navigation
+  *  c6bb2930b9 - clean up
+  *  c7df38ac41 - ignore tab key (allow tab to access tool options)
+  *  48411e4686 - add custom widget RComboBox
+  *  3dd2d4c5d0 - use tab to access tool options, return to clear focus
+  *  5479c69cfb - add shortcuts
+  *  534fd6d57f - add shortcuts for options
+  *  35ca051256 - add shortcuts for reference point
+  *  94f4c0368d - fix options toolbar input
+  *  b73993e782 - update script bindings
+  *  677a29221a - add RComboBox with returnPressed signal
+  *  40d22b0ea9 - update tool options shortcuts
+  *  76d0c8f264 - tool options shortcuts: enter releases focus
+  *  e5d8bb61db - add missing base class calls
+  *  5cb1cf22da - update tool tips, shortcuts
+  *  19d0f5e799 - improved support for shortcuts for options toolbar
+    widgets
+  *  6ba9029740 - update qrc
+  *  cd377b35e7 - fix FS#2571 - Draw > Line > Line from 2 Points: Close
+    sequence draws line to cursor
+  *  0f0d24f8a9 - update icons
+  *  78f837fa0f - Merge branch 'master' of github.com:qcad/qcad
+  *  5c5a7b102e - update icon
+  *  94f57367af - fix validators for Qt 6
+  *  8c4f91a3d4 - update qrc
+  *  25f6a5082c - set version to 3.29.6.4
+  *  78d38da22c - clean up
+  *  d608973897 - update script bindings
+  *  ff2e74359c - Merge branch 'master' of github.com:qcad/qcad
+  *  0ca6e86ede - allow override for disabling snap interruptions by
+    mouse moves
+  *  38a3944de9 - Merge branch 'master' of github.com:qcad/qcad
+  *  e9be6011e2 - fix FS#2570 - Tool Matrix: Wrong order of tool buttons
+    (M1/M2/M3)
+  *  99ab2f256f - fix typos
+  *  7e8205b4f0 - Merge branch 'master' of github.com:qcad/qcad
+  *  cd1500f05e - update icons
+  *  623a2826ed - merge changes from CVH
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 29 May 2024 20:33:33 +0000
+
+qcad (3.29.6.4+git10254-4585899fc8-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 4585899fc8fb43c5e5a3274761e3ec679f826b82
+  * Date: 1714124432
+  * git changelog:
+  *  4585899fc8 - Merge branch 'master' of github.com:qcad/qcad
+  *  98bc951054 - update figure
+  *  4fe7181c9d - Merge branch 'master' of github.com:qcad/qcad
+  *  fad19255c6 - set version to 3.29.6.4
+  *  1e2c464206 - ignore \A text tags (alignment changes)
+  *  34cada69b6 - update translations
+  *  7723205264 - update translations
+  *  24c0105f5d - update translations
+  *  c5e2bbc464 - set version to 3.29.6.3
+  *  052bd49f94 - update
+  *  723cf067e8 - Merge branch 'master' of github.com:qcad/qcad
+  *  88bfcc48a2 - update
+  *  0826bd6dea - set version to 3.29.6.2
+  *  fa010186e6 - set version to 3.29.6.1
+  *  2a1de30717 - clean up
+  *  cce84485d8 - adjust tool tip color when dark mode changes
+  *  736fd7b14c - adjust color of messages when dark mode changes
+  *  edffc6b72d - fix FS#2562 - Color dialog does not show previous
+    custom color initially
+  *  84e71d38f8 - Merge branch 'master' of github.com:qcad/qcad
+  *  1a00da1cbb - Merge branch 'master' of github.com:qcad/qcad
+  *  b6281c6e16 - update translations
+  *  f3aa41416a - update translations
+  *  df0d5de6b6 - update
+  *  0e25039ec8 - add qtjsapi license
+  *  9b62223591 - update translations
+  *  449cd8e6fa - update translations
+  *  f63ab58d4a - update translations
+  *  131ffe901c - update script bindings
+  *  26f22c9cd8 - tell RDocument if it was created just before loading a
+    file
+  *  257a219d12 - add beforeLoad to RDocument constructor
+  *  14d9afc7c3 - Merge pull request #50 from wcxu21/master
+  *  813e28f1b2 - Updated Simplified Chinese translation
+  *  ca218acf7b - Delete scripts_zh_CN.ts
+  *  338ef7f6a3 - Delete qtbase_zh_CN.ts
+  *  61d1b3d2ee - Delete qcadgui_zh_CN.ts
+  *  d214a0a701 - Delete qcadentity_zh_CN.ts
+  *  2271edbc87 - Delete qcadcore_zh_CN.ts
+  *  74bf405dbb - Updated Simplified Chinese translation
+  *  773deb4ed3 - update translations
+  *  2b5f4c8c0f - update translations
+  *  2e1baacc74 - update translations
+  *  a4cc49206c - set version to 3.29.6.0
+  *  e279859505 - update
+  *  f05d515678 - update translations
+  *  dd90c4fc36 - fix filter order, avoid dxflib as default filte when
+    opening
+  *  9b29b12827 - fix default colors
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 26 Apr 2024 18:23:35 +0000
+
+qcad (3.29.4.1+git10208-22bf93b563-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 22bf93b563f919790da1d1afee671390952efb55
+  * Date: 1711119780
+  * git changelog:
+  *  22bf93b563 - fix clipping of viewports, always switch off clipping
+    for reference points, cursor
+  *  31699af9ec - update user manual
+  *  9ecd329b9d - copy invisibility status from attribute definition
+    when creating attribute from it
+  *  3a8f21119e - refactor
+  *  e4b22871ae - fix plugin loading order for windows
+  *  676f860f8b - update translations
+  *  581d607055 - Merge branch 'master' of github.com:qcad/qcad
+  *  b548c0d4d6 - update translations
+  *  64d8e5c54d - update translations
+  *  c4b79547d3 - change order of group boxes
+  *  91ad92b17c - update translations
+  *  3e151b95ce - set version to 3.29.5.0
+  *  318d0fc520 - update translations
+  *  7c14249df6 - Merge branch 'master' of github.com:qcad/qcad
+  *  a93ab38337 - update translations
+  *  cd707b4ff8 - Merge branch 'master' of github.com:qcad/qcad
+  *  104a33183a - ignore enter pressed in combo box (do not repeat last
+    command)
+  *  0756cb2123 - fix potential exception (Qt 6)
+  *  58c5cbef4c - fix duplicate action when hitting enter to repeat last
+    command
+  *  2fba51931d - fix duplicate action when hitting enter to repeat last
+    command
+  *  ae8d3154da - adjust widget sizes
+  *  e53e248c55 - update
+  *  22dd9d7160 - avoid use of getWidgets
+  *  686a39a8a0 - avoid use of getWidgets
+  *  076a8ba2a0 - update translations
+  *  33ec4a21b8 - port to qt 5
+  *  f79b42d36f - make zoom margins high res display aware
+  *  2c4e2acd30 - print preview preferences opens directly page settings
+  *  f04d663bb2 - move margins from multi pages to page preferences
+  *  adec1a25ce - clear programmed preference page after one use
+  *  80c3f58dff - move page margins from multi page to page settings
+  *  31a3b67af4 - update includes
+  *  ce34504f4e - clean up
+  *  338a01f0a4 - update script bindings
+  *  2dbf63a2e1 - Merge branch 'master' of github.com:qcad/qcad
+  *  9282f18205 - add getDrawingScale, setDrawingScale
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 22 Mar 2024 15:45:41 +0000
+
+qcad (3.29.4.1+git10172-9a6c5a2e0c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 9a6c5a2e0cd3960e3ac6de22e95a56eff2254015
+  * Date: 1708610282
+  * git changelog:
+  *  9a6c5a2e0c - change from form to vertical layout
+  *  857b6fc33c - increase size of block dialog
+  *  d0c393b693 - select added layer
+  *  08c2e76c8f - clear clip rectangles after exporting viewport
+  *  dce2fc65a7 - select item of newly added layer
+  *  e21c7f56fe - Merge branch 'master' of github.com:qcad/qcad
+  *  4d50d6577c - update translations
+  *  4ca98877fb - termiante tool if invalid paramters were entered
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 22 Feb 2024 18:13:25 +0000
+
+qcad (3.29.4.1+git10164-f5b4186065-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: f5b4186065040331b6df69a33ca0973b1bd89042
+  * Date: 1707832388
+  * git changelog:
+  *  f5b4186065 - update
+  *  567704bddd - fix lag when zooming in while measuring
+  *  9070c59ebf - set version to 3.29.4.1
+  *  36a6423632 - update plugin IDs
+  *  d1fa42cf58 - update translations
+  *  daf7bdf66b - fix dimension style problem
+  *  704ddf4bac - Merge branch 'master' of github.com:qcad/qcad
+  *  33bc96a06d - fix qt 6.6.1 workaround for column widths
+  *  3c72eb97a9 - set version to 3.29.4
+  *  d5799f46b8 - add preference to highlight images or not
+  *  b79fac7538 - set keyboard focus on filter widget on start up
+  *  14bf9dfb23 - update translations
+  *  78d16bb5c6 - fix strings
+  *  d123cc191b - Merge branch 'master' of github.com:qcad/qcad
+  *  7bd302dcf2 - update dialog size
+  *  0459ca62de - update
+  *  9d7dbc833d - port to Qt 6
+  *  54e7dae519 - fix rendering of zero length rotated dimensions
+  *  4b8f311536 - make aligned dimension with zero length invalid
+  *  d390a10ca3 - update page layout
+  *  35c780f799 - move update and getShapes to
+    RDimensionData::setCustomTextPosition
+  *  3b6308869a - update
+  *  5cdf463276 - make button box / ok button accessible to scripts
+  *  b3a8a883aa - workaround for Qt 6.6.1 bug with QTreeView column
+    widths
+  *  e9b3cc9818 - update DXF plugin name
+  *  6aea7efebf - Merge branch 'master' of github.com:qcad/qcad
+  *  a1102f2c57 - clean up
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 13 Feb 2024 19:11:22 +0000
+
+qcad (3.29.3.1+git10137-49d5f23551-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 49d5f235519fca4ddec144c4892c125708a52e12
+  * Date: 1706264421
+  * git changelog:
+  *  49d5f23551 - update context menu for (dimension label) line edits
+  *  238c50a0db - update translations
+  *  f985c529ea - set version to 3.29.3.2
+  *  89cee2d98f - update test data
+  *  aae0109379 - update meta types
+  *  d843b9496d - set version to 3.29.3.1
+  *  ea40b438c9 - port to Qt 6 (this.length not allowed)
+  *  8479dd4db8 - update
+  *  aaeb48f4b8 - Merge branch 'master' of github.com:qcad/qcad
+  *  723f8c7ce4 - update
+  *  0039406399 - fix angle restriction to 0 degrees
+  *  a5098adb5f - update user manual
+  *  3d3cc8c93b - update translatable strings
+  *  67a76b899c - update user manual
+  *  3bdd8228a5 - Merge branch 'master' of github.com:qcad/qcad
+  *  6244fc63d8 - update translations
+  *  e50bcbcd41 - Merge branch 'master' of github.com:qcad/qcad
+  *  3201ccbc0c - set version to 3.29.3
+  *  a4937ba279 - set version to 3.29.3
+  *  1cff0c7368 - replace restriction button in Lines 2P tool with
+    length and angle input
+  *  2192dd1cec - fix FS#2522 - Zoom box preview
+  *  5ffa70a436 - update
+  *  2cba7b9611 - update script bindings
+  *  193d0c539a - fix script bindings function name collision
+  *  5fcf4d6304 - set version to 3.29.2.1
+  *  0236a46378 - add support for forcing save as
+  *  1baad136fe - fix FS#2516 - Screen-based Linetypes issues with pixel
+    based line widths
+  *  00cc22ceca - set version to 3.29.2.0
+  *  e1eee34061 - fix FS#2516 - Screen-based Linetypes issues with pixel
+    based line widths
+  *  ebae6f71ea - update compiler detection
+  *  6c9c392384 - set version to 3.29.1.1
+  *  6560b29a2a - set version to 3.29.1
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 26 Jan 2024 19:44:31 +0000
+
+qcad (3.29.0.0+git10105-3685de90ed-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/qcad/qcad.git
+  * Branch: master
+  * Commit: 3685de90edbbe54e6170f7741ded77d85f107697
+  * Date: 1704976526
+  * git changelog:
+  *  3685de90ed - port to macOS/Qt6
+  *  88a849bc92 - fix artefacts when rendering splines with dashes
+  *  6d8405b425 - clean up
+  *  e45a1d387e - Merge branch 'master' of github.com:qcad/qcad
+  *  1d655a56bb - port to MSVC 2010 / Qt 5.5
+  *  85b5b09d4b - update
+  *  3b8acdc5ef - update user manual: fix anchor
+  *  f582b49212 - fix user manual links
+  *  663ab307ae - update user manual
+  *  6c6425f5a2 - update user manual: correct line type link
+  *  7f44daf059 - update script bindings
+  *  6e35e7b183 - clean up
+  *  689c397685 - update years
+  *  785a5942b4 - Merge branch 'master' of github.com:qcad/qcad
+  *  9f6e9842a0 - update
+  *  a081b422a0 - rename buttonBox to ButtonBox for automation
+  *  340dbdf493 - fix relative zero painted with fill
+  *  164d831e2c - fix exception
+  *  aae0f9cce5 - update translations
+  *  1e53847ff8 - update translations
+  *  1539ee6b1b - alternative projection if no ellipse proxy is
+    available (QCAD CE)
+  *  b36bba3c95 - update
+  *  469c57f972 - update test data
+  *  9f1bdb4c81 - fixes for REllipse::getTangentPoint
+  *  6a17ef22fc - Merge branch 'master' of github.com:qcad/qcad
+  *  5c1bf17665 - fix hatch rendering (detection of tangent point
+    intersection points)
+  *  97778203eb - add getTangentPoint
+  *  8fa66ce434 - Merge branch 'master' of github.com:qcad/qcad
+  *  0a191dd5ce - port to Qt 5
+  *  7b5dc8f498 - update test data
+  *  11ecc4f93d - always update image
+  *  ae4aa9297f - update user manual
+  *  8073899515 - Merge branch 'master' of github.com:qcad/qcad
+  *  ff6c2f4326 - port to qt 5
+  *  a57f4f0879 - update translations
+  *  fefae082f0 - update version
+  *  7143a5cefa - Merge branch 'master' of github.com:qcad/qcad
+  *  2169ecb908 - disable app win while switching to print preview
+  *  99311b61ec - add comment about slow QPrinter
+  *  fc3a4f1ad4 - Merge branch 'master' of github.com:qcad/qcad
+  *  3df2afabe5 - avoid filled snap cursor if selection present
+  *  b120055ec6 - Merge branch 'master' of github.com:qcad/qcad
+  *  b4e978f128 - set version to 3.29.0
+  *  f1f03f9945 - Merge branch 'master' of github.com:qcad/qcad
+  *  e957a5895c - Merge branch 'master' of github.com:qcad/qcad
+  *  5844d6c1ca - update unit test data
+  *  8624e434dd - add RSpline::getLength to spline proxy
+  *  e115f1d0b6 - back port to Qt 5
+  *  6144426a31 - fix setting mouse cursor
+  *  d040f6eb57 - thicker lines for auxiliary previews when using a high
+    res display
+  *  0f07e9770b - fix wrong mouse cursor for choosing an entity
+  *  16fa66127b - add stub for ellipse from 4 points
+  *  8379848ffe - clean up
+  *  8b22d437f9 - update
+  *  91037d443a - fix FS#2508 - File > Print / PDF Export: Fails when
+    crop marks are enabled [macOS M1/M2/M3]
+  *  2509bae525 - update qrc
+  *  bf2ef14458 - add fractions to property editor precision preferences
+  *  5ec2dd79e4 - update inscribed ellipse function in ellipse proxy
+  *  cad83e7e9d - add todo
+  *  f8374a4a41 - avoid warning when using default filter
+  *  8de09ad2f0 - update required unit test data (fix arc direction)
+  *  0e638e306b - update ellipse inscribed in quad calls
+  *  4037872620 - remove ellipse inscribed in quad tool
+  *  909ee0f200 - move inscribed ellipse algorithm implementation to
+    ellipse proxy
+  *  9a09bd71eb - update non-uniform arc / circle transformation
+  *  ddb1b0210c - update API doc
+  *  fc75359225 - update test data
+  *  859180dcf5 - tolerate non-ellipse entity
+  *  b04a58f375 - Merge branch 'master' of github.com:qcad/qcad
+  *  ef3c585c6a - update
+  *  a8b0d5a173 - Merge branch 'master' of github.com:qcad/qcad
+  *  2b9f048b4a - only recommend dxf, dwg as default formats
+  *  19e35c3082 - fix inscribed ellipse (failed unit test)
+  *  8415101025 - update
+  *  684f31e3aa - fix compiler warning
+  *  456759592e - fit getWidgetPath for Qt 6
+  *  05f9445367 - fix font changes with multiple text entities with
+    different fonts
+  *  e2c8c203a2 - set version to 3.28.2.6
+  *  6cb1802eb1 - fix clipping of grid when only viewports are used in
+    layout
+  *  caf1ada63f - Merge branch 'master' of github.com:qcad/qcad
+  *  4fd03aead0 - port to gcc
+  *  58979ea564 - port to gcc
+  *  3ad1482cc6 - Merge branch 'master' of github.com:qcad/qcad
+  *  b868c8e166 - port to gcc
+  *  3ceb093ec4 - update
+  *  66e677efe1 - shorten translation of property editor label
+  *  8298ef0e07 - port to new graphics view
+  *  976808ecd3 - port to new graphics view
+  *  709ed339cc - update translations
+  *  9f8f5488e6 - update translations
+  *  7131b3cd88 - update translations
+  *  fe3a729e75 - handle font changes with QFont
+  *  57c201d9e3 - add GUI automation mode
+  *  729d7873ea - add command addlayer
+  *  1c1fc70c92 - adjust margins
+  *  30d1d3b662 - set name of document tab bar
+  *  7adb0da8a5 - only indicate error in visible RMathLineEdit
+  *  c20c798bac - port to Qt 6
+  *  43a602cd15 - port to scripts/Tools/arguments.js
+  *  1edc7ff066 - port to new graphics view
+  *  c5a05e9b4a - lookup icon: ignore non-existing icons
+  *  cc21874f99 - remove setIcon (implicit icons based on script path)
+  *  8ed29a2068 - update
+  *  6b884772b2 - avoid duplicate scene pointers
+  *  c517b8777a - fix downcast from RGraphicsView to RGraphicsViewImage
+    intead of RGraphicsViewQt
+  *  816364b710 - implicitely set icon based on script file path
+  *  1649ed0005 - fix for negative radii
+  *  99502c4279 - Merge pull request #48 from ppekala/master
+  *  0af9b51f47 - Add scripting support for Debian Bookworm (Qt 5.15.8)
+  *  0a67e08244 - update
+  *  d84a7d1677 - sync settings on exit
+  *  9bac2e7afc - update translations
+  *  6f2e6ab8d2 - improved checking of result for inscribed ellipse
+  *  a82895e8ee - prevent endless loop with zero segment length
+  *  4e25bb6563 - port to Qt 6
+  *  7334515c87 - update action state when application does not have the
+    focus
+  *  717383b982 - Merge branch 'master' of github.com:qcad/qcad
+  *  6cabfbf55f - update warnings
+  *  d471b37c97 - back port to Qt 5
+  *  a0ed5baafa - fix position of cursor indicator in vertical ruler
+  *  a294002419 - fix antialiasing
+  *  e509da1e1c - update coordinate displays when previewing coordinates
+  *  bf73b1c9d8 - update qrc
+  *  b04bd010de - add getPointOnShape for ellipses
+  *  723182600f - update meta types
+  *  9f53ee4d76 - fix getWidgetPath
+  *  629cf87d95 - update translations
+  *  d85850d36b - add unit test
+  *  32ff3eda79 - port to Qt 5
+  *  0c3d246ca7 - update script bindings
+  *  61f3cd16e2 - port to Qt 5
+  *  0e56faa893 - update script bindings
+  *  e68c164d01 - port to Qt 5
+  *  f05713765e - add support for case with two concentric circles [CVH]
+  *  4f6ef89bf3 - update translations
+  *  6d47424159 - add getNewObjectId for Qt 6 ports
+  *  758d1c4c11 - port to Qt 6
+  *  11db83919d - Merge branch 'master' of github.com:qcad/qcad
+  *  0809f394e8 - update
+  *  4306373274 - fix storing block zoom with qt 6
+  *  caa020b90f - clean up
+  *  b02b375419 - clean up
+  *  1a9ab2a243 - update script bindings
+  *  9650ea1839 - update strings
+  *  75096fc95f - fix paintOverlay / printing
+  *  e7d2363912 - update translations
+  *  9113401c63 - update translations
+  *  a7ce60d3d7 - update translations
+  *  cd3298080a - clean up
+  *  e3e9445895 - add distance snap label
+  *  293b139a9d - update
+  *  db8dc26894 - add repeat control for angle / length restriction
+  *  3c36f2dc29 - use premultiplied bitmaps
+  *  a8ddabcc7d - update
+  *  5d1b808ec9 - update script bindings
+  *  3830110877 - split up classes (for ECMAScript generator)
+  *  7e26c68143 - update script bindings
+  *  5f24d6ed86 - update script bindings
+  *  0bb21922d8 - update
+  *  e0abcbfdba - update script bindings
+  *  2289bfa207 - remove obsolete code
+  *  b626b1e1cf - Merge branch 'master' of github.com:qcad/qcad
+  *  c65f70df48 - update script bindings
+  *  9971fee940 - Merge branch 'master' of github.com:qcad/qcad
+  *  fb48bbf734 - update
+  *  c8315154b2 - update script bindings
+  *  02d9c7570e - Merge branch 'master' of github.com:qcad/qcad
+  *  d5cbc856b8 - update Qt translations
+  *  ab4c05b21c - update gitignore
+  *  7a7528ce27 - refactor graphics view to use RGraphicsViewWorker
+  *  f4fa7eaf23 - add paintCursorLine
+  *  5af04b36f2 - add more caches for QColor settings
+  *  18f667c02f - clear imageView pointer if image view is deleted,
+    prevent exit segfault
+  *  a06002f66a - add QLineF meta type
+  *  9442ce6b43 - update Qt 5 script bindings
+  *  a317989f14 - update Qt 5 script bindings
+  *  8c5b69d01b - Merge branch 'master' of github.com:qcad/qcad
+  *  2d1820f2ef - correct French translation mistakes [Marc56]
+  *  dc10fc5964 - add timers for performance monitoring
+  *  19ff4f10f9 - use class member painter
+  *  21d45addcd - clean up
+  *  d00436fbfa - make resizeImage virtual for derived classes
+  *  b08e0bf6fe - port to image view
+  *  22dc223273 - delete imageView
+  *  e72cdb67ad - allow grid point painting in one go
+  *  29d811f71e - update
+  *  05ddd7acef - add slot for alternative graphics view
+  *  b73679ec04 - update
+  *  dacb026948 - port to new Qt 6 bindings
+  *  d35b200065 - add EAction.getGraphicsViewWidget
+  *  40250998bb - port to new graphics view
+  *  fdf02d9f3d - clean up
+  *  55c8a548ad - clean up
+  *  87e11a6fa8 - refactor graphics view
+  *  031b57a7c3 - port to Qt 6
+  *  6ed6fbef11 - update
+  *  9350fe1c25 - add getCpuArchitecture
+  *  4256d9d9a7 - set version to 3.28.2.5
+  *  2d7a8867a1 - port wheel event to Windows
+  *  69b8f8465b - Merge branch 'master' of github.com:qcad/qcad
+  *  eda33ef6df - update translatable strings
+  *  dbd65b89e9 - fix default value
+  *  d5902ae5b2 - Merge branch 'master' of github.com:qcad/qcad
+  *  3a1c9b4c85 - add pan speed to navigation preferences
+  *  e016affe35 - port to Windows/Qt 6
+  *  7da8e38aae - set version to 3.28.2.4
+  *  4806362099 - port to Qt 6
+  *  3d8526ae8b - port to Qt 6
+  *  179d47ed65 - fix mouse wheel zooming for Qt 6
+  *  fc798097e7 - port to Qt 6
+  *  a5deda9528 - clean up
+  *  351cb5cf73 - set version to 3.28.2.3
+  *  fa4687b928 - fix trackpad scrolling for Qt 6
+  *  28b83327c1 - Merge branch 'master' of github.com:qcad/qcad
+  *  cfa90255a2 - Delete .github/workflows/cmake-multi-platform.yml
+  *  eaaa9ba887 - Create cmake-multi-platform.yml
+  *  15aa3741b0 - clean up
+  *  044748a05a - clean up
+  *  790f7d5c37 - fix ID of returned object
+  *  946a7c9452 - port to Qt 6
+  *  f8f9a7609b - set version to 3.28.2.2
+  *  9ec6cac02f - update
+  *  66730ade69 - set version to 3.28.2.1
+  *  e03c082134 - Merge branch 'master' of github.com:qcad/qcad
+  *  e524f7bcc5 - update
+  *  579c27b551 - set version to 3.28.2.1
+  *  25a6413c55 - Merge branch 'master' of github.com:qcad/qcad
+  *  800810b83e - update for cmake
+  *  5c8953f4c4 - update
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 13 Jan 2024 21:26:01 +0000
+
+qcad (3.28.1.3+git9876-a61ca7dc7-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/qcad/qcad.git
