@@ -40,7 +40,396 @@
     <div class="page">
     <h5>ChangeLog of source tesseract </h5>
     <div class="highlight"><pre><span></span>
-tesseract (4.1.3-2) unstable; urgency=medium
+tesseract (5.3.4+git6419-dd08a7aa-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/tesseract-ocr/tesseract.git
+  * Branch: main
+  * Commit: dd08a7aa6a3a6b0fdfefc8e10887122e4b15a412
+  * Date: 1721899785
+  * git changelog:
+  *  dd08a7aa - Fix confidence output for the PAGE XML renderer.
+  *  bc490ea7 - Ignore illegal TESSDATA_PREFIX (not existing filesystem
+    entry, issue #4277)
+  *  2991d36a - Make regular usage of CMAKE_INSTALL_LIBDIR and
+    GNUInstallDirs
+  *  93c9be7a - Merge pull request #4271 from hglee/fix-static-linking-
+    TARGET_PDB_FILE
+  *  1476a591 - Fix TARGET_PDB_FILE error for static linking.
+  *  b5f279ec - Create new release 5.4.1
+  *  130b8a1c - Remove unused variable assignments
+  *  08e9ba8b - Add double quotes to prevent globbing and word splitting
+  *  6cb49dce - Fix more code style issues (reported by Codacy)
+  *  f251a0da - use c++17 instead of c++11
+  *  96772c57 - Reduce scope of some local variables (reported by
+    Codacy)
+  *  56052933 - Fix more code style issues (reported by Codacy)
+  *  ec829cd9 - cmake: remove config option from build to avoid GA wrong
+    build
+  *  694cd16c - cmake: add timestamp to artifacts
+  *  a387624e - cmake: use RelWithDebInfo instead of Release
+  *  09e003f8 - cmake: improve png version handling
+  *  4bd125b0 - cmake: install pdb files only for MSVC build
+  *  0f815d5d - Merge pull request #4263 from stweil/codacy
+  *  3edf3b41 - Merge pull request #4262 from stweil/gh_actions
+  *  651f172c - Fix more code style issues (reported by Codacy)
+  *  cde0576f - Fix small code style issues (reported by Codacy)
+  *  896f9053 - Remove unused .github/ISSUE_TEMPLATE.md
+  *  59bda085 - Update deprecated Node.js 16 GitHub actions
+  *  cb177c05 - cmake: msvc: install also pdb files
+  *  dac6b18a - Avoid FP overflow in NormEvidenceOf (fixes issue #4257)
+  *  b0a10bbe - Update cmake-win64.yml
+  *  6db748d1 - Update cmake-win64.yml
+  *  1be261dc - Create new release 5.4.0
+  *  34693cd7 - Make function Network::spec pure virtual
+  *  a7c0a952 - Update issue-bug.yml
+  *  c5b0c2f4 - Replace strcpy and strncpy by new inline helper function
+  *  ea82f919 - Merge pull request #4249 from stweil/codacy
+  *  6e73a80e - Avoid redundant conversion from std::string to char * to
+    std::string
+  *  5712e169 - Add nullptr check in for statement of function
+    RecodeBeamSearch::ContinueContext
+  *  cf7231f3 - Fixes #4247: remove unnecessary nullptr checks
+  *  5d5a633a - Fix compiler warnings [-Wdeprecated-declarations]
+  *  bdc64229 - Fix compiler warnings [-Wmaybe-uninitialized]
+  *  f1a45db9 - Remove unused xmlns:xlink from ALTO renderer
+  *  03666135 - Avoid some float / double conversions in class Classify
+  *  d0b3d091 - Fix compiler warnings [-Wunused-but-set-variable]
+  *  1644205d - Fix compiler warnings [-Wold-style-cast]
+  *  24dd7260 - Fix compiler warnings [-Wunreachable-code-return]
+  *  36d44a14 - Fix compiler warnings [-Wzero-as-null-pointer-constant]
+  *  531597fb - Merge pull request #4244 from stweil/buildfix
+  *  d72567ad - Use AM_CPPFLAGS also for compilation of all sources
+  *  9a308167 - Create new release 5.3.5-rc1
+  *  74e43816 - Fix FP exception in Wordrec::angle_change (issue #4242)
+    (#4243)
+  *  bcfdd5e5 - Fix setup of datadir on installations with Conda (issue
+    #4230)
+  *  f3974d42 - Update sw.yml
+  *  0ad6efc9 - Replace release 5.3.5-rc1 by 5.4.0-rc1
+  *  cab56586 - Create new release 5.3.5-rc1
+  *  0418ec28 - Create new release 5.3.5-rc1
+  *  c23792bc - Allow for text angle/gradient to be retrieved (#4070)
+  *  6a31e36e - Improve CCUtil::main_setup (fixes issue #4230)
+  *  6648d5bc - Fix some issues which were reported by GitHub code
+    scanning
+  *  0f9d5077 - Update documentation
+  *  dff5ebd2 - Fix CID 1544762 and CID 1544763 (Uninitialized scalar
+    variable)
+  *  4a49e034 - Remove trailing whitespace from PAGE XML <Unicode>
+    output
+  *  d4618678 - Refactor function Textord::clean_noise_from_row (#4225)
+  *  a1837f18 - Remove the variable
+  *  77c99e07 - A few typo fix
+  *  072b5d47 - Apply the change
+  *  6802705c - Apply the changes
+  *  d6f0073c - Remove unused local variables in PAGE renderer
+  *  549b8767 - Support training without lstmf files
+  *  88771ca4 - Add missing new function prototypes for PAGE renderer to
+    C API
+  *  577e8a8b - Add PAGE XML renderer / export (#4214)
+  *  bae520ea - Facilitate vectorization for generic build (#4223)
+  *  d5e000bc - Remove unsupported OpenCL code and related API functions
+    (#4220)
+  *  912deb39 - Fix comments for function ReCachePages
+  *  87a152c0 - cmake: target_compile_features instead of  set_property
+  *  2b07505e - issue-bug.yml: Add a link to Supported Operating Systems
+    page
+  *  cc3c5070 - Update autotools.yml
+  *  872ca6db - Update cmake.yml
+  *  d9ae5c35 - Merge pull request #4205 from stweil/docker
+  *  398ea8a8 - Remove broken Dockerfile
+  *  baf8e800 - Fix CID 1534954 (COPY_INSTEAD_OF_MOVE)
+  *  4c0f9110 - Fix CID 1534957 (COPY_INSTEAD_OF_MOVE)
+  *  151cf070 - Fix CID 1534940 (COPY_INSTEAD_OF_MOVE)
+  *  f00d4b22 - Fix CID 1534933, 1534937 (COPY_INSTEAD_OF_MOVE)
+  *  479789b3 - Fix CID 1534948 (COPY_INSTEAD_OF_MOVE)
+  *  d172f9b8 - Fix CID 1534956 (COPY_INSTEAD_OF_MOVE)
+  *  ddd2ec24 - Fix CID 1534932, 1534942 (COPY_INSTEAD_OF_MOVE)
+  *  7465da90 - Fix CID 1510987 (COPY_INSTEAD_OF_MOVE)
+  *  aa02fb30 - Fix CID 1534944 (COPY_INSTEAD_OF_MOVE)
+  *  5a9a841f - Fix CID 1534941, 1534950, 1534952 (COPY_INSTEAD_OF_MOVE)
+  *  bee3b016 - Fix CID 1534943, 1534947, 1534949, 1534955 (Use of auto
+    that causes a copy)
+  *  8dfa2dee - Fix CID 1534953 (COPY_INSTEAD_OF_MOVE)
+  *  77fc53c5 - unittest-macos.yml: Install libtool (fixes macos-arm-14-
+    clang-unittest)
+  *  bcc1a3b4 - Rename frk -> deu_latf (ISO 639-3, ISO 15924)
+  *  a76ca9b5 - README.md: Add a link to the 'supported compilers' page
+  *  6cce24fa - unittest-macos.yml: Add a job that will run on Apple
+    silicon
+  *  8f667335 - Update unittest-disablelegacy.yml
+  *  bd3c1a2a - Update unittest-disablelegacy.yml
+  *  cdd783ec - Update unittest-disablelegacy.yml
+  *  8690d5ac - Remove unneeded constant kNumSingleQuoteUnicodes
+  *  6a608e52 - Remove unneeded constant kNumDoubleQuoteUnicodes
+  *  6b99ec61 - Remove unneeded constant kNumHyphenPuncUnicodes
+  *  a08a6ac2 - fix initializer syntax
+  *  2fbb8107 - normstrngs: add more hyphens and quotes
+  *  f7d4b391 - Update unittest-disablelegacy.yml
+  *  6231549b - cmake.yml: Remove the clang++ 14 on Linux job
+  *  cb9afbd8 - autotools.yml: Remove the clang++ 14 on Linux job
+  *  dfb2b226 - Update msys2.yml: Drop the 32-bit job
+  *  aa7c3422 - Update GitHub actions/checkout to v4
+  *  94bd98b7 - [pdfrenderer] Add some debugging capabilities. Do not
+    compress symbol table and text data during debug.
+  *  b8961a73 - [pdfrenderer] Do not include space symbol into the word
+    pdf box.
+  *  5f40a2e2 - Move include line.
+  *  fbff9362 - Fix some typos
+  *  8e6af37d - [ci][appveyor] Switch to VS2022.
+  *  becd3954 - Merge pull request #4189 from sjbronner/main
+  *  304014f2 - Simplify variable declaration.
+  *  209cf5c4 - Fix grey result of indexed PNG in pdfrenderer.
+  *  a7f860a4 - Merge pull request #4188 from softwaretirol/main
+  *  0b3b6e5c - Update appveyor.yml
+  *  8ee020e1 - Create new release 5.3.4
+  *  1bb72501 - Set User-Agent: header field in HTTP request for curl
+    downloads
+  *  bcd6144c - Merge pull request #4178 from sadra-barikbin/patch-1
+  *  10f1d95e - Update publictypes.h
+  *  637be531 - Merge pull request #4174 from stweil/warnings
+  *  4a6efcd9 - Avoid unnecessary conversions from std::string to char
+    pointer
+  *  061e3861 - Fix compiler warnings
+  *  04c33090 - Remove unused assignments (fix compiler warnings)
+  *  ea0b245c - Update status badge for GitHub workflow sw (add missing
+    line break)
+  *  35d3a9c3 - Update status badge for GitHub workflow sw
+  *  7c178276 - Correct indefinite articles before vowels
+  *  67438fad - Update issue-bug.yml
+  *  317a274b - Merge pull request #4162 from tfmorris/3000-tcp-
+    scrollview
+  *  994a4db3 - Force TCP v4 for socket to Java server. Fixes #3000
+  *  d2d1ff56 - Avoid conversions from std::string to char* to
+    std::string
+  *  c69065c3 - Remove unnecessary conversions from std::string to C
+    string
+  *  6518489c - Remove whitespace at line endings
+  *  5530cb7f - Update sw.yml
+  *  aa671beb - Update README.md
+  *  e97dfad1 - Update sw.yml
+  *  d522f3bd - Update sw.yml
+  *  640a39bc - Update sw.yml
+  *  53da1170 - Update sw.yml
+  *  127292fa - Update sw.yml
+  *  4dea21b1 - Update sw.yml
+  *  764464e0 - Update sw.yml
+  *  87db4e26 - Update sw.yml
+  *  1ec39570 - Update sw.yml
+  *  a3b62762 - Update sw.yml
+  *  36f3efdf - Fail on curl download errors
+  *  dd1c85dc - Add new parameter curl_cookiefile for curl_easy_setopt
+  *  bb2af570 - ci: Fix clang build for Ubuntu 22.04
+  *  3a408245 - ci: Allow manual trigger of unittest
+  *  670672d5 - Move bail_out function before libtoolize check
+  *  eb612f07 - Merge pull request #4150 from tfmorris/4149-directory-
+    to-stdout
+  *  07174708 - Document hidden combo flags
+  *  8cee06da - Output directory list to stdout. Fixes #4149
+  *  dc228edc - Update cmake-win64.yml
+  *  e082522c - Create new release 5.3.3
+  *  d366e1e9 - Fix loading of sublangs (regression)
+  *  dfcd4857 - Update SVPopupMenu.java
+  *  4e3518a1 - Update SVImageHandler.java
+  *  834127c5 - Update SVEventHandler.java
+  *  faa06cc7 - Update ScrollView.java
+  *  d26fbab6 - Update ScrollView.java
+  *  195045e6 - Update test submodule
+  *  063ad31a - Fix regression in layout detection since 5.0.0 (fixes
+    issue #4014)
+  *  7e0c1d70 - Fix typo in stepblob.h
+  *  39222a00 - initDSProfile: correct std::vector usage (#4124)
+  *  566f97a2 - sw.yml: Remove Ubuntu 20.04
+  *  84318ed3 - Update autotools.yml
+  *  74fa1c5b - Update cmake.yml
+  *  544dff44 - fix typos
+  *  8b4284d2 - add missing commas
+  *  fa50115e - fix citation links
+  *  ce936923 - Merge pull request #4115 from stweil/citations
+  *  7c7498c3 - Rename BibTex file to please GitHub
+  *  3852f4c8 - Optimize function ImageFind::FindImages
+  *  2b375fc3 - Fix comment for function
+    UNICHARSET::set_black_and_whitelist
+  *  77e4eab5 - Fix comment for function HOcrEscape
+  *  0768e4ff - Fix comment
+  *  8fdf2034 - Provide more disk space for GitHub action unittest
+  *  a7260209 - Update ScrollView.java
+  *  54b9fe4d - cmake: check_leptonica_tiff_support() works with
+    cmake>=3.25
+  *  d1abdf35 - Remove whitespace at line endings
+  *  b86afd63 - Merge pull request #4097 from UB-Mannheim/main
+  *  82c7999f - Merge pull request #4099 from pkubaj/patch-1
+  *  9bf4b310 - Fix build without git clone in cloned directory
+  *  f49b6e9f - Merge pull request #4098 from hesmar/main
+  *  d7c07119 - Disable -mfpu=neon for aarch64
+  *  8df11a6a - Avoid passing objects by value
+  *  675b21cf - Add missing initialisation in DENORM copy constructor
+  *  489f101c - Create new release 5.3.2
+  *  cf235ccf - Fix typos
+  *  63639750 - Update issue-bug.yml
+  *  bb8803aa - Update .mailmap
+  *  24da4c71 - Create config.yml
+  *  c8abff8d - Remove old broken GitHub action vcpkg-4.1.1 (fixes issue
+    #4078)
+  *  58b75b3f - cmake: check if leptonica was build with tiff support
+  *  d999957f - cmake: provide info about disabled LibArchive and CURL
+  *  37a9fa95 - cmake: allow to disable tiff (-DDISABLE_TIFF=ON)
+  *  3e911e4c - Merge pull request #4073 from stweil/osd
+  *  fbba190d - Merge pull request #4071 from stweil/clean
+  *  92999505 - Abort with error message if OSD is requested with LSTM-
+    only model
+  *  a9ad3601 - Avoid conversions from std::string to char* to
+    std::string
+  *  6cb82d8b - Avoid 32 bit overflow in multiplication (fixes 3 CodeQL
+    CI alerts)
+  *  c9895dba - Merge pull request #4066 from stweil/lstmtraining
+  *  62962e08 - Merge pull request #4068 from stweil/sprintf
+  *  6b4eb8cf - Remove unused code in function fix_rep_char
+  *  f2452a68 - Replace deprecated sprintf
+  *  7cc215c9 - Merge pull request #4067 from stweil/misc
+  *  38a49e45 - Use less digits in filenames of checkpoints written by
+    lstmtraining
+  *  41c5db90 - Replace bool array by more compact vector
+  *  0f563401 - Improve format of logging from lstmtraining
+  *  ed69e574 - Support for Sgaw and W Pwo Karen languages in the
+    Myanmar validator. (#4065)
+  *  9422915e - issue-bug.yml:  Windows versions 7, 8, 8.1 are not
+    supported anymore
+  *  b48f08e2 - snap: Update from leptonica 1.74.2 to latest 1.83.1
+  *  7b05f947 - fix: Fix snap package building
+  *  71af4542 - Create new release 5.3.1
+  *  f833491d - Remove whitespace at line endings
+  *  fa4d4449 - Fix issue #4010 (#4041)
+  *  bbc2dfcf - cmake: add missing HAVE_NEON to config_auto.h
+  *  de6d99db - Merge branch 'main' of https://github.com/tesseract-
+    ocr/tesseract
+  *  8045cbb7 - cmake: adjust build to autotool settings
+  *  4c59535e - cmake: adjust build to autotool settings
+  *  a0708eaf - Merge branch 'main' of https://github.com/tesseract-
+    ocr/tesseract
+  *  426ed87c - cmake: improve NEON build
+  *  c7a55c1e - Fix some typos (partially found by codespell)
+  *  1569e508 - textord: Catch empty rows in block iterator (fixes
+    #4039)
+  *  691de2b9 - cmake: sync with autotools (OPENMP_SIMD, fast-math)
+  *  484d427c - cmake: improve style
+  *  f779c434 - cmake: disable -march=native by default
+  *  a6e0aa7f - Update issue-bug.yml
+  *  a7e51c2e - Update issue-bug.yml
+  *  19fe1a67 - autotools.yml: Update compilers
+  *  c38471b9 - Update cmake.yml
+  *  3245322d - Update cmake.yml
+  *  2aed93fa - cmake.yml: Update compilers
+  *  98e61a7e - Improve the DebugDump output by slightly adjusting the
+    format. (#4022)
+  *  ae3bfec7 - Link to list of supported languages in docs (#4027)
+  *  0977ded2 - Update autotools.yml
+  *  066fc2e1 - Update cmake.yml
+  *  79065a03 - Update cmake.yml
+  *  9d71da78 - Merge branch 'main' of https://github.com/tesseract-
+    ocr/tesseract
+  *  392e56cd - Update cmake.yml
+  *  9bac701d - cmake: fix gcc-7 fatal error: filesystem: No such file
+    or directory
+  *  f1e3697d - Fix some typos in comments (found by codespell)
+  *  02210942 - Merge pull request #4015 from stweil/spelling
+  *  1e04be84 - Replace 'can not' by 'cannot'
+  *  7becbbd6 - Update cmake-win64.yml
+  *  efa89c6d - Merge pull request #4013 from ferdnyc/patch-1
+  *  5e116fa5 - Fix libdir in tesseract.pc from CMake
+  *  1c097823 - msvc debug: fix wrong lib name in generated pkgconfig
+    file (#4008)
+  *  e3fb0c65 - Merge pull request #4009 from kraj/gcc13
+  *  2025b53d - Fix build with gcc 13 by including <cstdint>
+  *  a3b9acfa - Merge pull request #4006 from autoantwort/fix-linkage
+  *  680d1e23 - Fix linkage of icu and pango
+  *  3bedea1b - Fix FP division by zero in
+    LanguageModel::ExtractFeaturesFromPath (issue #3995)
+  *  1852afe9 - Remove unneeded type cast in
+    LanguageModel::ExtractFeaturesFromPath
+  *  4142b328 - Fix some whitespace issues in source code and text files
+  *  2a7ed8b6 - Merge pull request #3992 from seupedro/patch-1
+  *  1851e5a1 - Update README.md
+  *  0ef19205 - fix cannot pass non-trivial object of type std::string
+  *  804b6364 - show out filename on successful created of traineddata
+    (combine_lang_model)
+  *  005bfe49 - fix cannot pass non-trivial object of type std::string
+  *  8a263296 - unicharset_extractor: - run ReadMemBoxes only for box
+    files - do not write unicharset in case of broken box file
+  *  da3737d3 - Update issue-bug.yml
+  *  a0f06e20 - Update issue-bug.yml
+  *  65b8a3b0 - Update issue-bug.yml
+  *  dbedbad2 - Update issue-bug.yml
+  *  95e84735 - Update issue-bug.yml
+  *  98837f83 - Update issue-bug.yml
+  *  b76b5be6 - Create an issue template for a feature request
+  *  ce0ed917 - Create a new issue template
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 27 Jul 2024 14:20:33 +0000
+
+tesseract (5.3.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update debian/control:
+    -  Drop build dependency on dh-autoreconf
+  * Update patch - disable_NEON
+  * Update debian/copyright:
+    -  Updated year
+  * Bump debhelper version to 12
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 29 Nov 2023 14:36:56 +0300
+
+tesseract (5.3.0-2) unstable; urgency=medium
+
+  * Bump debhelper version to 11
+  * Update patch - disable_NEON
+  * Reduce Build-Depends: (Closes: #980991)
+    - Drop unused libjpeg-dev and libtiff-dev dependencies. tesseract does not
+      use these directly. It only uses them via leptonica.
+    - Drop dependency on git. The source does not include git history.
+  * Update debian/control:
+    -  Drop the Vcs-* fields
+  * Update debian/rules:
+    - Drop --parallel because this is included in the new debhelper level
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 11 Jan 2023 23:20:26 +0300
+
+tesseract (5.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Compile
+  * URL: https://github.com/tesseract-ocr/tesseract.git
+  * Branch: main
+  * Commit: 080da83cc51c4ef8b324a7e03146fe0bd7e0944b
+  * Date: 1671717477
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 23 Dec 2022 19:43:44 +0000
+
+tesseract (5.1.0-2) unstable; urgency=medium
+
+  * Update debian/control:
+    - add dependency 'libcurl4-dev | libcurl4-gnutls-dev' for
+      libtesseract-dev (closes: #1012242)
+    - update dependency for tesseract-ocr
+    - update 'breaks' for libtesseract5
+  * disable NEON instructions for architecture armel (closes: #1012254)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 02 Jun 2022 22:56:14 +0300
+
+tesseract (5.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    - add build dependency on libcurl4-openssl-dev
+  * URL: git://github.com/tesseract-ocr/tesseract.git
+  * Branch: main
+  * Commit: c2a3efe2824e1c8a0810e82a43406ba8e01527c4
+  * Date: 1646151945
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 01 Mar 2022 20:08:51 +0300
+
+tesseract (4.1.3-1) unstable; urgency=medium
 
   * New upstream release.
   * disable patch - no-march-native
