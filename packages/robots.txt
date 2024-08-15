@@ -3,7 +3,6 @@ Allow: /
 Sitemap: https://notesalexp.org/sitemap.xml
 Disallow: /debian
 Disallow: /kvirc
-Disallow: /stretch
 Disallow: /buster
 Disallow: /bullseye
 Disallow: /bookworm
@@ -12,6 +11,5 @@ Disallow: /xenial
 Disallow: /bionic
 Disallow: /focal
 Disallow: /jammy
-Disallow: /lunar
 Disallow: /mantic
 Disallow: /noble
