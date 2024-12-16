@@ -11,5 +11,4 @@ Disallow: /xenial
 Disallow: /bionic
 Disallow: /focal
 Disallow: /jammy
-Disallow: /mantic
 Disallow: /noble
