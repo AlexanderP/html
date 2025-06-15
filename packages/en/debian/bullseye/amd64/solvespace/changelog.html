@@ -41,14 +41,45 @@
     <div class="page">
     <h5>ChangeLog of package solvespace in bullseye of architecture amd64</h5>
     <div class="highlight">
-<pre><span></span>solvespace (3.1.0+git2082-30da776a-1) unstable; urgency=medium
+<pre><span></span>solvespace (3.1.0+git2107-8b34a075-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/solvespace/solvespace.git
   * Branch: master
-  * Commit: 30da776ae9b9ffc8bdec0337ffabd362f1c8e783
-  * Date: 1745754305
+  * Commit: 8b34a075fb72e0a2ec623fd209c17696e34b61be
+  * Date: 1748617665
   * git changelog:
+  *  8b34a075 - STEP Export: round point coordinates to 5 decimal
+    places.
+  *  d1b52cd6 - Colour aware step export.
+  *  8c301f3a - Final polishing for the duplication check in
+    exportstep.cpp
+  *  a11a8f8e - Refactoring exportstep.cpp
+  *  af4dea68 - Code style and polishing for exportstep.cpp
+  *  bb6cc1a0 - upgraded exportstep.cpp
+  *  60d0dab0 - general: use the ParamList and EntityList type aliases
+  *  2602edcb - generate: add minor optimisation to request and
+    constraint pruning
+  *  9c3f489b - generate: change  and  to prune all items
+  *  322dbece - generate: avoid message box avalanche on Windows during
+    regeneration
+  *  2c5bb5d4 - Fix and arc creation error when linking IDF files. For
+    negative angles we need to use the absolute value of the angle. Also
+    simplify the formula for center distance calculation.
+  *  8042810d - build: fix link error when building on Windows with
+    Clang (not clang-cl) - Fix elseif from the previous commit.
+  *  0161026a - build: fix link error when building on Windows with
+    Clang (not clang-cl)
+  *  e1d7dc3c - build: clean up the workaround for building zlib in
+    Emscripten
+  *  8cff14a2 - expr: fix the value of
+  *  3527d41d - system: make  a local member
+  *  fb9dff15 - expr: convert ParamsUsedList() to std::unordered_set
+  *  0eb1a122 - system: convert dragged to std::unordered_set
+  *  8012e75e - slvs: avoid orphaning params in the sketch with the
+    sketch solving API
+  *  e8f6ea39 - freetype: update the submodule URL to the official
+    GitHub mirror
   *  30da776a - build: fix MinGW build failures and update documentation
   *  4b407943 - docs: minor correction to the contribution guide and
     update references
@@ -74,7 +105,7 @@
   *  7ceb7fac - slvs: extract the code and the CMake config out of the
     main build
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 01 May 2025 14:32:34 +0000
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 11 Jun 2025 19:57:30 +0000
 
 solvespace (3.1.0+git2066-cc871ab0-1) unstable; urgency=medium
 
