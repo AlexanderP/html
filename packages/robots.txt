@@ -3,7 +3,6 @@ Allow: /
 Sitemap: https://notesalexp.org/sitemap.xml
 Disallow: /debian
 Disallow: /kvirc
-Disallow: /buster
 Disallow: /bullseye
 Disallow: /bookworm
 Disallow: /sid
@@ -12,3 +11,5 @@ Disallow: /bionic
 Disallow: /focal
 Disallow: /jammy
 Disallow: /noble
+Disallow: /oracular
+Disallow: /plucky
