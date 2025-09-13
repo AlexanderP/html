@@ -6,6 +6,7 @@ Disallow: /kvirc
 Disallow: /bullseye
 Disallow: /bookworm
 Disallow: /sid
+Disallow: /trixie
 Disallow: /xenial
 Disallow: /bionic
 Disallow: /focal
