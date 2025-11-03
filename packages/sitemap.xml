@@ -229,22 +229,16 @@
         <loc>https://notesalexp.org//html/tags/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/source/tesseract/</loc>
+        <loc>https://notesalexp.org/packages/en/source/znotes/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/veracrypt/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/znotes/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/vacuum/</loc>
@@ -253,88 +247,91 @@
         <loc>https://notesalexp.org/packages/en/source/tesseract-lang/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/source/smplayer/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/sqlitebrowser/</loc>
+        <loc>https://notesalexp.org/packages/en/source/tesseract/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/solvespace/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/source/scantailor-universal/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/scantailor-advanced/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/rubyripper/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/qcad/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/psi-plus-webengine/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/qcomicbook/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/q4wine/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/openjpeg2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/myrulib/</loc>
+        <loc>https://notesalexp.org/packages/en/source/sqlitebrowser/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/psi-plus-l10n/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/source/psi-plus/</loc>
+        <loc>https://notesalexp.org/packages/en/source/smplayer/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/source/llpp/</loc>
+        <loc>https://notesalexp.org/packages/en/source/scantailor-universal/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/psi-plus-webengine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/rubyripper/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/qcomicbook/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/qcad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/q4wine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/libusrsctp/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/leptonlib/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/myrulib/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/psi-plus/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/openjpeg2/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/meson/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/source/kvirc/</loc>
+        <loc>https://notesalexp.org/packages/en/source/llpp/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/librecad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/kvirc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/libomemo-c/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/leptonlib/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/keepassxc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/goldendict/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/jbig2enc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/goaccess/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/source/freelib/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/eiskaltdcpp-devel/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/source/keepassxc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/jbig2enc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/goldendict/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/source/deadbeef/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/source/freelib/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/cmake/</loc>
@@ -346,34 +343,34 @@
         <loc>https://notesalexp.org/packages/en/source/clementine-qt4/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/source/azpainter/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/source/chiaki/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/source/aegisub/</loc>
+        <loc>https://notesalexp.org/packages/en/source/azpainter/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/source/balsa/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/psi-plus-l10n/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/smplayer-l10n/</loc>
+        <loc>https://notesalexp.org/packages/en/source/aegisub/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/psi-plus-sounds/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/psi-plus-l10n/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/psi-plus-plugins-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/psi-plus-icons-nonfree/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/psi-plus-common/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/psi-plus-icons-nonfree/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/smplayer-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/all/librecad-data/</loc>
@@ -394,19 +391,22 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/solvespace/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/smplayer/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/scantailor-advanced/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/psi-plus-webengine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/psi-plus-plugins/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/smplayer/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/scantailor-universal/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/psi-plus-plugin-psimedia/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/scantailor-advanced/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/psi-plus/</loc>
@@ -421,55 +421,73 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/librecad/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/clementine/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/libkvilib5/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/goaccess/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/chiaki/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/balsa/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/kvirc-modules/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/kvirc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/freelib/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/kvirc-modules/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/keepassxc/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/freelib/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/chiaki/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/plucky/amd64/azpainter/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/psi-plus-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/smplayer-l10n/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/psi-plus-plugins-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/psi-plus-icons-nonfree/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/psi-plus-l10n/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/psi-plus-common/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/smplayer-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/psi-plus-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/psi-plus-plugins-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/psi-plus-l10n/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/notesalexp-keyring/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-emoticons/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-gtk-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/kvirc-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/librecad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-common/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-qt-data/</loc>
@@ -478,28 +496,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/kvirc-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/librecad-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-cli/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/all/eiskaltdcpp-gtk-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/</loc>
@@ -511,10 +511,22 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/sqlitebrowser/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus-webengine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus-webkit/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus-plugins/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/smplayer/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus-plugin-psimedia/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/scantailor-universal/</loc>
@@ -524,18 +536,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/qcomicbook/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus-webkit/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus-webengine/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus-plugins/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus-plugin-psimedia/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus/</loc>
@@ -553,10 +553,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/libkvilib5/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/libeiskaltdcpp-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/libeiskaltdcpp2.4/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/kvirc-modules/</loc>
@@ -571,22 +571,22 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/goldendict/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/goaccess/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/clementine/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/balsa/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/chiaki/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/freelib/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/goaccess/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/eiskaltdcpp-qt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/freelib/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/noble/amd64/eiskaltdcpp-daemon/</loc>
@@ -628,10 +628,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-tur/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-ton/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-tir/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-tir/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-ton/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-tha/</loc>
@@ -652,10 +652,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-syr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-swa/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-swe/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-swe/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-swa/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-sun/</loc>
@@ -676,10 +676,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-spa/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-snd/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-slv/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-slv/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-snd/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-slk/</loc>
@@ -793,10 +793,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-script-beng/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-script-armn/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-script-arab/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-script-arab/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-script-armn/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-san/</loc>
@@ -883,10 +883,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-kor-vert/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-kor/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-kmr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-kmr/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-kor/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-kir/</loc>
@@ -943,10 +943,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-hin/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-heb/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-hat/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-hat/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-heb/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-guj/</loc>
@@ -1051,19 +1051,19 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-cat/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-bul/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-bre/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-bre/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-bul/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-bos/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-ben/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-bod/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-bod/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-ben/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-bel/</loc>
@@ -1090,13 +1090,16 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/tesseract-ocr-afr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/psi-plus-sounds/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/psi-plus-common/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/smplayer-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/rubyripper/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/psi-plus-sounds/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/psi-plus-plugins-dev/</loc>
@@ -1108,9 +1111,6 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/psi-plus-icons-nonfree/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/psi-plus-common/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/notesalexp-keyring/</loc>
     </url>
     <url>
@@ -1120,7 +1120,22 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/kvirc-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-qt-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-emoticons/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-cli/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/deadbeef-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-gtk-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/aegisub-l10n/</loc>
@@ -1129,49 +1144,43 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-cli/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-qt-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/deadbeef-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-common/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/all/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/solvespace/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/znotes/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/vacuum/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/veracrypt/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/tesseract-ocr/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/sqlitebrowser/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/znotes/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/veracrypt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/solvespace/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/vacuum/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/tesseract-ocr/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/smplayer/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus-plugins/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus-plugin-psimedia/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/scantailor-universal/</loc>
@@ -1189,34 +1198,19 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus-webengine/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus-plugins/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus-plugin-psimedia/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libvacuumutils37/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/llpp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libvacuumutils37/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libjbig2enc0/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libtesseract-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libtesseract4/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libtesseract-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libslvs1-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libomemo-c0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libslvs1/</loc>
@@ -1225,85 +1219,91 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/librecad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libomemo-c-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libomemo-c0/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libkvilib5/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libomemo-c-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libjbig2enc0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libjbig2enc-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goldendict/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libeiskaltdcpp2.4/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/kvirc-modules/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/kvirc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/jbig2enc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp-qt/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/freelib/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goldendict/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goaccess/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/deadbeef/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/freelib/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/clementine/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/deadbeef-gtk2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp-daemon/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp-gtk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/balsa/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/deadbeef-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/azpainter/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp-qt/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/aegisub/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/deadbeef/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/clementine/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/chiaki/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/vacuum-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/azpainter/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/jammy/amd64/deadbeef-gtk2/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-yor/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-vie/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/vacuum-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-yid/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-vie/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-uzb-cyrl/</loc>
@@ -1375,10 +1375,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-snd/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-slv/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-slk/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-slv/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-sin/</loc>
@@ -1465,25 +1465,25 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-grek/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-ethi/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-geor/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-deva/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-frak/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-ethi/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-deva/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-cans/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-cyrl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-cher/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-cans/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-script-beng/</loc>
@@ -1507,13 +1507,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-que/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-pol/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-pus/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-por/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-pol/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-pan/</loc>
@@ -1540,10 +1540,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-mya/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-msa/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-mri/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-mri/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-msa/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-mon/</loc>
@@ -1582,10 +1582,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-kor/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-kir/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-kmr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-kmr/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-kir/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-khm/</loc>
@@ -1618,10 +1618,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-ita/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-isl/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-ind/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-ind/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-isl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-iku/</loc>
@@ -1705,10 +1705,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-ell/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-div/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-dzo/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-dzo/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-div/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-deu/</loc>
@@ -1723,10 +1723,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-cos/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-chi-tra-vert/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-chr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-chr/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-chi-tra-vert/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-chi-tra/</loc>
@@ -1738,10 +1738,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-chi-sim/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-ceb/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-ces/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-ces/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-ceb/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-cat/</loc>
@@ -1750,10 +1750,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-bul/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-bre/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-bos/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-bos/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-bre/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/tesseract-ocr-bod/</loc>
@@ -1792,19 +1792,19 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/rubyripper/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/psi-plus-l10n/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/qcad-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/psi-plus-sounds/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/qcad-data/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/psi-plus-plugins-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/psi-plus-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/psi-plus-icons-nonfree/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/psi-plus-plugins-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/psi-plus-common/</loc>
@@ -1816,31 +1816,31 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/meson/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/librecad-data/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/kvirc-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-scripts/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/aegisub-l10n/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-qt-data/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/librecad-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-gtk-data/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-emoticons/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-common/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-emoticons/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-scripts/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/all/eiskaltdcpp-cli/</loc>
@@ -1879,16 +1879,19 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/scantailor-universal/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/scantailor-advanced/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/qcomicbook/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/scantailor-advanced/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/qcad/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/psi-plus-webkit/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/qcad/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/psi-plus-webengine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/psi-plus-plugins/</loc>
@@ -1900,19 +1903,19 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/psi-plus/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/psi-plus-webengine/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libusrsctp1/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/myrulib/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/llpp/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libusrsctp1/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libvacuumutils37/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libtesseract-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libusrsctp-examples/</loc>
@@ -1921,28 +1924,34 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libusrsctp-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libjbig2enc0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libtesseract-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libtesseract4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libslvs1-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/librecad/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libslvs1/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libslvs1/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libjbig2enc0/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libjbig2enc-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/librecad/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libkvilib5/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libjbig2enc-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libeiskaltdcpp2.4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libeiskaltdcpp-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/kvirc-modules/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/goldendict/</loc>
@@ -1951,19 +1960,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/jbig2enc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libeiskaltdcpp2.4/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/kvirc-modules/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/kvirc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/keepassxc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/kvirc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/goaccess/</loc>
@@ -1975,31 +1975,31 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/eiskaltdcpp-qt/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/deadbeef/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/deadbeef-gtk3/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/chiaki/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/eiskaltdcpp-gtk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/clementine/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/deadbeef-gtk2/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/deadbeef/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/azpainter/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/balsa/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/focal/amd64/aegisub/</loc>
@@ -2014,10 +2014,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-yid/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-vie/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-uzb-cyrl/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-uzb-cyrl/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-vie/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-uzb/</loc>
@@ -2033,9 +2033,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-tur/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-tam/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-ton/</loc>
@@ -2054,6 +2051,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-tat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-tam/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-syr/</loc>
@@ -2080,10 +2080,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-spa-old/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-snd/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-spa/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-spa/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-snd/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-slv/</loc>
@@ -2110,19 +2110,19 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-telu/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-taml/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-syrc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-syrc/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-taml/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-sinh/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-orya/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-mymr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-mymr/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-orya/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-mlym/</loc>
@@ -2182,10 +2182,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-frak/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-ethi/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-deva/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-deva/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-ethi/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-script-cyrl/</loc>
@@ -2221,13 +2221,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-pus/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-pan/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-por/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-pol/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-por/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-pan/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-osd/</loc>
@@ -2251,10 +2251,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-mya/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-msa/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-mri/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-mri/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-msa/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-mon/</loc>
@@ -2266,22 +2266,22 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-mkd/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-mal/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-mar/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-lit/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-mal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-ltz/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-mar/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-lav/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-lit/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-lat/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-lav/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-lao/</loc>
@@ -2299,6 +2299,9 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-kmr/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-kir/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-khm/</loc>
     </url>
     <url>
@@ -2306,9 +2309,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-kat-old/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-kir/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-kat/</loc>
@@ -2335,10 +2335,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-isl/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-iku/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-ind/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-ind/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-iku/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-hye/</loc>
@@ -2347,10 +2347,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-hun/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-hrv/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-hin/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-hin/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-hrv/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-heb/</loc>
@@ -2401,10 +2401,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-eus/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-est/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-equ/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-equ/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-est/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-epo/</loc>
@@ -2452,10 +2452,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-chi-sim/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-ces/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-ceb/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-ceb/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-ces/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/tesseract-ocr-cat/</loc>
@@ -2506,10 +2506,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/rubyripper/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/qcad-data/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/psi-plus-sounds/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/psi-plus-sounds/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/qcad-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/psi-plus-plugins-dev/</loc>
@@ -2536,31 +2536,31 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/kvirc-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/aegisub-l10n/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-emoticons/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-scripts/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-sounds/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-common/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-gtk-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-emoticons/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-scripts/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-cli/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/eiskaltdcpp-cli/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/aegisub-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/all/deadbeef-dev/</loc>
@@ -2572,6 +2572,9 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/znotes/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/qcomicbook/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/veracrypt/</loc>
     </url>
     <url>
@@ -2581,10 +2584,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/tesseract-ocr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/solvespace/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/sqlitebrowser/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/sqlitebrowser/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/solvespace/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/smplayer/</loc>
@@ -2596,13 +2599,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/scantailor-advanced/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/qcomicbook/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/qcad/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/q4wine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/psi-plus-webkit/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/psi-plus-plugins/</loc>
@@ -2611,13 +2614,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/psi-plus-plugin-psimedia/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/psi-plus-webkit/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/psi-plus/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/myrulib/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/psi-plus/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/llpp/</loc>
@@ -2650,10 +2650,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/librecad/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/liblept5/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/libleptonica-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/libleptonica-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/liblept5/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/libkvilib5/</loc>
@@ -2663,6 +2663,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/libjbig2enc-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/goldendict/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/libeiskaltdcpp2.4/</loc>
@@ -2680,9 +2683,6 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/kvirc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/goldendict/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/keepassxc/</loc>
     </url>
     <url>
@@ -2692,43 +2692,43 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/goaccess/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/eiskaltdcpp-gtk/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/deadbeef/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/clementine/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/balsa/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/balsa/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/clementine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/deadbeef-gtk3/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/eiskaltdcpp-qt/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/aegisub/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/azpainter/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/eiskaltdcpp-qt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/eiskaltdcpp-daemon/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/deadbeef-gtk2/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/i386/azpainter/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/znotes/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/veracrypt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/veracrypt/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/znotes/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/vacuum/</loc>
@@ -2764,13 +2764,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/psi-plus-webengine/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/psi-plus-plugins/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/psi-plus-webkit/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/psi-plus/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/psi-plus-webkit/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/psi-plus-plugins/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/psi-plus-plugin-psimedia/</loc>
@@ -2785,10 +2785,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libvacuumutils37/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libusrsctp1/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libusrsctp-examples/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libusrsctp-examples/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libusrsctp1/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libusrsctp-dev/</loc>
@@ -2803,13 +2803,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libslvs1-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libleptonica-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libslvs1/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/librecad/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libslvs1/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/libleptonica-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/liblept5/</loc>
@@ -2854,22 +2854,7 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/deadbeef/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/eiskaltdcpp-gtk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/eiskaltdcpp-qt/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/eiskaltdcpp-daemon/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/deadbeef-gtk3/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/balsa/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/deadbeef-gtk2/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/clementine/</loc>
@@ -2878,16 +2863,31 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/azpainter/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/eiskaltdcpp-qt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/deadbeef-gtk2/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/bionic/amd64/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-yid/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/vacuum-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-yor/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-yid/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-vie/</loc>
@@ -2938,13 +2938,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-swe/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-srp-latn/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-sun/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-swa/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-srp-latn/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-srp/</loc>
@@ -3073,9 +3073,6 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-script-cans/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-rus/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-script-beng/</loc>
     </url>
     <url>
@@ -3086,6 +3083,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-san/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-rus/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-ron/</loc>
@@ -3136,22 +3136,22 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-mon/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-mlt/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-mkd/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-mlt/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-mar/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-mal/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-lit/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-ltz/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-mar/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-lit/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-lav/</loc>
@@ -3172,10 +3172,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-kor/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-kir/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-kmr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-kmr/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-kir/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-khm/</loc>
@@ -3226,10 +3226,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-hrv/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-hin/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-heb/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-heb/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-hin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-hat/</loc>
@@ -3259,10 +3259,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-frk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-fra/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-fin/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-fin/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-fra/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-fil/</loc>
@@ -3286,10 +3286,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-epo/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-eng/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-enm/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-enm/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-eng/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-ell/</loc>
@@ -3319,10 +3319,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-chr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-chi-tra/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-chi-tra-vert/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-chi-tra-vert/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-chi-tra/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-chi-sim-vert/</loc>
@@ -3349,13 +3349,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-bos/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-bel/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-bod/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-ben/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-bel/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-aze-cyrl/</loc>
@@ -3364,10 +3364,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-aze/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-ara/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-asm/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-asm/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-ara/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/tesseract-ocr-amh/</loc>
@@ -3385,10 +3385,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/smplayer-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/rubyripper/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/qcad-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/rubyripper/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/notesalexp-keyring/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/librecad-data/</loc>
@@ -3397,10 +3400,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/libopenjpip-viewer/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/notesalexp-keyring/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/kvirc-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/kvirc-data/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-sounds/</loc>
@@ -3409,28 +3415,22 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-qt-data/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-gtk-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-emoticons/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-cli/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/deadbeef-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/aegisub-l10n/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/eiskaltdcpp-cli/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/all/deadbeef-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/</loc>
@@ -3472,10 +3472,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libvacuumutils37/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libusrsctp1/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libusrsctp-examples/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libusrsctp-examples/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libusrsctp1/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libusrsctp-dev/</loc>
@@ -3496,10 +3496,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/librecad/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libopenjpip7/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libopenjpip-server/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libopenjpip-server/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libopenjpip7/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libopenjpip-dec-server/</loc>
@@ -3523,13 +3523,22 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/liblept5/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libleptonica-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libkvilib5/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libeiskaltdcpp-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/leptonica-progs/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/kvirc/</loc>
@@ -3538,43 +3547,34 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/keepassxc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libleptonica-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/libeiskaltdcpp2.4/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/goaccess/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/kvirc-modules/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/balsa/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/deadbeef-gtk2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/clementine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/deadbeef/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/clementine/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/aegisub/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/eiskaltdcpp-daemon/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/deadbeef-gtk3/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/deadbeef-gtk2/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/eiskaltdcpp-qt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/i386/azpainter/</loc>
@@ -3616,19 +3616,19 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/llpp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libusrsctp1/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libvacuumutils37/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libvacuumutils37/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libusrsctp1/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libusrsctp-examples/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libtesseract4/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libusrsctp-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libusrsctp-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libtesseract4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libtesseract-dev/</loc>
@@ -3640,16 +3640,10 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libslvs1/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libopenjp2-tools/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/librecad/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libopenjpip7/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libopenjpip-dec-server/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libopenjpip-server/</loc>
@@ -3658,7 +3652,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libopenjp3d7/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libopenjpip-dec-server/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libopenjp3d-tools/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libopenjp2-tools/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libopenjp2-7-dev/</loc>
@@ -3674,6 +3674,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/goaccess/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/libeiskaltdcpp2.4/</loc>
@@ -3694,10 +3697,13 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/keepassxc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/goaccess/</loc>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/clementine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/deadbeef/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/balsa/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/eiskaltdcpp-qt/</loc>
@@ -3712,13 +3718,7 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/eiskaltdcpp-daemon/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/clementine/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/deadbeef-gtk2/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/balsa/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/azpainter/</loc>
@@ -3727,25 +3727,28 @@
         <loc>https://notesalexp.org/packages/en/ubuntu/xenial/amd64/aegisub/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/all/psi-plus-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/all/psi-plus-plugins-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/all/psi-plus-l10n/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/all/psi-plus-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/all/psi-plus-icons-nonfree/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/all/smplayer-l10n/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/all/psi-plus-plugins-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/all/kvirc-data/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/all/qcad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/all/psi-plus-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/all/psi-plus-icons-nonfree/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/all/psi-plus-sounds/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/all/notesalexp-keyring/</loc>
@@ -3766,6 +3769,9 @@
         <loc>https://notesalexp.org/packages/en/debian/trixie/i386/smplayer/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/scantailor-universal/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/i386/scantailor-advanced/</loc>
     </url>
     <url>
@@ -3778,40 +3784,46 @@
         <loc>https://notesalexp.org/packages/en/debian/trixie/i386/psi-plus-plugin-psimedia/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/balsa/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/i386/psi-plus/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/goaccess/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/keepassxc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/azpainter/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/freelib/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/clementine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/i386/libslvs1-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/librecad/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/i386/libslvs1/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/goaccess/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/psi-plus-webengine/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/azpainter/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/librecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/kvirc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/keepassxc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/i386/freelib/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/veracrypt/</loc>
@@ -3820,7 +3832,13 @@
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/solvespace/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/psi-plus-plugin-psimedia/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/smplayer/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/scantailor-advanced/</loc>
@@ -3829,34 +3847,43 @@
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/qcad/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/psi-plus-webengine/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/psi-plus-plugins/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/psi-plus-plugin-psimedia/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/libslvs1-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/psi-plus/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/librecad/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/keepassxc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/clementine/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/libslvs1-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/libslvs1/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/goaccess/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/kvirc/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/clementine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/librecad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/libkvilib5/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/freelib/</loc>
@@ -3865,16 +3892,19 @@
         <loc>https://notesalexp.org/packages/en/debian/trixie/amd64/azpainter/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/psi-plus-plugins-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/psi-plus-icons-nonfree/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/psi-plus-common/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/all/vacuum-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/rubyripper/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/smplayer-l10n/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/smplayer-l10n/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/rubyripper/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/all/psi-plus-sounds/</loc>
@@ -3883,10 +3913,7 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/all/psi-plus-l10n/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/psi-plus-icons-nonfree/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/psi-plus-common/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/psi-plus-plugins-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/all/notesalexp-keyring/</loc>
@@ -3895,34 +3922,34 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/all/librecad-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-scripts/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/all/aegisub-l10n/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-emoticons/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-sounds/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-qt-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-gtk-data/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/all/kvirc-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-cli/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-emoticons/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-common/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-gtk-data/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/all/eiskaltdcpp-cli/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/</loc>
@@ -3934,19 +3961,16 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/veracrypt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/sqlitebrowser/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/q4wine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/psi-plus-webkit/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/vacuum/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/q4wine/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/qcomicbook/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/psi-plus-webkit/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/sqlitebrowser/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/solvespace/</loc>
@@ -3959,6 +3983,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/scantailor-advanced/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/qcomicbook/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/psi-plus-plugins/</loc>
@@ -3976,10 +4003,10 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/libvacuumutils37/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/libtesseract-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/libtesseract4/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/libtesseract4/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/libtesseract-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/libslvs1-dev/</loc>
@@ -3997,49 +4024,34 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/libjbig2enc0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/goldendict/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/libjbig2enc-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/libeiskaltdcpp2.4/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/libeiskaltdcpp-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/kvirc-modules/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/kvirc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/keepassxc/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/goldendict/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/libeiskaltdcpp2.4/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/kvirc-modules/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/keepassxc/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/jbig2enc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/eiskaltdcpp-qt/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/eiskaltdcpp-gtk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/aegisub/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/clementine/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/chiaki/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/balsa/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/i386/azpainter/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/goaccess/</loc>
@@ -4048,7 +4060,22 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/freelib/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/eiskaltdcpp-qt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/i386/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/i386/azpainter/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/</loc>
@@ -4058,6 +4085,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/veracrypt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/psi-plus-webengine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/vacuum/</loc>
@@ -4087,9 +4117,6 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/psi-plus-webkit/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/psi-plus-webengine/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/psi-plus-plugins/</loc>
     </url>
     <url>
@@ -4102,10 +4129,10 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/llpp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/libtesseract4/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/libvacuumutils37/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/libvacuumutils37/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/libtesseract4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/libtesseract-dev/</loc>
@@ -4120,9 +4147,6 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/librecad/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/goldendict/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/libkvilib5/</loc>
     </url>
     <url>
@@ -4130,6 +4154,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/libjbig2enc-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/goldendict/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/libeiskaltdcpp2.4/</loc>
@@ -4150,6 +4177,27 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/jbig2enc/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/azpainter/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/aegisub/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/freelib/</loc>
     </url>
     <url>
@@ -4159,43 +4207,16 @@
         <loc>https://notesalexp.org/packages/en/debian/sid/amd64/eiskaltdcpp-qt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/eiskaltdcpp-gtk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/eiskaltdcpp-daemon/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/azpainter/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/balsa/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/clementine/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/chiaki/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/sid/amd64/aegisub/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/vacuum-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/psi-plus-sounds/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/psi-plus-l10n/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/psi-plus-plugins-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/psi-plus-icons-nonfree/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/psi-plus-common/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/qcad-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/smplayer-l10n/</loc>
@@ -4204,13 +4225,25 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/rubyripper/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/psi-plus-plugins-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/qcad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/psi-plus-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/psi-plus-common/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/notesalexp-keyring/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/librecad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/aegisub-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/kvirc-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/eiskaltdcpp-sounds/</loc>
@@ -4222,7 +4255,10 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/eiskaltdcpp-scripts/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/kvirc-data/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/eiskaltdcpp-emoticons/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/eiskaltdcpp-cli/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/eiskaltdcpp-gtk-data/</loc>
@@ -4231,25 +4267,10 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/eiskaltdcpp-common/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/eiskaltdcpp-emoticons/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/all/eiskaltdcpp/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/aegisub-l10n/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/all/eiskaltdcpp-cli/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/veracrypt/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/vacuum/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/solvespace/</loc>
@@ -4258,28 +4279,34 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/smplayer/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/veracrypt/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/vacuum/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/scantailor-universal/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/scantailor-advanced/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/qcomicbook/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/psi-plus-plugins/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/psi-plus/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/qcad/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/psi-plus-plugins/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/qcomicbook/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/psi-plus-webkit/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/psi-plus-plugin-psimedia/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/psi-plus/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/libvacuumutils37/</loc>
@@ -4294,58 +4321,58 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/librecad/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/goldendict/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/libkvilib5/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/libjbig2enc-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/kvirc-modules/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/libjbig2enc0/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/libjbig2enc-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/goldendict/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/libeiskaltdcpp2.4/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/keepassxc/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/kvirc-modules/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/kvirc/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/keepassxc/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/jbig2enc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/eiskaltdcpp-daemon/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/goaccess/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/freelib/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/clementine/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/balsa/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/chiaki/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/eiskaltdcpp-qt/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/balsa/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/freelib/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/goaccess/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/eiskaltdcpp-qt/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/i386/azpainter/</loc>
@@ -4357,6 +4384,9 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/solvespace/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/veracrypt/</loc>
     </url>
     <url>
@@ -4364,9 +4394,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/sqlitebrowser/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/solvespace/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/smplayer/</loc>
@@ -4381,9 +4408,6 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/qcomicbook/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/psi-plus-plugins/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/qcad/</loc>
     </url>
     <url>
@@ -4391,6 +4415,9 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/psi-plus-webengine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/psi-plus-plugins/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/psi-plus-plugin-psimedia/</loc>
@@ -4402,16 +4429,13 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/libvacuumutils37/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/libslvs1-dev/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/libslvs1/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/librecad/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/libslvs1-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/goldendict/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/librecad/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/libkvilib5/</loc>
@@ -4423,13 +4447,16 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/libjbig2enc-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/goldendict/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/libeiskaltdcpp2.4/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/kvirc-modules/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/libeiskaltdcpp-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/kvirc-modules/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/kvirc/</loc>
@@ -4441,10 +4468,19 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/jbig2enc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/goaccess/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/balsa/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/freelib/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/goaccess/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/eiskaltdcpp-qt/</loc>
@@ -4453,22 +4489,16 @@
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/clementine/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/freelib/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/eiskaltdcpp-daemon/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/chiaki/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/balsa/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/azpainter/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/aegisub/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bookworm/amd64/azpainter/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-uzb-cyrl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/vacuum-dev/</loc>
@@ -4481,9 +4511,6 @@
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-vie/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-uzb-cyrl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-uzb/</loc>
@@ -4552,16 +4579,16 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-snd/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-slv/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-slk/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-sin/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-slv/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-viet/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-sin/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-tibt/</loc>
@@ -4582,10 +4609,10 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-syrc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-orya/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-sinh/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-sinh/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-orya/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-mymr/</loc>
@@ -4594,10 +4621,10 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-mlym/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-latn/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-laoo/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-laoo/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-latn/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-knda/</loc>
@@ -4648,10 +4675,10 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-frak/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-ethi/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-deva/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-deva/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-ethi/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-cyrl/</loc>
@@ -4672,10 +4699,10 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-script-arab/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-san/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-rus/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-rus/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-san/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-ron/</loc>
@@ -4708,10 +4735,10 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-nor/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-nld/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-nep/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-nep/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-nld/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-mya/</loc>
@@ -4792,13 +4819,13 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-ita-old/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-ind/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-ita/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-isl/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-ind/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-iku/</loc>
@@ -4936,22 +4963,19 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-bod/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-ben/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-bel/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/smplayer-l10n/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-asm/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-ben/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-aze-cyrl/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-aze/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-asm/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-ara/</loc>
@@ -4966,19 +4990,7 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/tesseract-ocr-afr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/rubyripper/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/psi-plus-plugins-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/qcad-data/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/psi-plus-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/psi-plus-l10n/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/smplayer-l10n/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/psi-plus-icons-nonfree/</loc>
@@ -4987,19 +4999,28 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/psi-plus-common/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/notesalexp-keyring/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/rubyripper/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/librecad-data/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/qcad-data/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/psi-plus-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/psi-plus-plugins-dev/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/psi-plus-l10n/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/notesalexp-keyring/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/kvirc-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-sounds/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-qt-data/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/librecad-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-scripts/</loc>
@@ -5008,19 +5029,25 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-gtk-data/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-common/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-sounds/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-qt-data/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-emoticons/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/deadbeef-dev/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-cli/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-common/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/aegisub-l10n/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp-cli/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/all/deadbeef-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/all/eiskaltdcpp/</loc>
@@ -5041,10 +5068,10 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/tesseract-ocr/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/solvespace/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/sqlitebrowser/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/sqlitebrowser/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/solvespace/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/smplayer/</loc>
@@ -5122,10 +5149,10 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/libeiskaltdcpp-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/goldendict/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/libdispatch0/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/libdispatch0/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/goldendict/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/libdispatch-dev/</loc>
@@ -5155,13 +5182,25 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/deadbeef/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/chiaki/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/clementine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/eiskaltdcpp-gtk/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/deadbeef-gtk3/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/deadbeef-gtk2/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/azpainter/</loc>
@@ -5170,31 +5209,16 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/aegisub/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/eiskaltdcpp-gtk/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/eiskaltdcpp-daemon/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/deadbeef-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/i386/deadbeef-gtk2/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/znotes/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/veracrypt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/vacuum/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/znotes/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/q4wine/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/vacuum/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/tesseract-ocr/</loc>
@@ -5212,13 +5236,16 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/scantailor-universal/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/qcomicbook/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/scantailor-advanced/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/qcomicbook/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/qcad/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/q4wine/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/psi-plus-webkit/</loc>
@@ -5254,25 +5281,25 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libslvs1-dev/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libjbig2enc-dev/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libslvs1/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libomemo-c0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/librecad/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libomemo-c0/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libjbig2enc0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libomemo-c-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libkvilib5/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libjbig2enc0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libjbig2enc-dev/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libeiskaltdcpp2.4/</loc>
@@ -5284,60 +5311,60 @@
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/goldendict/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libdispatch0/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libdispatch-dev/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/kvirc-modules/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/kvirc/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/goaccess/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/keepassxc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/jbig2enc/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/goaccess/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/freelib/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libdispatch0/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/eiskaltdcpp-qt/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/deadbeef/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/kvirc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/chiaki/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/kvirc-modules/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/clementine/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/libdispatch-dev/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/deadbeef-gtk2/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/jbig2enc/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/deadbeef-gtk3/</loc>
-    </url>
-    <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/eiskaltdcpp-daemon/</loc>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/freelib/</loc>
     </url>
     <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/aegisub/</loc>
     </url>
     <url>
-        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/balsa/</loc>
-    </url>
-    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/eiskaltdcpp-gtk/</loc>
     </url>
     <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/deadbeef-gtk2/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/clementine/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/balsa/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/deadbeef/</loc>
+    </url>
+    <url>
         <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/azpainter/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/eiskaltdcpp-daemon/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/chiaki/</loc>
+    </url>
+    <url>
+        <loc>https://notesalexp.org/packages/en/debian/bullseye/amd64/deadbeef-gtk3/</loc>
     </url>
 </urlset>
