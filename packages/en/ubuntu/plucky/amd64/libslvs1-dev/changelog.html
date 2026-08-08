@@ -41,7 +41,61 @@
     <div class="page">
     <h5>ChangeLog of package libslvs1-dev in plucky of architecture amd64</h5>
     <div class="highlight">
-<pre><span></span>solvespace (3.1.0+git2198-08fdb359-1) unstable; urgency=medium
+<pre><span></span>solvespace (3.1.0+git2222-81f473ff-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 81f473ff18e2b1ffa7de389b7cf76daf1ac739c2
+  * Date: 1785326644
+  * git changelog:
+  *  81f473ff - Free the list of constraints that the solver couldn't
+    satisfy.
+  *  bfb8a5da - Don't delete the constraints that the solver couldn't
+    satisfy.
+  *  790bf74c - Web: Enable OpenMP for Emscripten
+  *  0ee21036 - Datum point isn't a construction entity
+  *  b530cbe3 - Update pyproject.toml
+  *  8fb632e3 - CI, macOS: Update bottle fetch command for libomp in
+    install-macos.sh
+  *  9aeb715e - Fix Gtk-CRITICAL assertion in file chooser when opening
+    files
+  *  32158eb6 - Update CHANGELOG.md
+  *  b27bcf5c - Split Boolean curves at the shell's vertices, not its
+    curves' endpoints.
+  *  906cf739 - Don't keep Boolean intersection edges that lie along the
+    trim boundary.
+  *  bbb55707 - Add a regression test for Booleans with a spline surface
+    tangent to a face.
+  *  d5e8167d - Add the Boolean intersection line where an extruded
+    surface is tangent to a plane.
+  *  4acd7616 - Add a regression test for Booleans with a fillet surface
+    tangent to the shell's faces.
+  *  4a24aee8 - Keep the Boolean edge-classification probe distance
+    local to the edge.
+  *  2534a5ac - Add Boolean intersection edges from tangent intersection
+    curves in both directions.
+  *  16154533 - Classify edges against faces that meet our surface
+    tangentially at a shell edge. Fixes the fillet Boolean failures from
+    #1291.
+  *  4ce92bbf - Classify edges lying on a knife edge of the shell, where
+    more than two surfaces meet edge-on-edge. Fixes the three-prisms
+    case from #1091.
+  *  35498578 - Add a regression test for Booleans with edges tangent at
+    a shell edge.
+  *  010d0de3 - Classify edges tangent to the shell at a shell edge,
+    instead of using uninitialized memory. Fixes #1619.
+  *  2837761b - Fix a data race on into->curve in
+    AddExactIntersectionCurve().
+  *  2efb82c3 - Qt: Ensure save FileDialog adds suffix (without adding
+    new data members).
+  *  6f816057 - Added suffix handling for Qt SAVE file dialogs
+  *  e377e633 - Update CONTRIBUTING.md
+  *  13008e97 - fix WASM CI: fix artifact download path
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 02 Aug 2026 11:46:22 +0000
+
+solvespace (3.1.0+git2198-08fdb359-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/solvespace/solvespace.git
