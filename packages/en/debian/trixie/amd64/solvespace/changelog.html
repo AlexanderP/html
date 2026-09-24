@@ -41,14 +41,47 @@
     <div class="page">
     <h5>ChangeLog of package solvespace in trixie of architecture amd64</h5>
     <div class="highlight">
-<pre><span></span>solvespace (3.1.0+git2222-81f473ff-1) unstable; urgency=medium
+<pre><span></span>solvespace (3.1.0+git2238-cbff7a91-1) unstable; urgency=medium
 
   * Compile
   * URL: https://github.com/solvespace/solvespace.git
   * Branch: master
-  * Commit: 81f473ff18e2b1ffa7de389b7cf76daf1ac739c2
-  * Date: 1785326644
+  * Commit: cbff7a9112bb7c8abe1851c56d413c0d8bc1ac84
+  * Date: 1789544863
   * git changelog:
+  *  cbff7a91 - Fix opening files containing only NULL bytes
+  *  952c11c0 - Revert Mark file unsaved when a missing image is
+    relocated
+  *  5b0ca021 - Update CHANGELOG.md
+  *  3297d9a3 - Add a regression test for a sketch with large
+    dimensions.
+  *  b87bfca2 - Solve the Newton step without forming the normal
+    equations.
+  *  f801618a - In SBezier::PointOnNonParallelCurve() fix the parallel
+    test to also work with anti-parallel lines by using cross product
+    instead of dot product. Also add a second test - if the intersection
+    is found, verify that the curves are not parallel at/near the
+    intersection point, as that will likely cause problems. This fixes a
+    regression where test/group/boolean_tangent_crossing failed after
+    the addition of this function.
+  *  edcadccb - Don't try to intersect a straight edge and a parallel
+    line.
+  *  eaa22356 - When line surface intersection fails due to tangency,
+    try the nearest edge of the surface in a curve-curve intersection
+    test.
+  *  1b7bc421 - SVG export: add 'Z' close-path command for closed
+    contours
+  *  2ad13a23 - Update CHANGELOG with recent bug fixes and improvements
+  *  4788b06a - Color picker: show current color instead of black
+  *  9b375d03 - Free the edge list before checking, in the Boolean
+    regression tests.
+  *  52c21e27 - Mark file unsaved when a missing image is relocated
+  *  42814fa3 - Export: warn instead of crashing on freehand/zigzag
+    stipple
+  *  220c1443 - Add a regression test for Booleans with a face tangent
+    beside a crossing face.
+  *  8d11f9d7 - Classify a tangent face that meets our surface edge-on
+    beside a crossing face.
   *  81f473ff - Free the list of constraints that the solver couldn't
     satisfy.
   *  bfb8a5da - Don't delete the constraints that the solver couldn't
@@ -93,7 +126,7 @@
   *  e377e633 - Update CONTRIBUTING.md
   *  13008e97 - fix WASM CI: fix artifact download path
 
- -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 02 Aug 2026 11:46:22 +0000
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 17 Sep 2026 19:36:50 +0000
 
 solvespace (3.1.0+git2198-08fdb359-1) unstable; urgency=medium
 

@@ -1,32 +1,16 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<HTML>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
 <title>Unofficial repository for Debian/Ubuntu</title>
 <style type="text/css">  .record {background-color:#D9DDFF; color:#000000; font-family:MS Sans Serif; font-size:8pt}  .header {background-color:#AAAAEE; color:#FFFFFF; font-weight:bold; font-family:MS Sans Serif; font-size:8pt} .hrecord {background-color:#CCFFCD; color:#000000; font-family:MS Sans Serif; font-size:8pt} .hheader {background-color:#68FF64; color:#000000; font-weight:bold; font-family:MS Sans Serif; font-size:8pt} .footer {background-color:#FFFFFF; color:#AAAAEE; font-family:MS Sans Serif; font-size:8pt}</style>
 </head>
+<body>
 <table align="right" >
     <tr>
         <td>
             <a href=index-old_ru.html>RU</a>
         </td>
-        <td>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="82FDQKGH8L4HU">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>
-        </td>
-<!--
-        <td>
-        <a href="https://flattr.com/submit/auto?user_id=Alex_P&amp;url=http%3A%2F%2Fnotesalexp.org" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
-        </td>
-        <td>
-        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/small.xml?account=410012527124756&amp;quickpay=small&amp;yamoney-payment-type=on&amp;button-text=06&amp;button-size=s&amp;button-color=white&amp;targets=notesalexp.org&amp;default-sum=100&amp;successURL=" width="145" height="31"></iframe>
-        </td>
--->
     </tr>
 </table>
 <dl>
@@ -59,13 +43,11 @@
     Add this line for Plucky:
     <I>deb https://notesalexp.org/debian/plucky/ plucky main</I><DT>
     Save and close sources.list<DT>
-    <I>apt-get install apt-transport-https</I><DT>
-    <I>apt-get update -oAcquire::AllowInsecureRepositories=true</I><DT>
-    <I>apt-get install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true</I><FONT COLOR="#808080"> #to add gpg key</FONT><DT>
-    <I>apt-get update</I> <FONT COLOR="#808080">#to update package list</FONT><DT>
-    <I>apt-get install package</I><DT>
-    <strong>Warning:</strong> Need to update the gpg-key.(2015-09-20)<DT>
-    <strong>Warning:</strong> Some packages for Debian GNU/Linux require <a href="http://www.deb-multimedia.org/">http://www.deb-multimedia.org/</a>  repository to be connected.
+    <I>apt install apt-transport-https</I><DT>
+    <I>apt update -oAcquire::AllowInsecureRepositories=true</I><DT>
+    <I>apt install notesalexp-keyring -oAcquire::AllowInsecureRepositories=true</I><FONT COLOR="#808080"> #to add gpg key</FONT><DT>
+    <I>apt update</I> <FONT COLOR="#808080">#to update package list</FONT><DT>
+    <I>apt install package</I><DT>
 </dl>
     <table border="0" cellpadding="2" cellspacing="2">
             <tr class="header">
@@ -156,19 +138,19 @@
             <tr class="record">
                 <td> 5 </td>
                 <td><strong><a title="cross-platform program that uses the Direct Connect and ADC protocols" href="https://github.com/eiskaltdcpp/eiskaltdcpp"> eiskaltdcpp </a></strong></td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/eiskaltdcpp/"> 2.4.2+git5755-697db4b0 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/eiskaltdcpp/"> 2.4.2+git5755-697db4b0 </a> </td>
-                <td class="hrecord">  </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/eiskaltdcpp/"> 2.4.2+git5755-697db4b0 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/eiskaltdcpp/"> 2.4.2+git5756-87a87980 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/eiskaltdcpp/"> 2.4.2+git5756-87a87980 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/eiskaltdcpp/"> 2.4.2+git5756-87a87980 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/eiskaltdcpp/"> 2.4.2+git5756-87a87980 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/eiskaltdcpp/"> 2.4.2+git5684-c5ce25d5 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/eiskaltdcpp/"> 2.4.2+git5738-cb799ee7 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/eiskaltdcpp/"> 2.4.2+git5755-697db4b0 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp/"> 2.4.2+git5755-697db4b0 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/eiskaltdcpp/"> 2.4.2+git5756-87a87980 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/eiskaltdcpp/"> 2.4.2+git5756-87a87980 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/mantic/amd64/eiskaltdcpp/"> 2.4.2+git5754-e1cad59e </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/eiskaltdcpp/"> 2.4.2+git5755-697db4b0 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/eiskaltdcpp/"> 2.4.2+git5756-87a87980 </a> </td>
                 <td class="hrecord">  </td>
-                <td class="hrecord">  </td>
-                <td><a href="https://notesalexp.org/packages/en/source/eiskaltdcpp-devel/"> 2.4.2+git5755-697db4b0 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/eiskaltdcpp/"> 2.4.2+git5756-87a87980 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/source/eiskaltdcpp-devel/"> 2.4.2+git5756-87a87980 </a> </td>
             </tr>
             <tr class="record">
                 <td> 6 </td>
@@ -190,19 +172,19 @@
             <tr class="record">
                 <td> 7 </td>
                 <td><strong><a title="log analyzer and interactive viewer for the Apache Webserver" href="http://goaccess.prosoftcorp.com/"> goaccess </a></strong></td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/mantic/amd64/goaccess/"> 1.9.2+git4239-6cb9e009 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/oracular/amd64/goaccess/"> 1.9.4+git4359-39c4974c </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/goaccess/"> 1.11+git4463-615490d4 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/source/goaccess/"> 1.11+git4463-615490d4 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/goaccess/"> 1.12+git4505-01872012 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/source/goaccess/"> 1.12+git4505-01872012 </a> </td>
             </tr>
             <tr class="record">
                 <td> 8 </td>
@@ -258,36 +240,36 @@
             <tr class="record">
                 <td> 11 </td>
                 <td><strong><a title="Computer-aided design (CAD) system" href="http://www.librecad.org/"> librecad </a></strong></td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/librecad/"> 2.2.0+git5506-13ee4fad8 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/librecad/"> 2.2.0+git5506-13ee4fad8 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/librecad/"> 2.2.0+git5506-13ee4fad8 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/librecad/"> 2.2.0+git5506-13ee4fad8 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/librecad/"> 2.2.0+git5529-3156137f0 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/librecad/"> 2.2.0+git5529-3156137f0 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/librecad/"> 2.2.0+git5529-3156137f0 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/librecad/"> 2.2.0+git5529-3156137f0 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/librecad/"> 2.2.0~git4804-f55f341e </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/librecad/"> 2.2.0~git4976-9633657c </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/librecad/"> 2.2.0~git4976-9633657c </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/librecad/"> 2.2.0+git5506-13ee4fad8 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/librecad/"> 2.2.0+git5529-3156137f0 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/mantic/amd64/librecad/"> 2.2.0+git5373-a3738a0e </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/librecad/"> 2.2.0+git5506-13ee4fad8 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/librecad/"> 2.2.0+git5529-3156137f0 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/oracular/amd64/librecad/"> 2.2.0+git5429-4636eecc3 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/librecad/"> 2.2.0+git5506-13ee4fad8 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/source/librecad/"> 2.2.0+git5506-13ee4fad8 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/librecad/"> 2.2.0+git5529-3156137f0 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/source/librecad/"> 2.2.0+git5529-3156137f0 </a> </td>
             </tr>
             <tr class="record">
                 <td> 12 </td>
                 <td><strong><a title="Qt-based XMPP client (basic version)" href="https://psi-plus.com/"> psi-plus </a></strong></td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/psi-plus/"> 1.5.2143 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/psi-plus/"> 1.5.2143 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/psi-plus/"> 1.5.2143 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/psi-plus/"> 1.5.2143 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/psi-plus/"> 1.5.2174 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/psi-plus/"> 1.5.2174 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/psi-plus/"> 1.5.2174 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/psi-plus/"> 1.5.2174 </a> </td>
                 <td class="hrecord">  </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/psi-plus/"> 1.5.1653 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/psi-plus/"> 1.5.1653 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus/"> 1.5.2143 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/psi-plus/"> 1.5.2174 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/mantic/amd64/psi-plus/"> 1.5.2068 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus/"> 1.5.2143 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/psi-plus/"> 1.5.2174 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/oracular/amd64/psi-plus/"> 1.5.2115 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/psi-plus/"> 1.5.2143 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/source/psi-plus/"> 1.5.2143 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/psi-plus/"> 1.5.2174 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/source/psi-plus/"> 1.5.2174 </a> </td>
             </tr>
             <tr class="record">
                 <td> 13 </td>
@@ -343,36 +325,36 @@
             <tr class="record">
                 <td> 16 </td>
                 <td><strong><a title="Complete front-end for MPlayer and mpv" href="http://smplayer.sourceforge.net/"> smplayer </a></strong></td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/smplayer/"> 19.10.0+svn9278 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/mantic/amd64/smplayer/"> 24.05.0+git10341-764c722e7 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/oracular/amd64/smplayer/"> 24.05.0+git10390-3afd17d9b </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/source/smplayer/"> 24.05.0+git10430-725647918 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/source/smplayer/"> 24.05.0+git10458-5855c1755 </a> </td>
             </tr>
             <tr class="record">
                 <td> 17 </td>
                 <td><strong><a title="parametric 2d/3d CAD" href="http://solvespace.com"> solvespace </a></strong></td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/solvespace/"> 3.1.0+git2222-81f473ff </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/solvespace/"> 3.1.0+git2222-81f473ff </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/solvespace/"> 3.1.0+git2222-81f473ff </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/solvespace/"> 3.1.0+git2222-81f473ff </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bullseye/amd64/solvespace/"> 3.1.0+git2238-cbff7a91 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/bookworm/amd64/solvespace/"> 3.1.0+git2238-cbff7a91 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/trixie/amd64/solvespace/"> 3.1.0+git2238-cbff7a91 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/debian/sid/amd64/solvespace/"> 3.1.0+git2238-cbff7a91 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/xenial/amd64/solvespace/"> 3.0.0~git1690-02aa9ea </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/bionic/amd64/solvespace/"> 3.0.1~git1827-5315a69 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/focal/amd64/solvespace/"> 3.1.0+git2030-8c4ac6ee </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/solvespace/"> 3.1.0+git2222-81f473ff </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/jammy/amd64/solvespace/"> 3.1.0+git2238-cbff7a91 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/mantic/amd64/solvespace/"> 3.1.0+git2024-bb160669 </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/solvespace/"> 3.1.0+git2222-81f473ff </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/noble/amd64/solvespace/"> 3.1.0+git2238-cbff7a91 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/oracular/amd64/solvespace/"> 3.1.0+git2137-8f37db9c </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/solvespace/"> 3.1.0+git2222-81f473ff </a> </td>
-                <td><a href="https://notesalexp.org/packages/en/source/solvespace/"> 3.1.0+git2222-81f473ff </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/solvespace/"> 3.1.0+git2238-cbff7a91 </a> </td>
+                <td><a href="https://notesalexp.org/packages/en/source/solvespace/"> 3.1.0+git2238-cbff7a91 </a> </td>
             </tr>
             <tr class="record">
                 <td> 18 </td>
@@ -390,55 +372,14 @@
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/oracular/amd64/veracrypt/"> 1.26.24 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/ubuntu/plucky/amd64/veracrypt/"> 1.26.24 </a> </td>
                 <td><a href="https://notesalexp.org/packages/en/source/veracrypt/"> 1.26.24 </a> </td>
-    </table>
-<p>
 </p>
-<p>
-	Launchpad:
-    <a href="http://launchpad.net/~alex-p/+archive/notesalexp-trusty">Trusty</a>
-    <a href="http://launchpad.net/~alex-p/+archive/notesalexp-xenial">Xenial</a>
-    <a href="http://launchpad.net/~alex-p/+archive/notesalexp-bionic">Bionic</a>
-</p>
-<table align="right" >
-    <tr>
-        <td>
-            <p>
-                <a href="http://validator.w3.org/check?uri=referer"><img
-                src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
-            </p>
-        </td>
-        <td>
-            <p>
-                <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                <img style="border:0;width:88px;height:31px"
-                src="http://jigsaw.w3.org/css-validator/images/vcss"
-                alt="Valid CSS!" >
-                </a>
-            </p>
-        </td>
-    </tr>
-</table>
 <p>
 Blog:   <a href="https://notesalexp.org/html/blog/">https://notesalexp.org/html/blog/</a>
 </p>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'notesalexp'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-           dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<p></p>
 <table width="100%" border="0px">
     <tbody>
         <tr>
-            <td align="center"><font size="2">© Alexander Pozdnyakov, 2010–2020</font></td>
+            <td align="center"><p style="text-align:center; font-size:12px;">© Alexander Pozdnyakov, 2010–2020</p></td>
         </tr>
     </tbody>
 </table>
