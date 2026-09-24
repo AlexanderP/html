@@ -13,3 +13,5 @@ Disallow: /focal
 Disallow: /jammy
 Disallow: /noble
 Disallow: /plucky
+Disallow: /questing
+Disallow: /resolute

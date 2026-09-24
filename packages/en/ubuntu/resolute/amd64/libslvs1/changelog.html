@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>notesalexp.org | ChangeLog of package libslvs1 </title>
+    <link rel="shortcut icon" type="image/png" href="https://notesalexp.org/html/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://notesalexp.org/html/favicon.ico">
+    <link href="https://notesalexp.org/html/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="notesalexp.org Full Atom Feed" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="https://notesalexp.org/html/theme/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="https://notesalexp.org/packages/css/package.css" type="text/css" /> 
+<meta name="generator"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://notesalexp.org/html/">Home</a></li>
+                <li><a href="https://notesalexp.org/html/faq.html">FAQ</a></li>
+                <li><a href="https://notesalexp.org/html/donate.html">Donate</a></li>
+                <li><a href="https://notesalexp.org/packages/en/contact.html">Contact</a></li>
+                <li class="selected" ><a href="https://notesalexp.org/packages">Packages</a></li>
+                <li><a href="https://launchpad.net/~alex-p">PPA</a></li>
+                <li><a href="https://notesalexp.org/html/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="https://notesalexp.org/html">notesalexp.org</a></h1>
+        </div>
+        <div id="pnavbar">
+                &nbsp;&#x2F;<a href="https://notesalexp.org/packages">Packages</a>
+                &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/ubuntu/resolute/amd64">resolute&nbsp;&#x2F;amd64</a>
+                &nbsp;&#x2F;<a href="https://notesalexp.org/packages/en/ubuntu/resolute/amd64/libslvs1"> libslvs1 </a>
+                &nbsp;&#x2F; ChangeLog
+            </div> <!-- end navbar -->
+    </header>
+        <div id="wrapper">
+            <div id="content">
+    <div class="page">
+    <h5>ChangeLog of package libslvs1 in resolute of architecture amd64</h5>
+    <div class="highlight">
+<pre><span></span>solvespace (3.1.0+git2238-cbff7a91-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: cbff7a9112bb7c8abe1851c56d413c0d8bc1ac84
+  * Date: 1789544863
+  * git changelog:
+  *  cbff7a91 - Fix opening files containing only NULL bytes
+  *  952c11c0 - Revert Mark file unsaved when a missing image is
+    relocated
+  *  5b0ca021 - Update CHANGELOG.md
+  *  3297d9a3 - Add a regression test for a sketch with large
+    dimensions.
+  *  b87bfca2 - Solve the Newton step without forming the normal
+    equations.
+  *  f801618a - In SBezier::PointOnNonParallelCurve() fix the parallel
+    test to also work with anti-parallel lines by using cross product
+    instead of dot product. Also add a second test - if the intersection
+    is found, verify that the curves are not parallel at/near the
+    intersection point, as that will likely cause problems. This fixes a
+    regression where test/group/boolean_tangent_crossing failed after
+    the addition of this function.
+  *  edcadccb - Don't try to intersect a straight edge and a parallel
+    line.
+  *  eaa22356 - When line surface intersection fails due to tangency,
+    try the nearest edge of the surface in a curve-curve intersection
+    test.
+  *  1b7bc421 - SVG export: add 'Z' close-path command for closed
+    contours
+  *  2ad13a23 - Update CHANGELOG with recent bug fixes and improvements
+  *  4788b06a - Color picker: show current color instead of black
+  *  9b375d03 - Free the edge list before checking, in the Boolean
+    regression tests.
+  *  52c21e27 - Mark file unsaved when a missing image is relocated
+  *  42814fa3 - Export: warn instead of crashing on freehand/zigzag
+    stipple
+  *  220c1443 - Add a regression test for Booleans with a face tangent
+    beside a crossing face.
+  *  8d11f9d7 - Classify a tangent face that meets our surface edge-on
+    beside a crossing face.
+  *  81f473ff - Free the list of constraints that the solver couldn't
+    satisfy.
+  *  bfb8a5da - Don't delete the constraints that the solver couldn't
+    satisfy.
+  *  790bf74c - Web: Enable OpenMP for Emscripten
+  *  0ee21036 - Datum point isn't a construction entity
+  *  b530cbe3 - Update pyproject.toml
+  *  8fb632e3 - CI, macOS: Update bottle fetch command for libomp in
+    install-macos.sh
+  *  9aeb715e - Fix Gtk-CRITICAL assertion in file chooser when opening
+    files
+  *  32158eb6 - Update CHANGELOG.md
+  *  b27bcf5c - Split Boolean curves at the shell's vertices, not its
+    curves' endpoints.
+  *  906cf739 - Don't keep Boolean intersection edges that lie along the
+    trim boundary.
+  *  bbb55707 - Add a regression test for Booleans with a spline surface
+    tangent to a face.
+  *  d5e8167d - Add the Boolean intersection line where an extruded
+    surface is tangent to a plane.
+  *  4acd7616 - Add a regression test for Booleans with a fillet surface
+    tangent to the shell's faces.
+  *  4a24aee8 - Keep the Boolean edge-classification probe distance
+    local to the edge.
+  *  2534a5ac - Add Boolean intersection edges from tangent intersection
+    curves in both directions.
+  *  16154533 - Classify edges against faces that meet our surface
+    tangentially at a shell edge. Fixes the fillet Boolean failures from
+    #1291.
+  *  4ce92bbf - Classify edges lying on a knife edge of the shell, where
+    more than two surfaces meet edge-on-edge. Fixes the three-prisms
+    case from #1091.
+  *  35498578 - Add a regression test for Booleans with edges tangent at
+    a shell edge.
+  *  010d0de3 - Classify edges tangent to the shell at a shell edge,
+    instead of using uninitialized memory. Fixes #1619.
+  *  2837761b - Fix a data race on into->curve in
+    AddExactIntersectionCurve().
+  *  2efb82c3 - Qt: Ensure save FileDialog adds suffix (without adding
+    new data members).
+  *  6f816057 - Added suffix handling for Qt SAVE file dialogs
+  *  e377e633 - Update CONTRIBUTING.md
+  *  13008e97 - fix WASM CI: fix artifact download path
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 17 Sep 2026 19:36:50 +0000
+
+solvespace (3.1.0+git2198-08fdb359-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 08fdb3596922dc93837578a8cd8cda32e3c83f23
+  * Date: 1775666434
+  * git changelog:
+  *  08fdb359 - Pass Ctrl-= through to browser in web version (fix
+    blocked Ctrl-plus)
+  *  289651e6 - Remove  and replace it with aggregate initialization
+  *  1b1ec830 - fix copy paste error in file.cpp
+  *  07017fd0 - Auto-select text in editor input box on web
+    (guihtml.cpp)
+  *  3e5873e6 - disable right-click on contect menu
+  *  5b2e41d4 - CI: Add ping step for solvespace.com in CD workflow
+  *  bc2bca8f - CI: Update two more actions we depend on
+  *  02458160 - Python: add python v3.14, drop python v3.7, bump
+    cibuildwheel
+  *  27b6a080 - fix windows single_core paths
+  *  6113e1e0 - CI deps update and add support python 3.14 and 3.15
+  *  d0b41770 - Windows CI path fixes (#1695)
+  *  0a811f31 - Add OIDC to wasmlib workflow
+  *  49fe81b3 - WASM action npm version handling + upgrading GH actions
+    to latest
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 23 May 2026 19:25:31 +0000
+
+solvespace (3.1.0+git2185-477d4c87-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 477d4c87ca51b9727fbc0765cbd94253c3968b8b
+  * Date: 1773685011
+  * git changelog:
+  *  477d4c87 - Update CHANGELOG.md
+  *  e82eb144 - Move and rename QT resources file
+  *  b7d13d73 - Embed window icon into executable using Qt resources
+  *  baf09930 - Windows 10/11: Fix the button click area in the property
+    browser shifting
+  *  cab7fd0c - For faces created by lathe and revolve, use a point in
+    the same group. We also need to check for draggability of face
+    points before adding them to the drag list.
+  *  1a98aa05 - check face point handles before doing remap. Older files
+    may not have the handle.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 22 Mar 2026 11:37:13 +0000
+
+solvespace (3.1.0+git2179-02ec4e57-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 02ec4e57aa90f70052f6a312aa5c286a64a7ec90
+  * Date: 1770245809
+  * git changelog:
+  *  02ec4e57 - When extruding a line to face, use a point in new group
+    for the face. Using one from the previous group causes subsequent
+    translate groups to have undraggable faces and possibly other
+    problems.
+  *  e74c2eae - Update CHANGELOG.md
+  *  d14609fa - WASM lib: fix compilation with Emscripten
+  *  6c0273ff - Change CXX standard using property
+  *  457aec97 - Clean up some comments. Also use a point for extusion
+    side faces from the original line.
+  *  2ee0cc6b - update test suite with new versions of two slvs test
+    files.
+  *  1cec22f5 - Enable face dragging for translate groups. Add the
+    necessary handles for face dragging linked sketches. In mouse.cpp
+    StartDraggingByEntity needs some face types uncommented to enable
+    different face dragging options. All rotational face drags are
+    disabled because the points used for those faces are on-axis(I
+    think), this needs to be changed for those faces to be more useful.
+  *  37484dc1 - Set C++ standard based on EMSCRIPTEN condition (#1665)
+  *  619d6bde - Update the year to 2026 in the About dialog and Windows
+    version resource.
+  *  1fd9c075 - Qt: Enable fontconfig use.
+  *  47f1b079 - flatpak: Update SDK to 25.08 and update deps. Build
+    things as release or relwithdebinfo.
+  *  c4810067 - metainfo: Add developer_name tag, extend first line of
+    description
+  *  229ed497 - QT, Win32: The QT GUI now compiles on Windows and
+    loading/saving works...
+  *  ac932ab0 - CMake: fix CMake system include directives
+  *  fdb80e3e - Fix: macOS points not draggable
+  *  a509d662 - Fix: macOS test action not work
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 07 Feb 2026 19:52:41 +0000
+
+solvespace (3.1.0+git2163-de2c5fee-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: de2c5feec8824dd988c3ed382795031a58de8a5c
+  * Date: 1765894888
+  * git changelog:
+  *  de2c5fee - Add QT front end option for Linux builds
+  *  d8ca8e27 - Add thumbnailer
+  *  eaefb5d4 - Qt: Request a specific GL version so GLES doesn't get
+    used on Wayland.
+  *  7312dd75 - Qt: Force LC_NUMERIC locale so ReadFloatDecimal will
+    work everywhere.
+  *  c3becb1a - Update README for QT build
+  *  862026c5 - CMakeLists: Rename Qt binary to solvespace-qt.
+  *  aec7ee5b - Update build instructions in README to include QT front
+    end.
+  *  ab8c7b74 - Qt: Fix GCC 11 -Wmaybe-uninitialized warning.
+  *  edc20c42 - Qt: Fix mouse & key event modifiers.
+  *  e92e98ed - Qt: Fix pixel ratio handling in OpenGL widgets for
+    Wayland and Qt 6.
+  *  585a1bef - CMakeLists: Enable building with Qt 6.
+  *  b78e8013 - Fully implement Qt 5 & 6 backend for Linux.
+  *  6dedc4a4 - Added Qt port related files in src/platforms ( guiqt.cpp
+    and qglmainwindow.h
+  *  e3f21de9 - Implement dragging of extrude length by the end face.
+    Also allows circular surfaces create by Lathe or Revolve to drag the
+    previous group line that swept out the surface - this was unexpected
+    but cool. Dragging other faces will need investigation as indicated
+    in the comments.
+  *  0aa9131d - Fix IDF import when units are THOU by actually using the
+    scale specified in the file.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 27 Dec 2025 13:23:34 +0000
+
+solvespace (3.1.0+git2148-925a5273-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 925a52735cb2b04fed4831a3a65d2a570e2c0e20
+  * Date: 1762977830
+  * git changelog:
+  *  925a5273 - guigtk: make double click handling consistent with
+    Windows and macOS
+  *  2e0c9478 - Fix email
+  *  bb05b68c - Add mailmap
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 22 Nov 2025 15:36:00 +0000
+
+solvespace (3.1.0+git2145-01f58b78-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 01f58b785d394a4f9e206457972218459fb85666
+  * Date: 1760870333
+  * git changelog:
+  *  01f58b78 - ci: use the Sequoia bottle tag for the macOS x86_64
+    build as well
+  *  fb81de85 - ci: fix the macOS CI build
+  *  ae82fdf0 - cairo: update to 1.18.4
+  *  76df625e - pixman: update to 0.46.4
+  *  1436d2c0 - tests: reduce dependence on  in order to reduce build
+    time
+  *  eb27cde8 - handle: extract handle-related code from dsc.h
+  *  88270d3d - general: rework the way files are included for better
+    maintainability
+  *  89aa5964 - add missing else statement in Slvs_MarkDragged_check
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 30 Oct 2025 19:12:19 +0000
+
+solvespace (3.1.0+git2137-8f37db9c-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 8f37db9ceca96bc24a1b8babccbaec7b1d4134e8
+  * Date: 1757417280
+  * git changelog:
+  *  8f37db9c - Translations: update Chinese translation.
+  *  74a13ef6 - tests: actually randomise the order of tests
+  *  2fd3989c - ci: enable building with ASan on Windows for testing
+  *  f5e500c6 - build: allow enabling ASan on Windows with MSVC
+  *  1bf11371 - mimalloc: add a hack to fix building for Emscripten
+  *  c34d2325 - mimalloc: downgrade to v2.2.2 to fix the Python build
+    issue on Linux
+  *  462140aa - slvs: don't mark  constraints as dragged
+  *  cb561ba5 - build: silence maybe uninitialised warnings
+  *  de634d93 - group: add an explicit assertion for too many entities
+  *  767935fe - libdxfrw: Update the submodule to the latest version
+    from LibreCAD
+  *  592edbdc - extlib: update libpng to v1.6.50
+  *  b9a9e268 - extlib: update mimalloc to v2.2.3
+  *  0bf9cbb7 - extlib: update zlib to v1.3.1
+  *  7627b859 - build: fix building with OpenMP on macOS
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 11 Sep 2025 09:22:22 +0000
+
+solvespace (3.1.0+git2123-1b5036a4-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 1b5036a4c469643c83493d9f7931d2c282c0d937
+  * Date: 1751546831
+  * git changelog:
+  *  1b5036a4 - split: fix line splitting to avoid creating zero length
+    line segments
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 10 Aug 2025 07:08:37 +0000
+
+solvespace (3.1.0+git2122-960f08b3-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 960f08b34ca5f5db30c3981d1708897bac156c35
+  * Date: 1751546111
+  * git changelog:
+  *  960f08b3 - split: fix line splitting for lines intersecting at
+    their endpoints
+  *  454f620e - CI, Web: Build the Web (Emscripten) version...
+  *  0ec78f79 - emscripten: fix resource paths during packaging
+  *  14af3993 - Add links to the 64bit Windows versions in README.md
+  *  e19bdf81 - CI, Win32: Add x64 (64bit) binaries for Windows
+  *  910243b3 - Update CHANGELOG.md
+  *  fb42f1ba - slvs: support getting the bad constraints in the sketch
+    solving API
+  *  cbe18bb4 - slvs: bring back accidentally removed Emscripten binding
+    for uint32_t[4]
+  *  2989b9e3 - Win32: Make SolveSpace grea...static again
+  *  0df1ba74 - Fix typos
+  *  a2d9b799 - CI: Update the windows-2019 runner image to windows-2022
+  *  abb57142 - Set the version to 3.2 in CMakeLists.txt
+  *  ce3a7d14 - Update CHANGELOG.md
+  *  7be54118 - STEP export: fix broken export - s are properly
+    oriented.
+  *  de6e3d1d - STEP export: do not add unused  entities to exported
+    file.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sun, 03 Aug 2025 08:02:20 +0000
+
+solvespace (3.1.0+git2107-8b34a075-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 8b34a075fb72e0a2ec623fd209c17696e34b61be
+  * Date: 1748617665
+  * git changelog:
+  *  8b34a075 - STEP Export: round point coordinates to 5 decimal
+    places.
+  *  d1b52cd6 - Colour aware step export.
+  *  8c301f3a - Final polishing for the duplication check in
+    exportstep.cpp
+  *  a11a8f8e - Refactoring exportstep.cpp
+  *  af4dea68 - Code style and polishing for exportstep.cpp
+  *  bb6cc1a0 - upgraded exportstep.cpp
+  *  60d0dab0 - general: use the ParamList and EntityList type aliases
+  *  2602edcb - generate: add minor optimisation to request and
+    constraint pruning
+  *  9c3f489b - generate: change  and  to prune all items
+  *  322dbece - generate: avoid message box avalanche on Windows during
+    regeneration
+  *  2c5bb5d4 - Fix and arc creation error when linking IDF files. For
+    negative angles we need to use the absolute value of the angle. Also
+    simplify the formula for center distance calculation.
+  *  8042810d - build: fix link error when building on Windows with
+    Clang (not clang-cl) - Fix elseif from the previous commit.
+  *  0161026a - build: fix link error when building on Windows with
+    Clang (not clang-cl)
+  *  e1d7dc3c - build: clean up the workaround for building zlib in
+    Emscripten
+  *  8cff14a2 - expr: fix the value of
+  *  3527d41d - system: make  a local member
+  *  fb9dff15 - expr: convert ParamsUsedList() to std::unordered_set
+  *  0eb1a122 - system: convert dragged to std::unordered_set
+  *  8012e75e - slvs: avoid orphaning params in the sketch with the
+    sketch solving API
+  *  e8f6ea39 - freetype: update the submodule URL to the official
+    GitHub mirror
+  *  30da776a - build: fix MinGW build failures and update documentation
+  *  4b407943 - docs: minor correction to the contribution guide and
+    update references
+  *  ed5e0b43 - slvs: resolve GCC warning about unused variables
+  *  435309f5 - slvs: avoid Windows export/import directives when
+    compiling as a static lib
+  *  2e979914 - build: support getting git hash when imported as a
+    submodule
+  *  59ba8a5e - general: fix compiler warning about object construction
+    and assignment
+  *  cbcc5f58 - slvs: don't try to initially satisfy unsupported
+    constraints
+  *  27d1d119 - ci: fix the broken Python and WASM library builds
+    (#1565)
+  *  e539385e - Web, CMake: Fix the copying of resources into the build
+    directory
+  *  2a455285 - build: add a workaround for building zlib in Emscripten
+  *  3ac128d9 - emscripten: fix build issues and make the interface
+    functional
+  *  f6865acd - CDemo: re-enable the  example
+  *  0c667c72 - slvs: allow dragging more than 4 parameters
+  *  9bfe014f - slvs: remove the unused  member
+  *  7ceb7fac - slvs: extract the code and the CMake config out of the
+    main build
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 11 Jun 2025 19:57:30 +0000
+
+solvespace (3.1.0+git2066-cc871ab0-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: cc871ab0aea7928defeb7e33158211696312bec1
+  * Date: 1741993018
+  * git changelog:
+  *  cc871ab0 - FreeType: disable PNG compressed OpenType embedded
+    bitmaps.
+  *  bd7b6278 - freetype: update the vendored version to 2.13.3
+  *  f9e564cb - slvs: return a distinct value for  (#1542)
+  *  9aa4426b - solvespace.h: Quiet std::iterator is deprecated warnings
+    with C++17.
+  *  b4a79739 - clipboard.cpp: Fix GCC -Wimplicit-fallthrough= warning.
+  *  c9e52394 - dsc.h: Eliminate circular include of solvespace.h.
+  *  7377c500 - build: fix CMake system include directives
+  *  a5d40f81 - Fix PyPi publishing (#1534)
+  *  29f9a918 - Updated the Russian translation (#1528)
+  *  5bfa5ba2 - ci: update the  action to v2.22.0 (#1533)
+  *  da133cd9 - python: fix issues with type annotations in the Cython
+    bindings (#1530)
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 25 Mar 2025 19:22:26 +0000
+
+solvespace (3.1.0+git2053-f09bbb96-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: f09bbb96168120dd7a91802d5a0d246312df35dd
+  * Date: 1738937624
+  * git changelog:
+  *  f09bbb96 - Add showing 'only unconstrained' groups
+  *  7fff8051 - CI: Fix WASM library CI
+  *  90039d1b - CI: Fix Python CI
+  *  3b5f98a7 - mac: don't crash on file ops without changing dir
+  *  79cd8be6 - Update ja_JP translation.
+  *  f8bed4aa - Translation updates (Turkish TR) (#1522)
+  *  70e79332 - CI: update Python CI targets for macos-x86_64 and macos-
+    arm64
+  *  4468c03f - Update cs_CZ.po
+  *  b8e479dc - Translations: update French translation. (#1516)
+  *  495b2037 - Add a forgotten  statement. Should be and NFC.
+  *  475c8889 - translated new messages to Ukrainian
+  *  613f5bbb - Translations: update all other languages
+  *  60b297f3 - Translations: update German and Russian
+  *  ac66cbcc - Translations: update Spanish
+  *  ee840727 - Tanslations: update main translation file and English
+  *  5522e621 - Update the Spanish translation es_AR
+  *  1080450b - Fix crash when linking .STL and .EMN files with
+    extensions in capital letters (#1511)
+  *  3044aef2 - Update the year to 2025 in the About dialog and Windows
+    version resource.
+  *  94d922c0 - Web: Fix compilation with current Emscripten
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 08 Feb 2025 15:42:41 +0000
+
+solvespace (3.1.0+git2034-30e42ca8-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 30e42ca889b20b6af65d601524085fd812c91662
+  * Date: 1733832470
+  * git changelog:
+  *  30e42ca8 - Extlib fixups and macOS framework finding fix (#1502)
+  *  bcf9bf7e - Hotfix for publishing wasmlib
+  *  a208201c - Stateful C library + Python bindings (using cython) and
+    JS bindings (using embind) (#1343)
+  *  33f9cf95 - Make the animation speed configurable (#1500)
+  *  8c4ac6ee - Update CHANGELOG.md
+  *  f4cfb60a - Make the skewed option for extrusions a check box
+  *  7d15f94c - Add skewed subtype for extrusion groups. Update the
+    textwindow radio buttons and equation generation.
+  *  eedfc653 - GUI: Allow ESC to finish drawing bezier curves instead
+    of deleting them.
+  *  d97b9bed - Allow tangent on arcs/lines/splines without coincident
+    endpoints.
+  *  dedc6d48 - Make pasting mirrored tangent entities independent of
+    end point knowledge
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 10 Dec 2024 19:01:57 +0000
+
+solvespace (3.1.0+git2024-bb160669-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: bb160669721e10096dc17427422ea465a7ec2b72
+  * Date: 1730817060
+  * git changelog:
+  *  bb160669 - Win32: the Property Browser remains visible when going
+    full screen (CTRL-F11)
+  *  94bf579e - Update CHANGELOG.md
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 11 Nov 2024 10:10:33 +0000
+
+solvespace (3.1.0+git2022-c619fa9f-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: c619fa9f1f5eaaa60eea0f08770a04e703e51115
+  * Date: 1728283751
+  * git changelog:
+  *  c619fa9f - GTK: Fix wrong direction of zoom when smooth scrolling
+    with mouse wheel
+  *  5528da7f - Fix saving assemblies when opened with a relative path
+    on the command
+  *  f2a2e234 - Use  in a predicate
+  *  da2ed88a - Use  in a few for loops that were not doing it.
+  *  a31a89a2 - Fix saving assemblies when opened with a relative path
+    on the command line.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Mon, 07 Oct 2024 16:45:23 +0000
+
+solvespace (3.1.0+git2017-9fb6ade-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 9fb6ade06bc271ba1196b79a6ed3d1eebcea9609
+  * Date: 1725972013
+  * git changelog:
+  *  9fb6ade - Win32: Fix warning...
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 14 Sep 2024 13:04:32 +0000
+
+solvespace (3.1.0+git2016-9dc81f7-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 9dc81f7d924c8dbfb6262e480b802c3d5065496d
+  * Date: 1724419888
+  * git changelog:
+  *  9dc81f7 - NFC: Remove ToDo comment that appears to be done
+  *  cec40e2 - CI: try styfle/cancel-workflow-action@0.12.1 to fix
+    cd.yml
+  *  3871b41 - Add � to the U+FFFD (REPLACEMENT CHARACTER) in
+    unicode.lff
+  *  e255ea0 - Update the Unicode vector font unicode.lff
+  *  a17fb15 - GTK: Handle smooth scrolling according to the
+    documentation
+  *  31d0c27 - Handle smooth scrolling
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 24 Aug 2024 18:05:22 +0000
+
+solvespace (3.1.0+git2010-2afabad-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 2afabadfa5e21ad37dfcac24cf8244e2ffcdbd78
+  * Date: 1719410615
+  * git changelog:
+  *  2afabad - CI: Update actions to avoid warnings and Flatpak build
+    error.
+  *  40a1fdc - Implement basic kerning when rendering text. Only old-
+    style  tables are supported--modern GPOS-based kerning is not
+    supported.
+  *  cc64fed - Change show full file path in the window title to display
+    the full path in the title bar
+  *  71ad5cb - Add preference to toggle file path in title bar
+  *  8f40d8f - add tool to make sentece sensical
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 29 Jun 2024 18:46:25 +0000
+
+solvespace (3.1.0+git2005-569ac27-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 569ac27dd768612fb9b09b80295ef1439098defd
+  * Date: 1713715194
+  * git changelog:
+  *  569ac27 - Temporarily disable snap
+  *  d0a201e - Maybe fix macOS notarization
+  *  656afaa - Try to build macOS with new app-specific-password secret
+  *  a17ee17 - Try to use notarytool
+  *  7310659 - Update the year to 2024 in the About dialog and Windows
+    version resource.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Wed, 24 Apr 2024 17:32:18 +0000
+
+solvespace (3.1.0+git2000-7d379e7-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 7d379e7f3b045ae579537abd392d5b368a4117e5
+  * Date: 1704305489
+  * git changelog:
+  *  7d379e7 - Updated uk-UA locale; fixed typos; added translations
+  *  f25bf39 - fixed pt-line distance constraint bug on paste
+    transformed
+  *  ddeab11 - Bypass desktop portal in Snap
+  *  1f8b3f2 - Make arc default dimenision (radius vs diameter) a
+    configuration option.
+  *  1a71ca7 - Dimesions on arcs defaut to radius instead of diameter
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 04 Jan 2024 17:03:56 +0000
+
+solvespace (3.1.0+git1995-486e43a-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 486e43a450a158a9e5314a1fa954897c450b3a20
+  * Date: 1702576281
+  * git changelog:
+  *  486e43a - Codespell fix
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 23 Dec 2023 13:09:30 +0000
+
+solvespace (3.1.0+git1994-3e5f983-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 3e5f9834d7981b2516c5a022bd1b201b5b792b6d
+  * Date: 1702046862
+  * git changelog:
+  *  3e5f983 - Add allocate function as emscripten dep
+  *  94618d4 - CI, macOS: Update dead links to libomp in  dependency
+    installer
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 09 Dec 2023 08:23:55 +0000
+
+solvespace (3.1.0+git1992-727b015-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 727b0153f6d07f9031862a4e2ecb0f4d30e87b8e
+  * Date: 1700728053
+  * git changelog:
+  *  727b015 - Update CHANGELOG.md
+  *  87d0e09 - CTRL-TAB un/hides the toolbar
+  *  d88ed3f - Adjust the test suite to match the new behaviour of
+    Path::Join.
+  *  6f7e45b - Fix invalid parts linkage in assemblies when the folder
+    has only one char.
+  *  d5e8a82 - Fix opening of assembly groups with relative (empty)
+    paths.
+  *  5edc1ec - Images are construction by default
+  *  7038266 - Do not include construction images in
+    extrude/lathe/revolve/helix
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 25 Nov 2023 09:22:26 +0000
+
+solvespace (3.1.0+git1985-e7c0c16-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: e7c0c1665f1684bb3195107147aaf254c852fa44
+  * Date: 1697307398
+  * git changelog:
+  *  e7c0c16 - GTK: Eliminate direct references to gdk event struct
+    members in prep for moving to GTK4.
+  *  0d26ca1 - UI: Make marquee selection of line segments precise
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 28 Oct 2023 20:04:48 +0000
+
+solvespace (3.1.0+git1983-9edf2bc-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 9edf2bcc345104b492b795dd34950e1e7943118a
+  * Date: 1695992540
+  * git changelog:
+  *  9edf2bc - Win32: Fix for compiling with MinGW.org GCC-6.3.0-1
+  *  f399997 - Speed up view change animations
+  *  1963a83 - Improve boolean difference operations...
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 06 Oct 2023 21:48:54 +0000
+
+solvespace (3.1.0+git1980-1919a18-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 1919a18916f93ea12cea7db2d2f42c0c2b8e8e7d
+  * Date: 1695215720
+  * git changelog:
+  *  1919a18 - Fix language bug
+  *  e6565c8 - Debug issue with notarization
+  *  beb473b - Ask before overwriting existing file
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Thu, 21 Sep 2023 20:32:21 +0000
+
+solvespace (3.1.0+git1977-36ecb85-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: 36ecb85bb381235521f7e0e1b913d65308878f48
+  * Date: 1692014817
+  * git changelog:
+  *  36ecb85 - Update the issue template to show where to look for
+    SolveSpace version on macOS
+  *  88e4d08 - Update test.yml with ubuntu-latest and macos-latest
+  *  95b00bd - Fix CI for Ubuntu and MacOS (#1388)
+  *  0e2fd2e - Update CHANGELOG.md
+  *  b34d9a2 - Delete the partially drawn entity when ESC is pressed on
+    pending operations by using UndoUndo()
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Tue, 15 Aug 2023 20:07:32 +0000
+
+solvespace (3.1.0+git1972-f0912d4-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: f0912d42b1e6447b0857d0408fe69e7c85d9bb73
+  * Date: 1689341553
+  * git changelog:
+  *  f0912d4 - UI: Remove shortcut key collisions in the Sketch menu
+  *  3d04d4c - skip duplicate drilled holes
+  *  7ccb0ff - UI: Add Ctrl+Shift+S keyboard shortuct for Save As
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Fri, 14 Jul 2023 19:31:37 +0000
+
+solvespace (3.1.0+git1969-fd25424-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/solvespace/solvespace.git
+  * Branch: master
+  * Commit: fd25424ab5e5a1c4158c1e65b33b6568b5f9bc2b
+  * Date: 1684685975
+  * git changelog:
+  *  fd25424 - small simplifications
+  *  604335f - rename the enums for surface classification in the SShell
+    class.
+
+ -- Alexander Pozdnyakov &lt;censored&gt;  Sat, 10 Jun 2023 04:13:48 +0000
+
+# Older entries have been removed from this changelog.
+# To read the complete changelog use `apt changelog libslvs1`.
+
+</pre></div>
+    </div></div>
+                <div class="clear"></div>
+                <footer>
+                    <p>
+                    <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                    &middot;
+                    <a href="https://notesalexp.org/html/feeds/all.atom.xml" rel="alternate">Atom Feed</a>
+                    &middot;
+                    <a href="https://t.me/notesalexp_org" rel="alternate">Telegram channel</a>
+                    <p> © Alexander Pozdnyakov, 2010–2022
+                </footer>
+            </div>
+            <div class="clear"></div>
+        </div>
+<script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-101010045-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    </body>
+    </html>
